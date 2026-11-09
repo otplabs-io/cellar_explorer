@@ -1,0 +1,148 @@
+{
+ "place": {
+  "subtitle": "From Tuscany down to one zone"
+ },
+ "map": {
+  "credit": "Maps: wine zones from Orazio Campoli’s Italian Wine Map, used with permission, drawn from Regione Toscana’s zone data (CC BY 4.0); commune outlines from ISTAT via openpolis (CC BY); estate location from {estate_source}. For orientation, not a legal boundary.",
+  "region_slug": "tuscany-toscana",
+  "istat_regions": [
+   9
+  ],
+  "panel1": [
+   "Tuscany",
+   "Zones, shaded by level"
+  ],
+  "panel1_towns": [
+   "Florence",
+   "Siena",
+   "Pisa",
+   "Grosseto"
+  ],
+  "broad": [
+   "vin-santo-doc",
+   "colli-delletruria-centrale-doc",
+   "maremma-toscana-doc",
+   "vin-santo-del-chianti-doc",
+   "vin-santo-del-chianti-classico-doc",
+   "terre-di-pisa-doc",
+   "monteregio-di-massa-marittima-doc",
+   "san-torpe-doc",
+   "valdichiana-toscana-doc",
+   "grance-senesi-doc",
+   "bianco-di-pitigliano-doc"
+  ],
+  "areas": [
+   {
+    "name": "Montalcino",
+    "title": "Montalcino and its neighbors",
+    "zones": [
+     "brunello-di-montalcino-docg",
+     "vino-nobile-di-montepulciano-docg",
+     "montecucco-sangiovese-docg",
+     "orcia-doc",
+     "morellino-di-scansano-docg",
+     "chianti-classico-docg"
+    ],
+    "towns": [
+     "Siena",
+     "Montalcino",
+     "Montepulciano"
+    ]
+   },
+   {
+    "name": "The coast",
+    "title": "The Tuscan coast",
+    "zones": [
+     "bolgheri-doc",
+     "bolgheri-sassicaia-doc",
+     "suvereto-docg",
+     "val-di-cornia-rosso-rosso-della-val-di-cornia-docg",
+     "terratico-di-bibbona-doc",
+     "montescudaio-doc"
+    ],
+    "towns": [
+     "Castagneto Carducci",
+     "Bibbona"
+    ]
+   },
+   {
+    "name": "Central Tuscany",
+    "zones": [
+     "chianti-classico-docg",
+     "chianti-docg",
+     "carmignano-docg",
+     "vernaccia-di-san-gimignano-docg",
+     "val-darno-di-sopra-doc",
+     "pomino-doc",
+     "cortona-doc"
+    ],
+    "towns": [
+     "Florence",
+     "Siena",
+     "Arezzo",
+     "Montevarchi"
+    ]
+   }
+  ],
+  "short_names": {
+   "val-di-cornia-rosso-rosso-della-val-di-cornia-docg": "Val di Cornia Rosso",
+   "montecucco-sangiovese-docg": "Montecucco",
+   "vernaccia-di-san-gimignano-docg": "San Gimignano"
+  },
+  "covers": [
+   "italy/chianti-classico",
+   "italy/chianti",
+   "italy/brunello-di-montalcino",
+   "italy/rosso-di-montalcino",
+   "italy/vino-nobile-di-montepulciano",
+   "italy/bolgheri",
+   "italy/toscana-igt",
+   "italy/morellino-di-scansano",
+   "italy/vernaccia-di-san-gimignano",
+   "italy/pomino",
+   "italy/suvereto",
+   "italy/val-d-arno-di-sopra",
+   "italy/san-gimignano",
+   "italy/montecucco-sangiovese",
+   "italy/montecucco",
+   "italy/terre-di-pisa",
+   "italy/maremma-toscana",
+   "italy/vin-santo-del-chianti-classico",
+   "italy/moscadello-di-montalcino",
+   "italy/vin-santo-di-montepulciano",
+   "italy/rosso-di-montepulciano",
+   "italy/bolgheri-sassicaia",
+   "italy/vin-santo-di-carmignano",
+   "italy/elba",
+   "italy/bianco-di-pitigliano",
+   "italy/sant-antimo",
+   "italy/barco-reale-di-carmignano",
+   "italy/valdinievole",
+   "italy/san-torpe",
+   "italy/capalbio",
+   "italy/colli-dell-etruria-centrale",
+   "italy/colline-lucchesi",
+   "italy/candia-dei-colli-apuani",
+   "italy/terratico-di-bibbona",
+   "italy/val-d-arbia",
+   "italy/sovana",
+   "italy/ansonica-costa-dell-argentario",
+   "italy/montescudaio",
+   "italy/grance-senesi",
+   "italy/vin-santo-del-chianti",
+   "italy/cortona",
+   "italy/bianco-dell-empolese",
+   "italy/orcia",
+   "italy/terre-di-casole",
+   "italy/val-di-cornia",
+   "italy/val-di-cornia-rosso",
+   "italy/parrina",
+   "italy/monteregio-di-massa-marittima",
+   "italy/valdichiana-toscana",
+   "italy/carmignano",
+   "italy/elba-aleatico-passito",
+   "italy/montecarlo"
+  ]
+ },
+ "$why": "Not an EU PDO or PGI or a US AVA: a country, state, region, group or sub-zone, with no shape of its own in the map data. The places under it that draw stay covered."
+}

@@ -1,0 +1,40 @@
+{
+ "subject": "vintage",
+ "id": "italy/barolo/2021",
+ "read": "2026-11-05",
+ "sources": {
+  "vinous": {"name": "Vinous, 2021 Barolo: Changing Times, Changing Wines (Jan 2025)", "kind": "critic", "url": "https://billing.vinous.com/articles/2021-barolo-changing-times-changing-wines-jan-2025"},
+  "vinexus": {"name": "Vinexus, The current vintages of Italian fine wine: Brunello 20, Barolo 21 and Barbaresco 22", "kind": "merchant", "url": "https://www.vinexus.co.uk/blog/the-current-vintages-of-italian-fine-wine-brunello-20-barolo-21-and-barbaresco-22"},
+  "jr-chart": {"name": "Jancis Robinson Piemonte vintage chart", "kind": "critic", "url": "https://jancisrobinson.com/ja/node/9439", "note": "Page returned 403 to direct fetch. Content known only from a search-result summary, not read in full."},
+  "decanter": {"name": "Decanter, Barolo 2021 vintage report (Michaela Morris)", "kind": "critic", "url": "https://www.decanter.com/premium/barolo-2021-vintage-report-top-wines-from-a-modern-benchmark", "note": "Paywalled. Rating and Consorzio president quote known only from search-result summary."},
+  "vietti": {"name": "Vietti harvest statement 2021", "kind": "producer", "url": "https://vietti.com/wp-content/uploads/2024/09/HARVEST-STATEMENT_2021.pdf", "note": "Direct fetch failed (404). Content known from search-result summary only."}
+ },
+ "claims": [
+  {"topic": "vintage", "claim": "Winter was mild and wet, with rain and some snow. It built water reserves for the growing season.", "source": ["vinexus", "vinous"], "strength": "Strong", "quote": "precipitation in the preceding winter was no doubt beneficial", "note": "Two independent sources agree. Quote is from Vinous."},
+  {"topic": "vintage", "claim": "The season started early, then cooled in April and May.", "source": ["vinous"], "strength": "Medium", "note": "One source."},
+  {"topic": "vintage", "claim": "April frost cut the crop in several top sites. Examples named are Brovia's Garblèt Sue' (about 50% lost) and Trediberri's Rocche dell'Annunziata. Rinaldi's Brunate needed significant replanting.", "source": ["vinous", "jr-chart"], "strength": "Medium", "quote": "Severe frost in April reduced the crop in several top sites.", "note": "Vinous read directly. The Jancis Robinson chart also reportedly cites spring frost cutting yields, but only from a search summary. Site-specific, not zone-wide."},
+  {"topic": "vintage", "claim": "Hail struck in mid-July (one summary says June and July). It hit Roero and Monferrato hardest and affected a few Barolo sites. Some producers reportedly lost up to 40% of expected yield.", "source": ["vinous", "jr-chart"], "strength": "Medium", "quote": "Devastating hail in mid-July", "note": "The 40% figure comes only from a search summary of the Jancis Robinson chart. Local, not zone-wide."},
+  {"topic": "vintage", "claim": "Flowering was not described in any source read.", "source": ["reading"], "strength": "Weak", "note": "Gap, listed so no one assumes a flowering story."},
+  {"topic": "vintage", "claim": "Summer was warm but without extremes. Temperatures ran above the 20-year average, June to September, with no abnormal heat spikes. Rain was below normal, with well-timed showers.", "source": ["vinous", "vinexus"], "strength": "Strong", "quote": "There were no spikes or periods of abnormally high heat", "note": "Two sources agree on warm and dry. Quote is from Vinous."},
+  {"topic": "vintage", "claim": "Dry conditions meant little fungal disease, and the vines needed much less vineyard work than in recent years.", "source": ["vinexus"], "strength": "Medium", "note": "One source."},
+  {"topic": "vintage", "claim": "The Consorzio president Matteo Ascheri called it a 'miraculously beautiful' vintage that nobody anticipated, given the early-summer hail and later drought.", "source": ["decanter"], "strength": "Weak", "note": "Paraphrased from a search summary, not verified on the page. Not the Consorzio's own report."},
+  {"topic": "vintage", "claim": "Harvest ran from the end of September to mid-October for most estates. Vietti picked its crus from 30 September to 3 October (Ravera about a week later). Vajra finished Nebbiolo on 21 October.", "source": ["vinous"], "strength": "Medium", "note": "One source read in full. Vinexus says only 'timely October harvest'. Another summary gives early to mid October."},
+  {"topic": "production", "claim": "Yields were uneven. Frost and hail cut some sites hard. Many growers elsewhere were happy with volume, and one producer says yields met the production-rule limits. No official overall volume figure was found.", "source": ["vinous", "vinexus", "vietti"], "strength": "Weak", "note": "Sources differ and none gives zone-wide numbers. Vietti claim is from a search summary."},
+  {"topic": "tasting", "claim": "Nebbiolo has good colour, open aromatics, pliant fruit and finessed, ripe tannins. It sits between 2019 (less rich) and 2020 (less vibrant) and is called the most harmonious and consistent of the three.", "source": ["vinous"], "strength": "Medium", "quote": "good color, open aromatics, pliant fruit and finessed, ripe tannins", "note": "One critic read in full."},
+  {"topic": "structure", "claim": "Producers describe an excellent phenolic profile, ripe tannins, good acidity, fresh fruit and great tension.", "source": ["vinexus", "vinous"], "strength": "Medium", "quote": "excellent phenolic profile", "note": "Vinexus relays producer views. Vinous agrees on ripe tannins."},
+  {"topic": "standing", "claim": "Overall quality is high and broad, but without the extreme peaks of the greatest years. Decanter reportedly rates it 5/5.", "source": ["vinous", "decanter"], "strength": "Medium", "note": "The Decanter rating comes only from a search summary."},
+  {"topic": "window", "claim": "Early drinking is likely appealing because of the ripe tannins. Long ageing potential is claimed by producers. No critic drinking window was read.", "source": ["vinexus"], "strength": "Weak", "note": "Producer and merchant view only."}
+ ],
+ "conflicts": [
+  "Frost: Vinous reports severe April frost cutting crops in several top sites. Vinexus says the Langhe 'came out unscathed' from the early-spring cold snap. Likely a matter of site and scale: damage was local, and the zone overall was spared.",
+  "Yields: some summaries say reduced by frost and hail, up to 40% for some producers. Others say growers were pleased with volume, and one Dutch merchant page says above average. Treat yield as variable by site."
+ ],
+ "gaps": [
+  "No Consorzio di Tutela or Regione Piemonte vintage report found with official figures (hectolitres, harvest dates).",
+  "Flowering dates and conditions not found.",
+  "Jancis Robinson, Decanter and Vietti pages could not be read directly. Wine Spectator, Wine Advocate and Berry Bros. were not checked."
+ ],
+ "sheet": {
+  "vintage": "2021 was a warm, fairly dry year after a wet winter. Frost and hail hurt a few vineyards, but the Nebbiolo that came in is fresh and balanced, with ripe tannins."
+ }
+}

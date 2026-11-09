@@ -1,0 +1,252 @@
+{
+ "story": {
+  "labels": {
+   "family": "The winery"
+  }
+ },
+ "place": {
+  "subtitle": "From the wider region down to one AVA"
+ },
+ "map": {
+  "$comment": "Every AVA in the country. A state with no profile of its own takes its FIPS code from the tree and the table below (USPS code: FIPS, name), and any other state its AVA crosses from the AVA's own record. An AVA with no AVA around it is drawn over its state and the states that border it.",
+  "engine": "avas",
+  "precision": "ava",
+  "credit": "Maps: AVA boundaries from the UC Davis Library AVA Project, digitized from the TTB’s legal descriptions (27 CFR part 9); county outlines from US Census cartographic boundaries via Plotly. For orientation, not a legal boundary.",
+  "avas_url": "https://raw.githubusercontent.com/UCDavisLibrary/ava/master/avas_aggregated_files/avas.geojson",
+  "counties_url": "https://raw.githubusercontent.com/plotly/datasets/master/geojson-counties-fips.json",
+  "auto_chain": true,
+  "projection": 5070,
+  "states": {
+   "AL": [
+    "01",
+    "Alabama"
+   ],
+   "AZ": [
+    "04",
+    "Arizona"
+   ],
+   "AR": [
+    "05",
+    "Arkansas"
+   ],
+   "CA": [
+    "06",
+    "California"
+   ],
+   "CO": [
+    "08",
+    "Colorado"
+   ],
+   "CT": [
+    "09",
+    "Connecticut"
+   ],
+   "DE": [
+    "10",
+    "Delaware"
+   ],
+   "GA": [
+    "13",
+    "Georgia"
+   ],
+   "HI": [
+    "15",
+    "Hawaii"
+   ],
+   "ID": [
+    "16",
+    "Idaho"
+   ],
+   "IL": [
+    "17",
+    "Illinois"
+   ],
+   "IN": [
+    "18",
+    "Indiana"
+   ],
+   "IA": [
+    "19",
+    "Iowa"
+   ],
+   "KS": [
+    "20",
+    "Kansas"
+   ],
+   "KY": [
+    "21",
+    "Kentucky"
+   ],
+   "LA": [
+    "22",
+    "Louisiana"
+   ],
+   "ME": [
+    "23",
+    "Maine"
+   ],
+   "MD": [
+    "24",
+    "Maryland"
+   ],
+   "MA": [
+    "25",
+    "Massachusetts"
+   ],
+   "MI": [
+    "26",
+    "Michigan"
+   ],
+   "MN": [
+    "27",
+    "Minnesota"
+   ],
+   "MS": [
+    "28",
+    "Mississippi"
+   ],
+   "MO": [
+    "29",
+    "Missouri"
+   ],
+   "MT": [
+    "30",
+    "Montana"
+   ],
+   "NE": [
+    "31",
+    "Nebraska"
+   ],
+   "NV": [
+    "32",
+    "Nevada"
+   ],
+   "NH": [
+    "33",
+    "New Hampshire"
+   ],
+   "NJ": [
+    "34",
+    "New Jersey"
+   ],
+   "NM": [
+    "35",
+    "New Mexico"
+   ],
+   "NY": [
+    "36",
+    "New York"
+   ],
+   "NC": [
+    "37",
+    "North Carolina"
+   ],
+   "ND": [
+    "38",
+    "North Dakota"
+   ],
+   "OH": [
+    "39",
+    "Ohio"
+   ],
+   "OK": [
+    "40",
+    "Oklahoma"
+   ],
+   "OR": [
+    "41",
+    "Oregon"
+   ],
+   "PA": [
+    "42",
+    "Pennsylvania"
+   ],
+   "RI": [
+    "44",
+    "Rhode Island"
+   ],
+   "SC": [
+    "45",
+    "South Carolina"
+   ],
+   "SD": [
+    "46",
+    "South Dakota"
+   ],
+   "TN": [
+    "47",
+    "Tennessee"
+   ],
+   "TX": [
+    "48",
+    "Texas"
+   ],
+   "UT": [
+    "49",
+    "Utah"
+   ],
+   "VT": [
+    "50",
+    "Vermont"
+   ],
+   "VA": [
+    "51",
+    "Virginia"
+   ],
+   "WA": [
+    "53",
+    "Washington"
+   ],
+   "WV": [
+    "54",
+    "West Virginia"
+   ],
+   "WI": [
+    "55",
+    "Wisconsin"
+   ],
+   "WY": [
+    "56",
+    "Wyoming"
+   ]
+  },
+  "covers": [
+   "united-states/california",
+   "united-states/oregon",
+   "united-states/washington",
+   "united-states/new-york",
+   "united-states/arkansas",
+   "united-states/illinois",
+   "united-states/indiana",
+   "united-states/texas",
+   "united-states/idaho",
+   "united-states/iowa",
+   "united-states/mississippi",
+   "united-states/wisconsin",
+   "united-states/new-jersey",
+   "united-states/virginia",
+   "united-states/tennessee",
+   "united-states/connecticut",
+   "united-states/michigan",
+   "united-states/north-carolina",
+   "united-states/pennsylvania",
+   "united-states/maryland",
+   "united-states/new-mexico",
+   "united-states/arizona",
+   "united-states/georgia",
+   "united-states/colorado",
+   "united-states/missouri",
+   "united-states/minnesota",
+   "united-states/ohio",
+   "united-states/hawaii"
+  ]
+ },
+ "styles": [
+  "red",
+  "white",
+  "sparkling",
+  "rosé",
+  "dessert"
+ ],
+ "$why": "Not an EU PDO or PGI or a US AVA: a country, state, region, group or sub-zone, with no shape of its own in the map data. The places under it that draw stay covered."
+}

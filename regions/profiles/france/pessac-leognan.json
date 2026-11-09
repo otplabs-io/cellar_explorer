@@ -1,0 +1,32 @@
+{
+ "story": {
+  "signature": null
+ },
+ "map": {
+  "panel2": [
+   "Graves",
+   "Communes, shaded by their main appellation"
+  ],
+  "panel2_appellations": [
+   "Pessac-Léognan",
+   "Graves",
+   "Graves supérieures",
+   "Cérons",
+   "Barsac",
+   "Sauternes"
+  ],
+  "communal": [
+   "Pessac-Léognan",
+   "Cérons",
+   "Barsac",
+   "Sauternes"
+  ],
+  "covers": [
+   "france/pessac-leognan"
+  ]
+ },
+ "styles": [
+  "red",
+  "white"
+ ]
+}

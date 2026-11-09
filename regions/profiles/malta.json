@@ -1,0 +1,55 @@
+{
+ "place": {
+  "subtitle": "From Malta down to one zone"
+ },
+ "map": {
+  "engine": "zones",
+  "precision": "zone",
+  "zone_store": "eu",
+  "credit": "Maps: wine zones from the EU PDO boundaries (Candiago et al. 2022, CC0), drawn by whole commune; commune and region outlines © EuroGeographics for the administrative boundaries; estate location from {estate_source}. For orientation, not a legal boundary.",
+  "region_slug": "malta",
+  "projection": 32633,
+  "eu": {
+   "country": "MT",
+   "nuts": "all",
+   "default_tier": "PDO",
+   "locator_bbox": [
+    8,
+    32,
+    20,
+    40
+   ]
+  },
+  "locator_file": "malta/_locator.json",
+  "tier_fill": {
+   "PDO": "goldl"
+  },
+  "tier_key": [
+   [
+    "goldl",
+    "PDO zones"
+   ]
+  ],
+  "panel1": [
+   "Malta",
+   "Its PDO zones"
+  ],
+  "panel1_towns": [],
+  "broad": [],
+  "areas": [],
+  "panel2_subtitle": "Its wine zones",
+  "panel3_subtitle": "Its zone, by commune",
+  "covers": [
+   "malta"
+  ]
+ },
+ "styles": [
+  "red",
+  "white",
+  "sparkling",
+  "rosé",
+  "dessert",
+  "orange",
+  "fortified"
+ ]
+}

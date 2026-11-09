@@ -1,0 +1,30 @@
+{
+ "$why": "Not an EU PDO or PGI or a US AVA: a country, state, region, group or sub-zone, with no shape of its own in the map data. The places under it that draw stay covered.",
+ "map": {
+  "covers": [
+   "france/jurancon",
+   "france/tursan",
+   "france/bergerac",
+   "france/cotes-du-marmandais",
+   "france/floc-de-gascogne",
+   "france/pacherenc-du-vic-bilh",
+   "france/madiran",
+   "france/cotes-de-duras",
+   "france/gaillac",
+   "france/coteaux-du-quercy",
+   "france/saint-mont",
+   "france/fronton",
+   "france/buzet",
+   "france/bearn",
+   "france/irouleguy",
+   "france/brulhois",
+   "france/gaillac-premieres-cotes",
+   "france/marcillac",
+   "france/estaing",
+   "france/cahors",
+   "france/saint-sardos",
+   "france/entraygues-le-fel",
+   "france/cotes-de-millau"
+  ]
+ }
+}

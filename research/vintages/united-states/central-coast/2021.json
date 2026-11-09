@@ -1,0 +1,34 @@
+{
+ "subject": "vintage",
+ "id": "united-states/central-coast/2021",
+ "read": "2026-11-05",
+ "sources": {
+  "samsara-2021": {"name": "SAMsARA Wine, The 2021 Vintage Growing Season: A Santa Barbara County Retrospective", "kind": "producer", "url": "https://www.samsarawine.com/news/the-2021-vintage-growing-season-a-santa-barbara-county-retrospective/", "note": "Winery blog. Covers Santa Barbara County."},
+  "wia-2021": {"name": "Wine Industry Advisor, Vintners Across the State Report Outstanding Quality for 2021 California Harvest (Wine Institute)", "kind": "vintage report", "url": "https://wineindustryadvisor.com/2021/11/10/vintners-across-state-report-outstanding-quality-2021-harvest/", "note": "Santa Barbara County section, with a quote from Tyler Thomas of Dierberg in Lompoc."},
+  "search-summary-2021": {"name": "Search summaries on Santa Barbara 2021 Pinot Noir yields and Vinous view", "kind": "general", "note": "Relayed through a search summary. Pages not read."}
+ },
+ "claims": [
+  {"topic": "vintage", "claim": "The season was cool and dry. Cold weather delayed bud break.", "source": ["samsara-2021"], "strength": "Medium", "note": "One source. It gives roughly 5 to 6 inches of rain from late 2020 through spring, and another version of the interview says 20 to 21 inches. See conflicts."},
+  {"topic": "vintage", "claim": "Summer was mild, with cool mornings and plenty of fog. There was little or no heat, and no Labor Day heat wave.", "source": ["samsara-2021", "wia-2021"], "strength": "Strong"},
+  {"topic": "vintage", "claim": "Harvest ran in line with or a bit behind the historical average. Long hang time let fruit ripen fully.", "source": ["samsara-2021", "wia-2021"], "strength": "Strong", "note": "No specific harvest dates found."},
+  {"topic": "production", "claim": "Yields were at or just below the historical average.", "source": ["samsara-2021", "wia-2021"], "strength": "Medium", "note": "Search summaries say Pinot Noir yields fell sharply except in Sta. Rita Hills, where they were above average. Not confirmed on a page."},
+  {"topic": "vintage", "claim": "Wines show great depth of flavor, lower potential alcohol and high acidity. Cabernet Sauvignon and Pinot Noir stood out in the state report. SAMsARA singles out a complex Chardonnay.", "source": ["wia-2021", "samsara-2021"], "strength": "Medium", "note": "Producer and trade-group statements. No independent critic page read."},
+  {"topic": "vintage", "claim": "Tyler Thomas of Dierberg called ripening weather 'about as ideal as you could ask for in Santa Barbara County'.", "source": ["wia-2021"], "strength": "Weak", "quote": "about as ideal as you could ask for in Santa Barbara County", "note": "One winemaker's opinion."},
+  {"topic": "vintage", "claim": "Mildew pressure hit some vineyards, and the Alisal Fire was a threat late in the season.", "source": ["samsara-2021"], "strength": "Weak", "note": "One source. No smoke effects reported."},
+  {"topic": "vintage", "claim": "A Vinous assessment is reported as mixed for Santa Barbara Pinot Noir in 2021.", "source": ["search-summary-2021"], "strength": "Weak", "note": "Second hand. The Vinous page was not read."}
+ ],
+ "conflicts": [
+  "Rainfall: SAMsARA's page gives about 5 to 6 inches, and another version of the interview gives 20 to 21 inches for the rainy season.",
+  "Pinot Noir yields: the two read pages say at or just below average. Search summaries say sharp drops outside Sta. Rita Hills."
+ ],
+ "gaps": [
+  "No frost or flowering detail found for 2021.",
+  "No exact harvest dates and no tonnage figures.",
+  "Nothing split between Santa Maria Valley and Sta. Rita Hills. Sources speak for the county.",
+  "No independent critic vintage page read. Vinous 2021 article text did not load.",
+  "Filed under central-coast but the sources cover Santa Barbara County only."
+ ],
+ "sheet": {
+  "vintage": "A cool, dry year in Santa Barbara County. Summer was mild and foggy, with no big heat. Harvest ran on the late side, and the whites kept bright acidity."
+ }
+}

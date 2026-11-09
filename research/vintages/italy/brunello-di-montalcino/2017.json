@@ -1,0 +1,147 @@
+{
+ "subject": "vintage",
+ "id": "italy/brunello-di-montalcino/2017",
+ "read": "2026-11-05",
+ "sources": {
+  "consorzio-stars": {
+   "name": "Consorzio del Vino Brunello di Montalcino, vintage star ratings page",
+   "kind": "official",
+   "url": "https://www.consorziobrunellodimontalcino.it/en/piastrelle/",
+   "note": "Lists stars only, no weather text. Ratings are declared each February at Benvenuto Brunello."
+  },
+  "frw-2017": {
+   "name": "Fine+Rare, Brunello 2017: vintage report",
+   "kind": "merchant",
+   "url": "https://www.frw.co.uk/editorial/brunello-2017-vintage-report"
+  },
+  "vinexus-2017": {
+   "name": "Vinexus, Italian fine wine current vintages: Brunello 17, Barolo 18, Barbaresco 19",
+   "kind": "merchant",
+   "url": "https://www.vinexus.co.uk/blog/italian-fine-wine-current-vintages-brunello-17-barolo-18-barbaresco-19"
+  },
+  "isfw": {
+   "name": "Italy's Finest Wines, best vintages of Brunello di Montalcino",
+   "kind": "reference",
+   "url": "https://italysfinestwines.it/en/migliori-annate-brunello-di-montalcino/",
+   "note": "Secondary summary. Its own star list differs from the Consorzio for 2020, and its 2016 harvest line is garbled so it is not used."
+  },
+  "decanter-2017": {
+   "name": "Decanter, Brunello di Montalcino 2017 vintage report",
+   "kind": "critic",
+   "url": "https://www.decanter.com/premium/brunello-di-montalcino-2017-vintage-report-and-top-scoring-wines-473252",
+   "note": "Decanter score known only from a search-result summary; page is paywalled and was not read. Rating 3.5/5, and a comment that many wines are fresher than expected."
+  },
+  "wiki-seth": {
+   "name": "Wine With Seth, 2017 Tuscany vintage",
+   "kind": "general",
+   "url": "https://www.winewithseth.com/winewiki/2017-tuscany-vintage/",
+   "note": "Search-summary only. Source of the 35-40% yield-loss figure."
+  }
+ },
+ "claims": [
+  {
+   "topic": "vintage",
+   "claim": "Spring was mild and dry, with early budburst and flowering. Temperatures swung and frost threatened early-budding vines.",
+   "source": [
+    "isfw",
+    "frw-2017"
+   ],
+   "strength": "Medium",
+   "note": "Two secondary sources."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Late frost hit many vineyards, reaching as far south as Montalcino. Lower valley sites suffered most and hillsides largely escaped. Baricci limited losses to about 10% by burning damp hay for smoke.",
+   "source": [
+    "frw-2017",
+    "vinexus-2017"
+   ],
+   "strength": "Strong",
+   "quote": "Late frosts were widespread",
+   "note": "Two independent merchants agree."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Irregular weather at flowering cut yields further.",
+   "source": [
+    "frw-2017"
+   ],
+   "strength": "Medium",
+   "note": "One source."
+  },
+  {
+   "topic": "vintage",
+   "claim": "A long drought and heatwave followed. Heat ran above average from May with little rain. Vines shut down at the height of summer, the south was hit hardest and some areas were allowed to irrigate. The north got about 300 mm of rain from March to November, the south about 160 mm.",
+   "source": [
+    "frw-2017",
+    "isfw",
+    "vinexus-2017"
+   ],
+   "strength": "Strong",
+   "note": "Three sources agree on drought. Rain figures from Vinexus only."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Rain in September relieved the vines. Fine+Rare says early September, Vinexus mentions rain on 20 to 24 September at Gianni Brunelli.",
+   "source": [
+    "frw-2017",
+    "vinexus-2017"
+   ],
+   "strength": "Medium",
+   "note": "Timing differs by estate."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Harvest was early and short. Poggio di Sotto picked 29 August to 27 September, Cerbaiona 19 to 24 September, Canalicchio di Sopra 25 September to 6 October.",
+   "source": [
+    "frw-2017",
+    "vinexus-2017"
+   ],
+   "strength": "Medium",
+   "note": "Estate dates from one source. Vinexus agrees some began in early September."
+  },
+  {
+   "topic": "production",
+   "claim": "Yields were very low for most producers, from frost, flowering trouble and drought. Estimates differ widely, from about 25 to 30% below 2016 up to 35 to 40% in the worst parcels.",
+   "source": [
+    "frw-2017",
+    "isfw",
+    "wiki-seth"
+   ],
+   "strength": "Medium",
+   "note": "No official figure. The 35 to 40% figure is a wiki summary, treat as weaker."
+  },
+  {
+   "topic": "tasting",
+   "claim": "Top wines have ripe tannins, fresh fruit and vibrant acidity. Weaker ones can taste dry, with candied or meaty fruit and harsh tannins. Quality varies a lot by estate and site.",
+   "source": [
+    "frw-2017",
+    "decanter-2017"
+   ],
+   "strength": "Medium",
+   "note": "Decanter's 'fresher than expected' is from a search summary. Italy's Finest Wines describes soft tannins and lower acidity, which conflicts."
+  },
+  {
+   "topic": "standing",
+   "claim": "The Consorzio rated 2017 four stars, 'excellent'. Decanter reportedly gives 3.5/5.",
+   "source": [
+    "consorzio-stars",
+    "decanter-2017"
+   ],
+   "strength": "Strong",
+   "note": "Consorzio page read directly. Decanter from a search summary."
+  }
+ ],
+ "conflicts": [
+  "Acidity: Fine+Rare says vibrant acidity in the best wines. Italy's Finest Wines says lower acidity.",
+  "Yield loss ranges from about 10% (Baricci) through 25 to 30% to 35 to 40%. Treat as site dependent."
+ ],
+ "gaps": [
+  "Consorzio report with official volume not found.",
+  "Winter conditions not described.",
+  "Decanter and Wine Spectator pages not read."
+ ],
+ "sheet": {
+  "vintage": "2017 was hard. Spring frost, a dry hot summer and a short harvest meant small crops. The best Sangiovese is ripe and fresh, though quality varies by producer. The Consorzio gave it four stars."
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "subject": "vintage",
+ "id": "france/loire-valley/2020",
+ "read": "2026-11-05",
+ "sources": {
+  "idealwine": {"name": "iDealwine, Loire Valley 2020 vintage", "kind": "merchant", "url": "https://www.idealwine.com/en/buy-wine/region-loire-valley-vintage-2020", "note": "Appears to repeat the InterLoire vintage summary. The official page returned 403 and was not read."},
+  "divine-vouvray": {"name": "Divine Loire, Vouvray 2020", "kind": "reference", "url": "https://divineloire.fr/en/vintages/vouvray-2020/"},
+  "divine-touraine": {"name": "Divine Loire, Touraine 2020", "kind": "reference", "url": "https://divineloire.fr/en/?p=7425"},
+  "drinks-trade": {"name": "Drinks Trade, Harvest comes earlier than ever in the Loire Valley", "kind": "general", "url": "https://drinkstrade.com.au/news/harvest-comes-earlier-than-ever-in-the-loire-valley", "note": "Trade news item from 2020. No Vouvray or sweet-wine detail."},
+  "decanter": {"name": "Decanter, New release Loire white wines: the best from 2019 and 2020", "kind": "critic", "url": "https://www.decanter.com/premium/new-release-loire-white-wines-the-best-from-2019-and-2020-460577", "note": "Paywalled. Not read; title only."}
+ },
+ "claims": [
+  {"topic": "vintage", "claim": "2020 was an early year. A very mild, wet winter was followed by early budbreak. Flowering in mid-May was about two weeks early. Rain in May and June built soil water, then two August heatwaves pushed ripening along.", "source": ["idealwine", "divine-touraine", "drinks-trade"], "strength": "Strong", "note": "Three sources agree on the early cycle, mild winter, and August heat."},
+  {"topic": "vintage", "claim": "The harvest started around the end of August, up to a fortnight earlier than before. Muscadet began 24 August, Sancerre 27 August, and Touraine Sauvignon was mostly picked the week of 7 September. There are no Vouvray Chenin dates in what was read.", "source": ["drinks-trade", "idealwine", "divine-touraine"], "strength": "Medium", "note": "Dates are for other grapes and places. Two sources say late August generally."},
+  {"topic": "vintage", "claim": "September was hot and dry, then turned rainy.", "source": ["drinks-trade"], "strength": "Weak", "note": "One trade news item."},
+  {"topic": "vintage", "claim": "Dry Chenin from Vouvray and Montlouis is complex with excellent acidity. Whites overall are less ethereal than 2019 but mostly successful.", "source": ["idealwine"], "strength": "Medium", "quote": "complex with excellent acidity", "note": "One source, which is the regional summary relayed by a merchant."},
+  {"topic": "vintage", "claim": "Divine Loire calls the Vouvray 2020 chenins lively and concentrated, with beautiful maturity after a dry summer. It rates Vouvray 4.6 out of 5 and Touraine 4.4 out of 5.", "source": ["divine-vouvray", "divine-touraine"], "strength": "Weak", "note": "Single reference site and its own rating scale."},
+  {"topic": "vintage", "claim": "2020 favoured dry wines in Vouvray. Divine Loire lists the Vouvray wine as dry white. Botrytis was reported to develop well elsewhere in the Loire, giving concentrated, elegant sweet wines, but there is no Vouvray or Layon detail.", "source": ["idealwine", "divine-vouvray"], "strength": "Weak", "note": "The sweet-wine line is region-wide and not specific to Chenin or Vouvray."},
+  {"topic": "vintage", "claim": "iDealwine rates Loire 2020 at 17/20 for red, 16/20 for white and 16/20 for sweet wines.", "source": ["idealwine"], "strength": "Weak", "note": "Merchant score. Region-wide."},
+  {"topic": "window", "claim": "The Touraine wines are good to drink now and can be kept. The Loire summary says the vintage has significant ageing potential. Chenin from Vouvray is described as ageing well.", "source": ["divine-touraine", "idealwine"], "strength": "Weak", "note": "Opinion from the reference sites."}
+ ],
+ "conflicts": [
+  "Harvest start: late August for Touraine (Divine Loire) versus mid-August for Chardonnay and Pinot (InterLoire summary). Different grapes, not a real conflict."
+ ],
+ "gaps": [
+  "The official InterLoire page returned 403.",
+  "The Decanter and Wine Doctor Touraine reports were paywalled.",
+  "No Vouvray harvest dates, yields or hail data.",
+  "No Anjou or Coteaux du Layon detail for 2020.",
+  "Drinks Trade gave 3 million hl as a yield figure, but the unit looks wrong and it is not used."
+ ],
+ "sheet": {
+  "vintage": "An early, warm year after a mild, wet winter. Picking started around the end of August.",
+  "vintage_dry": "A good year for dry Chenin. The wines are lively and complex, with strong acidity.",
+  "vintage_sweet": "There is little Vouvray sweet-wine detail. Loire sweet wines did well overall, with botrytis developing nicely in places."
+ }
+}

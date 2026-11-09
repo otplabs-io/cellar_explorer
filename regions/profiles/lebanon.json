@@ -1,0 +1,113 @@
+{
+ "place": {
+  "subtitle": "From Lebanon down to the Bekaa"
+ },
+ "styles": [
+  "red",
+  "white",
+  "sparkling",
+  "rosé",
+  "dessert",
+  "orange",
+  "fortified"
+ ],
+ "map": {
+  "engine": "zones",
+  "precision": "zone",
+  "zone_store": "eu",
+  "credit": "Maps: district outlines from geoBoundaries (public domain); country outlines © EuroGeographics for the administrative boundaries. Lebanon has no legal wine zones, so areas are drawn by district. For orientation, not a legal boundary.",
+  "region_slug": "lebanon",
+  "projection": 32636,
+  "admin": {
+   "border": {
+    "file": "geoBoundaries-LBN-ADM1_simplified.geojson",
+    "names": null
+   },
+   "communes": {
+    "file": "geoBoundaries-LBN-ADM2_simplified.geojson"
+   },
+   "zones": [
+    {
+     "name": "Bekaa Valley",
+     "slug": "bekaa-valley",
+     "tier": "Region",
+     "units": [
+      "Zahle",
+      "West Bekaa",
+      "Baalbek"
+     ]
+    },
+    {
+     "name": "Mount Lebanon",
+     "slug": "mount-lebanon",
+     "tier": "Region",
+     "units": [
+      "Chouf",
+      "Aley",
+      "Baabda",
+      "El Metn"
+     ]
+    }
+   ],
+   "locator_bbox": [
+    28,
+    27,
+    42,
+    38
+   ],
+   "source": "geoBoundaries district outlines (public domain)",
+   "note": "Lebanon has no legal wine zones. Areas are drawn by whole district."
+  },
+  "locator_file": "lebanon/_locator.json",
+  "tier_fill": {
+   "Region": "goldl"
+  },
+  "tier_key": [
+   [
+    "goldl",
+    "Wine areas"
+   ]
+  ],
+  "panel1": [
+   "Lebanon",
+   "Its wine areas, by district"
+  ],
+  "panel1_towns": [
+   "Beirut"
+  ],
+  "broad": [],
+  "areas": [
+   {
+    "name": "Lebanon",
+    "title": "The Bekaa and Mount Lebanon",
+    "zones": [
+     "bekaa-valley",
+     "mount-lebanon"
+    ],
+    "towns": [
+     "Beirut"
+    ],
+    "label": "Bekaa and Mount Lebanon"
+   }
+  ],
+  "panel2_subtitle": "Its wine areas",
+  "panel3_subtitle": "Its area, drawn by district",
+  "covers": [
+   "lebanon/bekaa-valley"
+  ],
+  "panel1_labels": {
+   "Lebanon": [
+    150,
+    64,
+    "middle"
+   ]
+  },
+  "panel2_labels": {
+   "mount-lebanon": [
+    70,
+    292,
+    "middle"
+   ]
+  }
+ }
+}

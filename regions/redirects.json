@@ -1,0 +1,4 @@
+{
+"comment": "Old region ids and the id they now mean. Add an entry when a place is renamed, merged or split, so wine records that point to the old id still resolve. Never delete an entry.",
+"redirects": {}
+}

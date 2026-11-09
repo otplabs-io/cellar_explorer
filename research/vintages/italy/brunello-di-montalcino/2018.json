@@ -1,0 +1,142 @@
+{
+ "subject": "vintage",
+ "id": "italy/brunello-di-montalcino/2018",
+ "read": "2026-11-05",
+ "sources": {
+  "consorzio-stars": {
+   "name": "Consorzio del Vino Brunello di Montalcino, vintage star ratings page",
+   "kind": "official",
+   "url": "https://www.consorziobrunellodimontalcino.it/en/piastrelle/",
+   "note": "Lists stars only, no weather text. Ratings are declared each February at Benvenuto Brunello."
+  },
+  "consorzio-2018": {
+   "name": "Consorzio, 2018 vintage: a classic and elegant vintage",
+   "kind": "official",
+   "url": "https://www.consorziobrunellodimontalcino.it/en/2014/2018-vintage-a-classic-and-elegant-vintage"
+  },
+  "frw-2018": {
+   "name": "Fine+Rare, Brunello di Montalcino 2018 vintage report",
+   "kind": "merchant",
+   "url": "https://www.frw.co.uk/editorial/brunello-di-montalcino-2018-vintage-report"
+  },
+  "vinexus-2018": {
+   "name": "Vinexus, current vintages: Brunello 18, Barolo 19, Barbaresco 20",
+   "kind": "merchant",
+   "url": "https://www.vinexus.co.uk/blog/the-current-vintages-of-italian-fine-wine-brunello-18-barolo-19-and-barbaresco-20"
+  },
+  "isfw": {
+   "name": "Italy's Finest Wines, best vintages of Brunello di Montalcino",
+   "kind": "reference",
+   "url": "https://italysfinestwines.it/en/migliori-annate-brunello-di-montalcino/",
+   "note": "Secondary summary. Its own star list differs from the Consorzio for 2020, and its 2016 harvest line is garbled so it is not used."
+  },
+  "decanter-2018": {
+   "name": "Decanter, Brunello di Montalcino 2018 full report",
+   "kind": "critic",
+   "url": "https://www.decanter.com/premium/brunello-di-montalcino-2018-full-report-plus-top-scoring-wines-495833",
+   "note": "Decanter score known only from a search-result summary; page is paywalled and was not read. Rating 3.5/5."
+  }
+ },
+ "claims": [
+  {
+   "topic": "vintage",
+   "claim": "Winter was cold, with snow in late winter and lows near -10C, and brought rain and snow after the 2017 water deficit. Spring was wet and cool.",
+   "source": [
+    "consorzio-2018",
+    "frw-2018",
+    "vinexus-2018"
+   ],
+   "strength": "Strong",
+   "note": "Three sources agree. Fine+Rare says rainfall to end of May beat all of 2017."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Budburst came in mid-April and flowering in late May. Flowering went smoothly. Downy mildew was a problem in the wet spring.",
+   "source": [
+    "consorzio-2018",
+    "frw-2018",
+    "isfw"
+   ],
+   "strength": "Strong",
+   "note": "No frost reported after the winter cold snap. Isolated hail reported in a search summary only."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Summer was moderate. July had a spike to 35 to 36C, but mid-June to late August mostly stayed near 30C, with no vine shutdown. Many estates green-harvested in August to help ripeness.",
+   "source": [
+    "frw-2018",
+    "vinexus-2018",
+    "consorzio-2018"
+   ],
+   "strength": "Medium",
+   "note": "The Consorzio calls June and July hot, Fine+Rare calls it moderate."
+  },
+  {
+   "topic": "vintage",
+   "claim": "September brought rain. Fine+Rare reports two storms dried by westerly winds, and the Consorzio says late-September rain and cooler weather made wineries start Sangiovese earlier.",
+   "source": [
+    "consorzio-2018",
+    "frw-2018"
+   ],
+   "strength": "Medium",
+   "quote": "Rain and cooler temperatures in late September",
+   "note": "Estates differed. Some started early (Biondi Santi 16 September) and others waited about five days (Sassetti until 10 October)."
+  },
+  {
+   "topic": "production",
+   "claim": "Volumes were among the lowest of recent years, roughly 25% below 2016 and 2017, according to Fine+Rare. The Consorzio gives no yield figure and notes medium-high berry weight.",
+   "source": [
+    "frw-2018",
+    "consorzio-2018"
+   ],
+   "strength": "Weak",
+   "note": "One merchant figure. It sits oddly with the very short 2017 crop, so treat the comparison with care."
+  },
+  {
+   "topic": "tasting",
+   "claim": "Sangiovese is classic and elegant, fresh and floral, with high acidity, medium body and soft, balanced tannins. It is compared to 2008 and 2013. Few Riservas were made.",
+   "source": [
+    "consorzio-2018",
+    "frw-2018",
+    "vinexus-2018"
+   ],
+   "strength": "Strong",
+   "note": "Three sources agree on freshness and elegance."
+  },
+  {
+   "topic": "structure",
+   "claim": "One reference says concentration and ageing potential are weaker than top years. Fine+Rare says high acidity and low pH give long ageing.",
+   "source": [
+    "isfw",
+    "frw-2018"
+   ],
+   "strength": "Weak",
+   "quote": "Perhaps not one of the best Montalcino vintages",
+   "note": "Sources disagree on ageing potential."
+  },
+  {
+   "topic": "standing",
+   "claim": "The Consorzio rated 2018 four stars, 'excellent'. Decanter reportedly gives 3.5/5. Quality varies by picking date and producer.",
+   "source": [
+    "consorzio-stars",
+    "consorzio-2018",
+    "decanter-2018"
+   ],
+   "strength": "Strong",
+   "note": "Consorzio read directly. Decanter from a search summary."
+  }
+ ],
+ "conflicts": [
+  "Ageing: Italy's Finest Wines doubts it, Fine+Rare points to high acidity and low pH.",
+  "Summer: moderate (Fine+Rare) against hot June and July (Consorzio).",
+  "Harvest: some started earlier to protect fruit, others delayed to ripen."
+ ],
+ "gaps": [
+  "No official volume figure.",
+  "Hail only in a search summary.",
+  "Decanter page not read."
+ ],
+ "sheet": {
+  "vintage": "2018 was a cool, wet-spring year with a showery September. The Sangiovese is fresh, elegant and floral with soft tannins. The Consorzio gave it four stars."
+ }
+}

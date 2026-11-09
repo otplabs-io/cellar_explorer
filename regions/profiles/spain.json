@@ -1,0 +1,290 @@
+{
+ "story": {
+  "signature": {
+   "component": "quality_ladder",
+   "title": "Spain’s aging terms",
+   "tiers": [
+    "Gran Reserva",
+    "Reserva",
+    "Crianza"
+   ]
+  }
+ },
+ "place": {
+  "subtitle": "From Spain down to one zone"
+ },
+ "styles": [
+  "red",
+  "white",
+  "sparkling",
+  "rosé",
+  "dessert",
+  "orange",
+  "fortified"
+ ],
+ "map": {
+  "engine": "zones",
+  "precision": "zone",
+  "zone_store": "eu",
+  "credit": "Maps: wine zones from the EU PDO boundaries (Candiago et al. 2022, CC0), drawn by whole commune; commune and region outlines © EuroGeographics for the administrative boundaries; estate location from {estate_source}. For orientation, not a legal boundary.",
+  "region_slug": "spain",
+  "projection": 32630,
+  "eu": {
+   "country": "ES",
+   "nuts": [
+    "ES11",
+    "ES12",
+    "ES13",
+    "ES21",
+    "ES22",
+    "ES23",
+    "ES24",
+    "ES30",
+    "ES41",
+    "ES42",
+    "ES43",
+    "ES51",
+    "ES52",
+    "ES53",
+    "ES61",
+    "ES62"
+   ],
+   "tiers": {
+    "La Jaraba": "Pago",
+    "Vallegarcía": "Pago",
+    "Los Cerrillos": "Pago",
+    "Urueña": "Pago",
+    "Dehesa Peñalba": "Pago",
+    "Dominio de Valdepusa": "Pago",
+    "Finca Élez": "Pago",
+    "Dehesa del Carrizal": "Pago",
+    "Campo de La Guardia": "Pago",
+    "Calzadilla": "Pago",
+    "Pago Florentino": "Pago",
+    "Guijoso": "Pago",
+    "Casa del Blanco": "Pago",
+    "Prado de Irache": "Pago",
+    "Pago de Arínzano": "Pago",
+    "El Terrerazo": "Pago",
+    "Los Balagueses": "Pago",
+    "Aylés": "Pago",
+    "El Vicario": "Pago",
+    "Chozas Carrascal": "Pago",
+    "Vera de Estenas": "Pago",
+    "Rioja": "DOCa",
+    "Priorat": "DOCa"
+   },
+   "default_tier": "DO",
+   "locator_bbox": [
+    -11,
+    35,
+    20,
+    52
+   ]
+  },
+  "locator_file": "spain/_locator.json",
+  "tier_fill": {
+   "DOCa": "gold",
+   "DO": "goldl"
+  },
+  "tier_key": [
+   [
+    "gold",
+    "DOCa zones"
+   ],
+   [
+    "goldl",
+    "DO zones"
+   ]
+  ],
+  "panel1": [
+   "Spain",
+   "Wine zones, shaded by level"
+  ],
+  "panel1_towns": [
+   "Madrid",
+   "Barcelona",
+   "Sevilla",
+   "Bilbao"
+  ],
+  "broad": [
+   "cataluna",
+   "cava",
+   "islas-canarias",
+   "vinos-de-madrid",
+   "la-mancha"
+  ],
+  "areas": [
+   {
+    "name": "The Upper Ebro",
+    "zones": [
+     "rioja",
+     "navarra",
+     "arabako-txakolina",
+     "campo-de-borja",
+     "carinena",
+     "calatayud",
+     "somontano"
+    ],
+    "towns": [
+     "Logroño"
+    ]
+   },
+   {
+    "name": "The Duero",
+    "title": "The Duero valley",
+    "zones": [
+     "ribera-del-duero",
+     "toro",
+     "rueda",
+     "cigales",
+     "arlanza",
+     "tierra-del-vino-de-zamora",
+     "valtiendas"
+    ],
+    "towns": [
+     "Valladolid"
+    ]
+   },
+   {
+    "name": "Catalonia",
+    "zones": [
+     "priorat",
+     "montsant",
+     "penedes",
+     "terra-alta",
+     "tarragona",
+     "conca-de-barbera",
+     "costers-del-segre",
+     "pla-de-bages",
+     "alella"
+    ],
+    "towns": [
+     "Barcelona",
+     "Tarragona"
+    ]
+   }
+  ],
+  "panel2_subtitle": "Its wine zones",
+  "panel3_subtitle": "Its delimited zone, by commune",
+  "covers": [
+   "spain/rioja",
+   "spain/ribera-del-duero",
+   "spain/toro",
+   "spain/rueda",
+   "spain/bierzo",
+   "spain/ribeira-sacra",
+   "spain/rias-baixas",
+   "spain/valdeorras",
+   "spain/priorat",
+   "spain/montsant",
+   "spain/penedes-cava",
+   "spain/jerez",
+   "spain/navarra",
+   "spain/campo-de-borja-calatayud",
+   "spain/jumilla",
+   "spain/la-mancha-valdepenas",
+   "spain/somontano",
+   "spain/vinos-de-madrid",
+   "spain/pla-de-bages",
+   "spain/arlanza",
+   "spain/tierra-del-vino-de-zamora",
+   "spain/sierra-de-salamanca",
+   "spain/pago-de-arinzano",
+   "spain/conca-de-barbera",
+   "spain/manzanilla-de-sanlucar",
+   "spain/dehesa-penalba",
+   "spain/ribera-del-guadiana",
+   "spain/condado-de-huelva",
+   "spain/binissalem",
+   "spain/almansa",
+   "spain/pago-de-otazu",
+   "spain/manchuela",
+   "spain/arribes",
+   "spain/ayles",
+   "spain/pla-i-llevant",
+   "spain/prado-de-irache",
+   "spain/alella",
+   "spain/terra-alta",
+   "spain/ucles",
+   "spain/arabako-txakolina",
+   "spain/carinena",
+   "spain/bizkaiko-txakolina",
+   "spain/monterrei",
+   "spain/ribeiro",
+   "spain/getariako-txakolina",
+   "spain/valencia",
+   "spain/canary-islands",
+   "spain/emporda",
+   "spain/costers-del-segre",
+   "spain/granada",
+   "spain/los-balagueses",
+   "spain/sierras-de-malaga",
+   "spain/cebreros",
+   "spain/dehesa-del-carrizal",
+   "spain/alicante",
+   "spain/cataluna",
+   "spain/yecla",
+   "spain/leon",
+   "spain/tarragona",
+   "spain/utiel-requena",
+   "spain/finca-elez",
+   "spain/mentrida",
+   "spain/mondejar",
+   "spain/cigales",
+   "spain/uruena",
+   "spain/vallegarcia",
+   "spain/lebrija",
+   "spain/ribera-del-jucar",
+   "spain/montilla-moriles",
+   "spain/casa-del-blanco",
+   "spain/los-cerrillos",
+   "spain/la-jaraba",
+   "spain/el-vicario",
+   "spain/chozas-carrascal",
+   "spain/vera-de-estenas",
+   "spain/bullas",
+   "spain/cangas",
+   "spain/valtiendas",
+   "spain/dominio-de-valdepusa",
+   "spain/valles-de-benavente",
+   "spain/el-terrerazo",
+   "spain/calzadilla",
+   "spain/guijoso",
+   "spain/campo-de-la-guardia",
+   "spain/malaga",
+   "spain/pago-florentino"
+  ],
+  "short_names": {},
+  "panel1_labels": {
+   "The Upper Ebro": [
+    104,
+    108,
+    "end"
+   ],
+   "The Duero": [
+    62,
+    165,
+    "end"
+   ],
+   "Catalonia": [
+    214,
+    180,
+    "middle"
+   ]
+  },
+  "panel2_labels": {
+   "navarra": [
+    236,
+    100,
+    "start"
+   ],
+   "ribera-del-duero": [
+    362,
+    252,
+    "middle"
+   ]
+  }
+ },
+ "$why": "Not an EU PDO or PGI or a US AVA: a country, state, region, group or sub-zone, with no shape of its own in the map data. The places under it that draw stay covered."
+}

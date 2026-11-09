@@ -1,0 +1,40 @@
+{
+ "subject": "vintage",
+ "id": "france/bordeaux/1996",
+ "read": "2026-11-05",
+ "sources": {
+  "wine-independent": {"name": "The Wine Independent, 1996 Bordeaux", "kind": "critic", "url": "https://thewineindependent.com/1996-bordeaux/"},
+  "wine-doctor": {"name": "The Wine Doctor, Chateau Climens 1996 Barsac", "kind": "critic", "url": "https://www.thewinedoctor.com/weekend/climens_barsac_1996.shtml", "note": "A Climens tasting page. The vintage comments are the author's."},
+  "search-summaries": {"name": "Search summaries of Jancis Robinson, Decanter, Wine Cellar Insider and Wine-Searcher pages on Bordeaux 1996", "kind": "general", "note": "Relayed through search summaries. Those pages were not read, apart from the two above."}
+ },
+ "claims": [
+  {"topic": "vintage", "claim": "Spring started early. April cold raised frost fears, but damage was minor. Flowering in late May and early June was warm and sunny, though Merlot suffered millerandage and the Merlot crop was small.", "source": ["wine-independent"], "strength": "Medium", "note": "One source."},
+  {"topic": "vintage", "claim": "Mid-July to mid-August was warm and sunny. Mid-August rain was heavy on the Right Bank and in Sauternes, and lighter in the Médoc. Veraison was slow and uneven where it was wettest.", "source": ["wine-independent"], "strength": "Medium", "note": "One source read in full. Search summaries disagree on where the August storm hit hardest. See conflicts."},
+  {"topic": "vintage", "claim": "Mid-September rain pushed many Merlot growers to pick earlier than they wanted. Cabernet came in a few weeks later under drier conditions.", "source": ["wine-independent", "search-summaries"], "strength": "Medium"},
+  {"topic": "vintage", "claim": "The Médoc is the strength of the year. Wine Independent rates the Médoc 95 and calls the first growths spectacular. Lafite and Latour are the names most often put first.", "source": ["wine-independent", "search-summaries"], "strength": "Medium", "note": "Two sources agree on the Left Bank lead. The score is one critic's."},
+  {"topic": "vintage", "claim": "Left Bank reds are classic and medium-bodied. They are firmly structured and savory, with good muscle.", "source": ["wine-independent"], "strength": "Medium", "note": "One source. Search summaries describe them as tannic and deeply concentrated."},
+  {"topic": "vintage", "claim": "Pessac-Léognan is rated 88. Haut-Brion is described as a step behind the other first growths but still very good.", "source": ["wine-independent"], "strength": "Weak", "note": "One source, one critic's score."},
+  {"topic": "vintage", "claim": "Pomerol and Saint-Émilion are rated 88. August rain and the early Merlot harvest hurt them most. The best wines are balanced, but the Right Bank is uneven.", "source": ["wine-independent", "search-summaries"], "strength": "Medium", "note": "Two sources agree it is the weaker bank. Some say it is far from a disaster."},
+  {"topic": "window", "claim": "Jancis Robinson is said to call 1996 a tough, slow-maturing vintage like 1986, with stunning wines in the Médoc that are for keeping. Wine Independent says Montrose has many years left.", "source": ["search-summaries", "wine-independent"], "strength": "Weak", "note": "Robinson is relayed second hand. Tannins in some wines may not be fully ripe. Decanter's guide is said to give a drink now rating, which conflicts."},
+  {"topic": "vintage", "claim": "Sauternes got about five times the Left Bank's August rain. Botrytis was slow and only really took hold in October. The first picks in September were light, and the October picks were richly botrytised.", "source": ["wine-doctor", "wine-independent"], "strength": "Medium", "note": "Wine Independent says light rain in mid-October triggered the botrytis. Wine Doctor says botrytis developed in October."},
+  {"topic": "vintage", "claim": "Wine Independent rates Sauternes and Barsac 90 and calls the wines complex, balanced and age-worthy. Yquem, de Fargues and Lafaurie-Peyraguey are named.", "source": ["wine-independent"], "strength": "Medium", "note": "One critic's view."},
+  {"topic": "tasting", "claim": "The late concentration often gives a fat style with marmalade, satsuma and barley sugar notes, and sometimes sharp acidity. The Wine Doctor author was never fully won over and ranks 1995, 1997 and 1999 as equal or better.", "source": ["wine-doctor"], "strength": "Weak", "note": "One taster, one wine. It reflects his taste."},
+  {"topic": "standing", "claim": "Sauternes are often called the best since 1990.", "source": ["search-summaries"], "strength": "Weak", "note": "Relayed second hand. Wine Doctor ranks several other years higher."}
+ ],
+ "conflicts": [
+  "August rain: Wine Independent says heavy on the Right Bank and in Sauternes, moderate in the Médoc. One search summary puts a late-August storm over the Right Bank and Margaux. Another says Margaux to Saint-Estèphe got much less rain than Saint-Émilion and Pomerol.",
+  "Maturity: Robinson (relayed) says slow to mature and for keeping. Decanter's guide is relayed as drink now. Treat any single drinking window with care.",
+  "Sauternes quality: some summaries say best since 1990. Wine Doctor ranks 1995, 1997 and 1999 equal or better."
+ ],
+ "gaps": [
+  "No primary weather data read, such as Météo-France rainfall.",
+  "Jancis Robinson, Decanter and Wine Cellar Insider pages were found but not read.",
+  "No yield or volume figures found.",
+  "No Bordeaux CIVB report read."
+ ],
+ "sheet": {
+  "vintage_left": "A warm, sunny summer, then Cabernet picked later in drier weather. This is the Médoc's year, with firm, savory reds built to keep.",
+  "vintage_right": "August rain and a rushed Merlot harvest made Pomerol and Saint-Émilion uneven. The best wines are balanced. Others are lighter.",
+  "vintage_sauternes": "August rain was heavy in Sauternes. Botrytis came late, in October. Late picks gave rich, concentrated wines."
+ }
+}

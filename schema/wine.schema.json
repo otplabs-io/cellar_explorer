@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "pour-sheets/wine.schema.json",
+  "title": "Pour Sheets wine record",
+  "description": "wines/<id>/wine.json. Top-level keys named after theme roles (accent, tint, disc, bottle, bottle_highlight, wine, capsule) override the theme. The identity and region blocks feed the catalog and its filters; content holds the sheet's copy; the remaining keys set up the map. Vocabulary checks that a schema can't express (icon ids, region ids, producer ids) are in regions/check_wines.py.",
+  "type": "object",
+  "required": ["id", "sheet_title", "identity", "region", "content"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"},
+    "sheet_title": {"type": "string"},
+    "identity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "producer", "vintage", "style", "grapes", "cellartracker"],
+      "properties": {
+        "name": {"type": "string", "description": "The wine's own name, without producer or vintage."},
+        "producer": {"type": "string", "description": "A producer id: producers/<id>/producer.json."},
+        "vintage": {"oneOf": [{"type": "integer", "minimum": 1800, "maximum": 2100}, {"const": "NV"}]},
+        "style": {"enum": ["red", "white", "rosé", "sparkling", "dessert", "fortified", "orange"]},
+        "color": {"enum": ["red", "white", "rosé", "orange"], "description": "Needed when the style doesn't say it: sparkling, dessert and fortified wines."},
+        "grapes": {
+          "type": "array", "minItems": 1,
+          "items": {"type": "object", "additionalProperties": false, "required": ["name"],
+                    "properties": {"name": {"type": "string"}, "share": {"type": ["number", "null"], "minimum": 0, "maximum": 100, "description": "Percent, only when sourced for this vintage."}}}
+        },
+        "alcohol": {"type": ["number", "null"], "minimum": 0, "maximum": 25},
+        "cellartracker": {"type": "array", "items": {"type": "string", "pattern": "^[0-9]+$"}, "description": "CellarTracker iWine ids this record covers, one per vintage and size listing."}
+      }
+    },
+    "region": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["node", "placed_by"],
+      "properties": {
+        "node": {"type": "string"},
+        "tier": {"type": "string"},
+        "vineyard": {"type": "string"},
+        "grown_in": {"type": "string"},
+        "placed_by": {"enum": ["label", "source", "judgment"]},
+        "note": {"type": "string"}
+      }
+    },
+    "theme": {"enum": ["white", "red", "sparkling", "rose", "dessert", "fortified"]},
+    "bottle_shape": {"enum": ["burgundy", "bordeaux", "champagne"]},
+    "content": {
+      "type": "object",
+      "required": ["title", "subtitle", "intro", "facts", "taste", "flavors", "window", "pairs"],
+      "properties": {
+        "producer": {"type": "string", "description": "Optional. Defaults to the producer record's name."},
+        "family": {"type": "string", "description": "Optional. Defaults to the producer record's story."},
+        "facts": {"type": "array", "items": {"type": "array", "minItems": 3, "maxItems": 3, "items": {"type": "string"}}},
+        "taste": {
+          "type": "array", "minItems": 1,
+          "items": {"type": "array", "prefixItems": [{"type": "integer", "minimum": 1, "maximum": 5},
+                                                      {"enum": ["Sweetness", "Body", "Acidity", "Tannin", "Oak", "Alcohol", "Mousse"]},
+                                                      {"type": "string"}], "minItems": 3, "maxItems": 3}
+        },
+        "flavors": {"type": "array", "minItems": 1, "items": {"type": "array", "prefixItems": [{"type": "string"}, {"type": "string"}], "minItems": 2, "maxItems": 2}},
+        "pairs": {"type": "array", "minItems": 1, "items": {"type": "array", "prefixItems": [{"type": "string"}, {"type": "string"}], "minItems": 2, "maxItems": 2}},
+        "window": {"type": ["array", "null"], "description": "[first, last, now], or null when no source gives a window; the window note says so.", "prefixItems": [{"type": "integer"}, {"type": "integer"}, {"type": "integer"}], "minItems": 2, "maxItems": 3}
+      }
+    }
+  }
+}

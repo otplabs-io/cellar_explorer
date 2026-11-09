@@ -1,0 +1,91 @@
+{
+ "zone": "barolo-docg",
+ "zone_name": "Barolo",
+ "tier": "DOCG",
+ "status": "exact",
+ "zone_ha": 7085,
+ "zone_source": "Regione Piemonte, Aree di produzione dei vini DOC e DOCG (CC BY 4.0)",
+ "zone_note": null,
+ "communes": [
+  [
+   "Barolo",
+   0.999,
+   false
+  ],
+  [
+   "Castiglione Falletto",
+   1.0,
+   false
+  ],
+  [
+   "Serralunga d'Alba",
+   0.995,
+   false
+  ],
+  [
+   "Alba",
+   0.017,
+   true
+  ],
+  [
+   "Cherasco",
+   0.005,
+   true
+  ],
+  [
+   "Diano d'Alba",
+   0.102,
+   true
+  ],
+  [
+   "Grinzane Cavour",
+   0.737,
+   true
+  ],
+  [
+   "La Morra",
+   0.899,
+   true
+  ],
+  [
+   "Monforte d'Alba",
+   0.598,
+   true
+  ],
+  [
+   "Novello",
+   0.458,
+   true
+  ],
+  [
+   "Roddi",
+   0.07,
+   true
+  ],
+  [
+   "Verduno",
+   0.432,
+   true
+  ]
+ ],
+ "cru": [
+  {
+   "name": "Gianetto",
+   "comuni": [
+    "Serralunga d'Alba"
+   ],
+   "ha": 11.2,
+   "parcels": 45
+  }
+ ],
+ "estate": null,
+ "area": "Langhe",
+ "neighbors": {
+  "Barbaresco": 3985,
+  "Canelli": 18579,
+  "Dogliani": 24153,
+  "Diano d’Alba": 1769,
+  "Roero": 14421,
+  "Verduno Pelaverga": 1503
+ }
+}

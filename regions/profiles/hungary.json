@@ -1,0 +1,101 @@
+{
+ "place": {
+  "subtitle": "From Hungary down to one region"
+ },
+ "styles": [
+  "red",
+  "white",
+  "sparkling",
+  "rosé",
+  "dessert",
+  "orange",
+  "fortified"
+ ],
+ "map": {
+  "engine": "zones",
+  "precision": "zone",
+  "zone_store": "eu",
+  "credit": "Maps: wine zones from the EU PDO boundaries (Candiago et al. 2022, CC0), drawn by whole commune; commune and region outlines © EuroGeographics for the administrative boundaries; estate location from {estate_source}. For orientation, not a legal boundary.",
+  "region_slug": "hungary",
+  "projection": 32634,
+  "eu": {
+   "country": "HU",
+   "nuts": [
+    "HU11",
+    "HU12",
+    "HU21",
+    "HU22",
+    "HU23",
+    "HU31",
+    "HU32",
+    "HU33"
+   ],
+   "tiers": {},
+   "default_tier": "Region",
+   "locator_bbox": [
+    8,
+    42,
+    30,
+    52
+   ]
+  },
+  "locator_file": "hungary/_locator.json",
+  "tier_fill": {
+   "Region": "goldl"
+  },
+  "tier_key": [
+   [
+    "goldl",
+    "Wine regions"
+   ]
+  ],
+  "panel1": [
+   "Hungary",
+   "Its wine regions"
+  ],
+  "panel1_towns": [
+   "Budapest",
+   "Debrecen",
+   "Miskolc"
+  ],
+  "broad": [
+   "duna",
+   "balaton",
+   "pannon"
+  ],
+  "areas": [
+   {
+    "name": "The northeast",
+    "title": "The northeast",
+    "zones": [
+     "tokaj",
+     "bukk",
+     "eger",
+     "matra"
+    ],
+    "towns": [
+     "Miskolc"
+    ]
+   }
+  ],
+  "panel2_subtitle": "Its wine regions",
+  "panel3_subtitle": "Its region, by commune",
+  "covers": [
+   "hungary/eger",
+   "hungary/pannon",
+   "hungary/balaton",
+   "hungary/csopak",
+   "hungary/tokaj",
+   "hungary/eszak-dunantul",
+   "hungary/duna",
+   "hungary/tihany",
+   "hungary/izsaki-arany-sarfeher",
+   "hungary/soltvadkerti",
+   "hungary/debroi-harslevelu",
+   "hungary/kali",
+   "hungary/monor",
+   "hungary/somloi"
+  ]
+ },
+ "$why": "Not an EU PDO or PGI or a US AVA: a country, state, region, group or sub-zone, with no shape of its own in the map data. The places under it that draw stay covered."
+}

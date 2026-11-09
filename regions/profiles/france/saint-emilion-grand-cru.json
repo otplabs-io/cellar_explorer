@@ -1,0 +1,20 @@
+{
+ "story": {
+  "signature": {
+   "component": "quality_ladder",
+   "title": "The Saint-Émilion classification",
+   "tiers": [
+    "Premier Grand Cru Classé A",
+    "Premier Grand Cru Classé B",
+    "Grand Cru Classé",
+    "Grand Cru"
+   ],
+   "labels": [
+    "Premier A",
+    "Premier B",
+    "Classé",
+    "Grand Cru"
+   ]
+  }
+ }
+}

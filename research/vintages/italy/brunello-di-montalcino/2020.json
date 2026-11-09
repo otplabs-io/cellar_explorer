@@ -1,0 +1,153 @@
+{
+ "subject": "vintage",
+ "id": "italy/brunello-di-montalcino/2020",
+ "read": "2026-11-05",
+ "sources": {
+  "consorzio-stars": {
+   "name": "Consorzio del Vino Brunello di Montalcino, vintage star ratings page",
+   "kind": "official",
+   "url": "https://www.consorziobrunellodimontalcino.it/en/piastrelle/",
+   "note": "Lists stars only, no weather text. Ratings are declared each February at Benvenuto Brunello."
+  },
+  "winenews-2020": {
+   "name": "WineNews, Brunello 2020 five stars (Consorzio president Bindocci)",
+   "kind": "reference",
+   "url": "https://winenews.it/?p=437481"
+  },
+  "vinexus-2020": {
+   "name": "Vinexus, current vintages: Brunello 20, Barolo 21, Barbaresco 22",
+   "kind": "merchant",
+   "url": "https://www.vinexus.co.uk/blog/the-current-vintages-of-italian-fine-wine-brunello-20-barolo-21-and-barbaresco-22"
+  },
+  "isfw": {
+   "name": "Italy's Finest Wines, best vintages of Brunello di Montalcino",
+   "kind": "reference",
+   "url": "https://italysfinestwines.it/en/migliori-annate-brunello-di-montalcino/",
+   "note": "Secondary summary. Its own star list differs from the Consorzio for 2020, and its 2016 harvest line is garbled so it is not used."
+  },
+  "winealign-2025": {
+   "name": "WineAlign, Montalcino Previews 2024: Brunello 2020, Riserva 2019 and older vintages",
+   "kind": "critic",
+   "url": "https://www.winealign.com/articles/2025/01/20/montalcino-previews-2024-brunello-2020-brunello-riserva-2019-and-older-vintages",
+   "about": "Mainly 2020 and 2019 Riserva."
+  }
+ },
+ "claims": [
+  {
+   "topic": "vintage",
+   "claim": "Winter was mild and warm, the end of 2019 rainy and the start of 2020 dry. Budburst was early and varied by site.",
+   "source": [
+    "vinexus-2020",
+    "isfw"
+   ],
+   "strength": "Strong",
+   "note": "Two sources agree."
+  },
+  {
+   "topic": "vintage",
+   "claim": "A cold snap of 4 to 5 days in early April slowed bud development and cut yields, with little outright frost damage. Frost-prone zones lost about 20% on average.",
+   "source": [
+    "vinexus-2020",
+    "winealign-2025"
+   ],
+   "strength": "Medium",
+   "note": "Two sources, loosely consistent."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Spring rain was well distributed. May was ideal and mid-April temperatures recovered.",
+   "source": [
+    "isfw",
+    "vinexus-2020"
+   ],
+   "strength": "Medium",
+   "note": "Flowering not described."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Summer was hot and sunny without extreme spikes. July and early August were very hot. Storms and heavy rain at the end of August, and early September rain, cooled the vineyards and delayed ripening.",
+   "source": [
+    "vinexus-2020",
+    "isfw",
+    "winealign-2025"
+   ],
+   "strength": "Strong",
+   "note": "Three sources agree."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Large day-night swings in September, about 14C on average, helped final ripening.",
+   "source": [
+    "winealign-2025"
+   ],
+   "strength": "Medium",
+   "note": "One source."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Harvest began mid-September to the last weekend of September in the north, the east about a week after the south, and ended in mid-October without rain.",
+   "source": [
+    "isfw",
+    "winealign-2025"
+   ],
+   "strength": "Medium",
+   "quote": "concluded without rain by mid-October",
+   "note": "Sources differ on start date."
+  },
+  {
+   "topic": "production",
+   "claim": "Volumes were reduced. Brunello production was about 80% of 2019, which one critic calls average. Many producers made no Riserva.",
+   "source": [
+    "winealign-2025",
+    "winenews-2020",
+    "vinexus-2020"
+   ],
+   "strength": "Strong",
+   "note": "Three sources agree on lower yields."
+  },
+  {
+   "topic": "tasting",
+   "claim": "Sangiovese is fresh, elegant and silky, ripe, with good concentration. The best are polished, many are understated, and high-elevation wines are more structured. The Consorzio president calls it partly like 2010 and partly like 2012, with long ageing potential.",
+   "source": [
+    "winealign-2025",
+    "vinexus-2020",
+    "winenews-2020"
+   ],
+   "strength": "Medium",
+   "note": "Italy's Finest Wines adds warm, round and early-drinking, which differs from the critic view of freshness."
+  },
+  {
+   "topic": "standing",
+   "claim": "The Consorzio rated 2020 five stars, announced at the online Benvenuto Brunello Off in 2021.",
+   "source": [
+    "consorzio-stars",
+    "winenews-2020"
+   ],
+   "strength": "Strong",
+   "quote": "another spectacular harvest",
+   "note": "Consorzio page and WineNews agree."
+  },
+  {
+   "topic": "other",
+   "claim": "Montalcino is moving on from the official five-star rating system. A new vintage map with the Consorzio and Gabriele Gorelli MW is planned, so later years may have no stars.",
+   "source": [
+    "winealign-2025"
+   ],
+   "strength": "Medium",
+   "quote": "moving on from the official five-star vintage rating system",
+   "note": "One source."
+  }
+ ],
+ "conflicts": [
+  "Stars: Italy's Finest Wines lists 2020 as four stars. The Consorzio page and WineNews say five. Use five.",
+  "Harvest start: mid-September (Italy's Finest Wines) versus the last weekend of September in the north (WineAlign)."
+ ],
+ "gaps": [
+  "No official yield or hectolitre figure read directly.",
+  "Flowering dates not found.",
+  "Decanter and Vinous pages were not read."
+ ],
+ "sheet": {
+  "vintage": "2020 was a hot summer cooled by rain in late August and early September. The crop was smaller, and the Sangiovese is fresh, silky and elegant. The Consorzio gave it five stars."
+ }
+}

@@ -1,0 +1,95 @@
+{
+ "story": {
+  "labels": {
+   "family": "The domaine"
+  }
+ },
+ "place": {
+  "subtitle": "From the Jura down to one appellation"
+ },
+ "map": {
+  "engine": "appellations",
+  "precision": "appellation",
+  "credit": "Maps: INAO appellation delimitations (Licence Ouverte) via OpenDataWine; commune outlines from france-geojson; estate location from {estate_source}. Levels 1 and 2 shade whole communes by their main appellation. For orientation, not a legal boundary.",
+  "projection": 2154,
+  "departments": [
+   [
+    "39",
+    "39-jura"
+   ]
+  ],
+  "region_root": "france/jura",
+  "subregions": {},
+  "towns": {
+   "39300": "Lons-le-Saunier",
+   "39013": "Arbois"
+  },
+  "panel1": [
+   "The Jura",
+   "Communes, shaded by area"
+  ],
+  "panel1_towns": [
+   "39300",
+   "39013"
+  ],
+  "generic": [
+   "Macvin du Jura",
+   "Crémant du Jura",
+   "Var",
+   "Gard",
+   "Landes",
+   "Maures",
+   "Vaucluse",
+   "Champagne",
+   "Sable de Camargue",
+   "Taureau de Camargue",
+   "Alpilles",
+   "Muscadet Sèvre et Maine Gorges",
+   "Coteaux Bourguignons ou Bourgogne grand ordinaire ou Bourgogne ordinaire",
+   "Crémant de Bourgogne",
+   "Bourgogne",
+   "Bourgogne Passe-tout-grains",
+   "Bourgogne aligoté",
+   "Bourgogne mousseux",
+   "Mediterranée",
+   "Méditerranée",
+   "Pays d'Oc"
+  ],
+  "fallback": null,
+  "subregion_default": null,
+  "aliases": {},
+  "subregions_by_department": {
+   "39": "Jura"
+  },
+  "panel2": [
+   "The Jura vineyards",
+   "Communes, shaded by their main appellation"
+  ],
+  "panel2_appellations": [
+   "Château-Chalon",
+   "Arbois",
+   "Arbois Pupillin",
+   "L'Etoile",
+   "Côtes du Jura"
+  ],
+  "communal": [
+   "Château-Chalon",
+   "Arbois",
+   "L'Etoile",
+   "Arbois Pupillin"
+  ],
+  "broad": [
+   "Côtes du Jura"
+  ],
+  "covers": [
+   "france/chateau-chalon",
+   "france/arbois",
+   "france/jura"
+  ]
+ },
+ "styles": [
+  "red",
+  "white",
+  "dessert"
+ ]
+}

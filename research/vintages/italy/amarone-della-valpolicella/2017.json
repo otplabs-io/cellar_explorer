@@ -1,0 +1,148 @@
+{
+ "subject": "vintage",
+ "id": "italy/amarone-della-valpolicella/2017",
+ "read": "2026-11-05",
+ "sources": {
+  "wsg": {
+   "name": "Wine Scholar Guild, Veneto Vintage Chart",
+   "kind": "critic",
+   "url": "https://winescholarguild.com/veneto-vintage-chart",
+   "note": "Read directly. Star graphics unreadable; text only."
+  },
+  "ifw": {
+   "name": "Italy's Finest Wines, Amarone della Valpolicella Vintages Rating Chart (Jean Marco Palmieri)",
+   "kind": "critic",
+   "url": "https://italysfinestwines.it/en/amarone-vintage-chart/",
+   "note": "Read directly. Third-party chart, not the Consorzio."
+  },
+  "bevdyn": {
+   "name": "Beverage Dynamics, A look at the 2017 vintage harvest for Valpolicella (6 Nov 2017, quotes Consorzio president Andrea Sartori)",
+   "kind": "general",
+   "url": "https://bevinfogroup.com/2017/11/06/a-look-at-the-2017-vintage-harvest-for-valpolicella/"
+  },
+  "decanter17": {
+   "name": "Decanter, Amarone 2017 vintage report",
+   "kind": "critic",
+   "url": "https://www.decanter.com/premium/amarone-2017-vintage-report-485688",
+   "note": "Paywalled. Known only from a search-result summary."
+  },
+  "jr17": {
+   "name": "Jancis Robinson, How is Italy's 2017 vintage shaping up",
+   "kind": "critic",
+   "url": "https://www.jancisrobinson.com/fr/articles/how-is-italys-2017-vintage-shaping-up",
+   "note": "Not read. Known only from a search-result summary."
+  },
+  "reading": {
+   "name": "Searches run for this file",
+   "kind": "general",
+   "note": "No Consorzio vintage rating found for these years."
+  }
+ },
+ "claims": [
+  {
+   "topic": "vintage",
+   "claim": "Winter was warm and dry.",
+   "source": [
+    "wsg",
+    "bevdyn"
+   ],
+   "strength": "Medium",
+   "note": "Wine Scholar Guild read. Beverage Dynamics via the same theme from a search summary."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Frost hit at the end of April but affected only a small area in Valpolicella. The pergola training system is credited with shielding vines. Jancis Robinson reportedly says the hillside vineyards were largely spared the wider Italian frost and drought.",
+   "source": [
+    "wsg",
+    "bevdyn",
+    "jr17"
+   ],
+   "strength": "Medium",
+   "quote": "a late-April frost that affected only a small area",
+   "note": "Quote from the Wine Scholar Guild. Jancis Robinson from search summary only."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Three hailstorms struck in quick succession between April and September.",
+   "source": [
+    "bevdyn"
+   ],
+   "strength": "Weak",
+   "note": "One source. Local scale unknown."
+  },
+  {
+   "topic": "vintage",
+   "claim": "June to August was hot with short droughts. Temperatures fell sharply in September, with thunderstorms. Consorzio president Andrea Sartori called it a very long, dry, hot summer.",
+   "source": [
+    "wsg",
+    "bevdyn"
+   ],
+   "strength": "Strong",
+   "quote": "a very long, dry, hot summer",
+   "note": "Two sources agree."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Harvest came 7 to 10 days earlier than in recent years. Ripeness was excellent with lower malic acidity.",
+   "source": [
+    "wsg"
+   ],
+   "strength": "Medium",
+   "note": "One source read."
+  },
+  {
+   "topic": "production",
+   "claim": "Hill production fell roughly 15 to 20%. Decanter reportedly says Veneto output was down about 20% on 2016, with no Amarone-specific figure. Amarone volumes were smaller than Valpolicella.",
+   "source": [
+    "ifw",
+    "decanter17",
+    "wsg"
+   ],
+   "strength": "Medium",
+   "note": "Decanter figure from search summary. Broadly consistent."
+  },
+  {
+   "topic": "winemaking",
+   "claim": "Earlier-picked grapes suited drying. Drying runs up to four months on straw mats or in controlled rooms, and Sartori expected pressing in the first week of December or earlier.",
+   "source": [
+    "wsg",
+    "bevdyn"
+   ],
+   "strength": "Medium",
+   "note": "No humidity or weight-loss data found."
+  },
+  {
+   "topic": "tasting",
+   "claim": "Wines are deep and extract-rich with ripe tannins and penetrating fruit. Sartori described them as easy-drinking, with no hard tannins, and flavours of cherry, fig, plum and cinnamon.",
+   "source": [
+    "ifw",
+    "bevdyn"
+   ],
+   "strength": "Medium",
+   "note": "Sartori is a producer-side voice."
+  },
+  {
+   "topic": "standing",
+   "claim": "Wine Scholar Guild calls the Amarone lighter than usual, with 10 to 15 years of ageing potential. Italy's Finest Wines gives four stars. Decanter reportedly calls it good but not great.",
+   "source": [
+    "wsg",
+    "ifw",
+    "decanter17"
+   ],
+   "strength": "Medium",
+   "note": "Critics differ on ranking. See conflicts."
+  }
+ ],
+ "conflicts": [
+  "Quality: Italy's Finest Wines says it ranks among the best vintages. Wine Scholar Guild says lighter than usual. Decanter reportedly says good but not great. Retailers and producers are warmer.",
+  "Frost: Beverage Dynamics reports frost without scale. Wine Scholar Guild says a small area."
+ ],
+ "gaps": [
+  "No Consorzio Tutela Vini Valpolicella vintage rating or official harvest report was found or read.",
+  "Flowering dates not found.",
+  "Decanter and Jancis Robinson pages not read directly."
+ ],
+ "sheet": {
+  "vintage": "2017 was hot and dry with a small spring frost and an early harvest. Yields were lower, and the Amarone is easy to drink, with soft tannins."
+ }
+}

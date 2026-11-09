@@ -1,0 +1,43 @@
+{
+ "story": {
+  "signature": {
+   "component": "ava_nest",
+   "title": "Its AVAs"
+  }
+ },
+ "place": {
+  "subtitle": "From the wider region down to one AVA"
+ },
+ "facts_blend": true,
+ "map": {
+  "engine": "avas",
+  "precision": "ava",
+  "credit": "Maps: AVA boundaries from the UC Davis Library AVA Project, digitized from the TTB’s legal descriptions (27 CFR part 9); county outlines from US Census cartographic boundaries via Plotly. For orientation, not a legal boundary.",
+  "avas_url": "https://raw.githubusercontent.com/UCDavisLibrary/ava/master/avas_aggregated_files/avas.geojson",
+  "counties_url": "https://raw.githubusercontent.com/plotly/datasets/master/geojson-counties-fips.json",
+  "auto_chain": true,
+  "west_states": {
+   "06": "California",
+   "41": "Oregon",
+   "53": "Washington",
+   "32": "Nevada",
+   "16": "Idaho"
+  },
+  "west_name": "The West Coast",
+  "projection": 5070,
+  "state_fips": "41",
+  "state_name": "Oregon",
+  "covers": [
+   "united-states/willamette-valley",
+   "united-states/southern-oregon"
+  ]
+ },
+ "styles": [
+  "red",
+  "white",
+  "sparkling",
+  "rosé",
+  "dessert"
+ ],
+ "$why": "Not an EU PDO or PGI or a US AVA: a country, state, region, group or sub-zone, with no shape of its own in the map data. The places under it that draw stay covered."
+}

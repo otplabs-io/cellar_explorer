@@ -1,0 +1,29 @@
+{
+ "$comment": "Region settings for the zones engine, from Orazio Campoli’s store for the region. Broad: the zones that cover more than a third of the region, left out of the shading so the smaller zones show.",
+ "place": {
+  "subtitle": "From Abruzzo down to one zone"
+ },
+ "map": {
+  "region_slug": "abruzzo",
+  "istat_regions": [
+   13
+  ],
+  "panel1": [
+   "Abruzzo",
+   "Zones, shaded by level"
+  ],
+  "panel1_towns": [],
+  "broad": [
+   "abruzzo-doc",
+   "cerasuolo-dabruzzo-doc",
+   "montepulciano-dabruzzo-doc",
+   "terre-abruzzesi-igt",
+   "terre-aquilane-igt",
+   "trebbiano-dabruzzo-doc"
+  ],
+  "areas": [],
+  "covers": [
+   "italy/abruzzo"
+  ]
+ }
+}

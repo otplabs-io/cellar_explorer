@@ -1,0 +1,227 @@
+{
+ "story": {
+  "labels": {
+   "family": "The family"
+  }
+ },
+ "place": {
+  "subtitle": "From Piemonte down to one zone"
+ },
+ "map": {
+  "credit": "Maps: wine zones from Orazio Campoli’s Italian Wine Map, used with permission, drawn from Regione Piemonte’s zone data (CC BY 4.0); commune outlines from ISTAT via openpolis (CC BY); estate location from {estate_source}. For orientation, not a legal boundary.",
+  "region_slug": "piedmont-piemonte",
+  "istat_regions": [
+   1
+  ],
+  "panel1": [
+   "Piemonte",
+   "Zones, shaded by level"
+  ],
+  "panel1_towns": [
+   "Turin",
+   "Asti",
+   "Cuneo",
+   "Novara"
+  ],
+  "panel1_town_side": {
+   "Asti": "end"
+  },
+  "panel1_labels": {
+   "Langhe": [
+    100,
+    236,
+    "end"
+   ],
+   "Asti and Monferrato": [
+    285,
+    276,
+    "end"
+   ],
+   "Alto Piemonte": [
+    120,
+    141,
+    "end"
+   ]
+  },
+  "this_wine": [
+   100,
+   272,
+   "end"
+  ],
+  "panel2_labels": {
+   "barbaresco-docg": [
+    300,
+    140,
+    "start"
+   ],
+   "dolcetto-di-diano-dalba-diano-dalba-docg": [
+    300,
+    166,
+    "start"
+   ]
+  },
+  "panel2_town_side": {
+   "Alba": "end"
+  },
+  "broad": [
+   "piemonte-doc",
+   "monferrato-doc",
+   "barbera-del-monferrato-doc",
+   "barbera-del-monferrato-superiore-docg",
+   "alta-langa-docg",
+   "barbera-dasti-docg",
+   "freisa-dasti-doc",
+   "langhe-doc",
+   "cortese-dellalto-monferrato-doc",
+   "canavese-doc",
+   "pinerolese-doc",
+   "colli-tortonesi-doc",
+   "derthona-doc",
+   "asti-moscato-dasti-docg",
+   "alba-doc",
+   "barbera-dalba-doc",
+   "valli-ossolane-doc",
+   "grignolino-dasti-doc",
+   "valsusa-doc",
+   "grignolino-del-monferrato-casalese-doc",
+   "dolcetto-dacqui-doc",
+   "collina-torinese-doc",
+   "dolcetto-dalba-doc",
+   "nebbiolo-dalba-doc",
+   "coste-della-sesia-doc",
+   "dolcetto-dasti-doc",
+   "colline-novaresi-doc",
+   "dolcetto-di-ovada-doc",
+   "freisa-di-chieri-doc"
+  ],
+  "areas": [
+   {
+    "name": "Langhe",
+    "title": "The Langhe and Roero",
+    "zones": [
+     "barolo-docg",
+     "barbaresco-docg",
+     "roero-docg",
+     "dogliani-docg",
+     "dolcetto-di-diano-dalba-diano-dalba-docg",
+     "verduno-doc"
+    ],
+    "towns": [
+     "Alba",
+     "Bra"
+    ]
+   },
+   {
+    "name": "Asti and Monferrato",
+    "label": "Monferrato",
+    "zones": [
+     "nizza-docg",
+     "canelli-docg",
+     "ruche-di-castagnole-monferrato-docg",
+     "terre-alfieri-docg",
+     "gavi-cortese-di-gavi-docg",
+     "brachetto-dacqui-acqui-docg",
+     "dolcetto-di-ovada-superiore-ovada-docg",
+     "cisterna-dasti-doc",
+     "loazzolo-doc",
+     "strevi-doc"
+    ],
+    "towns": [
+     "Asti",
+     "Acqui Terme"
+    ]
+   },
+   {
+    "name": "Alto Piemonte",
+    "zones": [
+     "gattinara-docg",
+     "ghemme-docg",
+     "boca-doc",
+     "fara-doc",
+     "sizzano-doc",
+     "lessona-doc",
+     "bramaterra-doc"
+    ],
+    "towns": [
+     "Novara",
+     "Biella"
+    ]
+   }
+  ],
+  "short_names": {
+   "dolcetto-di-diano-dalba-diano-dalba-docg": "Diano d’Alba",
+   "verduno-doc": "Verduno Pelaverga"
+  },
+  "cru_legend": "Its MGAs, the named vineyards",
+  "covers": [
+   "italy/barolo",
+   "italy/barbaresco",
+   "italy/barbera-d-alba",
+   "italy/barbera-d-asti",
+   "italy/dolcetto-d-alba",
+   "italy/roero",
+   "italy/gavi",
+   "italy/moscato-d-asti",
+   "italy/alta-langa",
+   "italy/gattinara",
+   "italy/rubino-di-cantavenna",
+   "italy/boca",
+   "italy/lessona",
+   "italy/collina-torinese",
+   "italy/asti",
+   "italy/fara",
+   "italy/loazzolo",
+   "italy/sizzano",
+   "italy/ghemme",
+   "italy/nebbiolo-d-alba",
+   "italy/gabiano",
+   "italy/pinerolese",
+   "italy/grignolino-del-monferrato-casalese",
+   "italy/canelli",
+   "italy/freisa-d-asti",
+   "italy/nizza",
+   "italy/terre-alfieri",
+   "italy/ruche-di-castagnole-monferrato",
+   "italy/piemonte",
+   "italy/brachetto-d-acqui",
+   "italy/valsusa",
+   "italy/monferrato",
+   "italy/malvasia-di-castelnuovo-don-bosco",
+   "italy/dogliani",
+   "italy/cisterna-d-asti",
+   "italy/malvasia-di-casorzo-d-asti",
+   "italy/canavese",
+   "italy/barbera-del-monferrato-superiore",
+   "italy/strevi",
+   "italy/dolcetto-d-acqui",
+   "italy/alba",
+   "italy/grignolino-d-asti",
+   "italy/barbera-del-monferrato",
+   "italy/colline-novaresi",
+   "italy/dolcetto-di-ovada",
+   "italy/valli-ossolane",
+   "italy/erbaluce-di-caluso",
+   "italy/colli-tortonesi",
+   "italy/colline-saluzzesi",
+   "italy/verduno-pelaverga",
+   "italy/albugnano",
+   "italy/dolcetto-di-diano-d-alba",
+   "italy/langhe",
+   "italy/calosso",
+   "italy/coste-della-sesia",
+   "italy/carema",
+   "italy/cortese-dell-alto-monferrato",
+   "italy/dolcetto-d-asti",
+   "italy/freisa-di-chieri",
+   "italy/bramaterra",
+   "italy/dolcetto-di-ovada-superiore"
+  ]
+ },
+ "styles": [
+  "red",
+  "white",
+  "sparkling",
+  "dessert"
+ ],
+ "$why": "Not an EU PDO or PGI or a US AVA: a country, state, region, group or sub-zone, with no shape of its own in the map data. The places under it that draw stay covered."
+}

@@ -1,0 +1,128 @@
+{
+ "story": {
+  "signature": {
+   "component": "quality_ladder",
+   "title": "Portugal’s ladder",
+   "tiers": [
+    "DOC",
+    "Vinho Regional",
+    "Vinho"
+   ]
+  }
+ },
+ "place": {
+  "subtitle": "From Portugal down to one zone"
+ },
+ "styles": [
+  "red",
+  "white",
+  "sparkling",
+  "rosé",
+  "dessert",
+  "orange",
+  "fortified"
+ ],
+ "map": {
+  "engine": "zones",
+  "precision": "zone",
+  "zone_store": "eu",
+  "credit": "Maps: wine zones from the EU PDO boundaries (Candiago et al. 2022, CC0), drawn by whole commune; commune and region outlines © EuroGeographics for the administrative boundaries; estate location from {estate_source}. For orientation, not a legal boundary.",
+  "region_slug": "portugal",
+  "projection": 32629,
+  "eu": {
+   "country": "PT",
+   "nuts": [
+    "PT11",
+    "PT15",
+    "PT16",
+    "PT17",
+    "PT18"
+   ],
+   "tiers": {},
+   "default_tier": "DOC",
+   "locator_bbox": [
+    -11,
+    35,
+    4,
+    45
+   ]
+  },
+  "locator_file": "portugal/_locator.json",
+  "tier_fill": {
+   "DOC": "goldl"
+  },
+  "tier_key": [
+   [
+    "goldl",
+    "DOC zones"
+   ]
+  ],
+  "panel1": [
+   "Portugal",
+   "Its DOC zones"
+  ],
+  "panel1_towns": [
+   "Lisboa",
+   "Porto",
+   "Coimbra"
+  ],
+  "broad": [
+   "porto"
+  ],
+  "areas": [
+   {
+    "name": "The north",
+    "title": "Northern Portugal",
+    "zones": [
+     "vinho-verde",
+     "douro",
+     "tras-os-montes",
+     "tavora-varosa",
+     "dao",
+     "bairrada",
+     "lafoes",
+     "beira-interior"
+    ],
+    "towns": [
+     "Porto"
+    ]
+   }
+  ],
+  "panel2_subtitle": "Its wine zones",
+  "panel3_subtitle": "Its delimited zone, by commune",
+  "covers": [
+   "portugal/vinho-regional-pgi",
+   "portugal/douro",
+   "portugal/vinho-verde",
+   "portugal/pico",
+   "portugal/biscoitos",
+   "portugal/beira-interior",
+   "portugal/graciosa",
+   "portugal/bairrada",
+   "portugal/dao",
+   "portugal/alentejo",
+   "portugal/tavora-varosa",
+   "portugal/setubal",
+   "portugal/porto",
+   "portugal/palmela",
+   "portugal/tras-os-montes",
+   "portugal/bucelas",
+   "portugal/madeirense",
+   "portugal/torres-vedras",
+   "portugal/lagos",
+   "portugal/carcavelos",
+   "portugal/tavira",
+   "portugal/alenquer",
+   "portugal/dotejo",
+   "portugal/colares",
+   "portugal/obidos",
+   "portugal/portimao",
+   "portugal/encostas-d-aire",
+   "portugal/lafoes",
+   "portugal/madeira",
+   "portugal/arruda",
+   "portugal/lagoa"
+  ]
+ },
+ "$why": "Not an EU PDO or PGI or a US AVA: a country, state, region, group or sub-zone, with no shape of its own in the map data. The places under it that draw stay covered."
+}

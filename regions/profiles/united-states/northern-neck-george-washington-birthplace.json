@@ -1,0 +1,6 @@
+{
+ "map": {
+  "covers": []
+ },
+ "$why": "Its draft map failed the label check: clipped: 'Northern Neck George Washington Birthplace' runs past panel 1 by 224.8px. The name is too long for the AVA engine's labels."
+}

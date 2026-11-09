@@ -1,0 +1,37 @@
+{
+ "subject": "vintage",
+ "id": "italy/barolo/2024",
+ "read": "2026-11-05",
+ "sources": {
+  "sharewine": {"name": "ShareWine, The 2024 harvest in Piemonte", "kind": "merchant", "url": "https://sharewine.com/en/sip-and-learn/sharewine-news/piemonte-2024-harvest-report"},
+  "langhe": {"name": "Langhe.net, Harvest 2024: A Chat with Producers (27 Sep 2024)", "kind": "general", "url": "https://langhe.net/en/269185/vintage-year-2024-chat-producers/"},
+  "chiarlo": {"name": "Michele Chiarlo harvest notes (2024 entry)", "kind": "producer", "url": "https://www.michelechiarlo.it/en/harvest-notes/"},
+  "vinetur": {"name": "Vinetur, Italy's 2024 wine harvest balances challenges and promises", "kind": "general", "url": "https://www.vinetur.com/2024111282912/italy-s-2024-wine-harvest-balances-challenges-and-promises.html"},
+  "jr-24": {"name": "Jancis Robinson, Barolo harvest report 2024: lots of grapes, little alcohol", "kind": "critic", "url": "https://jancisrobinson.com/ja/articles/barolo-harvest-report-2024-lots-grapes-little-alcohol", "note": "403 to direct fetch. Only the headline is known."}
+ },
+ "claims": [
+  {"topic": "vintage", "claim": "Rain came back after two dry years. Chiarlo reports annual rainfall above 900 mm, about three times 2022 and 2023. Rain fell from February to May and erased the soil water deficit.", "source": ["chiarlo", "langhe", "vinetur"], "strength": "Strong", "note": "Three sources agree on a wet spring. The 900 mm figure is from Chiarlo only. Winter was mild."},
+  {"topic": "vintage", "claim": "Wet weather made vineyard work hard and disease pressure high. Downy and powdery mildew were reported, and growers had to spray often, especially before flowering.", "source": ["chiarlo", "langhe"], "strength": "Strong", "note": "Two sources agree."},
+  {"topic": "vintage", "claim": "Frost, hail and flowering were not described in any source read.", "source": ["reading"], "strength": "Weak", "note": "Gap, listed so no one assumes a story."},
+  {"topic": "vintage", "claim": "Summer was warm and mostly dry from mid-June to mid-September, without damaging heat spikes. Producers were satisfied through August.", "source": ["chiarlo", "sharewine", "langhe", "vinetur"], "strength": "Strong", "note": "Four sources agree. Some producer comments note occasional spikes."},
+  {"topic": "vintage", "claim": "September brought persistent rain. Compact soils turned to mud, especially on lower slopes. A cooler September helped Nebbiolo ripen.", "source": ["sharewine", "vinetur"], "strength": "Medium", "note": "Sharewine stresses the rain. Vinetur credits cooler weather for ripening. Both can be true."},
+  {"topic": "vintage", "claim": "Harvest started later than usual, mid-September into October. Nebbiolo was picked last. In the Barolo and Barbaresco villages the harvest was finished by the third week of October, often in a short dry window.", "source": ["sharewine", "langhe", "vinetur"], "strength": "Strong", "note": "Three sources agree. A Verduno producer said red picking ran one to two weeks later than usual."},
+  {"topic": "production", "claim": "Yields were decent in the Langhe. Several producers describe a good or abundant crop after a very short 2023. Jancis Robinson's headline says lots of grapes. A secondary report says yields were severely reduced and wines lacked concentration.", "source": ["langhe", "jr-24"], "strength": "Weak", "note": "Sources conflict and no official figure found. Barolo yields are capped by the production rules."},
+  {"topic": "tasting", "claim": "Wines are expected to be lighter and finer, with lower alcohol, about 1 to 1.5 degrees below average. Barolo near 13.5%, against about 14.5% in 2019 and 2020. Chiarlo calls Nebbiolo good to very good and the Barolo very fine and elegant, but less structured. Quality depends on how strictly growers sorted.", "source": ["sharewine", "langhe", "chiarlo"], "strength": "Medium", "note": "Three sources agree, but these are pre-release expectations and producer views. No critic tasting read."},
+  {"topic": "other", "claim": "No source describes the 2024 season for Pelaverga. Producer listings show 2024 Verduno Pelaverga at around 13% alcohol, in a fresh, unoaked, stainless steel style.", "source": ["langhe"], "strength": "Estimate", "note": "Estimate only. Pelaverga is not mentioned in the sources read. Inferred from the general season and retailer listings."},
+  {"topic": "window", "claim": "Lighter structure suggests earlier approachability for Langhe Nebbiolo and Pelaverga. No critic drinking window was read.", "source": ["sharewine"], "strength": "Weak", "note": "Expectation from one merchant source."}
+ ],
+ "conflicts": [
+  "Yields: Jancis Robinson headline and Langhe producers suggest plenty of grapes. A 2025 secondary report says yields were severely reduced and wines lacked concentration. Likely varies by site, disease and sorting.",
+  "Season: Chiarlo describes a warm dry mid-June to mid-September. Others stress a wet spring and wet September. Both can hold true."
+ ],
+ "gaps": [
+  "No Pelaverga-specific vintage source.",
+  "Frost, hail and flowering not described.",
+  "Jancis Robinson 2024 report not read beyond its headline. No Consorzio report, no critic tasting reports, and no official yield figures.",
+  "Producers' views are from harvest time, not tasted wines."
+ ],
+ "sheet": {
+  "vintage": "2024 was a wet year, with a rainy spring and a rainy September, after two dry ones. The Nebbiolo is lighter and finer, with lower alcohol, so it is easy to enjoy young."
+ }
+}

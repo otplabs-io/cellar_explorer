@@ -1,0 +1,118 @@
+{
+ "place": {
+  "subtitle": "From Mendoza down to one area"
+ },
+ "styles": [
+  "red",
+  "white",
+  "sparkling",
+  "rosé",
+  "dessert",
+  "orange",
+  "fortified"
+ ],
+ "map": {
+  "engine": "zones",
+  "precision": "zone",
+  "zone_store": "eu",
+  "credit": "Maps: department outlines from the Instituto Geográfico Nacional via geoBoundaries (CC BY 3.0 IGO); country outlines © EuroGeographics for the administrative boundaries. Wine areas are drawn by whole department. For orientation, not a legal boundary.",
+  "region_slug": "argentina-mendoza",
+  "projection": 32719,
+  "admin": {
+   "border": {
+    "file": "geoBoundaries-ARG-ADM1_simplified.geojson",
+    "names": [
+     "Mendoza"
+    ]
+   },
+   "communes": {
+    "file": "geoBoundaries-ARG-ADM2_simplified.geojson"
+   },
+   "zones": [
+    {
+     "name": "Valle de Uco",
+     "slug": "valle-de-uco",
+     "tier": "IG",
+     "units": [
+      "Tupungato",
+      "Tunuyán",
+      "San Carlos"
+     ]
+    },
+    {
+     "name": "Luján de Cuyo",
+     "slug": "lujan-de-cuyo",
+     "tier": "DOC",
+     "units": [
+      "Luján de Cuyo"
+     ]
+    },
+    {
+     "name": "San Rafael",
+     "slug": "san-rafael",
+     "tier": "DOC",
+     "units": [
+      "San Rafael"
+     ]
+    }
+   ],
+   "locator_bbox": [
+    -80,
+    -56,
+    -50,
+    -18
+   ],
+   "source": "geoBoundaries department outlines from the Instituto Geográfico Nacional (CC BY 3.0 IGO)",
+   "note": "Drawn by whole department: an IG or DOC does not follow department lines exactly."
+  },
+  "locator_file": "argentina-mendoza/_locator.json",
+  "tier_fill": {
+   "DOC": "gold",
+   "IG": "goldl"
+  },
+  "tier_key": [
+   [
+    "gold",
+    "DOC areas"
+   ],
+   [
+    "goldl",
+    "IG areas"
+   ]
+  ],
+  "panel1": [
+   "Mendoza",
+   "Wine areas, drawn by department"
+  ],
+  "panel1_towns": [
+   "Capital"
+  ],
+  "broad": [],
+  "areas": [
+   {
+    "name": "The Uco and Luján",
+    "title": "Valle de Uco and Luján de Cuyo",
+    "zones": [
+     "valle-de-uco",
+     "lujan-de-cuyo"
+    ],
+    "towns": [
+     "Capital"
+    ],
+    "label": "Uco and Luján"
+   }
+  ],
+  "panel2_subtitle": "Its wine areas",
+  "panel3_subtitle": "Its area, drawn by department",
+  "covers": [
+   "argentina/mendoza"
+  ],
+  "panel1_labels": {
+   "The Uco and Luján": [
+    58,
+    96,
+    "middle"
+   ]
+  }
+ }
+}

@@ -1,0 +1,160 @@
+{
+ "subject": "vintage",
+ "id": "italy/tuscany/2022",
+ "read": "2026-11-05",
+ "sources": {
+  "cc22": {
+   "name": "Consorzio Chianti Classico, vintage report 2022",
+   "kind": "official",
+   "url": "https://chianticlassico.com/en/?p=60696",
+   "note": "Written during harvest season, so quality is early and promotional."
+  },
+  "cc22pr": {
+   "name": "Consorzio Chianti Classico press release, 2022 harvest (17 Nov 2022)",
+   "kind": "official",
+   "url": "https://www.mynewsdesk.com/se/ehrenberg-soerensen-kommunikation/pressreleases/2022-chianti-classico-harvest-3217992"
+  },
+  "search": {
+   "name": "Web search summaries (Decanter, Jancis Robinson, Vinous, Wine Spectator, producers)",
+   "kind": "general",
+   "note": "Facts marked with this slug were read only in search-result summaries, not on the original pages, which were paywalled, blocked or truncated."
+  },
+  "isf": {
+   "name": "Italy's Finest Wines, Chianti Classico vintage chart",
+   "kind": "reference",
+   "url": "https://www.italysfinestwines.it/en/chianti-vintage-chart/",
+   "note": "Star ratings and short notes, no harvest dates."
+  },
+  "bdoc": {
+   "name": "Consorzio Tutela Vini Bolgheri DOC, vintages page",
+   "kind": "official",
+   "url": "https://www.bolgheridoc.com/en/wines/vintages/"
+  },
+  "wsg": {
+   "name": "Wine Scholar Guild, Tuscany vintage chart (Bolgheri and Brunello only)",
+   "kind": "reference",
+   "url": "https://www.winescholarguild.com/italian-wine-vintage-charts/tuscany-vintage-chart",
+   "note": "Covers Bolgheri, not Chianti Classico. 2022 rating is tentative."
+  },
+  "ricasoli": {
+   "name": "Barone Ricasoli, 2022 harvest (Brolio estate)",
+   "kind": "producer",
+   "url": "https://www.ricasoli.com/en/?p=61741",
+   "note": "One estate, not a regional view."
+  }
+ },
+ "claims": [
+  {
+   "topic": "vintage",
+   "claim": "The Consorzio reports no spring frost and no significant hail in Chianti Classico. Jancis Robinson reportedly cites Tuscan spring frost, and individual estates report hail.",
+   "source": [
+    "cc22",
+    "cc22pr",
+    "search"
+   ],
+   "strength": "Medium",
+   "note": "Sources conflict. See conflicts."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Italy's Finest Wines describes a mild winter and dry spring. Bolgheri drought began in late winter and ran through much of summer. Bolgheri had minor spring frost in pockets.",
+   "source": [
+    "isf",
+    "bdoc",
+    "wsg"
+   ],
+   "strength": "Medium",
+   "note": "Three sources, though frost is one source."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Summer was hot and dry. Ricasoli recorded temperatures over 30 C from May and 38 to 40 C in July, with water stress on stony soils. The Consorzio says heat stayed steady without extreme peaks and spring rain protected the vines.",
+   "source": [
+    "ricasoli",
+    "cc22",
+    "cc22pr"
+   ],
+   "strength": "Medium",
+   "note": "One estate and the Consorzio give different emphases."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Mid-August rain eased the heat in both zones and restarted ripening in Bolgheri. Some Chianti Classico estates saw early July hail.",
+   "source": [
+    "cc22",
+    "bdoc",
+    "wsg",
+    "ricasoli"
+   ],
+   "strength": "Strong",
+   "note": "Several sources agree on the rain."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Chianti Classico Sangiovese picking began about 10 September and ran about a month. Ricasoli's Brolio estate picked Sangiovese from 15 September into early October, and Chardonnay from 17 August. Bolgheri harvest began around the third week of August and finished in late September.",
+   "source": [
+    "cc22",
+    "ricasoli",
+    "bdoc",
+    "wsg"
+   ],
+   "strength": "Strong",
+   "note": "Consorzio dates for both zones agree with estate and chart data."
+  },
+  {
+   "topic": "production",
+   "claim": "Bolgheri yields were low, with small, concentrated berries. For Chianti Classico, the Consorzio gives no volume. Producers say it was above 2021 but below the ten-year average. Ricasoli called it bountiful. Some estates lost up to half their crop.",
+   "source": [
+    "wsg",
+    "isf",
+    "search",
+    "ricasoli"
+   ],
+   "strength": "Weak",
+   "note": "Sources conflict. See conflicts."
+  },
+  {
+   "topic": "tasting",
+   "claim": "Chianti Classico: balanced, with good acidity and ripe, soft tannins, enjoyable young. Decanter reportedly gives 4 out of 5 for a variable, near-term annata, and Vinous calls it highly variable.",
+   "source": [
+    "cc22",
+    "isf",
+    "search"
+   ],
+   "strength": "Medium",
+   "note": "Early Consorzio view is promotional. Decanter and Vinous from search summaries."
+  },
+  {
+   "topic": "tasting",
+   "claim": "Bolgheri: sturdy structure and ripe but grippy tannins, with dark fruit, moderate alcohol and good freshness. Some sources say it may age for decades.",
+   "source": [
+    "wsg",
+    "bdoc"
+   ],
+   "strength": "Medium",
+   "note": "Wine Scholar Guild rating is tentative."
+  },
+  {
+   "topic": "tasting",
+   "claim": "Late-ripening Cabernet Sauvignon in Bolgheri lost crop to August rain and September flash floods, according to one account.",
+   "source": [
+    "search"
+   ],
+   "strength": "Weak",
+   "note": "Search summary only."
+  }
+ ],
+ "conflicts": [
+  "Frost: the Consorzio says none in Chianti Classico, but Jancis Robinson reportedly cites April frost reducing Tuscan yields. Wine Scholar Guild notes minor spring frost in Bolgheri pockets.",
+  "Yields: Consorzio-linked and producer voices say healthy and bountiful, while Robinson and Italy's Finest Wines say low or limited. One estate reportedly lost almost 50% and another lost single-vineyard crus to hail."
+ ],
+ "gaps": [
+  "No Chianti Classico hectolitre total for 2022.",
+  "No Bolgheri official yield figure.",
+  "Florence hills and Valdarno not covered separately.",
+  "Decanter, Vinous and Robinson 2022 pages not read in full."
+ ],
+ "sheet": {
+  "vintage": "2022 was hot and very dry, but mid-August rain helped. Picking started early and the wines are ripe and balanced, though yields and quality vary by site."
+ }
+}

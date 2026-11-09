@@ -1,0 +1,150 @@
+{
+ "place": {
+  "subtitle": "From the Western Cape down to one district"
+ },
+ "styles": [
+  "red",
+  "white",
+  "sparkling",
+  "rosé",
+  "dessert",
+  "orange",
+  "fortified"
+ ],
+ "map": {
+  "engine": "zones",
+  "precision": "zone",
+  "zone_store": "eu",
+  "credit": "Maps: municipality outlines from the Municipal Demarcation Board via geoBoundaries (CC BY 3.0 IGO); country outlines © EuroGeographics for the administrative boundaries. Wine of Origin districts are drawn by municipality. For orientation, not a legal boundary.",
+  "region_slug": "south-africa-wc",
+  "projection": 32734,
+  "admin": {
+   "border": {
+    "file": "geoBoundaries-ZAF-ADM1_simplified.geojson",
+    "names": [
+     "Western Cape"
+    ]
+   },
+   "communes": {
+    "file": "geoBoundaries-ZAF-ADM3_simplified.geojson"
+   },
+   "zones": [
+    {
+     "name": "Stellenbosch",
+     "tier": "District",
+     "units": [
+      "Stellenbosch"
+     ]
+    },
+    {
+     "name": "Paarl",
+     "tier": "District",
+     "units": [
+      "Drakenstein"
+     ]
+    },
+    {
+     "name": "Swartland",
+     "tier": "District",
+     "units": [
+      "Swartland"
+     ]
+    },
+    {
+     "name": "Robertson",
+     "tier": "District",
+     "units": [
+      "Langeberg"
+     ]
+    },
+    {
+     "name": "Overberg",
+     "tier": "District",
+     "units": [
+      "Theewaterskloof"
+     ]
+    },
+    {
+     "name": "Walker Bay",
+     "tier": "District",
+     "units": [
+      "Overstrand"
+     ]
+    },
+    {
+     "name": "Cape Agulhas",
+     "tier": "District",
+     "units": [
+      "Cape Agulhas"
+     ]
+    }
+   ],
+   "locator_bbox": [
+    8,
+    -36,
+    36,
+    -16
+   ],
+   "source": "geoBoundaries municipality outlines from the Municipal Demarcation Board (CC BY 3.0 IGO)",
+   "note": "Wine of Origin districts are not published as map data, so each is drawn by its local municipality."
+  },
+  "locator_file": "south-africa-wc/_locator.json",
+  "tier_fill": {
+   "District": "goldl"
+  },
+  "tier_key": [
+   [
+    "goldl",
+    "Wine districts"
+   ]
+  ],
+  "panel1": [
+   "The Western Cape",
+   "Wine districts, by municipality"
+  ],
+  "panel1_towns": [
+   "City of Cape Town"
+  ],
+  "broad": [],
+  "areas": [
+   {
+    "name": "Cape South Coast",
+    "title": "The Cape South Coast",
+    "zones": [
+     "overberg",
+     "walker-bay",
+     "cape-agulhas"
+    ],
+    "towns": []
+   },
+   {
+    "name": "Coastal Region",
+    "zones": [
+     "stellenbosch",
+     "paarl",
+     "swartland"
+    ],
+    "towns": [
+     "City of Cape Town"
+    ]
+   }
+  ],
+  "panel2_subtitle": "Its wine areas",
+  "panel3_subtitle": "Its district, drawn by municipality",
+  "covers": [
+   "south-africa/overberg"
+  ],
+  "panel1_labels": {
+   "Cape South Coast": [
+    160,
+    236,
+    "start"
+   ],
+   "Coastal Region": [
+    70,
+    178,
+    "middle"
+   ]
+  }
+ }
+}

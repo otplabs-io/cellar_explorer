@@ -1,0 +1,39 @@
+{
+ "subject": "vintage",
+ "id": "united-states/sonoma-county/2022",
+ "read": "2026-11-05",
+ "sources": {
+  "scw": {"name": "Sonoma County Winegrowers, Another Harvest for the Record Books for Sonoma County Grape Growers", "kind": "vintage report", "url": "https://sonomawinegrape.org/another-harvest-for-the-record-books-for-sonoma-county-grape-growers/"},
+  "press-democrat": {"name": "The Press Democrat, Sonoma County crop report for 2022 shows losses due to drought", "kind": "general", "url": "https://www.pressdemocrat.com/2023/11/09/sonoma-county-crop-report-for-2022-shows-losses-due-to-drought-2/"},
+  "wine-independent": {"name": "The Wine Independent, Occidental's 2022 Releases", "kind": "critic", "url": "https://thewineindependent.com/articles/occidentals-2022-releases/", "note": "About one Sonoma Coast producer."},
+  "iwr": {"name": "International Wine Report, Sonoma County (2022-2023)", "kind": "critic", "url": "https://internationalwinereport.com/sonoma-county-2022-2023/"},
+  "ridge": {"name": "Ridge Vineyards, 2022 Harvest Report, Sonoma", "kind": "producer", "url": "https://www.ridgewine.com/about/news/2022-harvest-report-sonoma/", "note": "Inland Sonoma sites, not the coast."},
+  "decanter-summary": {"name": "Decanter, Sonoma County: The 2022 vintage report, as relayed by a search summary", "kind": "critic", "url": "https://www.decanter.com/premium/sonoma-county-the-2022-vintage-report-562065/", "note": "Paywalled. Text did not load."}
+ },
+ "claims": [
+  {"topic": "vintage", "claim": "It was a dry year after several drought years. Spring frost and low water cut the crop.", "source": ["scw", "press-democrat"], "strength": "Strong", "note": "Press Democrat gives the cause as reduced water supplies and spring frosts."},
+  {"topic": "production", "claim": "The county crop was 190,864 tons, down 7.3% from 2021.", "source": ["press-democrat"], "strength": "Medium", "note": "From the county crop report as reported by the Press Democrat. The report itself was not read."},
+  {"topic": "production", "claim": "Yields on the coast were lower than the county average. Hirsch in Fort Ross-Seaview reported about half of normal, and Jackson Family in the Petaluma Gap about 30% below typical.", "source": ["scw"], "strength": "Medium", "note": "Producer figures, one source."},
+  {"topic": "vintage", "claim": "Poor flowering weather caused small berries and tiny yields at Occidental, about one ton per acre.", "source": ["wine-independent"], "strength": "Weak", "note": "One producer."},
+  {"topic": "vintage", "claim": "Harvest started on July 29, a record early start. Russian River Valley finished September 17, its earliest finish in 45 years.", "source": ["scw"], "strength": "Medium", "note": "One source for the dates."},
+  {"topic": "vintage", "claim": "A heat wave began on Labor Day weekend, September 3, and ran about six days. Some sites hit 110 to 115 F, including a Sonoma Coast property.", "source": ["wine-independent", "ridge", "scw"], "strength": "Strong", "note": "Ridge recorded 115 F on September 5 inland. A search summary says one coast property hit 110 F on Labor Day."},
+  {"topic": "vintage", "claim": "Most Pinot Noir and Chardonnay ripen earlier than Cabernet, so many coastal blocks were picked before the heat or as it arrived.", "source": ["wine-independent"], "strength": "Medium", "note": "One producer's account."},
+  {"topic": "vintage", "claim": "In the Petaluma Gap, wind kept acidity and tension through the heat. The Pinots show color and spice.", "source": ["iwr"], "strength": "Weak", "note": "One critic, thin on detail."},
+  {"topic": "vintage", "claim": "On the Sonoma Coast, cool fermentations and early picks favored finesse over force.", "source": ["iwr"], "strength": "Weak", "note": "One critic."},
+  {"topic": "vintage", "claim": "Growers called quality very good. Sonoma County Winegrowers' president called it a stellar vintage.", "source": ["scw"], "strength": "Medium", "note": "Trade body, so promotional by nature."},
+  {"topic": "vintage", "claim": "Mid-September rain did not hurt quality in Russian River Valley.", "source": ["scw"], "strength": "Weak", "note": "Growers' own words."}
+ ],
+ "conflicts": [
+  "Rain: Occidental says winter rain helped the vines after 2021, while the county trade body and IWR describe a dry, parched winter.",
+  "Heat dates: Ridge puts 115 F on September 5 inland. The coast report says September 3 for six days. They overlap."
+ ],
+ "gaps": [
+  "No Petaluma Gap Winegrowers Alliance vintage report found.",
+  "No Pinot Noir yield figure for the county.",
+  "Decanter's Sonoma 2022 report is paywalled and was not read. Its claims reached us only as a search summary and are not used here.",
+  "The Wine Institute harvest report PDF did not load as text."
+ ],
+ "sheet": {
+  "vintage": "A dry year with a small crop and a record early start. A heat wave hit on Labor Day weekend, but much of the Pinot was picked before or during it. Coastal wines kept their freshness."
+ }
+}

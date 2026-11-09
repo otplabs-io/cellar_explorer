@@ -1,0 +1,56 @@
+{
+ "place": {
+  "subtitle": "From Denmark down to one zone"
+ },
+ "map": {
+  "engine": "zones",
+  "precision": "zone",
+  "zone_store": "eu",
+  "credit": "Maps: wine zones from the EU PDO boundaries (Candiago et al. 2022, CC0), drawn by whole commune; commune and region outlines © EuroGeographics for the administrative boundaries; estate location from {estate_source}. For orientation, not a legal boundary.",
+  "region_slug": "denmark",
+  "projection": 32632,
+  "eu": {
+   "country": "DK",
+   "nuts": "all",
+   "default_tier": "PDO",
+   "locator_bbox": [
+    4,
+    52,
+    18,
+    60
+   ]
+  },
+  "locator_file": "denmark/_locator.json",
+  "tier_fill": {
+   "PDO": "goldl"
+  },
+  "tier_key": [
+   [
+    "goldl",
+    "PDO zones"
+   ]
+  ],
+  "panel1": [
+   "Denmark",
+   "Its PDO zones"
+  ],
+  "panel1_towns": [],
+  "broad": [],
+  "areas": [],
+  "panel2_subtitle": "Its wine zones",
+  "panel3_subtitle": "Its zone, by commune",
+  "covers": [
+   "denmark/dons"
+  ]
+ },
+ "styles": [
+  "red",
+  "white",
+  "sparkling",
+  "rosé",
+  "dessert",
+  "orange",
+  "fortified"
+ ],
+ "$why": "Not an EU PDO or PGI or a US AVA: a country, state, region, group or sub-zone, with no shape of its own in the map data. The places under it that draw stay covered."
+}

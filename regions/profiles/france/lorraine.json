@@ -1,0 +1,9 @@
+{
+ "$why": "A PGI with no boundary in the local data: the EU PDO boundaries dataset holds PDOs only. Its AOCs, Moselle and Côtes de Toul, draw.",
+ "map": {
+  "covers": [
+   "france/moselle",
+   "france/cotes-de-toul"
+  ]
+ }
+}

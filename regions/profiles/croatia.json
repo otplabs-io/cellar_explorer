@@ -1,0 +1,73 @@
+{
+ "place": {
+  "subtitle": "From Croatia down to one zone"
+ },
+ "map": {
+  "engine": "zones",
+  "precision": "zone",
+  "zone_store": "eu",
+  "credit": "Maps: wine zones from the EU PDO boundaries (Candiago et al. 2022, CC0), drawn by whole commune; commune and region outlines © EuroGeographics for the administrative boundaries; estate location from {estate_source}. For orientation, not a legal boundary.",
+  "region_slug": "croatia",
+  "projection": 32633,
+  "eu": {
+   "country": "HR",
+   "nuts": "all",
+   "default_tier": "PDO",
+   "locator_bbox": [
+    10,
+    40,
+    24,
+    50
+   ]
+  },
+  "locator_file": "croatia/_locator.json",
+  "tier_fill": {
+   "PDO": "goldl"
+  },
+  "tier_key": [
+   [
+    "goldl",
+    "PDO zones"
+   ]
+  ],
+  "panel1": [
+   "Croatia",
+   "Its PDO zones"
+  ],
+  "panel1_towns": [],
+  "broad": [],
+  "areas": [],
+  "panel2_subtitle": "Its wine zones",
+  "panel3_subtitle": "Its zone, by commune",
+  "covers": [
+   "croatia/muskat-momjanski",
+   "croatia/ponikve",
+   "croatia/zapadna-kontinentalna-hrvatska",
+   "croatia/zagorje-meimurje",
+   "croatia/srednja-i-juzna-dalmacija",
+   "croatia/slavonija",
+   "croatia/sjeverna-dalmacija",
+   "croatia/primorska-hrvatska",
+   "croatia/prigorje-bilogora",
+   "croatia/pokuplje",
+   "croatia/plesivica",
+   "croatia/moslavina",
+   "croatia/istocna-kontinentalna-hrvatska",
+   "croatia/hrvatsko-primorje",
+   "croatia/hrvatsko-podunavlje",
+   "croatia/hrvatska-istra",
+   "croatia/dingac",
+   "croatia/dalmatinska-zagora"
+  ]
+ },
+ "styles": [
+  "red",
+  "white",
+  "sparkling",
+  "rosé",
+  "dessert",
+  "orange",
+  "fortified"
+ ],
+ "$why": "Not an EU PDO or PGI or a US AVA: a country, state, region, group or sub-zone, with no shape of its own in the map data. The places under it that draw stay covered."
+}

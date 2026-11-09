@@ -1,0 +1,74 @@
+{
+ "$comment": "The region tree files Vigneti delle Dolomiti under a separate IGT branch, not under Trentino-Alto Adige, so its region settings live here.",
+ "place": {
+  "subtitle": "From Trentino-Alto Adige down to one zone"
+ },
+ "map": {
+  "credit": "Maps: wine zones from Orazio Campoli’s Italian Wine Map, used with permission, drawn from the EU zone texts and Provincia di Bolzano data (CC0); commune outlines from ISTAT via openpolis (CC BY); estate location from {estate_source}. For orientation, not a legal boundary.",
+  "region_slug": "trentino-alto-adige",
+  "istat_regions": [
+   4
+  ],
+  "panel1": [
+   "Trentino-Alto Adige",
+   "Zones, shaded by level"
+  ],
+  "panel1_towns": [
+   "Trento",
+   "Bolzano"
+  ],
+  "broad": [
+   "vigneti-delle-dolomiti-igt",
+   "mitterberg-igt",
+   "valdadige-etschtaler-doc",
+   "trentino-doc",
+   "trentodoc-doc"
+  ],
+  "areas": [
+   {
+    "name": "Trentino",
+    "title": "Trentino",
+    "zones": [
+     "teroldego-rotaliano-doc",
+     "casteller-doc",
+     "valdadige-terradeiforti-doc",
+     "trentino-doc"
+    ],
+    "towns": [
+     "Trento"
+    ]
+   },
+   {
+    "name": "Alto Adige",
+    "zones": [
+     "alto-adige-sudtirol-doc",
+     "lago-di-caldaro-caldaro-kalterersee-kalterer-doc"
+    ],
+    "towns": [
+     "Bolzano"
+    ]
+   }
+  ],
+  "covers": [
+   "italy/vigneti-delle-dolomiti"
+  ],
+  "panel1_labels": {
+   "Trentino": [
+    30,
+    236,
+    "start"
+   ],
+   "Alto Adige": [
+    100,
+    158,
+    "end"
+   ]
+  }
+ },
+ "styles": [
+  "red",
+  "white",
+  "sparkling",
+  "orange"
+ ]
+}

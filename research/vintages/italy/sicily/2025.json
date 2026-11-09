@@ -1,0 +1,32 @@
+{
+ "subject": "vintage",
+ "id": "italy/sicily/2025",
+ "read": "2026-11-05",
+ "sources": {
+  "agi": {"name": "AGI, Vendemmia Sicilia 2025 (26 Nov 2025)", "kind": "general", "url": "https://www.agi.it/economia/news/2025-11-26/vendemmia-sicilia-2025-34374297/", "note": "Read directly. Season wrap-up quoting growers."},
+  "gambero": {"name": "Gambero Rosso, Vendemmia Sicilia 2025 (5 Aug 2025, citing Assovini Sicilia)", "kind": "critic", "url": "https://www.gamberorosso.it/notizie/vino/vendemmia-sicilia-2025/", "note": "Read directly. Early-season estimates, before harvest."},
+  "planeta": {"name": "Planeta, Vendemmia 2025", "kind": "producer", "url": "https://www.planeta.it/en/?p=10247", "note": "Read directly. Covers all Planeta estates, including Vittoria."}
+ },
+ "claims": [
+  {"topic": "vintage", "claim": "Winter and spring were kind. Autumn and winter rains built soil water reserves and May rain supported vine growth. Spring was mild.", "source": ["agi", "gambero", "planeta"], "strength": "Strong", "note": "Three sources agree."},
+  {"topic": "vintage", "claim": "Summer was mild, without long extreme heat. At Planeta's estates summer rain was regular but never excessive and there were no heat waves.", "source": ["agi", "planeta"], "strength": "Strong", "note": "Two independent sources."},
+  {"topic": "vintage", "claim": "Frost and hail were not reported as problems. Vineyards were in good health, though some areas had humidity challenges. Flowering not described.", "source": ["gambero", "agi"], "strength": "Weak", "note": "Absence of reports, not a positive statement."},
+  {"topic": "vintage", "claim": "In Vittoria, the summer was cool and the grapes were healthy, balanced, ripe and fresh. Frappato showed red-fruit aromas and Nero d'Avola was vibrant and lean.", "source": ["planeta", "agi"], "strength": "Medium", "quote": "a cool summer produced Frappati wines rich in aromas and vibrant, fresh Nero d'Avola wines", "note": "Planeta and its oenologist Patricia Toth in AGI. Same producer behind both, so not fully independent."},
+  {"topic": "vintage", "claim": "Harvest ran about 100 days from west to east. It began 28 July at Contessa Entellina with Chardonnay for sparkling bases, a bit later than 22 July in 2024, and ended in early November on Etna. Planeta says its last cut on Etna was 18 October and Noto began in early August.", "source": ["agi", "planeta"], "strength": "Medium", "note": "AGI and Planeta differ on the Etna end date: early November versus 18 October, likely different producers. Vittoria had no dates of its own."},
+  {"topic": "production", "claim": "Volume recovered after two small years. Planeta reports yields about 25% above 2024. Others forecast 10% (Etna), up to 20% (south-east). Sicily's 2024 total was about 2.74 million hectolitres. No final 2025 figure found.", "source": ["agi", "gambero", "planeta"], "strength": "Medium", "quote": "un'ottima qualità e una quantità in aumento", "note": "Direction agrees across sources. Numbers are estimates or single-producer."},
+  {"topic": "tasting", "claim": "Growers rate quality very high, and some call it one of the best vintages in recent years. Grillo and Sauvignon Blanc were named the year's best whites, with Grecanico and Chardonnay also good. A south-east grower said it could be the best of four years.", "source": ["agi", "gambero"], "strength": "Medium", "quote": "la migliore degli ultimi quattro anni", "note": "Producer opinion, early. Oenologist cautioned it is early for a final view."},
+  {"topic": "standing", "claim": "No independent critic rating for Sicily 2025 was found. Wines are very young.", "source": ["reading"], "strength": "Weak", "note": "Gap."}
+ ],
+ "conflicts": [
+  "Etna harvest end: early November (AGI) versus 18 October (Planeta). Different estates and altitudes."
+ ],
+ "gaps": [
+  "No Vittoria-specific dates, yields or Cerasuolo di Vittoria consortium report.",
+  "No final Assovini or Regione Siciliana volume figure for 2025.",
+  "No critic vintage rating.",
+  "Frost, hail and flowering not described."
+ ],
+ "sheet": {
+  "vintage": "2025 was a mild, kind year in Sicily after two hard ones. Vittoria had a cool summer, so the grapes came in healthy, fresh and full of aroma."
+ }
+}

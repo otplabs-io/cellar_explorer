@@ -1,0 +1,66 @@
+{
+ "place": {
+  "subtitle": "From Czechia down to one zone"
+ },
+ "map": {
+  "engine": "zones",
+  "precision": "zone",
+  "zone_store": "eu",
+  "credit": "Maps: wine zones from the EU PDO boundaries (Candiago et al. 2022, CC0), drawn by whole commune; commune and region outlines © EuroGeographics for the administrative boundaries; estate location from {estate_source}. For orientation, not a legal boundary.",
+  "region_slug": "czechia",
+  "projection": 32633,
+  "eu": {
+   "country": "CZ",
+   "nuts": "all",
+   "default_tier": "PDO",
+   "locator_bbox": [
+    8,
+    46,
+    24,
+    54
+   ]
+  },
+  "locator_file": "czechia/_locator.json",
+  "tier_fill": {
+   "PDO": "goldl"
+  },
+  "tier_key": [
+   [
+    "goldl",
+    "PDO zones"
+   ]
+  ],
+  "panel1": [
+   "Czechia",
+   "Its PDO zones"
+  ],
+  "panel1_towns": [],
+  "broad": [],
+  "areas": [],
+  "panel2_subtitle": "Its wine zones",
+  "panel3_subtitle": "Its zone, by commune",
+  "covers": [
+   "czechia/sobes",
+   "czechia/velkopavlovicka",
+   "czechia/morava",
+   "czechia/novosedelske-slamove-vino",
+   "czechia/cechy",
+   "czechia/znojmo",
+   "czechia/znojemska",
+   "czechia/mikulovska",
+   "czechia/litomericka",
+   "czechia/slovacka",
+   "czechia/melnicka"
+  ]
+ },
+ "styles": [
+  "red",
+  "white",
+  "sparkling",
+  "rosé",
+  "dessert",
+  "orange",
+  "fortified"
+ ],
+ "$why": "Not an EU PDO or PGI or a US AVA: a country, state, region, group or sub-zone, with no shape of its own in the map data. The places under it that draw stay covered."
+}

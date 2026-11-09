@@ -1,0 +1,27 @@
+{
+ "$comment": "Region settings for the zones engine, from Orazio Campoli’s store for the region. Broad: the zones that cover more than a third of the region, left out of the shading so the smaller zones show.",
+ "place": {
+  "subtitle": "From Molise down to one zone"
+ },
+ "map": {
+  "region_slug": "molise",
+  "istat_regions": [
+   14
+  ],
+  "panel1": [
+   "Molise",
+   "Zones, shaded by level"
+  ],
+  "panel1_towns": [],
+  "broad": [
+   "biferno-doc",
+   "molise-doc",
+   "osco-igt",
+   "tintilia-del-molise-doc"
+  ],
+  "areas": [],
+  "covers": [
+   "italy/molise"
+  ]
+ }
+}

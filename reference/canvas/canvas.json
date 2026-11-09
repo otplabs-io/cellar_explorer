@@ -1,0 +1,34 @@
+{
+ "v": 3,
+ "createdOnFiles": {
+  "v": 1,
+  "at": "2026-11-02T14:15:00Z"
+ },
+ "title": "La Boudriotte 2019 Gift Sheet",
+ "launch": {
+  "view": "canvas"
+ },
+ "pages": [],
+ "boards": {
+  "Main.dc.html": {
+   "x": 0,
+   "y": 0,
+   "w": 816,
+   "h": 1056,
+   "title": "Front: the wine"
+  },
+  "Where-It-Grows.dc.html": {
+   "x": 896,
+   "y": 0,
+   "w": 816,
+   "h": 1056,
+   "title": "Back: where it grows"
+  }
+ },
+ "order": [
+  "Main.dc.html",
+  "Where-It-Grows.dc.html"
+ ],
+ "notes": {},
+ "designSystems": []
+}

@@ -1,0 +1,47 @@
+{
+ "$comment": "Region settings for the zones engine, from Orazio Campoli’s store for the region. Broad: the zones that cover more than a third of the region, left out of the shading so the smaller zones show.",
+ "place": {
+  "subtitle": "From Lombardia down to one zone"
+ },
+ "map": {
+  "region_slug": "lombardy-lombardia",
+  "istat_regions": [
+   3
+  ],
+  "panel1": [
+   "Lombardia",
+   "Zones, shaded by level"
+  ],
+  "panel1_towns": [],
+  "broad": [],
+  "areas": [],
+  "covers": [
+   "italy/franciacorta",
+   "italy/valtellina-superiore",
+   "italy/garda",
+   "italy/scanzo",
+   "italy/valcalepio",
+   "italy/curtefranca",
+   "italy/riviera-del-garda-classico",
+   "italy/garda-colli-mantovani",
+   "italy/valtellina-rosso",
+   "italy/sforzato-di-valtellina",
+   "italy/cellatica",
+   "italy/san-martino-della-battaglia",
+   "italy/buttafuoco-dell-oltrepo-pavese",
+   "italy/bonarda-dell-oltrepo-pavese",
+   "italy/oltrepo-pavese",
+   "italy/oltrepo-pavese-pinot-grigio",
+   "italy/capriano-del-colle",
+   "italy/casteggio",
+   "italy/pinot-nero-dell-oltrepo-pavese",
+   "italy/sangue-di-giuda",
+   "italy/lambrusco-mantovano",
+   "italy/terre-del-colleoni",
+   "italy/botticino",
+   "italy/san-colombano-al-lambro",
+   "italy/oltrepo-pavese-metodo-classico"
+  ]
+ },
+ "$why": "Not an EU PDO or PGI or a US AVA: a country, state, region, group or sub-zone, with no shape of its own in the map data. The places under it that draw stay covered."
+}

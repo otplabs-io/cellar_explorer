@@ -1,0 +1,40 @@
+{
+ "subject": "vintage",
+ "id": "france/loire-valley/2023",
+ "read": "2026-11-05",
+ "sources": {
+  "wd-harvest": {"name": "The Wine Doctor, Loire harvest 2023", "kind": "critic", "url": "https://www.thewinedoctor.com/loire_harvest_2023.shtml", "note": "Written during harvest, in early October. Producer reports."},
+  "wd-2023": {"name": "The Wine Doctor, Loire 2023 vintage report", "kind": "critic", "url": "https://www.thewinedoctor.com/tastingsformal/loire2023_2.shtml", "note": "Only the opening was visible. The rest is paywalled."},
+  "divine": {"name": "Divine Loire, Vouvray 2023", "kind": "reference", "url": "https://divineloire.fr/en/vintages/vouvray-2023/"},
+  "kobrand": {"name": "Kobrand, Vouvray AOP 2023 release", "kind": "importer", "url": "https://kobrandwineandspirits.com/?p=97752", "note": "Importer copy for one wine. Not a vintage report."},
+  "idealwine": {"name": "iDealwine, Loire Valley 2023 vintage", "kind": "merchant", "url": "https://www.idealwine.com/en/buy-wine/region-loire-valley-vintage-2023", "note": "Appears to relay the InterLoire summary."},
+  "decanter": {"name": "Decanter, Loire harvest report 2023: a complicated vintage", "kind": "critic", "url": "https://www.decanter.com/wine-news/loire-harvest-report-2023-a-complicated-vintage-513284/", "note": "Not read. The page body did not load. Points below come from a search-result summary only."}
+ },
+ "claims": [
+  {"topic": "vintage", "claim": "2023 was a mixed year. Heatwaves and heavy rain took turns, so disease pressure was high and yields varied widely. Hail, drought and mildew hit some growers. Picking started earlier than usual.", "source": ["idealwine", "wd-2023"], "strength": "Medium", "note": "Two sources agree on mildew and variability. Divine Loire describes a calmer Vouvray season, so the year differs by site."},
+  {"topic": "vintage", "claim": "Mildew and acid rot were the big problems. The Wine Doctor calls acid rot the biggest problem of the harvest and says the state of the fruit varied sharply between appellations, estates and even vineyards. Chenin was affected.", "source": ["wd-2023", "decanter"], "strength": "Medium", "note": "The Decanter detail (high rot in Touraine and Anjou, growers discarding 20 to 40%) is from a search summary only."},
+  {"topic": "vintage", "claim": "In Vouvray, rain before harvest caused some rot. One grower, Vincent Carême, sorted it out, kept some fruit with good botrytis, and finished on 4 October. He found no dilution and full vats. He picked only for sparkling and dry wines, having made sweet wine in 2022.", "source": ["wd-harvest"], "strength": "Weak", "note": "One producer's account, given during harvest."},
+  {"topic": "vintage", "claim": "Divine Loire says Vouvray had no spring frost, moderate rain at key stages, and a warm summer with brief cool spells. Harvest began in mid-September. It calls it a strong year for Chenin, with fresh, balanced wines, and rates it 4.4 out of 5.", "source": ["divine"], "strength": "Weak", "note": "One reference site. A Kobrand importer note for a Vouvray says a sudden frost in late April caused some crop loss in certain vineyards, which does not match. See conflicts."},
+  {"topic": "vintage", "claim": "2023 was a dry-wine and sparkling year in Vouvray, with few sweet wines. Divine Loire covers only dry and sparkling Vouvray, and the Vouvray grower above made no sweet wine.", "source": ["divine", "wd-harvest"], "strength": "Weak", "note": "Inferred from what two sources cover, not a statement that no moelleux was made."},
+  {"topic": "vintage", "claim": "For growers who waited, botrytis was possible in Anjou. Cool, dry weather after rain in early October was expected to help. Some outstanding sweet wines were reportedly made by the few who held out.", "source": ["wd-harvest", "decanter"], "strength": "Weak", "note": "The Wine Doctor line was a forecast. The outcome comes from a Decanter search summary that could not be read."},
+  {"topic": "vintage", "claim": "Loire sweet wines had reduced yields but are described as aromatic and enjoyable. iDealwine rates Loire 2023 at 16/20 for the vintage, for red, for dry white and for sweet wine.", "source": ["idealwine"], "strength": "Weak", "note": "Merchant relay of the regional summary. Region wide."},
+  {"topic": "vintage", "claim": "Alcohol levels are lower and more normal than in recent hot years. The Wine Doctor calls the wines cooler and fresher.", "source": ["wd-2023"], "strength": "Weak", "note": "Taken from a search summary of the Wine Doctor's first impressions. The paywalled page did not show it."}
+ ],
+ "conflicts": [
+  "Frost: Divine Loire says Vouvray was spared spring frost. A Kobrand importer note mentions a sudden late-April frost with some crop loss in certain vineyards. Could be local.",
+  "Season tone: The Wine Doctor's harvest note (early October) reports good quality and quantity from most growers. His later report and Decanter call it complicated, with rot. Divine Loire is positive.",
+  "Where the damage fell: Decanter reportedly says Anjou Chenin suffered most and Vouvray fared better. Not confirmed from the page."
+ ],
+ "gaps": [
+  "The Decanter harvest report and vintage report were not read.",
+  "The official InterLoire page and a Vouvray syndicate fact sheet could not be read.",
+  "No Vouvray yield figure or final harvest dates.",
+  "No data on Coteaux du Layon, Bonnezeaux or Quarts de Chaume 2023 results.",
+  "Little on 2023 Vouvray moelleux. The year is described as dry and sparkling."
+ ],
+ "sheet": {
+  "vintage": "A mixed year. Heat and rain took turns, and sorting mattered. Careful growers made fresh wines with moderate alcohol.",
+  "vintage_dry": "Fresh, balanced dry Vouvray from growers who sorted well. Quality varies by estate.",
+  "vintage_sweet": "Not a clear sweet year. A few growers who waited made botrytis wines, but most Vouvray went to dry and sparkling."
+ }
+}

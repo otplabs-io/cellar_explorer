@@ -1,0 +1,4 @@
+{
+ "$about": "Where this app links to the Appellation Atlas. Leave it empty to hide the links. To keep your own value out of git, put it in app/site.local.json.",
+ "atlas_url": ""
+}

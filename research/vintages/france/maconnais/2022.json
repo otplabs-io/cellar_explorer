@@ -1,0 +1,30 @@
+{
+ "subject": "vintage",
+ "id": "france/maconnais/2022",
+ "read": "2026-11-05",
+ "sources": {
+  "inside-burgundy": {"name": "Inside Burgundy, The 2024 Mâconnais Report: Assessing the 2022 Vintage", "kind": "vintage report", "url": "https://insideburgundy.com/report/the-2024-maconnais-report-assessing-the-2022-vintage-and-a-first-look-at-2023", "note": "Free intro read as text. The rest is paywalled."},
+  "vinous-search": {"name": "Vinous, Neal Martin, Mâconnais 2022 & 2023", "kind": "critic", "url": "https://billing.vinous.com/articles/maconnais-2022-2023-don-t-pass-me-by-aug-2024", "note": "Paywalled. Only search-result summaries were seen."},
+  "talmard": {"name": "Domaine Talmard, Mâcon Chardonnay 2022 tech sheet (via Vintus)", "kind": "importer", "url": "https://vintus.com/wp-content/uploads/2023/06/Domaine-Talmard-Macon-Chardonnay-2022.pdf", "note": "One Mâconnais producer. Seen through a search summary only."}
+ },
+ "claims": [
+  {"topic": "vintage", "claim": "The Mâconnais had a drier season than further north. June was the exception.", "source": ["inside-burgundy"], "strength": "Medium", "quote": "slightly more pronounced drought conditions"},
+  {"topic": "vintage", "claim": "Hail hit parts of Vergisson, next to Solutré. It cut yields rather than quality.", "source": ["inside-burgundy"], "strength": "Medium", "quote": "some hail storms to contend with as well, notably affecting parts of Vergisson"},
+  {"topic": "production", "claim": "The crop was mostly smaller, with less juice per grape than in the north.", "source": ["inside-burgundy"], "strength": "Medium", "quote": "mostly a less generous crop", "note": "Search summaries of Vinous say yields were relatively high, so sources disagree."},
+  {"topic": "vintage", "claim": "The wines have density but are not heated. Alcohol is barely above the norm. Most should reward longer cellaring.", "source": ["inside-burgundy"], "strength": "Medium", "quote": "not too heated in style, with alcohol degrees barely above the norm"},
+  {"topic": "vintage", "claim": "A Mâconnais producer describes a wet, mild spring, early flowering, a warm summer without damaging heat spikes, and picking from late August. Acidity stayed fresh.", "source": ["talmard"], "strength": "Weak", "note": "One producer, one tech sheet, read through a summary."},
+  {"topic": "vintage", "claim": "Neal Martin names the dry summer as the main challenge of 2022 in the Mâconnais.", "source": ["vinous-search"], "strength": "Weak", "note": "Paywalled. Search summary only."}
+ ],
+ "conflicts": [
+  "Yields: Inside Burgundy says a smaller crop. A Vinous summary says relatively high yields, and a UK merchant guide says yields were down for a second year. Unresolved.",
+  "Spring: Talmard says wet and mild. Inside Burgundy says drier than the north, with June the exception."
+ ],
+ "gaps": [
+  "No Mâconnais harvest dates from a reachable source.",
+  "No BIVB figures for Mâconnais 2022.",
+  "Inside Burgundy and Vinous detail on whites is behind paywalls."
+ ],
+ "sheet": {
+  "vintage": "A dry, warm year with a smaller crop in the Mâconnais. The whites are dense but not heavy, and should keep."
+ }
+}

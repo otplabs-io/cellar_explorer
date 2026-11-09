@@ -1,0 +1,13 @@
+{
+ "story": {
+  "signature": {
+   "component": "quality_ladder",
+   "title": "The DAC levels",
+   "tiers": [
+    "Riedenwein",
+    "Ortswein",
+    "Gebietswein"
+   ]
+  }
+ }
+}

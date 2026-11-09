@@ -1,0 +1,38 @@
+{
+ "subject": "vintage",
+ "id": "france/loire-valley/1989",
+ "read": "2026-11-05",
+ "sources": {
+  "wd-20yrs": {"name": "The Wine Doctor, Twenty Years On: The 1989 Vintage", "kind": "critic", "url": "https://www.thewinedoctor.com/tastingsformal/twentyyearson1989.shtml", "note": "Partly behind a login. Only the visible part was read."},
+  "wd-25yrs": {"name": "The Wine Doctor, Twenty-Five Years On: The 1989 Vintage", "kind": "critic", "url": "https://www.thewinedoctor.com/tastingsformal/twentyfiveyearson1989.shtml", "note": "Partly behind a login. Only the visible part was read."},
+  "wd-1990": {"name": "The Wine Doctor, Twenty-Five Years On: The 1990 Vintage", "kind": "critic", "url": "https://www.thewinedoctor.com/tastingsformal/twentyfiveyearson1990.shtml", "about": "1990 tasting. Gives a short 1989 style comparison."},
+  "wd-aubuisieres": {"name": "The Wine Doctor, Domaine des Aubuisières Vouvray Moelleux Grande Année 1989", "kind": "critic", "url": "https://www.thewinedoctor.com/weekend/aubuisieres_vouvraymoelleux_grandeannee_1989.shtml"},
+  "wd-foreau": {"name": "The Wine Doctor, Domaine du Clos Naudin Vouvray Moelleux 1989", "kind": "critic", "url": "https://www.thewinedoctor.com/weekend/philippeforeau_vouvraymoelleux_1989.shtml"},
+  "wd-pinon": {"name": "The Wine Doctor, François Pinon Vouvray Moelleux 1989", "kind": "critic", "url": "https://www.thewinedoctor.com/weekend/francoispinon_vouvraymoelleux_1989.shtml"},
+  "idealwine": {"name": "iDealwine, Loire Valley 1989 vintage", "kind": "merchant", "url": "https://idealwine.com/en/buy-wine/region-loire-valley-vintage-1989"}
+ },
+ "claims": [
+  {"topic": "vintage", "claim": "1989 is a great year in the Loire, one of the best of the 20th century. Vouvray made everything from dry to very sweet, but the sweet wines are the reason the year is famous.", "source": ["wd-20yrs", "idealwine"], "strength": "Strong", "quote": "one of the greatest vintages of the 20th century", "note": "Wine Doctor and iDealwine (19/20) agree. The dry wines are not described in the pages read."},
+  {"topic": "vintage", "claim": "Vouvray had an early flowering and a very warm, mostly dry summer. The vines ran about three weeks ahead early on. Picking was under clear skies.", "source": ["wd-20yrs", "wd-25yrs"], "strength": "Medium", "note": "Two pages from the same writer, both partly paywalled. Heat is also the key factor on iDealwine."},
+  {"topic": "vintage", "claim": "Picking in Vouvray began in late September. Because the weather held, growers kept going at a relaxed pace into November, in several passes.", "source": ["wd-25yrs"], "strength": "Weak", "note": "One partly paywalled page. Not confirmed elsewhere."},
+  {"topic": "vintage", "claim": "The sweetness came mostly from passerillage, grapes drying and concentrating on the vine. There was some botrytis, but it was not the main driver. 1990 was the botrytis year.", "source": ["wd-aubuisieres", "wd-foreau", "wd-1990", "wd-25yrs"], "strength": "Strong", "quote": "botrytis was not as prominent in the 1989 vintage as it was in 1990", "note": "Four pages agree. All are Wine Doctor, so one voice. A separate search summary of Domaine Huet's winemaker saying Le Mont had no botrytis was not read at source."},
+  {"topic": "vintage", "claim": "1989 is ranked among the top three vintages of the 20th century for sweet Vouvray, alongside 1921 and 1947. Druet named 1921, 1945 and 1989 as the Loire's great comparable years.", "source": ["wd-aubuisieres", "wd-20yrs"], "strength": "Medium", "note": "Opinion of one critic, plus a quoted grower."},
+  {"topic": "vintage", "claim": "Anjou's sweet wines were also very good. Bonnezeaux was exceptionally rich and Coteaux du Layon spectacular. The heat gave richness and the sweet wines age for a very long time.", "source": ["idealwine"], "strength": "Weak", "note": "One merchant page. No Anjou producer or critic source found."},
+  {"topic": "vintage", "claim": "Yields were excellent. Some Vouvray domaines reached 45 to 50 hl/ha, most of it made into sweet wine across several cuvées. This was true of 1989 and 1990.", "source": ["wd-foreau"], "strength": "Weak", "note": "One page, and it covers both years together."},
+  {"topic": "vintage", "claim": "The style is classic, pure and mineral, fresh and savoury, with dried fruit, tobacco and leather as they age. Colour runs from moderately pale to polished orange-gold.", "source": ["wd-1990", "wd-foreau", "wd-aubuisieres"], "strength": "Medium", "note": "Colour varies by bottle and producer."},
+  {"topic": "window", "claim": "Good sweet 1989 Vouvray is still going in 2026 and has decades left. The best may last a century. Some bottles have cork problems or have oxidised, so bottle condition matters.", "source": ["wd-1990", "wd-aubuisieres", "wd-pinon"], "strength": "Medium", "quote": "have decades in them yet", "note": "Critic opinion from tastings around 2014 to 2019. Not a producer figure."}
+ ],
+ "conflicts": [
+  "Harvest start: late September (Wine Doctor 25 years on) with no second source. An earlier search summary said it could not confirm a September start."
+ ],
+ "gaps": [
+  "No page found that describes dry (sec) Vouvray from 1989, so no dry-wine claim is made.",
+  "No month-by-month weather record, rainfall or degree-day data from a regional body.",
+  "No source found for 1989 Anjou apart from iDealwine.",
+  "Sources are the Wine Doctor and a merchant. No InterLoire or Vouvray syndicate report from 1989 was found."
+ ],
+ "sheet": {
+  "vintage": "A famous year for sweet Loire Chenin. Warm, dry weather concentrated the grapes.",
+  "vintage_sweet": "A great year. The sweetness came mostly from grapes drying on the vine, not noble rot. The wines are pure and mineral, and the best still have decades ahead."
+ }
+}

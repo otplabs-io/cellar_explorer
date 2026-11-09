@@ -1,0 +1,14 @@
+{
+ "story": {
+  "signature": {
+   "component": "quality_ladder",
+   "title": "Cava’s aging terms",
+   "tiers": [
+    "Paraje Calificado",
+    "Gran Reserva",
+    "Reserva",
+    "Cava"
+   ]
+  }
+ }
+}

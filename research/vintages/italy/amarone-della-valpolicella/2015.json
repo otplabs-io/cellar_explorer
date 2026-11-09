@@ -1,0 +1,133 @@
+{
+ "subject": "vintage",
+ "id": "italy/amarone-della-valpolicella/2015",
+ "read": "2026-11-05",
+ "sources": {
+  "wsg": {
+   "name": "Wine Scholar Guild, Veneto Vintage Chart",
+   "kind": "critic",
+   "url": "https://winescholarguild.com/veneto-vintage-chart",
+   "note": "Read directly. Star graphics unreadable; text only."
+  },
+  "ifw": {
+   "name": "Italy's Finest Wines, Amarone della Valpolicella Vintages Rating Chart (Jean Marco Palmieri)",
+   "kind": "critic",
+   "url": "https://italysfinestwines.it/en/amarone-vintage-chart/",
+   "note": "Read directly. Third-party chart, not the Consorzio."
+  },
+  "vogadori15": {
+   "name": "Vogadori, Amarone Vintage 2015",
+   "kind": "producer",
+   "url": "https://www.vogadorivini.it/en/amarone-2015/"
+  },
+  "beverfood": {
+   "name": "Beverfood, Anteprima Amarone Record, focus on the 2015 vintage",
+   "kind": "general",
+   "url": "https://www.beverfood.com/aar-anteprima-amarone-record-focus-sull-annata-2015-migliori-assaggi-anteprima-wd137442/"
+  },
+  "reading": {
+   "name": "Searches run for this file",
+   "kind": "general",
+   "note": "No Consorzio vintage rating found for these years."
+  }
+ },
+ "claims": [
+  {
+   "topic": "vintage",
+   "claim": "Winter was snowy, which gave good soil water and an early growth cycle.",
+   "source": [
+    "ifw"
+   ],
+   "strength": "Medium",
+   "note": "One source."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Summer was hot and nearly rainless from mid-June. Water stress raised sugars and polyphenols.",
+   "source": [
+    "wsg",
+    "ifw"
+   ],
+   "strength": "Strong",
+   "quote": "The lack of water put a tremendous strain on the vines",
+   "note": "Two sources agree. Quote is from the Wine Scholar Guild."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Frost, hail and flowering were not described in any source read.",
+   "source": [
+    "reading"
+   ],
+   "strength": "Weak",
+   "note": "Gap."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Ripening and harvest came about 10 days early. Grapes were healthy and aromatic, needing little intervention.",
+   "source": [
+    "wsg",
+    "ifw"
+   ],
+   "strength": "Strong",
+   "note": "Two sources agree."
+  },
+  {
+   "topic": "production",
+   "claim": "Yields were down about 10% in the Wine Scholar Guild chart. Beverfood calls 2015 a record year for both quality and quantity. Nearly 14 million bottles of Amarone were reported for 2015.",
+   "source": [
+    "wsg",
+    "beverfood"
+   ],
+   "strength": "Weak",
+   "note": "Sources conflict. See conflicts."
+  },
+  {
+   "topic": "winemaking",
+   "claim": "Rain above average earlier in the year was reported to raise humidity during drying, with only a touch of botrytis that producers controlled. Picking for drying began at the end of September.",
+   "source": [
+    "wsg"
+   ],
+   "strength": "Weak",
+   "note": "Single search summary attributed to the Wine Scholar Guild. Not found on the chart page when read. Treat as unverified."
+  },
+  {
+   "topic": "tasting",
+   "claim": "Amarone is ripe and stylish with deep colour, vigorous tannins and intense dark fruit. Not as rich as the best years, with 12 to 15 years of ageing potential.",
+   "source": [
+    "wsg",
+    "ifw"
+   ],
+   "strength": "Medium",
+   "note": "Sources differ slightly on richness."
+  },
+  {
+   "topic": "tasting",
+   "claim": "Acidity dropped in the heat, so wines are softer and rounder, with ripe cherry and wild berry fruit and a pleasant tannic texture.",
+   "source": [
+    "vogadori15"
+   ],
+   "strength": "Weak",
+   "note": "Producer source."
+  },
+  {
+   "topic": "standing",
+   "claim": "Italy's Finest Wines gives 2015 five stars and calls it exceptional. This is a third-party chart, not the Consorzio.",
+   "source": [
+    "ifw"
+   ],
+   "strength": "Medium"
+  }
+ ],
+ "conflicts": [
+  "Yields: Wine Scholar Guild says quantity was down about 10%. Beverfood describes the vintage as a record for quantity. Possibly different scopes (grape volume versus bottles of Amarone). Unresolved.",
+  "Season: Italy's Finest Wines says a snowy winter and early start with healthy fruit. Vogadori calls it a season of extreme temperatures with little safety. Treat as a hot, demanding year with a good outcome."
+ ],
+ "gaps": [
+  "No Consorzio Tutela Vini Valpolicella vintage rating or official harvest report was found or read.",
+  "Flowering dates not found.",
+  "Drying conditions that autumn and winter not found in a source read in full."
+ ],
+ "sheet": {
+  "vintage": "2015 was a hot, dry summer and an early harvest. The Amarone is ripe, soft and rounder than the great years."
+ }
+}

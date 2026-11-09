@@ -1,0 +1,26 @@
+{
+ "$comment": "An island zone: drawn from its own store, portugal-acores, since the Portugal store holds the mainland.",
+ "map": {
+  "region_slug": "portugal-acores",
+  "projection": 32626,
+  "eu": {
+   "nuts": [
+    "PT20"
+   ],
+   "locator_bbox": [
+    -33,
+    35,
+    -22,
+    42
+   ]
+  },
+  "locator_file": "portugal-acores/_locator.json",
+  "panel1": [
+   "The Azores",
+   "Its DOC zones"
+  ],
+  "panel1_towns": [],
+  "broad": [],
+  "areas": []
+ }
+}

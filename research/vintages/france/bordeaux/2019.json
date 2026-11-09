@@ -1,0 +1,38 @@
+{
+ "subject": "vintage",
+ "id": "france/bordeaux/2019",
+ "read": "2026-11-05",
+ "sources": {
+  "quinney": {"name": "Gavin Quinney, Bordeaux 2019 weather and harvest report", "kind": "vintage report", "url": "https://gavinquinney.com/?p=15766", "note": "Quinney owns Château Bauduc and writes the Jancis Robinson weather reports."},
+  "frw": {"name": "Farr Vintners, Bordeaux 2019 vintage report", "kind": "merchant", "url": "https://www.frw.co.uk/editorial/bordeaux-2019-vintage-report"},
+  "search-summaries": {"name": "Search summaries of Jane Anson (Decanter), bordeaux.com and The Buyer on Bordeaux 2019", "kind": "general", "note": "Relayed through search summaries. Those pages were not read."}
+ },
+ "claims": [
+  {"topic": "vintage", "claim": "Winter rain was about average from November to January, then February and March were dry. The region ended about 100 mm short of its October to March norm of 530 mm.", "source": ["quinney"], "strength": "Medium", "note": "One source."},
+  {"topic": "vintage", "claim": "Budbreak came in early April. A mid-April frost alert did only localized damage, far less than in 2017. Spring frost and hail losses were small.", "source": ["quinney", "search-summaries"], "strength": "Medium", "note": "Sources differ on frost. See conflicts."},
+  {"topic": "vintage", "claim": "Flowering began in early June, then turned rainy and chilly. Fruit set was uneven in many vineyards (coulure and millerandage), which cut yields.", "source": ["quinney"], "strength": "Medium", "note": "One source."},
+  {"topic": "vintage", "claim": "Mid-June to late September was mostly hot and dry. Heatwaves came in late June, with 40 C on 23 July. Rain on the last Friday of July and light rain in August and mid-September helped the vines.", "source": ["quinney", "frw"], "strength": "Strong", "note": "Both say a dry, sunny, hot summer. The dates come from Quinney."},
+  {"topic": "vintage", "claim": "Merlot picking began in the second week of September in early areas like Pomerol. Most reds came in during the second half of September and the first half of October. Rain on 22 September was followed by clear weather to mid-October. Rot pressure was minimal.", "source": ["quinney", "search-summaries"], "strength": "Strong", "note": "Two sources agree. Left Bank picking is described as late September to mid-October."},
+  {"topic": "production", "claim": "Yields were moderate to plentiful. Top estates expected about 35 to 55 hl/ha. Overall volume was a little below to near the 10-year average, around 5 million hl.", "source": ["quinney", "search-summaries"], "strength": "Medium", "note": "Dry summer meant small berries. The late September rain helped recovery."},
+  {"topic": "vintage", "claim": "It was a very good to excellent year. There were no disasters like the 2017 frost or the 2018 mildew.", "source": ["quinney", "search-summaries"], "strength": "Medium", "quote": "no disasters like the late spring frost of 2017", "note": "Quote is relayed from a search summary of Quinney's report."},
+  {"topic": "tasting", "claim": "The wines are big in color, concentration and tannin, with unexpected freshness. Cabernet Sauvignon berries were the smallest since 2010.", "source": ["frw"], "strength": "Medium", "note": "One source."},
+  {"topic": "tasting", "claim": "Left Bank: top wines are less lush and more structured than 2018, closer to 2016. Producers compare them with 2009 and 2010. Clay-rich sites gave more freshness. Gravel sites gave riper, richer fruit.", "source": ["frw", "search-summaries"], "strength": "Medium", "note": "Two sources. The 2016 comparison is relayed from Anson."},
+  {"topic": "tasting", "claim": "Right Bank: Merlot wines show plenty of color, tannin and generous fruit. Many are rich and lush like 2018 but with slightly higher acidity. Saint-Émilion's limestone plateau and clay-limestone slopes coped with dry spells better than the sandy plain.", "source": ["frw", "search-summaries"], "strength": "Medium", "note": "Two sources."},
+  {"topic": "alcohol", "claim": "Merlot is around 14 to 14.5% or more, Cabernet 13 to 14%. Alcohol is similar to 2018 and 2010.", "source": ["quinney", "frw"], "strength": "Medium", "note": "Quinney gave harvest-time expectations. Individual wines vary."},
+  {"topic": "standing", "claim": "Quinney points out strong results for the northern Haut-Médoc and Margaux on the Left Bank. He says Saint-Émilion has had four standout vintages in the last five years and top Pomerol did very well.", "source": ["quinney"], "strength": "Weak", "note": "One source, and it is opinion."}
+ ],
+ "conflicts": [
+  "Frost: Quinney and one producer say little or none. Bordeaux.com mentions some hail and spring frost. The Buyer notes one estate at 35 hl/ha because of frost and some rot. Read as localized.",
+  "Volume: Quinney says a little below the 10-year average. Anson is relayed as near the average. Estate yields run from 35 to 55 hl/ha."
+ ],
+ "gaps": [
+  "Decanter, Jancis Robinson and bordeaux.com pages were not read, only summaries.",
+  "No official CIVB or Agreste volume figure read.",
+  "No bank-by-bank rainfall figures for 2019.",
+  "ISVV rating (3.5 to 4 of 5) is relayed only and not recorded as a claim."
+ ],
+ "sheet": {
+  "vintage_left": "A dry winter and a hot, dry summer gave small, concentrated berries. The reds are structured and dark, with freshness for the year. They are built to age.",
+  "vintage_right": "A rainy flowering cut the crop, then the summer was hot and dry. Merlot is rich and lush, with good color and fruit. It has a little more freshness than 2018."
+ }
+}

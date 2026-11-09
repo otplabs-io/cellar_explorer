@@ -1,0 +1,173 @@
+{
+ "id": "ridge-estate-cabernet-2021",
+ "sheet_title": "Ridge Estate Cabernet 2021 Sheet",
+ "theme": "red",
+ "identity": {
+  "name": "Estate Cabernet Sauvignon",
+  "producer": "ridge",
+  "vintage": 2021,
+  "style": "red",
+  "grapes": [
+   {
+    "name": "Cabernet Sauvignon",
+    "share": 84
+   },
+   {
+    "name": "Merlot",
+    "share": 16
+   }
+  ],
+  "alcohol": 13.3,
+  "cellartracker": [
+   "4913020"
+  ]
+ },
+ "region": {
+  "node": "united-states/santa-cruz-mountains",
+  "placed_by": "label"
+ },
+ "map_file": "map.svg",
+ "content": {
+  "bottle_label": [
+   "ESTATE CAB",
+   "Ridge",
+   "2021"
+  ],
+  "title": "Estate Cabernet",
+  "subtitle": "Santa Cruz Mountains, 2021",
+  "intro": "Cabernet from Ridge’s Monte Bello vineyard, from the blocks that make a more approachable wine than Monte Bello itself. A pure, mountain Cabernet that matures a little earlier.",
+  "facts": [
+   [
+    "ALCOHOL",
+    "13.3%",
+    "2021 vintage"
+   ],
+   [
+    "OAK",
+    "50% new",
+    "American, 19 months"
+   ],
+   [
+    "PICKED",
+    "Sep 21 to 24",
+    "After a dry winter"
+   ]
+  ],
+  "taste": [
+   [
+    1,
+    "Sweetness",
+    "Dry"
+   ],
+   [
+    3,
+    "Body",
+    "Medium-full"
+   ],
+   [
+    4,
+    "Acidity",
+    "Fresh"
+   ],
+   [
+    4,
+    "Tannin",
+    "Firm"
+   ]
+  ],
+  "taste_note": "A guide, not a measurement of this bottle.",
+  "flavors": [
+   [
+    "blackcurrant",
+    "Black currant"
+   ],
+   [
+    "black-cherry",
+    "Black cherry"
+   ],
+   [
+    "cedar",
+    "Cedar"
+   ],
+   [
+    "graphite",
+    "Graphite"
+   ],
+   [
+    "dried-herbs",
+    "Herbs"
+   ],
+   [
+    "vanilla",
+    "Vanilla"
+   ]
+  ],
+  "flavor_note": "",
+  "window": [
+   2025,
+   2038,
+   2026
+  ],
+  "window_note": "In its window now. Best 2025 to 2038.",
+  "decant": "<strong>An hour</strong> if you open it now.",
+  "pairs": [
+   [
+    "lamb",
+    "Lamb"
+   ],
+   [
+    "barbecue",
+    "Grilled steak"
+   ],
+   [
+    "cheese",
+    "Aged cheddar"
+   ],
+   [
+    "risotto",
+    "Mushroom dishes"
+   ]
+  ],
+  "pair_note": "",
+  "vintage": "A dry winter, with 30% of normal rain, cut the crop. An early-September heat wave sped up the harvest, which ended September 24.",
+  "place": [
+   [
+    "The vineyard",
+    "Monte Bello, from 1,300 to 2,670 feet up. The oldest vines here were planted in 1949."
+   ],
+   [
+    "The soil",
+    "Greenstone and clay over fractured limestone. The vines are not watered once they are established."
+   ],
+   [
+    "The name",
+    "It was sold as Santa Cruz Mountains from 1978, and took the Estate name with the 2008 vintage."
+   ]
+  ],
+  "credits": "Text: Ridge Vineyards (2021 tech sheet). Serving advice is general guidance.",
+  "serve": "<strong>60 to 65°F.</strong> A little cooler than the room.",
+  "level": "Santa Cruz Mountains",
+  "ladder_note": "Year each was established",
+  "eyebrow": "SANTA CRUZ MOUNTAINS RED"
+ },
+ "map_ava": "Santa Cruz Mountains",
+ "map_estate_note": [
+  "Monte Bello Vineyard, from",
+  "1,300 to 2,670 feet up."
+ ],
+ "map_key_title": "Where the vines are",
+ "overrides": {
+  "this_wine": [
+   64,
+   272,
+   "end"
+  ],
+  "panel2": {
+   "Santa Cruz Mountains": [
+    138,
+    179,
+    "end"
+   ]
+  }
+ }
+}

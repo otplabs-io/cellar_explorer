@@ -1,0 +1,296 @@
+{
+ "subject": "wine",
+ "id": "guido-porro-gianetto-2018",
+ "read": "2026-11-05",
+ "uses": [
+  "vintages/italy/barolo/2018",
+  "places/italy/barolo"
+ ],
+ "sources": {
+  "disciplinare": {
+   "name": "Barolo DOCG disciplinare, article 8 (MGA list)",
+   "kind": "official",
+   "url": "https://aisitalia.it/Disciplinari/Piemonte/DOCG/Barolo.pdf"
+  },
+  "kl-search": {
+   "name": "Kermit Lynch (importer) Guido Porro pages: 2018 Gianetto, 2015 Gianetto, producer pages",
+   "kind": "importer",
+   "url": "https://shop.kermitlynch.com/product/detail/18FGP11/",
+   "note": "Pages returned 403; text read through search result summaries only."
+  },
+  "winecom": {
+   "name": "Wine.com, 2018 Vigna Gianetto (Wine Advocate note)",
+   "kind": "merchant",
+   "url": "https://www.wine.com/product/guido-porro-vigna-gianetto-barolo-2018/1185479",
+   "note": "Page blocked; read via search summary."
+  },
+  "degrazia": {
+   "name": "Marc de Grazia, Garesio Barolo Gianetto",
+   "kind": "importer",
+   "url": "https://marcdegrazia.com/wines/garesio-barolo-gianetto/",
+   "about": "Another producer's Gianetto, used for the vineyard."
+  },
+  "viaswine": {
+   "name": "Vias Imports, Garesio Giannetto factsheet",
+   "kind": "importer",
+   "url": "https://viaswine.com/wp-content/uploads/Giannetto_factsheet-1.pdf",
+   "about": "Another producer's Gianetto; read via search summary."
+  },
+  "vinous": {
+   "name": "Vinous, 2017 Gianetto listing",
+   "kind": "critic",
+   "url": "https://vinous.com/wines/guido-porro-barolo-gianetto/2017",
+   "about": "2017 vintage; note paywalled."
+  },
+  "primal": {
+   "name": "Primal Wine, Guido Porro producer page",
+   "kind": "merchant",
+   "url": "https://primalwine.com/blogs/natural-wine-producers-primal-wine/guido-porro"
+  },
+  "vinexus": {
+   "name": "Vinexus (UK importer) producer summary",
+   "kind": "importer",
+   "url": "https://vinexus.co.uk/?p=2782",
+   "note": "Read via search summary."
+  }
+ },
+ "claims": [
+  {
+   "topic": "grapes",
+   "claim": "Barolo is 100% Nebbiolo.",
+   "source": [
+    "disciplinare"
+   ],
+   "strength": "Strong"
+  },
+  {
+   "topic": "vineyard",
+   "claim": "Gianetto is an official Barolo MGA. It is on the disciplinare's list.",
+   "source": [
+    "disciplinare"
+   ],
+   "strength": "Strong",
+   "quote": "Gianetto, Ginestra, Gramolere"
+  },
+  {
+   "topic": "place",
+   "claim": "Gianetto is in the commune of Serralunga d'Alba.",
+   "source": [
+    "kl-search",
+    "degrazia"
+   ],
+   "strength": "Strong",
+   "quote": "Gianetto cru in Serralunga d'Alba"
+  },
+  {
+   "topic": "aspect",
+   "claim": "Kermit Lynch describes a prime southeastern exposure to catch the morning sun.",
+   "source": [
+    "kl-search"
+   ],
+   "strength": "Strong",
+   "quote": "prime southeastern exposure to catch the morning sun"
+  },
+  {
+   "topic": "aspect",
+   "claim": "Garesio's Gianetto parcel faces east. Their factsheet lists south, southeast and east.",
+   "source": [
+    "degrazia",
+    "viaswine"
+   ],
+   "strength": "Medium",
+   "note": "Another producer's parcel in the same MGA."
+  },
+  {
+   "topic": "soil",
+   "claim": "Serralunga is on Helvetian soil: Lequio formation of white clay with layers of limestone sand. Kermit Lynch lists clay and limestone.",
+   "source": [
+    "degrazia",
+    "kl-search",
+    "viaswine"
+   ],
+   "strength": "Medium",
+   "quote": "Lequio formation with white clay interspersed with layers of limestone sand"
+  },
+  {
+   "topic": "size",
+   "claim": "The MGA is small. Garesio's Gianetto parcel is 0.6 ha; its factsheet says about 1 ha.",
+   "source": [
+    "degrazia",
+    "viaswine"
+   ],
+   "strength": "Weak",
+   "note": "Another producer's holding, not the MGA's total and not Porro's plot."
+  },
+  {
+   "topic": "size",
+   "claim": "Kermit Lynch's 2015 sheet lists Porro's Gianetto vineyard as about 1 ha on clay and limestone. A separate listing says 2 ha with 40 to 45 year old vines.",
+   "source": [
+    "kl-search"
+   ],
+   "strength": "Weak",
+   "vintage": 2015,
+   "note": "Vine age and size conflict across listings; second listing not clearly tied to Porro."
+  },
+  {
+   "topic": "vineyard",
+   "claim": "Altitude is about 250 to 280 m at Garesio's Gianetto parcel; one source says 280 to 350 m.",
+   "source": [
+    "degrazia",
+    "viaswine"
+   ],
+   "strength": "Weak"
+  },
+  {
+   "topic": "vine age",
+   "claim": "Vine age for Porro's Gianetto is uncertain: 40 to 45 years in one listing, 8 years in another.",
+   "source": [
+    "kl-search"
+   ],
+   "strength": "Weak",
+   "note": "Conflict; see conflicts."
+  },
+  {
+   "topic": "alcohol",
+   "claim": "The 2015 Gianetto was 14.5% alcohol.",
+   "source": [
+    "kl-search"
+   ],
+   "strength": "Medium",
+   "vintage": 2015,
+   "note": "2018 figure not found."
+  },
+  {
+   "topic": "winemaking",
+   "claim": "Natural fermentation, aging in Slavonian oak botti, bottled unfiltered. Applies to the estate's Barolos.",
+   "source": [
+    "kl-search"
+   ],
+   "strength": "Medium",
+   "vintage": "estate style",
+   "note": "Kermit Lynch 4-pack page. Primal Wine confirms large oak botti, not the wood origin."
+  },
+  {
+   "topic": "tasting",
+   "claim": "Wine Advocate: plump and ripe, with dark fruit and blackberry. Spice of crushed clove or powdered cinnamon, plus bay leaf, dried herb and lavender.",
+   "source": [
+    "winecom",
+    "kl-search"
+   ],
+   "strength": "Medium",
+   "quote": "plump and ripe with dark fruit",
+   "note": "Wine.com shows Wine Advocate 92 points; the reviewer is not named on the page."
+  },
+  {
+   "topic": "structure",
+   "claim": "Kermit Lynch says the Gianetto is not the unyielding, tannic beast of old, and should still gain from a few years in the cellar.",
+   "source": [
+    "kl-search"
+   ],
+   "strength": "Medium",
+   "quote": "will certainly benefit from a few years in your cellar",
+   "vintage": 2017,
+   "note": "Quote read for 2017 and repeated in 2018 summary."
+  },
+  {
+   "topic": "window",
+   "claim": "No critic or producer window found for the 2018. Vinous gave the 2017 Gianetto 2024 to 2034.",
+   "source": [
+    "vinous"
+   ],
+   "strength": "Medium",
+   "vintage": 2017
+  },
+  {
+   "topic": "window",
+   "claim": "Estimate: drink 2026 to 2036, best 2028 to 2034. Gianetto is a more approachable Serralunga Barolo. Fits the CellarTracker 2026 to 2034 range.",
+   "source": [
+    "estimate"
+   ],
+   "strength": "Estimate",
+   "note": "Reasoned from the 2017 Vinous window, Kermit Lynch 'few years in the cellar' note and CellarTracker range."
+  },
+  {
+   "topic": "history",
+   "claim": "Guido Porro is the fourth generation of the family, in Serralunga d'Alba. He took over from his father Giovanni in 1996.",
+   "source": [
+    "vinexus",
+    "kl-search"
+   ],
+   "strength": "Medium",
+   "quote": "fourth generation of the Porro family"
+  },
+  {
+   "topic": "history",
+   "claim": "The family has bottled under its own label since the late 1970s.",
+   "source": [
+    "primal"
+   ],
+   "strength": "Weak"
+  },
+  {
+   "topic": "producer",
+   "claim": "All of Guido's Barolos come from three MGAs in Serralunga: Lazzarito (Lazzairasco, Santa Caterina, 'l Pari), Gianetto and Vigna Rionda (a 0.7 ha plot).",
+   "source": [
+    "vinexus",
+    "kl-search"
+   ],
+   "strength": "Medium",
+   "note": "Vinexus says three MGAs; details on parcels vary by summary."
+  },
+  {
+   "topic": "producer",
+   "claim": "Lazzairasco is the lower site below the winery; Santa Caterina is higher up and more high-toned.",
+   "source": [
+    "kl-search"
+   ],
+   "strength": "Medium"
+  },
+  {
+   "topic": "structure",
+   "claim": "Taste dots: dry; full body (plump and ripe); fresh acidity; firm tannin, typical of Serralunga.",
+   "source": [
+    "reading"
+   ],
+   "strength": "Estimate"
+  },
+  {
+   "topic": "tasting",
+   "claim": "Flavor icons from the Wine Advocate note: blackberry, clove, bay leaf, lavender.",
+   "source": [
+    "reading"
+   ],
+   "strength": "Estimate"
+  },
+  {
+   "topic": "pairing",
+   "claim": "Braised beef, roast game, mushroom risotto and aged cheese suit Barolo.",
+   "source": [
+    "estimate"
+   ],
+   "strength": "Estimate"
+  },
+  {
+   "topic": "decant",
+   "claim": "Decant one to two hours while young.",
+   "source": [
+    "estimate"
+   ],
+   "strength": "Estimate"
+  }
+ ],
+ "conflicts": [
+  "Gianetto vine age: 40 to 45 years (one Kermit Lynch listing) vs 8 years (2015 sheet).",
+  "Gianetto vineyard size: 1 ha, 2 ha, 0.6 ha across sources, some for other producers.",
+  "Altitude: 250 m, 280 m, or 280 to 350 m."
+ ],
+ "gaps": [
+  "No Porro tech sheet for 2018: new oak share, months in botti, filtration, exact vineyard size, soil and vine age for Porro's own plot.",
+  "2018 alcohol not found (14.5% is 2015).",
+  "Critic window for 2018 Gianetto not found; Wine Advocate/Vinous/Jancis notes paywalled.",
+  "Serving, decanting and pairings not found.",
+  "Name origin of Gianetto not found.",
+  "Kermit Lynch, Wine.com and Jancis Robinson pages returned 403; Kermit text via search summaries only.",
+  "Porro estate total hectares not found."
+ ]
+}

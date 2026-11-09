@@ -1,0 +1,38 @@
+{
+ "subject": "vintage",
+ "id": "france/bordeaux/2020",
+ "read": "2026-11-05",
+ "sources": {
+  "quinney": {"name": "Gavin Quinney, Bordeaux 2020 weather and harvest report", "kind": "vintage report", "url": "https://gavinquinney.com/2020/10/14/bordeaux-2020-weather-and-harvest-report-blog/", "note": "Quinney owns Château Bauduc and writes the Jancis Robinson weather reports. Figures come from six weather stations. Written in October 2020, before the wines were made."},
+  "frw": {"name": "Farr Vintners, Bordeaux 2020 vintage overview", "kind": "merchant", "url": "https://www.frw.co.uk/editorial/bordeaux-2020-vintage-overview"},
+  "search-summaries": {"name": "Search summaries of Decanter, Drinks Business, Wine Review Online and merchant reports on Bordeaux 2020", "kind": "general", "note": "Relayed through search summaries. Those pages were not read."}
+ },
+ "claims": [
+  {"topic": "vintage", "claim": "Winter was mild with a lot of rain in November and December. Spring was wet, with budbreak in mid-March. Mildew was a considerable threat and some vineyards lost volume. Late March frost was a worry.", "source": ["quinney", "frw"], "strength": "Strong", "note": "Both describe a mild, wet winter and spring with mildew pressure."},
+  {"topic": "vintage", "claim": "Flowering came early, mostly in the second half of May, between rainy spells. Quinney calls the timing incredibly lucky, since most estates had good fruit set.", "source": ["quinney"], "strength": "Medium", "note": "One source."},
+  {"topic": "vintage", "claim": "Summer was hot and dry. There were 54 days of drought from 18 June to 11 August, then 20 more dry days after late August. Only 45 mm fell in the three months from 19 June to 18 September, under a third of the 30-year average.", "source": ["quinney"], "strength": "Medium", "note": "One source with its own weather stations. Frw agrees on a hot, dry summer from mid-June."},
+  {"topic": "vintage", "claim": "Mid-August storms (11 to 16 August) brought around 100 mm to the Haut-Médoc. The Right Bank got about a third of that. The Right Bank was also hotter than normal in August and September.", "source": ["quinney", "frw"], "strength": "Medium", "note": "Frw says mid-August rain eased conditions on the Left Bank. This matches Quinney's figures."},
+  {"topic": "vintage", "claim": "It was an early harvest. Whites began in mid-August. Merlot started in early to mid September, in the week of 14 September at many estates, and was mostly done in about two and a half weeks. Cabernet Sauvignon was mostly picked from 21 September. Quinney saw no rot on the reds.", "source": ["quinney", "frw"], "strength": "Strong", "note": "Two sources."},
+  {"topic": "production", "claim": "Yields were lower for many estates. A 20 to 30% drop in the Médoc was typical, with small berries and less juice. Léoville Barton was down about 20%, Lafite about 15% and Angludet about half.", "source": ["frw", "quinney", "search-summaries"], "strength": "Medium", "note": "Estate figures from Frw. Decanter is relayed as about 25% lower than 2019 for many top Left Bank reds."},
+  {"topic": "production", "claim": "Bordeaux's overall volume was down about 10% from 2018 and 2019.", "source": ["search-summaries"], "strength": "Weak", "note": "Relayed from Drinks Business. Quinney quotes Agreste at only 1% below 2019 and expected it to fall further."},
+  {"topic": "vintage", "claim": "Well-drained gravel soils struggled in the dry heat. Cooler clay and limestone soils did better. Clay and limestone on the Right Bank held water through the drought.", "source": ["frw", "search-summaries"], "strength": "Medium", "note": "Two sources. Frw says gravels struggled, and a Lafite note says the heatwave stalled ripening on the Left Bank."},
+  {"topic": "tasting", "claim": "The wines are ripe but fresh, classical and elegant, with expressive aromatics. Cool late-August and September nights kept acidity.", "source": ["frw"], "strength": "Medium", "note": "One source. Critics compare 2020 with 2019 and 2016."},
+  {"topic": "alcohol", "claim": "Left Bank wines are moderate: Lafite is 12.8% and few go above 13.5%. Right Bank wines mostly run 14 to 14.5%.", "source": ["frw"], "strength": "Medium", "note": "One source."},
+  {"topic": "standing", "claim": "Quality is high but variable. Frw calls the Right Bank more consistent and arguably stronger. Decanter is relayed as saying it is not a Left Bank or Right Bank vintage, and one critic calls a Right Bank label a crass over-simplification.", "source": ["frw", "quinney", "search-summaries"], "strength": "Weak", "note": "Critics disagree. See conflicts."}
+ ],
+ "conflicts": [
+  "Left or Right Bank: Frw says the Right Bank was more consistent and arguably stronger. Decanter and a critic are relayed as saying it is not a bank vintage. Top Pauillac, Margaux, Saint-Julien and Pessac-Léognan estates did well.",
+  "Volume: Agreste put 2020 only 1% below 2019 (quoted by Quinney). Drinks Business is relayed at about 10% lower. Estate-level losses of 20 to 30% in the Médoc.",
+  "Left Bank rain: the mid-August rain eased stress for some Médoc estates and plumped Cabernet berries. Quinney's early report did not yet know how the wines would turn out."
+ ],
+ "gaps": [
+  "Decanter, Jancis Robinson and Drinks Business pages were not read, only summaries.",
+  "No Right Bank yield figures for named estates.",
+  "Quinney's report is from October 2020. It says little about the finished wines.",
+  "No official CIVB figure read."
+ ],
+ "sheet": {
+  "vintage_left": "A mild, wet spring, then a hot, dry summer with one burst of August rain. Berries were small and the crop was down. The best reds are ripe and fresh.",
+  "vintage_right": "A wet spring and a lucky early flowering, then a hot, dry summer. Clay and limestone held water well. Merlot came in ripe and the reds are rich, at 14 to 14.5% alcohol."
+ }
+}

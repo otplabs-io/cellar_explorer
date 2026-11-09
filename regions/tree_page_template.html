@@ -1,0 +1,158 @@
+<title>Pour Sheets Regions</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Nunito+Sans:wght@400;600;700;800&display=swap">
+<style>
+/* Layout: a reading column. Header and search sit at the top, then a country index, then the tree as nested, foldable lists. */
+:root{
+  --ink:#1F2D3A; --soft:#47525C; --paper:#FFFFFF; --sand:#F4EFE3; --edge:#CFC7B5; --rule:#E4DDCC;
+  --coral:#D9482B; --coral-text:#B93414; --gold:#E9B44C; --gold-tint:#F9EBC6; --teal:#1F6F73; --mark:#FBE3A8;
+  --display:'Poppins',system-ui,sans-serif; --body:'Nunito Sans',system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --ink:#ECE6D8; --soft:#B9B2A4; --paper:#171E25; --sand:#212A33; --edge:#3A4550; --rule:#2C3640;
+  --coral:#EF7A5E; --coral-text:#F2937B; --gold:#E9B44C; --gold-tint:#3A3222; --teal:#6FB8BB; --mark:#5A4A20; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --ink:#ECE6D8; --soft:#B9B2A4; --paper:#171E25; --sand:#212A33; --edge:#3A4550; --rule:#2C3640;
+  --coral:#EF7A5E; --coral-text:#F2937B; --gold:#E9B44C; --gold-tint:#3A3222; --teal:#6FB8BB; --mark:#5A4A20; color-scheme:dark}
+body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.45}
+.wrap{max-width:880px;margin:0 auto;padding-block:28px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(28px,5vw,40px);line-height:1.1;margin:0;text-wrap:balance}
+.lede{color:var(--soft);margin:8px 0 0;max-width:64ch}
+.facts{display:flex;flex-wrap:wrap;gap:6px 20px;margin:14px 0 0;font-size:13px;color:var(--soft)}
+.facts b{font-family:var(--display);color:var(--ink);font-weight:700;font-variant-numeric:tabular-nums}
+.tools{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--paper);padding:14px 0 10px;margin-top:18px;border-bottom:1.5px solid var(--ink);display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--paper)}
+#q{flex:1 1 240px;min-width:0;font:inherit;font-size:16px;padding:9px 12px;border:1.5px solid var(--edge);border-radius:6px;background:var(--paper);color:var(--ink)}
+#q:focus{outline:2px solid var(--teal);outline-offset:1px;border-color:var(--teal)}
+button{font:inherit;font-size:13px;font-weight:700;padding:8px 12px;border-radius:6px;border:1.5px solid var(--edge);background:var(--sand);color:var(--ink);cursor:pointer}
+button:hover{border-color:var(--ink)}
+button:focus-visible,summary:focus-visible,.chip:focus-visible{outline:2px solid var(--teal);outline-offset:2px}
+#status{flex-basis:100%;font-size:12.5px;color:var(--soft);min-height:1.2em}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:12.5px;color:var(--soft);margin:12px 0 0}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.index{display:flex;flex-wrap:wrap;gap:6px;margin:16px 0 4px}
+.chip{font-size:12.5px;font-weight:700;text-decoration:none;color:var(--ink);background:var(--sand);border:1px solid var(--edge);border-radius:999px;padding:3px 10px;display:inline-flex;gap:6px;align-items:baseline}
+.chip small{font-weight:600;color:var(--soft);font-variant-numeric:tabular-nums}
+.chip .b{color:var(--coral-text)}
+#tree{margin-top:14px}
+ul{list-style:none;margin:0;padding:0}
+ul ul{margin-left:9px;padding-left:14px;border-left:1px solid var(--rule)}
+li{margin:0}
+.row{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 8px;padding:3px 0;min-width:0}
+details>summary{list-style:none;cursor:pointer}
+details>summary::-webkit-details-marker{display:none}
+.tw{display:inline-block;width:14px;flex:none;color:var(--soft);font-size:11px;transform:translateY(-1px);transition:transform .12s}
+details[open]>summary .tw{transform:rotate(90deg) translateX(-1px)}
+.leaf .tw{visibility:hidden}
+.nm{font-weight:600;min-width:0;overflow-wrap:anywhere}
+.country>details>summary .nm{font-family:var(--display);font-weight:700;font-size:21px}
+.country{padding-top:14px;margin-top:6px;border-top:1px solid var(--rule)}
+.country:first-child{border-top:0}
+.tag{font-size:10.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--teal);border:1px solid currentColor;border-radius:3px;padding:0 4px;line-height:1.5}
+.tier{font-size:12px;color:var(--soft)}
+.mine{width:7px;height:7px;border-radius:50%;background:var(--gold);flex:none;align-self:center}
+.btl{font-size:12px;font-weight:800;color:var(--coral-text);font-variant-numeric:tabular-nums}
+.btl::before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--coral);margin-right:4px;vertical-align:1px}
+.cnt{font-size:12px;color:var(--soft);font-variant-numeric:tabular-nums}
+.also{font-size:12px;color:var(--soft);font-style:italic}
+.sec{font-size:11px;color:var(--soft);font-style:italic}
+mark{background:var(--mark);color:inherit;border-radius:2px}
+.foot{margin-top:28px;font-size:12.5px;color:var(--soft);max-width:68ch}
+@media (prefers-reduced-motion:reduce){.tw{transition:none}}
+</style>
+
+<div class="wrap">
+  <h1>Pour Sheets Regions</h1>
+  <p class="lede">Every wine place the sheets can name, built from Chris's own hierarchy and filled out from the official registers. Open any place to see what sits inside it, or search for a name.</p>
+  <div class="facts"><span><b>__TOTAL__</b> places</span><span><b>__COUNTRIES__</b> countries</span><span><b>__BOTTLES__</b> cellar bottles, all placed</span></div>
+  <div class="legend">
+    <span><i class="mine"></i>On Chris's list</span>
+    <span><span class="btl">3</span>Bottles in the cellar, here and below</span>
+    <span><span class="tag">AOC</span>Official designation, in the country's own terms</span>
+    <span><span class="sec">secondary source</span>From Wikipedia, not an official register</span>
+  </div>
+  <div class="tools">
+    <label for="q" hidden>Search places</label>
+    <input id="q" type="search" placeholder="Search a place, such as Meursault, Rutherford or Barossa" autocomplete="off" spellcheck="false">
+    <button id="open1" type="button">Show regions</button>
+    <button id="openall" type="button">Expand all</button>
+    <button id="closeall" type="button">Collapse all</button>
+    <div id="status" aria-live="polite"></div>
+  </div>
+  <nav class="index" id="index" aria-label="Countries"></nav>
+  <div id="tree"></div>
+  <p class="foot">Sources and judgment calls are listed in regions/sources.md in the Pour Sheets project. Vineyard names below the appellation, such as Burgundy climats, aren't in the tree; each wine's own record names those.</p>
+</div>
+
+<script>
+const D=__DATA__; // [name, parent index, tag, tiers, on Chris's list, bottles, secondary, other names]
+const kids=D.map(()=>[]); D.forEach((r,i)=>{ if(r[1]>=0) kids[r[1]].push(i); });
+const roots=D.map((r,i)=>r[1]<0?i:-1).filter(i=>i>=0);
+const fold=s=>s.normalize('NFKD').replace(/[̀-ͯ]/g,'').toLowerCase();
+const KEY=D.map(r=>fold(r[0]+' '+r[7]));
+const el={}; const det={};
+const tree=document.getElementById('tree');
+function count(i){let n=0;const st=[...kids[i]];while(st.length){const k=st.pop();n++;st.push(...kids[k]);}return n;}
+function row(i){
+  const r=D[i]; const s=document.createElement('span'); s.className='row';
+  s.innerHTML='<span class="tw" aria-hidden="true">▶</span>';
+  if(r[4]){const m=document.createElement('i');m.className='mine';m.title="On Chris's list";s.append(m);}
+  const nm=document.createElement('span'); nm.className='nm'; nm.textContent=r[0]; s.append(nm);
+  if(r[2]){const t=document.createElement('span');t.className='tag';t.textContent=r[2];s.append(t);}
+  if(r[3]){const t=document.createElement('span');t.className='tier';t.textContent=r[3];s.append(t);}
+  if(r[5]){const b=document.createElement('span');b.className='btl';b.textContent=r[5]+(r[5]==1?' bottle':' bottles');s.append(b);}
+  if(kids[i].length){const c=document.createElement('span');c.className='cnt';c.textContent=count(i)+' inside';s.append(c);}
+  if(r[7]){const a=document.createElement('span');a.className='also';a.textContent='also '+r[7];s.append(a);}
+  return s;
+}
+function build(i,parentUl,isCountry){
+  const li=document.createElement('li'); if(isCountry){li.className='country';li.id='c-'+i;}
+  el[i]=li;
+  if(kids[i].length){
+    const d=document.createElement('details'); const sm=document.createElement('summary'); sm.append(row(i));
+    if(isCountry && D[i][6]){const x=document.createElement('span');x.className='sec';x.textContent='secondary source';sm.firstChild.append(x);}
+    d.append(sm); const ul=document.createElement('ul'); d.append(ul); li.append(d); det[i]=d;
+    d.addEventListener('toggle',()=>{ if(d.open && !ul.dataset.built) fill(i,ul); },{once:false});
+    d._ul=ul;
+  } else { const s=row(i); s.classList.add('leaf'); li.append(s); }
+  parentUl.append(li);
+}
+function fill(i,ul){ ul.dataset.built=1; kids[i].forEach(k=>build(k,ul,false)); }
+function ensure(i){ // build every ancestor so i exists in the page
+  const chain=[]; let p=i; while(p>=0){chain.unshift(p);p=D[p][1];}
+  chain.slice(0,-1).forEach(a=>{const d=det[a]; if(d && !d._ul.dataset.built) fill(a,d._ul);});
+}
+const topUl=document.createElement("ul"); tree.append(topUl); roots.forEach(r=>build(r,topUl,true));
+// country index
+const idx=document.getElementById('index');
+roots.forEach(r=>{const a=document.createElement('a');a.className='chip';a.href='#c-'+r;a.innerHTML='';const n=document.createElement('span');n.textContent=D[r][0];a.append(n);
+  const c=document.createElement('small');c.textContent=count(r);a.append(c);
+  if(D[r][5]){const b=document.createElement('small');b.className='b';b.textContent='· '+D[r][5];a.append(b);}
+  a.addEventListener('click',e=>{e.preventDefault();det[r]&&(det[r].open=true);el[r].scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'});});
+  idx.append(a);});
+// resting state: every country open one level, and the path to each cellar place open
+function showRegions(){ Object.values(det).forEach(d=>d.open=false); roots.forEach(r=>{if(det[r])det[r].open=true;}); }
+showRegions();
+// search
+const q=document.getElementById('q'), status=document.getElementById('status');
+function clearMarks(){ tree.querySelectorAll('mark').forEach(m=>m.replaceWith(m.textContent)); tree.querySelectorAll('li[hidden]').forEach(l=>l.hidden=false); }
+let timer;
+q.addEventListener('input',()=>{clearTimeout(timer);timer=setTimeout(run,120);});
+function run(){
+  const v=fold(q.value.trim()); clearMarks();
+  if(v.length<2){status.textContent='';showRegions();return;}
+  const hits=[]; D.forEach((r,i)=>{ if(KEY[i].includes(v)) hits.push(i); });
+  const keep=new Set(); hits.forEach(h=>{let p=h;while(p>=0){keep.add(p);p=D[p][1];}});
+  hits.forEach(ensure);
+  Object.entries(el).forEach(([i,li])=>{ li.hidden=!keep.has(+i); });
+  Object.entries(det).forEach(([i,d])=>{ const k=+i; d.open=keep.has(k) && kids[k].some(c=>keep.has(c)); });
+  hits.forEach(h=>{const nm=el[h].querySelector('.nm'); const t=nm.textContent; const f=fold(t); const at=f.indexOf(v);
+    if(at>=0){nm.innerHTML=''; nm.append(t.slice(0,at)); const m=document.createElement('mark'); m.textContent=t.slice(at,at+v.length); nm.append(m, t.slice(at+v.length));}});
+  status.textContent=hits.length? `${hits.length} ${hits.length==1?'place matches':'places match'} “${q.value.trim()}”.` : `No place matches “${q.value.trim()}”. Try part of the name.`;
+}
+document.getElementById('open1').addEventListener('click',()=>{q.value='';clearMarks();status.textContent='';showRegions();});
+document.getElementById('openall').addEventListener('click',()=>{ D.forEach((r,i)=>{ if(kids[i].length) ensure(kids[i][0]); }); Object.values(det).forEach(d=>d.open=true); status.textContent='Every place is open.'; });
+document.getElementById('closeall').addEventListener('click',()=>{ Object.values(det).forEach(d=>d.open=false); status.textContent=''; });
+</script>

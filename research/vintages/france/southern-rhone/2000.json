@@ -1,0 +1,38 @@
+{
+ "subject": "vintage",
+ "id": "france/southern-rhone/2000",
+ "read": "2026-11-05",
+ "sources": {
+  "vinous-2003": {"name": "Vinous, 2001 and 2000 Rhône Valley Wines (Jan 2003)", "kind": "critic", "url": "https://v1.vinous.com/articles/2001-and-2000-rhone-valley-wines-jan-2003", "note": "Covers the whole Rhône. No dedicated Châteauneuf-du-Pape weather report. Tasted young, so it says nothing about aging."},
+  "parker-2008": {"name": "Robert Parker, The Park B. Smith 2000 Châteauneuf du Pape Invitational (2008)", "kind": "critic", "url": "https://content.robertparker.com/the-park-b-smith-2000-chateauneuf-du-pape-invitational", "note": "Tasting at eight years old. No weather."},
+  "decanter-clos-des-papes": {"name": "Decanter, Clos des Papes Châteauneuf-du-Pape 2000 review", "kind": "critic", "url": "https://www.decanter.com/wine-reviews/france/rhone/clos-des-papes-chateauneuf-du-pape-chateauneuf-du-pape-rhone-france-2000-48115/", "note": "One wine, reviewed in 2021. The reviewer comment on the vintage is general."},
+  "gardine": {"name": "Château de la Gardine, Vintage 2000", "kind": "producer", "url": "https://www.gardine.com/en/actualites/chateauneuf-du-pape-vintage/vintage-2000", "note": "One estate's page, written to sell wine. No growing season detail."},
+  "search-summaries": {"name": "Search summaries of Decanter's 2000 Rhône feature and Wine With Seth", "kind": "general", "note": "Relayed through search summaries. The Decanter feature page and Wine With Seth could not be read (empty page, then rate limited)."}
+ },
+ "claims": [
+  {"topic": "vintage", "claim": "Spring was cool and damp. A late-March frost hit parts of the Châteauneuf-du-Pape appellation.", "source": ["search-summaries"], "strength": "Weak", "note": "Relayed from a Decanter feature that could not be read. Unconfirmed."},
+  {"topic": "vintage", "claim": "Late summer brought drought stress. Les Cailloux's André Brunel reported more drought stress than usual in late summer 2000.", "source": ["vinous-2003"], "strength": "Medium", "quote": "more drought stress during the late summer of 2000", "note": "One producer quoted in one critic article. A search summary adds moderate rain on 30 August, which is Weak."},
+  {"topic": "vintage", "claim": "Picking was in September. Yields were generous and higher than 1999, and some wines miss on concentration because of them.", "source": ["vinous-2003", "search-summaries"], "strength": "Medium", "quote": "just miss on concentration due to high yields", "note": "The high-yield point is in the critic article. The comparison with 1999 is only in search summaries."},
+  {"topic": "vintage", "claim": "The style is opulent and showy. Parker called it a vintage of flamboyant fruit and hedonistic wines that are easy to like.", "source": ["parker-2008"], "strength": "Medium", "quote": "opulence, flamboyant fruit, and showy, easy-to-understand and appreciate, hedonistic wines", "note": "One critic, tasting at eight years old."},
+  {"topic": "vintage", "claim": "Critics differ on the rank of the year. Parker found quality extraordinarily high across his tasting. Decanter's reviewer says 2000 is not a great vintage in Châteauneuf-du-Pape.", "source": ["parker-2008", "decanter-clos-des-papes"], "strength": "Medium", "quote": "Not in Châteauneuf-du-Pape, no.", "note": "Direct disagreement. See conflicts. The Parker score of 90 on his vintage chart is relayed only through search summaries."},
+  {"topic": "vintage", "claim": "Young, the wines were supple and rich but some were a bit diffuse. Tannins were ripe, though some producers called them rustic. They gained less in the last months in barrel than the 2001s did.", "source": ["vinous-2003"], "strength": "Medium", "note": "One critic, across the whole southern Rhône."},
+  {"topic": "vintage", "claim": "The producer describes 2000 as fine and delicate, almost Burgundian, with dense but silky tannins and a long finish.", "source": ["gardine"], "strength": "Weak", "note": "One estate, selling its own wine. Not a view of the whole appellation."},
+  {"topic": "aging", "claim": "At 26 years old, good 2000 reds are mature. Aged examples show garnet colour with golden edges, brandied prune and red fruit, leather, undergrowth and gamey notes. The tannin and acidity can still be fresh.", "source": ["gardine", "decanter-clos-des-papes"], "strength": "Medium", "quote": "good point for drinking now", "note": "One estate describes the aged colour and notes. Decanter judged Clos des Papes at 20 years old. Neither is a survey of the vintage."},
+  {"topic": "window", "claim": "Parker's 2008 view was that the top wines were still adolescents with a window to about 2020, and that Janasse's Vieilles Vignes had 10 to 15 more years. Decanter's 2021 window for Clos des Papes runs to 2027.", "source": ["parker-2008", "decanter-clos-des-papes"], "strength": "Medium", "note": "The two windows differ. Parker's has now passed for most wines, so treat it as too short."},
+  {"topic": "window", "claim": "Most Châteauneuf-du-Pape from 2000 should be drunk now through the next several years. The best may hold longer. Poorly stored or lighter bottles are past their best.", "source": ["estimate"], "strength": "Estimate", "note": "Reasoned from the Decanter window to 2027, the producer's 'at or near peak' and the soft, forward style. Check each wine."}
+ ],
+ "conflicts": [
+  "Rank of the year: Parker praised the vintage in 2008. Decanter's reviewer says it is not a great year in Châteauneuf-du-Pape.",
+  "Style: Parker calls it opulent and showy. Gardine calls it delicate and almost Burgundian. Vinous found many wines supple but a bit diffuse.",
+  "Drinking windows: Parker 'between now and 2020' (written 2008) against Decanter 2021 to 2027 for Clos des Papes."
+ ],
+ "gaps": [
+  "No official Châteauneuf-du-Pape syndicate report for 2000. The appellation's 2000 page was an empty shell.",
+  "No confirmed harvest dates or yield figures in hl/ha.",
+  "No confirmed winter and flowering detail. The late-March frost is unconfirmed.",
+  "Decanter's 2000 Rhône feature, Jancis Robinson's chart and Wine With Seth could not be read."
+ ],
+ "sheet": {
+  "vintage": "2000 was a generous, ripe year in the southern Rhône. The wines were soft and showy young. Good ones are mature now, with leather, dried fruit and spice."
+ }
+}

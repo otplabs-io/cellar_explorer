@@ -1,0 +1,36 @@
+{
+ "subject": "vintage",
+ "id": "united-states/walla-walla-valley/2020",
+ "read": "2026-11-05",
+ "sources": {
+  "wa-commission": {"name": "Washington State Wine Commission, Vintages: 40-Year Overview", "kind": "official", "url": "https://www.washingtonwine.org/resource/vintages-30-year-overview/", "note": "Statewide, not Walla Walla alone."},
+  "suckling": {"name": "James Suckling, Washington Annual Report: A Wine Nation Unto Itself", "kind": "critic", "url": "https://www.jamessuckling.com/wine-tasting-reports/washington-annual-report-a-wine-nation-unto-itself"},
+  "oregon-report": {"name": "Oregon Wine Industry, 2020 Oregon Harvest Report", "kind": "vintage report", "url": "https://industry.oregonwine.org/resources/reports-studies/2020-oregon-harvest-report/", "about": "Oregon, not Washington."},
+  "union-bulletin": {"name": "Walla Walla Union-Bulletin, Vineyards, wineries mitigating smoke influence in the Walla Walla Valley", "kind": "general", "url": "https://www.union-bulletin.com/news/vineyards-wineries-mitigating-smoke-influence-in-the-walla-walla-valley/article_c3c005fa-cf89-5e80-b397-0816bc994499.html", "note": "Page returned 429. Only a search summary was seen."},
+  "canvasback": {"name": "Canvasback, 2020 Walla Walla Valley Rosé of Syrah", "kind": "producer", "url": "https://www.duckhornwineshop.com/product/2020-canvasback-walla-walla-valley-rose", "note": "Seen as a search summary."},
+  "lecole": {"name": "L'Ecole No 41, 2020 Seven Hills Syrah tech sheet", "kind": "producer", "url": "https://www.lecole.com/wp-content/uploads/2022/05/2020-Syrah-EST-WW_TECH.pdf", "note": "Seen as a search summary."}
+ },
+ "claims": [
+  {"topic": "vintage", "claim": "Budbreak was in mid-April, near the historical average. Summer was moderate and even, with heat spikes in late July and early August.", "source": ["wa-commission"], "strength": "Medium", "note": "Statewide. Suckling agrees that budbreak and bloom were near normal."},
+  {"topic": "production", "claim": "The Washington crop was down sharply, 178,500 tons. Growers pointed to a big 2019 crop, October 2019 freezes and poor fruit set at bloom.", "source": ["wa-commission", "suckling"], "strength": "Strong", "note": "State figure, not Walla Walla."},
+  {"topic": "vintage", "claim": "Picking started in the third week of August. A hot early September rushed the early varieties.", "source": ["wa-commission"], "strength": "Medium", "note": "One source."},
+  {"topic": "vintage", "claim": "Wildfire smoke from Oregon and California reached the region in the second week of September and paused harvest for nearly 10 days. It also slowed sugar buildup.", "source": ["wa-commission", "suckling"], "strength": "Strong", "note": "Statewide wording. Suckling confirms the pause."},
+  {"topic": "vintage", "claim": "Walla Walla County air quality passed 400 on the index in mid-September, and some growers sold leftover fruit to wineries elsewhere.", "source": ["union-bulletin"], "strength": "Weak", "note": "Search summary only."},
+  {"topic": "vintage", "claim": "A freeze on October 25 ended the season in many places.", "source": ["wa-commission"], "strength": "Medium", "note": "Statewide. One source."},
+  {"topic": "vintage", "claim": "Smoke effects varied. Leonetti declassified fruit from some vineyards. Betz Family did not release a 2020. Other producers tested clean, such as Canvasback for its rosé.", "source": ["suckling", "canvasback", "lecole"], "strength": "Medium", "note": "The Canvasback and L'Ecole claims are their own statements about their own wines."},
+  {"topic": "vintage", "claim": "Whites and rosés are less exposed to smoke because they spend little or no time on the skins. Oregon winemakers put extra effort into them in 2020.", "source": ["oregon-report"], "strength": "Weak", "quote": "less exposure to smoke-affected grape skins", "note": "Oregon source. The reasoning applies to rosé in general, but it is not a Walla Walla finding."},
+  {"topic": "vintage", "claim": "Small berries and long hang time gave dark, concentrated reds for the producers who made wine.", "source": ["wa-commission", "suckling"], "strength": "Medium"}
+ ],
+ "conflicts": [
+  "Smoke timing: the Wine Commission says second week of September. Union-Bulletin (summary) says mid-September. A Wine Spectator piece from early September says Walla Walla had only a slight haze then, so the heavy smoke came after.",
+  "Impact: Quilceda Creek said smoke blew through Red Mountain and Horse Heaven Hills. Walla Walla producers report mixed results."
+ ],
+ "gaps": [
+  "No Walla Walla Valley Wine Alliance vintage report found.",
+  "No source on Walla Walla rosé picking dates in 2020.",
+  "The Union-Bulletin, Canvasback and L'Ecole pages were seen only as search summaries."
+ ],
+ "sheet": {
+  "vintage": "A small crop, then wildfire smoke in mid-September paused harvest for about 10 days. Rosé spends little time on the skins, which helps in a smoky year."
+ }
+}

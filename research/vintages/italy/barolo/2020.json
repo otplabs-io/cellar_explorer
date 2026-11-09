@@ -1,0 +1,36 @@
+{
+ "subject": "vintage",
+ "id": "italy/barolo/2020",
+ "read": "2026-11-05",
+ "sources": {
+  "vinous": {"name": "Vinous, 2020 Barolo: Selective Excellence (Jan 2024)", "kind": "critic", "url": "https://v1.vinous.com/articles/2020-barolo-selective-excellence-jan-2024"},
+  "vinexus": {"name": "Vinexus, The current vintages of Italian fine wine: Brunello 19, Barolo 20 and Barbaresco 21", "kind": "merchant", "url": "https://www.vinexus.co.uk/blog/the-current-vintages-of-italian-fine-wine-brunello-19-barolo-20-and-barbaresco-21"},
+  "chiarlo": {"name": "Michele Chiarlo harvest notes (2020 entry)", "kind": "producer", "url": "https://www.michelechiarlo.it/en/harvest-notes/"},
+  "jr-chart": {"name": "Jancis Robinson Piemonte vintage chart", "kind": "critic", "url": "https://jancisrobinson.com/ja/node/9439", "note": "Page returned 403 to direct fetch. Content known only from a search-result summary."}
+ },
+ "claims": [
+  {"topic": "vintage", "claim": "Winter was mild with little rain or snow. Warm January and February gave a fast start, and budbreak was early.", "source": ["vinous", "vinexus", "chiarlo"], "strength": "Strong", "note": "Three sources agree."},
+  {"topic": "vintage", "claim": "March and April were dry and sunny. May and June were rainy and cooler, which refilled water reserves and needed some early fungal treatments.", "source": ["vinexus", "chiarlo", "vinous"], "strength": "Strong", "note": "Vinexus and Chiarlo agree. Vinous notes a cooler June."},
+  {"topic": "vintage", "claim": "April frost cost up to 10 to 15% in some spots. Mid-June hail hit La Morra and Verduno. Burlotto did not bottle its Acclivi because of the hail.", "source": ["vinous"], "strength": "Medium", "note": "One source read in full. Local damage, not zone-wide."},
+  {"topic": "vintage", "claim": "Flowering went without major trouble, but cool, rainy June weather stretched it out. Rain in May and June caused uneven fruit set.", "source": ["vinous", "jr-chart"], "strength": "Medium", "note": "Vinous read in full. The uneven fruit set point is from a search summary of Jancis Robinson."},
+  {"topic": "vintage", "claim": "Summer was warm without severe heat spikes. Rain was spread evenly through July and August. Chiarlo reports an ideal day-night range from mid-August to late September.", "source": ["vinous", "vinexus", "chiarlo"], "strength": "Strong", "note": "Three sources agree on warm and not extreme."},
+  {"topic": "vintage", "claim": "About 90 mm of rain fell on 2 and 3 October, against roughly 650 mm in a normal year. Some growers picked ahead of it. Others waited. Many picked in several passes.", "source": ["vinous"], "strength": "Medium", "note": "One source. It is the key harvest event."},
+  {"topic": "vintage", "claim": "Harvest was early to normal. Nebbiolo reached ripeness from late September into early October, with picking running into mid-October for later sites.", "source": ["chiarlo", "vinexus", "vinous"], "strength": "Strong", "note": "Three sources agree on timing. Exact dates vary by estate. A search summary mentions picking until about 19 or 20 October."},
+  {"topic": "production", "claim": "Yields were around normal to slightly below. Chiarlo reports an abundant crop thinned back to normal. A search summary of Jancis Robinson says just under average after uneven fruit set.", "source": ["chiarlo", "jr-chart"], "strength": "Weak", "note": "No official figure found. Sources lean differently."},
+  {"topic": "tasting", "claim": "Nebbiolo is mid-weight and balanced, classic and translucent, with admirable balance rather than power. Wines picked before the October rain can be lighter with edgy tannins. Many producers bottled earlier than usual.", "source": ["vinous"], "strength": "Medium", "note": "One critic read in full."},
+  {"topic": "standing", "claim": "Producers and merchants are enthusiastic. Chiarlo rates it 5 of 5 stars and calls it outstanding for medium to long ageing. Vinous is more measured and calls it selective, with good wines but uneven polyphenols.", "source": ["chiarlo", "vinexus", "vinous"], "strength": "Medium", "note": "Producer and merchant praise versus a more cautious critic. Reported as a split."}
+ ],
+ "conflicts": [
+  "Quality: producer and merchant pages call it exceptional. Vinous says polyphenols were low and the vintage is selective. Prefer 'very good, with variation'.",
+  "Summer: Vinous and Chiarlo say not excessively hot, while a search summary of a producer note says a cool summer then a warm late summer with two rainy spells.",
+  "Yields: Chiarlo says abundant before thinning. A search summary of Jancis Robinson says just under average."
+ ],
+ "gaps": [
+  "No Consorzio di Tutela report read. A press release exists but was not read.",
+  "Jancis Robinson and Decanter pages could not be read directly.",
+  "No official yield or volume figures."
+ ],
+ "sheet": {
+  "vintage": "2020 had a mild winter, a rainy late spring and a warm, steady summer. Rain in early October split the harvest, so the Nebbiolo is balanced and mid-weight, with some variation."
+ }
+}

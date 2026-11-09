@@ -1,0 +1,12 @@
+{
+ "$why": "Not an EU PDO or PGI or a US AVA: a country, state, region, group or sub-zone, with no shape of its own in the map data. The places under it that draw stay covered.",
+ "map": {
+  "covers": [
+   "united-states/texas-hill-country",
+   "united-states/texas-high-plains",
+   "united-states/texoma",
+   "united-states/texas-davis-mountains",
+   "united-states/escondido-valley"
+  ]
+ }
+}

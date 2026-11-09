@@ -1,0 +1,38 @@
+{
+ "story": {
+  "signature": null
+ },
+ "map": {
+  "panel2": [
+   "Eastern Bordeaux",
+   "Communes, shaded by their main appellation"
+  ],
+  "panel2_appellations": [
+   "Côtes de Bordeaux Sainte-Foy",
+   "Côtes de Bordeaux Castillon",
+   "Saint-Emilion grand cru",
+   "Entre-deux-Mers",
+   "Côtes de Bordeaux Francs"
+  ],
+  "communal": [
+   "Côtes de Bordeaux Sainte-Foy",
+   "Saint-Emilion grand cru"
+  ],
+  "prefer": [
+   "Saint-Emilion grand cru"
+  ],
+  "short_names": {
+   "Côtes de Bordeaux Sainte-Foy": "Sainte-Foy",
+   "Côtes de Bordeaux Castillon": "Castillon",
+   "Saint-Emilion grand cru": "Saint-Émilion",
+   "Côtes de Bordeaux Francs": "Francs"
+  },
+  "covers": [
+   "france/sainte-foy-bordeaux"
+  ]
+ },
+ "styles": [
+  "red",
+  "white"
+ ]
+}

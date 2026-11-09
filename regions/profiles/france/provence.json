@@ -1,0 +1,114 @@
+{
+ "story": {
+  "labels": {
+   "family": "The domaine"
+  }
+ },
+ "place": {
+  "subtitle": "From Provence down to one appellation"
+ },
+ "map": {
+  "engine": "appellations",
+  "precision": "appellation",
+  "credit": "Maps: INAO appellation delimitations (Licence Ouverte) via OpenDataWine; commune outlines from france-geojson; estate location from {estate_source}. Levels 1 and 2 shade whole communes by their main appellation. For orientation, not a legal boundary.",
+  "projection": 2154,
+  "departments": [
+   [
+    "13",
+    "13-bouches-du-rhone"
+   ],
+   [
+    "83",
+    "83-var"
+   ]
+  ],
+  "region_root": "france/provence",
+  "subregions": {},
+  "towns": {
+   "13001": "Aix-en-Provence",
+   "13055": "Marseille",
+   "83137": "Toulon"
+  },
+  "panel1": [
+   "Provence",
+   "Communes, shaded by area"
+  ],
+  "panel1_towns": [
+   "13001",
+   "13055",
+   "83137"
+  ],
+  "generic": [
+   "Var",
+   "Gard",
+   "Landes",
+   "Maures",
+   "Vaucluse",
+   "Champagne",
+   "Sable de Camargue",
+   "Taureau de Camargue",
+   "Alpilles",
+   "Muscadet Sèvre et Maine Gorges",
+   "Coteaux Bourguignons ou Bourgogne grand ordinaire ou Bourgogne ordinaire",
+   "Crémant de Bourgogne",
+   "Bourgogne",
+   "Bourgogne Passe-tout-grains",
+   "Bourgogne aligoté",
+   "Bourgogne mousseux",
+   "Mediterranée",
+   "Méditerranée",
+   "Pays d'Oc"
+  ],
+  "fallback": null,
+  "subregion_default": null,
+  "aliases": {},
+  "subregions_by_department": {
+   "13": "Provence",
+   "83": "Provence"
+  },
+  "panel2": [
+   "Provence",
+   "Communes, shaded by their main appellation"
+  ],
+  "panel2_appellations": [
+   "Palette",
+   "Cassis",
+   "Bandol",
+   "Côtes de Provence",
+   "Coteaux d'Aix-en-Provence",
+   "Coteaux varois en Provence",
+   "Les Baux de Provence"
+  ],
+  "$panel2_auto": "Listed in panel 2, but its own wine gets the automatic layout: the hand-set one was made for the others and clips or crowds this name.",
+  "panel2_auto": [
+   "Coteaux d'Aix-en-Provence",
+   "Les Baux de Provence"
+  ],
+  "communal": [
+   "Palette",
+   "Cassis",
+   "Bandol",
+   "Les Baux de Provence"
+  ],
+  "broad": [
+   "Côtes de Provence",
+   "Coteaux d'Aix-en-Provence",
+   "Coteaux varois en Provence"
+  ],
+  "covers": [
+   "france/cotes-de-provence",
+   "france/bandol",
+   "france/cassis",
+   "france/coteaux-varois-en-provence",
+   "france/coteaux-d-aix-en-provence",
+   "france/les-baux-de-provence",
+   "france/palette"
+  ]
+ },
+ "styles": [
+  "red",
+  "white",
+  "rosé"
+ ],
+ "$why": "Not an EU PDO or PGI or a US AVA: a country, state, region, group or sub-zone, with no shape of its own in the map data. The places under it that draw stay covered."
+}

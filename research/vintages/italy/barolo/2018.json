@@ -1,0 +1,35 @@
+{
+ "subject": "vintage",
+ "id": "italy/barolo/2018",
+ "read": "2026-11-05",
+ "sources": {
+  "vinous": {"name": "Vinous, The Enigma of 2018 Barolo (Feb 2022)", "kind": "critic", "url": "https://billing.vinous.com/articles/the-enigma-of-2018-barolo-feb-2022"},
+  "bbr": {"name": "Berry Bros. & Rudd, Barolo 2018 vintage report", "kind": "merchant", "url": "https://www.bbr.com/editorial/2022/barolo/barolo-2018-vintage-report"},
+  "chiarlo": {"name": "Michele Chiarlo harvest notes (2018 entry)", "kind": "producer", "url": "https://www.michelechiarlo.it/en/harvest-notes/"},
+  "wineindep": {"name": "The Wine Independent, Barolo and Barbaresco 2017, 2018 and 2019", "kind": "critic", "url": "https://thewineindependent.com/articles/barolo-barbaresco-2017-2018-2019/"}
+ },
+ "claims": [
+  {"topic": "vintage", "claim": "Winter was damp and snowy after the dry 2017. A sharp cold snap in late February left 60 to 70 cm of snow.", "source": ["bbr", "chiarlo"], "strength": "Strong", "note": "Two sources agree. The snow figure is from Chiarlo."},
+  {"topic": "vintage", "claim": "Spring was extremely wet. May brought 21 to 25 rainy days. Growing-season rain was about 923 mm, roughly 35% above average. Wet soil kept tractors out, and downy and powdery mildew needed quick treatment.", "source": ["vinous", "bbr", "wineindep", "chiarlo"], "strength": "Strong", "quote": "one of the wettest springs ever recorded", "note": "Quote is from Berry Bros. Four sources agree on the wet spring. The 923 mm figure is from Vinous."},
+  {"topic": "vintage", "claim": "Flowering was uneven, with many aborted flowers, after the May rain.", "source": ["vinous"], "strength": "Medium", "note": "One source read in full. A search summary of another report says rain at flowering hurt fruit set."},
+  {"topic": "vintage", "claim": "No notable frost. Hail in August hit some vineyards badly, but it was very local and neighbouring plots were untouched.", "source": ["vinous", "bbr"], "strength": "Medium", "note": "Vinous says no frost or hail of note. Berry Bros. mentions local August hail."},
+  {"topic": "vintage", "claim": "From mid-June summer was warm and mostly dry, with highs near 35 C in early August. Cool nights from late August helped aromas. Soil water reserves carried the vines.", "source": ["chiarlo", "bbr", "vinous"], "strength": "Strong", "note": "Three sources agree. A different producer source says September was very warm with small day-night swings, so nights varied."},
+  {"topic": "vintage", "claim": "Harvest was regular to slightly late. Rain in September led some growers to pick earlier than planned. Others waited into October for phenolic ripeness.", "source": ["vinous", "bbr", "chiarlo"], "strength": "Medium", "note": "No exact dates found. Chiarlo calls it regular timing, slightly early. Vinous and Berry Bros. lean later."},
+  {"topic": "production", "claim": "Yields were generally decent to high, helped by the vine releasing energy stored after 2017. Not every source agrees.", "source": ["vinous", "chiarlo"], "strength": "Weak", "note": "Vinous says high. Chiarlo says normal Nebbiolo clusters. A search summary says the Consorzio reported limited Nebbiolo yields. No official figure found."},
+  {"topic": "tasting", "claim": "Nebbiolo is perfumed and lighter than 2015 to 2017, with silky tannins. Many wines are bright and juicy with fresh acidity. Some are light or fleeting, a few dilute or green.", "source": ["bbr", "vinous", "wineindep"], "strength": "Medium", "quote": "silk-like tannins", "note": "Quote is from Berry Bros. Critics split on quality. Vinous calls it uneven."},
+  {"topic": "standing", "claim": "Quality varies by producer and site. La Morra, Verduno, Brunate and Cerequio are named for standout wines. Some producers declassified crus or skipped them.", "source": ["vinous", "wineindep"], "strength": "Medium", "note": "Declassification examples include Massolino, Gaja and Produttori del Barbaresco."},
+  {"topic": "window", "claim": "Many wines are ready to drink now. The best could last 15 to 20 years.", "source": ["bbr", "wineindep"], "strength": "Medium", "note": "Merchant and critic view, not a formal window."}
+ ],
+ "conflicts": [
+  "Quality: Berry Bros. praises finesse and charm. Vinous calls the vintage uneven, and a Flatiron summary says mixed. Treat it as producer dependent.",
+  "Yields: Vinous says high. A search summary says the Consorzio reported limited Nebbiolo yields. Chiarlo says normal Nebbiolo bunches.",
+  "September: Chiarlo and Berry Bros. describe cool nights, while another critic says September was very warm with little night cooling."
+ ],
+ "gaps": [
+  "No Consorzio di Tutela report read, so no official harvest dates or volumes.",
+  "Vietti and Jancis Robinson reports not read. No exact harvest dates found."
+ ],
+ "sheet": {
+  "vintage": "2018 followed a very wet spring, then a warm, dry summer. The Nebbiolo is perfumed and silky, lighter than the years around it, and quality depends on the producer."
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "subject": "vintage",
+ "id": "italy/barolo/2017",
+ "read": "2026-11-05",
+ "sources": {
+  "frw": {"name": "Farr Vintners, Barolo 2017 vintage report", "kind": "merchant", "url": "https://www.frw.co.uk/editorial/barolo-2017-vintage-report"},
+  "chiarlo": {"name": "Michele Chiarlo harvest notes (2017 entry)", "kind": "producer", "url": "https://www.michelechiarlo.it/en/harvest-notes/"},
+  "wineindep": {"name": "The Wine Independent, Barolo and Barbaresco 2017, 2018 and 2019", "kind": "critic", "url": "https://thewineindependent.com/articles/barolo-barbaresco-2017-2018-2019/"},
+  "decanter": {"name": "Decanter, Barolo 2017 vintage report: 120 wines tasted", "kind": "critic", "url": "https://www.decanter.com/premium/barolo-2017-vintage-report-458808/", "note": "Paywalled. Harvest dates and yield view known only from a search-result summary."}
+ },
+ "claims": [
+  {"topic": "vintage", "claim": "Winter was unusually warm, with little rain and no snow, so the soil held little water. Budbreak came early, by about 15 days.", "source": ["chiarlo", "frw"], "strength": "Strong", "note": "Two sources agree on a mild winter and early budbreak. The 15 day figure is from Chiarlo."},
+  {"topic": "vintage", "claim": "A hard April frost hit after the early budbreak. Low-lying Nebbiolo plots and frost pockets suffered most. Higher vineyards largely came through. Damage was worst in Monferrato.", "source": ["frw", "chiarlo", "wineindep"], "strength": "Strong", "note": "Three sources agree there was an April frost. Severity in the Barolo zone varied by site."},
+  {"topic": "vintage", "claim": "Some hail fell later in the year and trimmed yields in places.", "source": ["wineindep"], "strength": "Weak", "note": "One brief mention, no places or dates."},
+  {"topic": "vintage", "claim": "Flowering was not described in any source read.", "source": ["reading"], "strength": "Weak", "note": "Gap, listed so no one assumes a flowering story."},
+  {"topic": "vintage", "claim": "Summer was hot and very dry. One merchant calls it the hottest and driest since 2003. Only about 280 mm of rain fell from March to October, against a usual 600 mm.", "source": ["frw", "wineindep", "chiarlo"], "strength": "Strong", "quote": "hottest and driest since 2003", "note": "Quote is a paraphrase of Farr Vintners, kept short. The rainfall figure is from The Wine Independent. Chiarlo says very dry but not extremely hot."},
+  {"topic": "vintage", "claim": "Cool nights, with swings of up to 15 C in September, kept acidity and aromas. Rain in late August and September helped the vines finish ripening.", "source": ["wineindep", "frw"], "strength": "Medium", "note": "Two sources, from different producer quotes."},
+  {"topic": "vintage", "claim": "Harvest was early. Chiarlo reports about 10 days early in the Langhe and about 20 in Monferrato. Farr Vintners says the earliest picking dates of the last five years.", "source": ["chiarlo", "frw", "decanter"], "strength": "Medium", "note": "A search summary of Decanter gives Nebbiolo picking from about 25 September to 7 October. Not verified on the page."},
+  {"topic": "production", "claim": "Nebbiolo yields were below average. Farr Vintners cites falls of about 15 to 25% for some producers. Chiarlo calls Langhe yields below average but satisfactory.", "source": ["frw", "chiarlo"], "strength": "Medium", "note": "A search summary says Decanter found yields about average. No official zone figure found."},
+  {"topic": "tasting", "claim": "Nebbiolo is fleshy and rich, with ripe dark fruit, deep colour and soft tannins. Freshness holds despite the heat. Some wines show a dry or gritty edge in the tannins.", "source": ["frw", "wineindep"], "strength": "Medium", "note": "Two sources. The gritty tannin comment is from The Wine Independent and applies to some wines only."},
+  {"topic": "window", "claim": "Wines are less structured than 2016 and not expected to age as long. One merchant suggests 10 to 15 years of good drinking. Another critic says they need a couple more years than 2018 to open up.", "source": ["frw", "wineindep"], "strength": "Medium", "note": "Merchant and critic views, not a formal window."}
+ ],
+ "conflicts": [
+  "Frost: a search summary of a Chiarlo page said no frost damage in Barolo or Langhe Nebbiolo. The Chiarlo page itself, read in full, reports four nights of late April frost, worst in Monferrato. Treat damage as local.",
+  "Yields: Farr Vintners says Nebbiolo down 15 to 25% for some. A search summary of Decanter says about average. Chiarlo says below average but satisfactory."
+ ],
+ "gaps": [
+  "No Consorzio di Tutela report with official harvest dates or volumes.",
+  "Flowering not described. Decanter, Jancis Robinson and Justerini & Brooks pages could not be read.",
+  "Quality rating: Chiarlo gives 4 of 5 stars for its own wines. No critic score read."
+ ],
+ "sheet": {
+  "vintage": "2017 was hot and dry after an April frost. The harvest came early. The Nebbiolo is rich and soft, with fresh acidity that held up."
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "map": {
+  "panel2": [
+   "The Northern Rhône",
+   "Communes, shaded by their main appellation"
+  ],
+  "panel2_appellations": [
+   "Côte Rôtie",
+   "Condrieu",
+   "Château-Grillet",
+   "Saint-Joseph",
+   "Hermitage ou Ermitage ou l'Hermitage ou l'Ermitage",
+   "Crozes-Hermitage ou Crozes-Ermitage",
+   "Cornas",
+   "Saint-Péray"
+  ],
+  "communal": [
+   "Côte Rôtie",
+   "Condrieu",
+   "Château-Grillet",
+   "Saint-Joseph",
+   "Hermitage ou Ermitage ou l'Hermitage ou l'Ermitage",
+   "Crozes-Hermitage ou Crozes-Ermitage",
+   "Cornas",
+   "Saint-Péray"
+  ],
+  "short_names": {
+   "Hermitage ou Ermitage ou l'Hermitage ou l'Ermitage": "Hermitage",
+   "Crozes-Hermitage ou Crozes-Ermitage": "Crozes-Hermitage",
+   "Côte Rôtie": "Côte-Rôtie"
+  },
+  "covers": [
+   "france/cote-rotie",
+   "france/hermitage",
+   "france/cornas",
+   "france/saint-joseph",
+   "france/crozes-hermitage",
+   "france/condrieu"
+  ]
+ },
+ "$why": "Not an EU PDO or PGI or a US AVA: a country, state, region, group or sub-zone, with no shape of its own in the map data. The places under it that draw stay covered."
+}

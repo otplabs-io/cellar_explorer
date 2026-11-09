@@ -1,0 +1,178 @@
+{
+ "id": "krug-grande-cuvee-172",
+ "sheet_title": "Krug Grande Cuvée 172ème Édition Sheet",
+ "theme": "sparkling",
+ "identity": {
+  "name": "Grande Cuvée 172ème Édition",
+  "producer": "krug",
+  "vintage": "NV",
+  "style": "sparkling",
+  "color": "white",
+  "grapes": [
+   {
+    "name": "Pinot Noir",
+    "share": 44
+   },
+   {
+    "name": "Chardonnay",
+    "share": 36
+   },
+   {
+    "name": "Meunier",
+    "share": 20
+   }
+  ],
+  "alcohol": null,
+  "cellartracker": [
+   "5023750"
+  ]
+ },
+ "region": {
+  "node": "france/champagne",
+  "placed_by": "label"
+ },
+ "map_key_title": "Where the grapes grow",
+ "map_villages_note": [
+  "Krug doesn’t name the villages",
+  "in this blend."
+ ],
+ "map_file": "map.svg",
+ "content": {
+  "bottle_label": [
+   "KRUG",
+   "Grande Cuvée",
+   "172ème"
+  ],
+  "eyebrow": "CHAMPAGNE",
+  "title": "Grande Cuvée",
+  "subtitle": "172ème Édition, Champagne Brut",
+  "intro": "Krug’s signature blend of 146 wines from 11 years. Expect white flowers, lemon and almond, with brioche, honey and a long, fresh finish.",
+  "facts": [
+   [
+    "GRAPES",
+    "44% Pinot Noir",
+    "36% Chardonnay, 20% Meunier"
+   ],
+   [
+    "WINES",
+    "146",
+    "From 11 years"
+   ],
+   [
+    "RESERVE",
+    "42%",
+    "Back to 1998"
+   ],
+   [
+    "BASE YEAR",
+    "2016",
+    "The youngest wine"
+   ],
+   [
+    "AGED",
+    "About 7 years",
+    "In Krug’s cellars"
+   ]
+  ],
+  "taste": [
+   [
+    1,
+    "Sweetness",
+    "Dry"
+   ],
+   [
+    3,
+    "Body",
+    "Delicate but intense"
+   ],
+   [
+    4,
+    "Acidity",
+    "Fresh"
+   ],
+   [
+    3,
+    "Mousse",
+    "Fine and lively"
+   ]
+  ],
+  "taste_note": "A guide, not a measurement of this bottle.",
+  "flavors": [
+   [
+    "blossom",
+    "White flowers"
+   ],
+   [
+    "lemon",
+    "Lemon"
+   ],
+   [
+    "almond",
+    "Almond"
+   ],
+   [
+    "brioche",
+    "Brioche"
+   ],
+   [
+    "honey",
+    "Honey"
+   ],
+   [
+    "hazelnut",
+    "Hazelnut"
+   ]
+  ],
+  "flavor_note": "Also look for lavender, violet, marzipan, gingerbread and a hint of menthol.",
+  "window": [
+   2026,
+   2075,
+   2026
+  ],
+  "window_note": "Ready now. Best 2026 to 2075.",
+  "serve": "<strong>48 to 54°F.</strong> Colder hides the aromas.",
+  "glass": "<strong>A white Burgundy glass</strong> rather than a flute.",
+  "pairs": [
+   [
+    "oyster",
+    "Oysters"
+   ],
+   [
+    "shrimp",
+    "Grilled shrimp"
+   ],
+   [
+    "cheese",
+    "Aged Parmesan"
+   ],
+   [
+    "pork",
+    "Jabugo ham"
+   ],
+   [
+    "spicy",
+    "Indian or Moroccan"
+   ]
+  ],
+  "pair_note": "It pairs widely, from simple to grand.",
+  "level": "Brut",
+  "ladder_note": "Brut on the label",
+  "vintage": "Built around 2016: a very wet spring, with 70% more rain than normal, then clement weather and a heatwave at the end. Picking ran from September 9 to October 2. Reserve wines back to 1998 make up 42% of the blend.",
+  "place": [
+   [
+    "The house",
+    "Krug’s cellars are in Reims. Its library of reserve wines from many years is what makes each blend possible."
+   ],
+   [
+    "The idea",
+    "Joseph Krug wanted the best Champagne he could make every year, whatever the weather. So each Grande Cuvée blends many years."
+   ],
+   [
+    "The Krug iD",
+    "The six digits on the back label unlock this bottle’s story on Krug’s app or site, including its blend."
+   ]
+  ],
+  "credits": "Text: Krug (the 172ème Édition page and notes, its story and serving pages); CellarTracker (window); sugar terms: EU Regulation 2019/33.",
+  "vintage_title": "The blend"
+ }
+}

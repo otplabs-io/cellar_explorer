@@ -1,0 +1,30 @@
+{
+ "subject": "vintage",
+ "id": "italy/aglianico-del-vulture-superiore/2019",
+ "read": "2026-11-05",
+ "sources": {
+  "bighammer": {"name": "Big Hammer Wines listing, Elena Fucci Titolo 2019 (quoting Antonio Galloni)", "kind": "merchant", "url": "https://www.bighammerwines.com/products/2019-elena-fucci-titolo-aglianico-del-vulture-basilicata", "note": "Page returned 429. Known only from a search-result summary."},
+  "flatiron": {"name": "Flatiron Wines listing, Elena Fucci Titolo 2019", "kind": "merchant", "url": "https://sf.flatiron-wines.com/products/elena-fucci-aglianico-del-vulture-2019-750ml", "note": "Search-result summary only."},
+  "wine-enthusiast": {"name": "Wine Enthusiast, Elena Fucci 2019 Titolo review", "kind": "critic", "url": "https://www.wineenthusiast.com/buying-guide/elena-fucci-2019-titolo-aglianico-del-vulture/", "note": "Search-result summary only. 92 points."},
+  "vinous-titolo": {"name": "Vinous, Elena Fucci Titolo 2019 (Eric Guido; 94+ in 2021, 98+ in 2024)", "kind": "critic", "note": "Scores known from search summaries of retailer listings. Not read on Vinous."},
+  "jr": {"name": "Jancis Robinson, Elena Fucci Titolo 2018/19 article", "kind": "critic", "url": "https://www.jancisrobinson.com/articles/elena-fucci-titolo-201819-aglianico-del-vulture", "note": "Returned 403. Freshness quote known only from a search summary."}
+ },
+ "claims": [
+  {"topic": "vintage", "claim": "The vintage was reportedly dry and difficult. This comes from a merchant listing that quotes Antonio Galloni.", "source": ["bighammer"], "strength": "Weak", "note": "Search summary of a retailer page. Unverified and not a weather record."},
+  {"topic": "vintage", "claim": "Harvest at Monte Vulture is late. Because of wind and high altitude, grapes are not picked until late October.", "source": ["flatiron"], "strength": "Weak", "note": "General statement on one estate's listing, not specific to 2019 weather."},
+  {"topic": "vintage", "claim": "Frost, hail, flowering, yields and exact 2019 harvest dates were not found for Vulture.", "source": ["reading"], "strength": "Weak", "note": "Gap, listed so no one assumes a story."},
+  {"topic": "tasting", "claim": "Critics found 2019 Aglianico del Vulture fresh and refined. Jancis Robinson's reviewer noted freshness and refinement in Fucci's Titolo, and Wine Enthusiast scored it 92.", "source": ["jr", "wine-enthusiast"], "strength": "Weak", "quote": "freshness and refinement of the youthful Elena Fucci Titolo 2019", "note": "One estate, from search summaries."},
+  {"topic": "standing", "claim": "Top 2019 wines scored very high. Vinous gave Fucci Titolo 94+ in 2021 and 98+ in 2024. Other 2019 scores include Grifalco 92 (Wine Spectator) and Paternoster Synthesi 91 (Falstaff) and 90 (Wine Enthusiast).", "source": ["vinous-titolo", "wine-enthusiast"], "strength": "Weak", "note": "Single-wine scores from retailer listings. Not a vintage rating."},
+  {"topic": "window", "claim": "Vinous suggested drinking Fucci Titolo 2019 from 2027 to 2038. Lesser 2019 bottlings have retailer windows around 2023 to 2028.", "source": ["vinous-titolo"], "strength": "Weak", "note": "Single wine, via search summary."}
+ ],
+ "conflicts": [],
+ "gaps": [
+  "No Consorzio Tutela Vini del Vulture, Regione Basilicata or critic vintage report found for 2019.",
+  "No Walter Speller (Jancis Robinson) or Vinous regional report could be read.",
+  "No weather record, harvest dates or yield figures.",
+  "A search hit describing a cold, rainy 2019 spring was for Campania (Villa Matilde), not Vulture, and was not used."
+ ],
+ "sheet": {
+  "vintage": "2019 was reported as a dry year in Vulture, with a late harvest at high altitude. The best wines are fresh and refined and were rated highly by critics."
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "pdf": "La-Boudriotte-2019-Mac.pdf",
+ "version": 3,
+ "pdf_sha256": "6c87c7f026f9da695ee39ade375f0467ba8a52cbe515c082e669f37d65d2d720",
+ "purpose": "The pixel baseline for make verify on macOS. The Linux master in reference/ stays the design source of truth.",
+ "made_from": "src/ at the commit that adds this file, rendered on the Mac below.",
+ "change": "Chris approved a redrawn roast chicken pairing icon on 2026-11-03: a golden drumstick with a shade, a highlight and a cream bone with a tan edge, replacing the single-color drawing. Only that icon changed on the sheet.",
+ "accepted": "Chris approved the new drumstick with the rest of the pairing icons, 2026-11-03.",
+ "differing_pixels_vs_previous_at_300dpi": [
+  4462,
+  0
+ ],
+ "differing_pixels_vs_master_at_300dpi": [
+  12496,
+  117
+ ],
+ "page_raster_sha256_at_300dpi": {
+  "page-1": "b24eec7e94b1353f6a89e70690244e2e393a022112699238e4e5d5718cfa1646",
+  "page-2": "18893d56d7e077df4b337d130fca53a93215a1099658b6276c8346205e3fd1f2"
+ },
+ "previous": "history/La-Boudriotte-2019-Mac-v2.pdf and history/manifest-v2.json. Version 1, the bundle as received, is history/La-Boudriotte-2019-Mac-v1.pdf.",
+ "built_with": {
+  "os": "macOS 27.0 (26A5406e)",
+  "arch": "arm64",
+  "python": "3.13.18",
+  "playwright": "1.63.0",
+  "chromium": "153.0.8010.12",
+  "pymupdf": "2.0"
+ }
+}

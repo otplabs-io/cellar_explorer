@@ -1,0 +1,33 @@
+{
+ "subject": "vintage",
+ "id": "italy/vigneti-delle-dolomiti/2025",
+ "read": "2026-11-05",
+ "sources": {
+  "pat-annata": {"name": "Provincia autonoma di Trento press office, Tra clima, produzione e qualita delle uve: il punto dell'annata 2025 (Feb 2026)", "kind": "official", "url": "https://www.ufficiostampa.provincia.tn.it/layout/set/print/Comunicati/Tra-clima-produzione-e-qualita-delle-uve-il-punto-dell-annata-2025", "note": "Read directly. Cites Consorzio Vini del Trentino for yield."},
+  "pat-trentodoc": {"name": "Provincia autonoma di Trento press office, Vendemmia 2025: qualita eccellente per le uve Trentodoc (29 Aug 2025)", "kind": "official", "url": "https://www.ufficiostampa.provincia.tn.it/Comunicati/Vendemmia-2025-qualita-eccellente-per-le-uve-Trentodoc", "note": "Read directly. Written at the start of harvest."},
+  "ladige": {"name": "L'Adige, Vendemmia 2025 complessa ma nel complesso positiva", "kind": "general", "url": "https://www.ladige.it/territori/lavis-rotaliana/vendemmia-2025-complessa-ma-nel-complesso-positiva-sia-in-termini-di-produzione-che-per-la-qualita-il-punto-amzei2vq", "note": "Read directly. Largely repeats the provincial release and adds Laimburg comment on Alto Adige."},
+  "ladige-taa": {"name": "L'Adige, Vendemmia in Trentino Alto Adige, produzione in crescita del 9%", "kind": "general", "url": "https://www.ladige.it/economia/vendemmia-in-trentino-alto-adige-produzione-in-crescita-del-9-qualita-delle-uve-oltre-le-attese-m7abn2dt", "note": "Search-result summary only. Region-wide forecast."}
+ },
+ "claims": [
+  {"topic": "vintage", "claim": "The season was complex and very different from 2024. June was hot and dry, and the summer had hot spells in June and August without water or heat stress for the vines, according to the Trentodoc release.", "source": ["pat-annata", "pat-trentodoc"], "strength": "Medium", "note": "Two official releases from the same office. The annual summary's phrasing on the seasons is confusing in places; spring is not described."},
+  {"topic": "vintage", "claim": "Frost and hail damage was minimal for the Trentodoc zones. Spring, frost and flowering are not described in the annual summary.", "source": ["pat-trentodoc"], "strength": "Weak", "note": "Trentodoc release, written 29 August. An undated L'Adige hail story near Mezzocorona could not be tied to 2025."},
+  {"topic": "vintage", "claim": "Rain and warmth before harvest, especially in the second half of August and in September, brought widespread grape rot. Botrytis was strong in Alto Adige too, per the Laimburg research centre. Downy mildew was moderate and powdery mildew insignificant.", "source": ["pat-annata", "ladige"], "strength": "Medium", "note": "Official summary read directly. Conflicts with the early, upbeat Trentodoc release."},
+  {"topic": "vintage", "claim": "Rot forced growers to pick earlier and faster, squeezing picking into a few usable days, especially for medium-late varieties such as Teroldego. Trentodoc picking began in the lowest vineyards in late August and moved to 600 to 750 m from early September.", "source": ["pat-annata", "pat-trentodoc", "ladige"], "strength": "Medium", "note": "Exact dates for still-white varieties were not found."},
+  {"topic": "production", "claim": "Trentino produced about 1,131,393 quintals of grapes. That is up 11% on the poor 2024 harvest and in line with the previous decade's average. A region-wide forecast for Trentino-Alto Adige was about +9%.", "source": ["pat-annata", "ladige", "ladige-taa"], "strength": "Medium", "note": "The figure comes from the Consorzio Vini del Trentino via the province. The +9% is a forecast from a search summary."},
+  {"topic": "tasting", "claim": "Chardonnay, for sparkling and still wine, reached a good balance of sugar, acidity and pH with good sensory expression. Aromatic and semi-aromatic whites and Pinot grigio were hit harder by weather in the second half of August.", "source": ["pat-annata"], "strength": "Medium", "note": "One official source, read in full. Nosiola and Manzoni Bianco are not mentioned."},
+  {"topic": "tasting", "claim": "Reds came in early but cellar work gave fresh, fruity wines. Early sparkling bases were expected to be fresh and long-lived.", "source": ["pat-annata", "pat-trentodoc"], "strength": "Medium", "quote": "vini freschi e fruttati", "note": "The sparkling remark is a forecast made at the start of picking."},
+  {"topic": "standing", "claim": "Winenews reported quality as good, with higher sugar levels than in 2024. Overall a positive but not easy year.", "source": ["ladige"], "strength": "Weak", "note": "Winenews known from a search summary only."}
+ ],
+ "conflicts": [
+  "Early versus later view: the 29 August Trentodoc release stresses excellent health and a balanced summer. The February 2026 summary stresses widespread rot after heavy August and September rain. Different dates and different grapes; the later report is the better summary for late-picked varieties."
+ ],
+ "gaps": [
+  "No spring, frost or flowering account found.",
+  "Nothing specific to Foradori, Nosiola or Manzoni Bianco in 2025, and no Vigneti delle Dolomiti IGT figures.",
+  "No critic vintage rating.",
+  "Winenews and the Trentino-Alto Adige +9% article were seen only as search summaries."
+ ],
+ "sheet": {
+  "vintage": "2025 in Trentino was a mixed year. Summer was warm without stress, but rain in late summer brought rot, so growers picked early and fast. Chardonnay did best, and the reds are fresh and fruity."
+ }
+}

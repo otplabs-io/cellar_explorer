@@ -1,0 +1,134 @@
+{
+ "subject": "vintage",
+ "id": "italy/amarone-della-valpolicella/2018",
+ "read": "2026-11-05",
+ "sources": {
+  "wsg": {
+   "name": "Wine Scholar Guild, Veneto Vintage Chart",
+   "kind": "critic",
+   "url": "https://winescholarguild.com/veneto-vintage-chart",
+   "note": "Read directly. Star graphics unreadable; text only."
+  },
+  "ifw": {
+   "name": "Italy's Finest Wines, Amarone della Valpolicella Vintages Rating Chart (Jean Marco Palmieri)",
+   "kind": "critic",
+   "url": "https://italysfinestwines.it/en/amarone-vintage-chart/",
+   "note": "Read directly. Third-party chart, not the Consorzio."
+  },
+  "vogadori18": {
+   "name": "Vogadori, 2018 harvest (4 Oct 2018)",
+   "kind": "producer",
+   "url": "https://www.vogadorivini.it/en/2018-harvest/"
+  },
+  "allegrini18": {
+   "name": "Allegrini, 2018 Fieramonte technical sheet",
+   "kind": "producer",
+   "url": "https://allegrini.it/wp-content/uploads/2025/09/2018_Fieramonte_eng.pdf",
+   "note": "Not read. Known only from a search-result summary (Consorzio 'unstable' wording)."
+  },
+  "reading": {
+   "name": "Searches run for this file",
+   "kind": "general",
+   "note": "No Consorzio vintage rating found for these years."
+  }
+ },
+ "claims": [
+  {
+   "topic": "vintage",
+   "claim": "Spring was cold for about 20 days, then warm at the end of April. Early summer was cool and rainy, and the year ended warmer than usual.",
+   "source": [
+    "wsg",
+    "ifw"
+   ],
+   "strength": "Medium",
+   "note": "Both describe a cold spring and wet early summer."
+  },
+  {
+   "topic": "vintage",
+   "claim": "The Consorzio reportedly judged the season unstable overall, with adequate water and temperatures slightly above average.",
+   "source": [
+    "allegrini18"
+   ],
+   "strength": "Weak",
+   "note": "Via a producer sheet seen in a search summary."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Constant rain flooded some vineyards, and summer brought significant thunderstorms. One producer recorded a heavy September storm.",
+   "source": [
+    "wsg",
+    "ifw",
+    "allegrini18"
+   ],
+   "strength": "Medium"
+  },
+  {
+   "topic": "vintage",
+   "claim": "Frost, hail and flowering were not described in any source read.",
+   "source": [
+    "reading"
+   ],
+   "strength": "Weak",
+   "note": "Gap."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Harvest started only three or four days earlier than normal. By 4 October one producer had nearly finished picking for Amarone and Valpolicella, with healthy grapes and high sugar.",
+   "source": [
+    "wsg",
+    "vogadori18"
+   ],
+   "strength": "Medium"
+  },
+  {
+   "topic": "production",
+   "claim": "The harvest was the largest of the decade.",
+   "source": [
+    "wsg"
+   ],
+   "strength": "Weak",
+   "note": "One source."
+  },
+  {
+   "topic": "winemaking",
+   "claim": "No drying conditions for autumn 2018 and winter 2019 were found.",
+   "source": [
+    "reading"
+   ],
+   "strength": "Weak",
+   "note": "Gap."
+  },
+  {
+   "topic": "tasting",
+   "claim": "Wines have lower anthocyanin and tannin, a less structured profile, pronounced acidity and complex fruit. Less body than 2016 or 2017.",
+   "source": [
+    "wsg",
+    "ifw"
+   ],
+   "strength": "Medium",
+   "note": "Two sources agree. Producers and merchants are more positive."
+  },
+  {
+   "topic": "standing",
+   "claim": "Italy's Finest Wines gives three stars and calls results not always consistent. Producer sources call it a high-quality vintage.",
+   "source": [
+    "ifw",
+    "vogadori18"
+   ],
+   "strength": "Weak",
+   "note": "Sources differ."
+  }
+ ],
+ "conflicts": [
+  "Quality: independent charts say lighter and less consistent. Producers and merchants say high quality with ageing potential.",
+  "Vogadori says the vintage resembles 2016 with heavier clusters. Wine Scholar Guild says less body than 2016."
+ ],
+ "gaps": [
+  "No Consorzio Tutela Vini Valpolicella vintage rating or official harvest report was found or read.",
+  "Flowering dates not found.",
+  "Drying conditions and an independent yield figure not found."
+ ],
+ "sheet": {
+  "vintage": "2018 was a wet, cool-then-warm year with a big crop. The Amarone is a little lighter, with bright acidity."
+ }
+}

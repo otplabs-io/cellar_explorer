@@ -1,0 +1,127 @@
+{
+ "place": {
+  "subtitle": "From Austria down to one area"
+ },
+ "styles": [
+  "red",
+  "white",
+  "sparkling",
+  "rosé",
+  "dessert",
+  "orange",
+  "fortified"
+ ],
+ "map": {
+  "engine": "zones",
+  "precision": "zone",
+  "zone_store": "eu",
+  "credit": "Maps: wine zones from the EU PDO boundaries (Candiago et al. 2022, CC0), drawn by whole commune; commune and region outlines © EuroGeographics for the administrative boundaries; estate location from {estate_source}. For orientation, not a legal boundary.",
+  "region_slug": "austria",
+  "projection": 32633,
+  "eu": {
+   "country": "AT",
+   "nuts": [
+    "AT11",
+    "AT12",
+    "AT13",
+    "AT21",
+    "AT22",
+    "AT31",
+    "AT32",
+    "AT33",
+    "AT34"
+   ],
+   "tiers": {},
+   "default_tier": "Area",
+   "locator_bbox": [
+    -2,
+    42,
+    24,
+    54
+   ]
+  },
+  "locator_file": "austria/_locator.json",
+  "tier_fill": {
+   "Area": "goldl"
+  },
+  "tier_key": [
+   [
+    "goldl",
+    "Wine areas"
+   ]
+  ],
+  "panel1": [
+   "Austria",
+   "Its wine areas"
+  ],
+  "panel1_towns": [
+   "Wien",
+   "Graz",
+   "Linz",
+   "Salzburg"
+  ],
+  "broad": [
+   "niederosterreich",
+   "burgenland",
+   "steiermark",
+   "oberosterreich",
+   "salzburg",
+   "karnten",
+   "tirol",
+   "vorarlberg"
+  ],
+  "areas": [
+   {
+    "name": "Styria",
+    "title": "Styria",
+    "zones": [
+     "sudsteiermark",
+     "sud-oststeiermark",
+     "weststeiermark"
+    ],
+    "towns": [
+     "Graz"
+    ]
+   },
+   {
+    "name": "Vienna",
+    "title": "Vienna and Lower Austria",
+    "zones": [
+     "wien",
+     "weinviertel",
+     "carnuntum",
+     "thermenregion",
+     "wagram",
+     "kamptal",
+     "kremstal",
+     "traisental",
+     "wachau"
+    ],
+    "towns": [
+     "Wien"
+    ]
+   }
+  ],
+  "panel2_subtitle": "Its wine areas",
+  "panel3_subtitle": "Its area, by commune",
+  "covers": [
+   "austria/niederosterreich",
+   "austria/burgenland",
+   "austria/steiermark",
+   "austria/wien",
+   "austria/salzburg",
+   "austria/oberosterreich",
+   "austria/tirol",
+   "austria/karnten",
+   "austria/vorarlberg"
+  ],
+  "panel1_labels": {
+   "Vienna": [
+    232,
+    190,
+    "end"
+   ]
+  }
+ },
+ "$why": "Not an EU PDO or PGI or a US AVA: a country, state, region, group or sub-zone, with no shape of its own in the map data. The places under it that draw stay covered."
+}

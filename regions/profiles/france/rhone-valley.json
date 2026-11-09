@@ -1,0 +1,145 @@
+{
+ "story": {
+  "labels": {
+   "family": "The domaine"
+  }
+ },
+ "place": {
+  "subtitle": "From the Rhône Valley down to one appellation"
+ },
+ "map": {
+  "engine": "appellations",
+  "precision": "appellation",
+  "credit": "Maps: INAO appellation delimitations (Licence Ouverte) via OpenDataWine; commune outlines from france-geojson; estate location from {estate_source}. Levels 1 and 2 shade whole communes by their main appellation. For orientation, not a legal boundary.",
+  "projection": 2154,
+  "departments": [
+   [
+    "69",
+    "69-rhone"
+   ],
+   [
+    "42",
+    "42-loire"
+   ],
+   [
+    "07",
+    "07-ardeche"
+   ],
+   [
+    "26",
+    "26-drome"
+   ],
+   [
+    "84",
+    "84-vaucluse"
+   ],
+   [
+    "30",
+    "30-gard"
+   ]
+  ],
+  "region_root": "france/rhone-valley",
+  "subregions": {
+   "france/northern-rhone": "Northern Rhône",
+   "france/southern-rhone": "Southern Rhône",
+   "france/ventoux": "Southern Rhône",
+   "france/luberon": "Southern Rhône",
+   "france/costieres-de-nimes": "Southern Rhône",
+   "france/duche-d-uzes": "Southern Rhône",
+   "france/cairanne": "Southern Rhône",
+   "france/vinsobres": "Southern Rhône",
+   "france/beaumes-de-venise": "Southern Rhône",
+   "france/muscat-de-beaumes-de-venise": "Southern Rhône",
+   "france/gigondas": "Southern Rhône",
+   "france/vacqueyras": "Southern Rhône",
+   "france/lirac": "Southern Rhône",
+   "france/tavel": "Southern Rhône",
+   "france/rasteau": "Southern Rhône",
+   "france/chateauneuf-du-pape": "Southern Rhône",
+   "france/grignan-les-adhemar": "Southern Rhône",
+   "france/cotes-du-vivarais": "Southern Rhône"
+  },
+  "towns": {
+   "69123": "Lyon",
+   "26362": "Valence",
+   "84007": "Avignon",
+   "84087": "Orange",
+   "26347": "Tain-l’Hermitage",
+   "84037": "Châteauneuf-du-Pape",
+   "69007": "Ampuis"
+  },
+  "panel1": [
+   "Rhône Valley",
+   "Communes, shaded by area"
+  ],
+  "panel1_towns": [
+   "69123",
+   "26362",
+   "84007"
+  ],
+  "generic": [
+   "Côtes du Rhône",
+   "Côtes du Rhône Villages",
+   "Coteaux du Lyonnais",
+   "Clairette de Die",
+   "Châtillon-en-Diois",
+   "Coteaux de Die",
+   "Côtes du Forez",
+   "Côte roannaise",
+   "Languedoc",
+   "Languedoc Sommières",
+   "Pic Saint-Loup",
+   "Clairette de Bellegarde",
+   "Lavilledieu",
+   "Var",
+   "Gard",
+   "Landes",
+   "Maures",
+   "Vaucluse",
+   "Champagne",
+   "Sable de Camargue",
+   "Taureau de Camargue",
+   "Alpilles",
+   "Muscadet Sèvre et Maine Gorges",
+   "Coteaux Bourguignons ou Bourgogne grand ordinaire ou Bourgogne ordinaire",
+   "Crémant de Bourgogne",
+   "Bourgogne",
+   "Bourgogne Passe-tout-grains",
+   "Bourgogne aligoté",
+   "Bourgogne mousseux",
+   "Mediterranée",
+   "Méditerranée",
+   "Pays d'Oc"
+  ],
+  "fallback": null,
+  "subregion_default": null,
+  "aliases": {},
+  "covers": [
+   "france/northern-rhone",
+   "france/southern-rhone",
+   "france/chatillon-en-diois",
+   "france/coteaux-de-die",
+   "france/cremant-de-die",
+   "france/cairanne",
+   "france/vinsobres",
+   "france/costieres-de-nimes",
+   "france/muscat-de-beaumes-de-venise",
+   "france/duche-d-uzes",
+   "france/beaumes-de-venise",
+   "france/luberon",
+   "france/ventoux",
+   "france/saint-peray",
+   "france/clairette-de-die",
+   "france/chateau-grillet",
+   "france/grignan-les-adhemar",
+   "france/clairette-de-bellegarde",
+   "france/cotes-du-vivarais"
+  ]
+ },
+ "styles": [
+  "red",
+  "white",
+  "rosé"
+ ],
+ "$why": "Not an EU PDO or PGI or a US AVA: a country, state, region, group or sub-zone, with no shape of its own in the map data. The places under it that draw stay covered."
+}

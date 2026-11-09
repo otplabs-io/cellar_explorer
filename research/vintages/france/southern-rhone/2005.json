@@ -1,0 +1,32 @@
+{
+ "subject": "vintage",
+ "id": "france/southern-rhone/2005",
+ "read": "2026-11-05",
+ "sources": {
+  "chateauneuf-official": {"name": "Châteauneuf-du-Pape appellation, Vintage 2005", "kind": "official", "url": "https://en.chateauneuf.com/appellation-chateauneuf-du-pape/vintages/chateauneuf-du-pape-2005/", "note": "Trade body page. Promotional in tone but the weather and volume figures are specific."},
+  "vinous-2025": {"name": "Vinous, Châteauneuf-du-Pape 2005: The Grand Backbone Vintage (Dec 2025)", "kind": "critic", "url": "https://v1.vinous.com/articles/chateauneuf-du-pape-2005-the-grand-backbone-vintage-dec-2025", "note": "A tasting of 30 wines, 20 years on. Read through a page summary."},
+  "gardine": {"name": "Château de la Gardine, Vintage 2005", "kind": "producer", "url": "https://www.gardine.com/en/actualites/chateauneuf-du-pape-vintage/vintage-2005", "note": "One estate's page. Selling its own wine."},
+  "search-summaries": {"name": "Search summaries of Decanter's vintage ratings", "kind": "general", "note": "Relayed through search summaries. Decanter's page was not read."}
+ },
+ "claims": [
+  {"topic": "vintage", "claim": "Summer was warm but not extreme. June to August averaged 23.4C, with 46 days above 30C against 92 in 2003. Nights were cool, below 17C in July and August and sometimes near 9C. Veraison came about 10 days later than in 2003.", "source": ["chateauneuf-official"], "strength": "Strong", "note": "Specific figures from the appellation body. Vinous and Gardine agree on warm days and cool nights."},
+  {"topic": "vintage", "claim": "It was a drought year. Only 12.5 mm of rain fell in July and August. A 50 mm storm on 6 September was dried out by the Mistral, which kept the grapes healthy.", "source": ["chateauneuf-official", "vinous-2025"], "strength": "Strong", "quote": "Mistral winds kept the grapes healthy", "note": "Official figures. Vinous agrees on minimal summer rain and the Mistral after early-September rain."},
+  {"topic": "vintage", "claim": "The harvest ban was declared on 9 September and picking began the next day. Grapes were ripe and healthy by then.", "source": ["chateauneuf-official", "gardine"], "strength": "Strong", "note": "Two sources agree on the ban date."},
+  {"topic": "vintage", "claim": "Yields were low, about 31 hl/ha. Total output was about 97,000 hl, 91,000 red and 6,000 white, below the ten-year average.", "source": ["chateauneuf-official", "gardine"], "strength": "Medium", "note": "Figures from one source. Gardine confirms low yields without numbers."},
+  {"topic": "vintage", "claim": "Young reds were deep in colour and concentrated, especially Grenache and Mourvèdre. They were full and structured, with prune, crystallised fruit and liquorice, and well-coated tannins.", "source": ["chateauneuf-official", "gardine"], "strength": "Strong"},
+  {"topic": "vintage", "claim": "Whites were balanced, with floral and citrus or apricot notes. With age they have taken on honey, spice and precious wood.", "source": ["chateauneuf-official", "gardine"], "strength": "Medium", "note": "Both are producer or trade-body descriptions."},
+  {"topic": "aging", "claim": "Backbone is the hallmark. Twenty years on, the tannins are far more resolved than in youth but still firm, and sometimes edgy. Tertiary notes include dried red fruit, liquorice and forest floor.", "source": ["vinous-2025"], "strength": "Medium", "quote": "backbone has emerged as the hallmark element", "note": "One critic, a 30-wine tasting, read through a summary."},
+  {"topic": "aging", "claim": "Gardine finds the tannins softened, with leather and spice now showing. The wines can be drunk now or kept.", "source": ["gardine"], "strength": "Weak", "note": "One estate."},
+  {"topic": "window", "claim": "The vintage splits in two. Roughly half the wines are ready now. The rest are still evolving, and some top cuvées promise at least another decade.", "source": ["vinous-2025"], "strength": "Medium", "quote": "promise at least another decade of refinement", "note": "One critic's view from a 2025 tasting. Not a single wine's window."},
+  {"topic": "standing", "claim": "Decanter is said to rate 2005 very good to excellent, among the top four Châteauneuf-du-Pape years since 1978 with 1981, 1998 and 2001.", "source": ["search-summaries"], "strength": "Weak", "note": "Relayed through a search summary. Not read at source."}
+ ],
+ "conflicts": [],
+ "gaps": [
+  "Winter, spring, frost and flowering were not covered by the official page or Gardine.",
+  "Decanter's rating and the Vinous article were read through summaries, not in full.",
+  "The 2004 to 2005 water deficit of 40% comes from one producer note and is left out."
+ ],
+ "sheet": {
+  "vintage": "2005 was a dry, sunny year with cool nights and low yields. The reds are dense and firm. Half are ready now. The best still have a decade or more."
+ }
+}

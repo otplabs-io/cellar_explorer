@@ -1,0 +1,112 @@
+{
+ "place": {
+  "subtitle": "From the Veneto down to one zone"
+ },
+ "map": {
+  "credit": "Maps: wine zones from Orazio Campoli’s Italian Wine Map, used with permission, drawn from Regione del Veneto’s zone data (CC BY); commune outlines from ISTAT via openpolis (CC BY); estate location from {estate_source}. For orientation, not a legal boundary.",
+  "region_slug": "veneto",
+  "istat_regions": [
+   5
+  ],
+  "panel1": [
+   "Veneto",
+   "Zones, shaded by level"
+  ],
+  "panel1_towns": [
+   "Vicenza",
+   "Padua",
+   "Venice",
+   "Treviso"
+  ],
+  "broad": [
+   "delle-venezie-doc",
+   "prosecco-doc",
+   "venezia-doc",
+   "vigneti-della-serenissima-doc",
+   "garda-doc",
+   "piave-doc",
+   "piave-malanotte-malanotte-del-piave-docg",
+   "vicenza-doc",
+   "riviera-del-brenta-doc",
+   "corti-benedettine-del-padovano-doc",
+   "lison-pramaggiore-doc",
+   "lison-docg"
+  ],
+  "areas": [
+   {
+    "name": "Verona",
+    "title": "The hills of Verona",
+    "zones": [
+     "amarone-della-valpolicella-docg",
+     "bardolino-superiore-docg",
+     "custoza-doc",
+     "soave-doc",
+     "gambellara-doc",
+     "arcole-doc",
+     "lessini-durello-doc"
+    ],
+    "towns": [
+     "Verona"
+    ]
+   },
+   {
+    "name": "Prosecco hills",
+    "zones": [
+     "conegliano-valdobbiadene-prosecco-prosecco-di-conegliano-valdobbiadene-docg",
+     "asolo-prosecco-colli-asolani-prosecco-docg",
+     "colli-di-conegliano-docg",
+     "montello-rosso-montello-docg"
+    ],
+    "towns": [
+     "Treviso"
+    ]
+   },
+   {
+    "name": "Colli Euganei and Berici",
+    "zones": [
+     "colli-euganei-doc",
+     "colli-berici-doc",
+     "bagnoli-di-sopra-doc",
+     "breganze-doc"
+    ],
+    "towns": [
+     "Padua",
+     "Vicenza"
+    ],
+    "label": "Colli Euganei"
+   }
+  ],
+  "short_names": {
+   "bardolino-superiore-docg": "Bardolino",
+   "recioto-di-soave-docg": "Recioto di Soave",
+   "conegliano-valdobbiadene-prosecco-prosecco-di-conegliano-valdobbiadene-docg": "Conegliano Valdobbiadene",
+   "asolo-prosecco-colli-asolani-prosecco-docg": "Asolo Prosecco",
+   "amarone-della-valpolicella-docg": "Amarone della Valpolicella"
+  },
+  "covers": [
+   "italy/veneto"
+  ],
+  "panel1_labels": {
+   "Colli Euganei and Berici": [
+    178,
+    272,
+    "end"
+   ]
+  },
+  "this_wine": [
+   72,
+   200,
+   "end"
+  ],
+  "panel2_labels": {
+   "amarone-della-valpolicella-docg": [
+    168,
+    150,
+    "end"
+   ]
+  },
+  "panel2_town_side": {
+   "Verona": "end"
+  }
+ }
+}

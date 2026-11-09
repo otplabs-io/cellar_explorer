@@ -1,0 +1,51 @@
+{
+ "$comment": "Region settings for the zones engine, from Orazio Campoli’s store for the region. Broad: the zones that cover more than a third of the region, left out of the shading so the smaller zones show.",
+ "place": {
+  "subtitle": "From Sardegna down to one zone"
+ },
+ "map": {
+  "region_slug": "sardinia-sardegna",
+  "istat_regions": [
+   20
+  ],
+  "panel1": [
+   "Sardegna",
+   "Zones, shaded by level"
+  ],
+  "panel1_towns": [],
+  "broad": [
+   "cagliari-doc",
+   "cannonau-di-sardegna-doc",
+   "giro-di-cagliari-doc",
+   "isola-dei-nuraghi-igt",
+   "monica-di-sardegna-doc",
+   "moscato-di-sardegna-doc",
+   "nasco-di-cagliari-doc",
+   "nuragus-di-cagliari-doc",
+   "sardegna-semidano-doc",
+   "vermentino-di-sardegna-doc"
+  ],
+  "areas": [],
+  "covers": [
+   "italy/cannonau-di-sardegna",
+   "italy/vermentino-di-gallura",
+   "italy/sardegna-semidano",
+   "italy/moscato-di-sardegna",
+   "italy/nasco-di-cagliari",
+   "italy/malvasia-di-bosa",
+   "italy/alghero",
+   "italy/carignano-del-sulcis",
+   "italy/vernaccia-di-oristano",
+   "italy/cagliari",
+   "italy/giro-di-cagliari",
+   "italy/monica-di-sardegna",
+   "italy/moscato-di-sorso",
+   "italy/arborea",
+   "italy/mandrolisai",
+   "italy/vermentino-di-sardegna",
+   "italy/nuragus-di-cagliari",
+   "italy/campidano-di-terralba"
+  ]
+ },
+ "$why": "Not an EU PDO or PGI or a US AVA: a country, state, region, group or sub-zone, with no shape of its own in the map data. The places under it that draw stay covered."
+}

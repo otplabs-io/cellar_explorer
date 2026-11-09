@@ -1,0 +1,25 @@
+{
+ "$comment": "Region settings for the zones engine, from Orazio Campoli’s store for the region. Broad: the zones that cover more than a third of the region, left out of the shading so the smaller zones show.",
+ "place": {
+  "subtitle": "From Calabria down to one zone"
+ },
+ "map": {
+  "region_slug": "calabria",
+  "istat_regions": [
+   18
+  ],
+  "panel1": [
+   "Calabria",
+   "Zones, shaded by level"
+  ],
+  "panel1_towns": [],
+  "broad": [
+   "calabria-igt",
+   "terre-di-cosenza-doc"
+  ],
+  "areas": [],
+  "covers": [
+   "italy/calabria"
+  ]
+ }
+}

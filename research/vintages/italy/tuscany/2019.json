@@ -1,0 +1,149 @@
+{
+ "subject": "vintage",
+ "id": "italy/tuscany/2019",
+ "read": "2026-11-05",
+ "sources": {
+  "cc19": {
+   "name": "Consorzio Chianti Classico, harvest 2019 page",
+   "kind": "official",
+   "url": "https://chianticlassico.com/en/wine/harvest/year-2019",
+   "note": "Short seasonal overview only."
+  },
+  "circle": {
+   "name": "Circle of Wine Writers, A look at 2019 Chianti Classico",
+   "kind": "critic",
+   "url": "https://www.circleofwinewriters.org/a-look-at-2019-chianti-classico/"
+  },
+  "bdoc19": {
+   "name": "Consorzio Bolgheri DOC, 2019 note",
+   "kind": "official",
+   "url": "https://www.bolgheridoc.com/?p=584"
+  },
+  "wsg": {
+   "name": "Wine Scholar Guild, Tuscany vintage chart (Bolgheri and Brunello only)",
+   "kind": "reference",
+   "url": "https://www.winescholarguild.com/italian-wine-vintage-charts/tuscany-vintage-chart",
+   "note": "Covers Bolgheri, not Chianti Classico. 2022 rating is tentative."
+  },
+  "search": {
+   "name": "Web search summaries (Decanter, Jancis Robinson, Vinous, Wine Spectator, producers)",
+   "kind": "general",
+   "note": "Facts marked with this slug were read only in search-result summaries, not on the original pages, which were paywalled, blocked or truncated."
+  },
+  "epc": {
+   "name": "En Primeur Club, Tuscany vintage report (archive of Decanter and critic notes)",
+   "kind": "merchant",
+   "url": "https://www.enprimeurclub.com/guide/tuscany-vintage-report-five-decades-peaks-troughs",
+   "note": "Brief excerpts on 2018, 2019, 2020 only."
+  }
+ },
+ "claims": [
+  {
+   "topic": "vintage",
+   "claim": "Winter and spring were cool, which delayed the vine cycle in both Chianti Classico and Bolgheri. May was cool and wet inland. Bolgheri had a cold, rainy April and May, with budbreak over ten days late.",
+   "source": [
+    "cc19",
+    "circle",
+    "bdoc19",
+    "wsg"
+   ],
+   "strength": "Strong",
+   "note": "Four sources agree."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Flowering inland came in mid-June, warm and dry, and went quickly with little shatter.",
+   "source": [
+    "circle"
+   ],
+   "strength": "Medium",
+   "note": "One critic."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Hail hit parts of Chianti Classico. Badia a Coltibuono lost yield to July hail.",
+   "source": [
+    "circle",
+    "search"
+   ],
+   "strength": "Medium",
+   "note": "Local, not zone-wide."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Summer was moderate inland, with no repeat of the 2017 heat and drought. Late August rain prevented water stress. Bolgheri had a very hot, dry June and drought until late July, then cooler weather. The consortium describes sunny, stable weather to the end of harvest.",
+   "source": [
+    "cc19",
+    "circle",
+    "wsg",
+    "bdoc19"
+   ],
+   "strength": "Medium",
+   "note": "Zones differ in June; sources agree on a stable late season."
+  },
+  {
+   "topic": "vintage",
+   "claim": "September had good weather and big day and night temperature swings, which helped phenolic ripeness.",
+   "source": [
+    "cc19",
+    "circle"
+   ],
+   "strength": "Strong",
+   "note": "Two sources."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Harvest inland ran from late September through most of October. Bolgheri ran from 5 September to early October.",
+   "source": [
+    "circle",
+    "wsg"
+   ],
+   "strength": "Medium",
+   "note": "One source per zone."
+  },
+  {
+   "topic": "production",
+   "claim": "Chianti Classico produced about 275,000 hl, roughly 10% above average. Jancis Robinson reportedly notes Tuscany made about 10% more wine than in 2018.",
+   "source": [
+    "circle",
+    "search"
+   ],
+   "strength": "Medium",
+   "note": "The critic article is read. The Robinson point is from a search summary. Bolgheri yield not stated."
+  },
+  {
+   "topic": "tasting",
+   "claim": "Chianti Classico: fresh, crisp acidity, ripe phenolics, slightly lower alcohol and vivid colour, with cool-night acidity credited for the best wines. Vinous reportedly found the 2019s mid-weight and somewhat uneven.",
+   "source": [
+    "circle",
+    "epc",
+    "search"
+   ],
+   "strength": "Medium",
+   "note": "Critics split on consistency. Vinous view from a search summary only."
+  },
+  {
+   "topic": "tasting",
+   "claim": "Bolgheri: five stars from Decanter. Ripe black cherry, dark plum, graphite and herbs, with velvety tannins and a saline finish. Top wines may last 25 years or more. The consortium calls it outstanding.",
+   "source": [
+    "epc",
+    "wsg",
+    "bdoc19"
+   ],
+   "strength": "Medium",
+   "quote": "outstanding from all points of view",
+   "note": "Consortium claim is promotional."
+  }
+ ],
+ "conflicts": [
+  "Chianti Classico consistency: the Consorzio and Italy's Finest Wines give five stars, but Vinous reportedly calls the wines mid-weight and uneven. The Consorzio says yields were high and the Circle article says tannins in some wines were not fully ripe."
+ ],
+ "gaps": [
+  "No Bolgheri yield or volume.",
+  "Florence hills and Valdarno not covered separately.",
+  "Vinous and Decanter 2019 articles not read in full."
+ ],
+ "sheet": {
+  "vintage": "2019 started cool and late, then settled into a steady summer with cool nights. Chianti Classico is fresh and bright, and Bolgheri is ripe and polished."
+ }
+}

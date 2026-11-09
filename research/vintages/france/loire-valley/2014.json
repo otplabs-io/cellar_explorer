@@ -1,0 +1,39 @@
+{
+ "subject": "vintage",
+ "id": "france/loire-valley/2014",
+ "read": "2026-11-05",
+ "sources": {
+  "jims-loire": {"name": "Jim's Loire, 2014 Loire vintage round-up", "kind": "critic", "url": "https://jimsloire.blogspot.com/2014/10/2014-loire-vintage-round-up-of-last-few.html?m=0", "note": "Long blog page. Only the first 100,000 characters were read. No Vouvray or Montlouis harvest dates in what was read."},
+  "idealwine": {"name": "iDealwine, Loire Valley 2014 vintage", "kind": "merchant", "url": "https://idealwine.com/en/buy-wine/region-loire-valley-vintage-2014"},
+  "wd-sweet": {"name": "The Wine Doctor, Loire 2014 sweet wines tasting", "kind": "critic", "url": "https://www.thewinedoctor.com/tastingsformal/loire2014_2025sweet.shtml", "note": "Partly behind a login."},
+  "wd-foreau": {"name": "The Wine Doctor, Clos Naudin Vouvray Sec 2014", "kind": "critic", "url": "https://www.thewinedoctor.com/weekend/philippeforeau_vouvraysec_2014.shtml"},
+  "wd-intro": {"name": "The Wine Doctor, Loire 2014 to 2017 introduction", "kind": "critic", "url": "https://www.thewinedoctor.com/tastingsformal/loire2014_2017introduction.shtml", "note": "Mostly paywalled."},
+  "ec": {"name": "European Cellars, 2014 Loire Valley vintage report", "kind": "merchant", "url": "https://www.europeancellars.com/2014-loire-valley-vintage-report/", "note": "Does not mention Chenin, Vouvray or sweet wines."}
+ },
+ "claims": [
+  {"topic": "vintage", "claim": "2014 was a very good Loire year, rated 17/20 by iDealwine. Chenin and Sauvignon were superb, with ripe flavour and crisp acidity. The Wine Doctor calls it the first of three wonderful years, 2014 to 2016.", "source": ["idealwine", "wd-intro", "ec"], "strength": "Medium", "note": "Three sources agree on a strong year. All are merchants or one critic, none is a regional body."},
+  {"topic": "vintage", "claim": "A mild spring brought early budbreak. The summer was cool and damp. July alternated rain and sun, humidity brought rot in places, and August did not help much.", "source": ["idealwine", "ec"], "strength": "Medium"},
+  {"topic": "vintage", "claim": "September turned dry and sunny, for about six weeks. The Indian summer let the grapes ripen slowly and eased rot pressure. At Tours, September rain was 15.7 mm against an average of 53.2 mm. Rain came on 4 October.", "source": ["ec", "idealwine", "jims-loire"], "strength": "Strong", "note": "Three sources agree. The Tours rainfall figures come from Jim's Loire."},
+  {"topic": "vintage", "claim": "Yields were below hopes. Many Loire growers reported about 40 hl/ha against the 45 to 50 they wanted, after short crops in 2012 and 2013. Montlouis was low.", "source": ["jims-loire", "idealwine"], "strength": "Medium", "note": "Figures are from Anjou, Saumur and Chinon growers. No Vouvray yield figure found."},
+  {"topic": "vintage", "claim": "Harvest was late. Saumur Chenin began 25 September at one estate, and Chinon finished around 8 October. Hail on 19 September hit parts of Chinon. Some growers had acid rot, linked by one grower to the fruit fly Drosophila suzukii.", "source": ["jims-loire"], "strength": "Weak", "note": "Single blog, reporting Saumur and Chinon. No Vouvray harvest dates found."},
+  {"topic": "vintage", "claim": "2014 was a dry-wine year for Vouvray, not a sweet one. The weather broke, which for many growers ruled out the sweet wines. Most picked for sec, demi-sec and sparkling. Quarts de Chaume's right conditions were far from universal.", "source": ["wd-sweet", "idealwine"], "strength": "Medium", "quote": "for many precluded the production of sweeter", "note": "The Wine Doctor is firm on Vouvray. iDealwine says some excellent moelleux and demi-sec exist but sweet whites were not outstanding because of lower alcohol."},
+  {"topic": "vintage", "claim": "Dry Vouvray was picked in several passes. Clos Naudin picks fruit for its Sec at 12 to 13.5 degrees potential alcohol. The Wine Doctor calls 2014 a benevolent year with confident fruit and strong acidity.", "source": ["wd-foreau"], "strength": "Medium", "note": "One producer's practice."},
+  {"topic": "vintage", "claim": "Saumur Chenin showed potential alcohol of 11.2 to 13.5% and acidity of 5.2 to 5.5 at harvest. The author felt less sure about Vouvray and Montlouis after the October rain.", "source": ["jims-loire"], "strength": "Weak", "note": "One estate's numbers, from a blog written during harvest."},
+  {"topic": "window", "claim": "The dry whites were expected to age well.", "source": ["idealwine"], "strength": "Weak", "note": "Merchant opinion only."}
+ ],
+ "conflicts": [
+  "Overall tone: European Cellars calls it superb across the board. Jim's Loire, writing at harvest, is cautious about Vouvray and Montlouis, and growers reported yields under hopes.",
+  "Sweet wines: iDealwine says some excellent moelleux exist. The Wine Doctor says the weather ruled out sweet Vouvray for many growers. Both can be true, but good moelleux were scarce."
+ ],
+ "gaps": [
+  "No Vouvray syndicate or InterLoire report was reached.",
+  "No Vouvray harvest dates or yield figure.",
+  "No source on Coteaux du Layon or Anjou sweet wines in 2014.",
+  "The 2014 Wine Doctor vintage page and a Harpers quote from a Vouvray grower were not read in full."
+ ],
+ "sheet": {
+  "vintage": "A good year for Loire Chenin, helped by a dry, sunny September after a cool summer.",
+  "vintage_dry": "A strong year for dry Vouvray. The wines have ripe fruit and bright acidity, and they age well.",
+  "vintage_sweet": "Not a sweet year. The weather turned before many growers could make moelleux, so look for demi-sec and dry wines."
+ }
+}

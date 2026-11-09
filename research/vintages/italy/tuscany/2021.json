@@ -1,0 +1,159 @@
+{
+ "subject": "vintage",
+ "id": "italy/tuscany/2021",
+ "read": "2026-11-05",
+ "sources": {
+  "isf": {
+   "name": "Italy's Finest Wines, Chianti Classico vintage chart",
+   "kind": "reference",
+   "url": "https://www.italysfinestwines.it/en/chianti-vintage-chart/",
+   "note": "Star ratings and short notes, no harvest dates."
+  },
+  "bdoc": {
+   "name": "Consorzio Tutela Vini Bolgheri DOC, vintages page",
+   "kind": "official",
+   "url": "https://www.bolgheridoc.com/en/wines/vintages/"
+  },
+  "search": {
+   "name": "Web search summaries (Decanter, Jancis Robinson, Vinous, Wine Spectator, producers)",
+   "kind": "general",
+   "note": "Facts marked with this slug were read only in search-result summaries, not on the original pages, which were paywalled, blocked or truncated."
+  },
+  "gal21": {
+   "name": "Vinous (Antonio Galloni), Chianti Classico: The Magnificent 2021s (Jul 2024)",
+   "kind": "critic",
+   "url": "https://billing.vinous.com/articles/chianti-classico-the-magnificent-2021s-jul-2024"
+  },
+  "wsg": {
+   "name": "Wine Scholar Guild, Tuscany vintage chart (Bolgheri and Brunello only)",
+   "kind": "reference",
+   "url": "https://www.winescholarguild.com/italian-wine-vintage-charts/tuscany-vintage-chart",
+   "note": "Covers Bolgheri, not Chianti Classico. 2022 rating is tentative."
+  },
+  "cc21": {
+   "name": "Consorzio Chianti Classico, 2021 harvest report",
+   "kind": "official",
+   "url": "https://chianticlassico.com/en/wine/harvest/year-2021"
+  }
+ },
+ "claims": [
+  {
+   "topic": "vintage",
+   "claim": "Winter was cold on the hills. Sources split on whether it was rainy or dry. Bolgheri had a very wet winter and spring.",
+   "source": [
+    "isf",
+    "bdoc",
+    "search"
+   ],
+   "strength": "Medium",
+   "note": "Winter rain conflicts for inland; the coast is clearer."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Severe frost hit Chianti Classico on 6 and 7 April, and strong air currents carried it to higher elevations. Bolgheri had two spring frosts that delayed the vine cycle by about a week.",
+   "source": [
+    "gal21",
+    "wsg"
+   ],
+   "strength": "Medium",
+   "note": "Frost is site-specific and the Consorzio report does not mention it."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Spring rain was regular inland and built up water reserves. Cooler days after Easter slightly delayed bud development in the cooler areas.",
+   "source": [
+    "cc21"
+   ],
+   "strength": "Medium",
+   "note": "One official source."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Summer was dry in both zones. Chianti Classico had only sporadic August rain and the Consorzio says temperatures were normal, with no heatwaves. Bolgheri had about three months with almost no rain, one of the driest summers of the decade, but relatively cool, with sea breezes.",
+   "source": [
+    "cc21",
+    "bdoc",
+    "wsg"
+   ],
+   "strength": "Strong",
+   "note": "See conflicts for the heat difference inland."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Late August and September brought warm days and much cooler nights. Galloni calls that day to night swing the most defining element of the vintage.",
+   "source": [
+    "cc21",
+    "gal21"
+   ],
+   "strength": "Strong",
+   "note": "Two sources agree."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Disease pressure was low inland. No powdery mildew or leaf blight threatened the vines.",
+   "source": [
+    "cc21"
+   ],
+   "strength": "Medium",
+   "note": "One source."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Sangiovese picking in Chianti Classico began around 20 September and lasted about a month. No Bolgheri harvest dates were found.",
+   "source": [
+    "cc21"
+   ],
+   "strength": "Medium",
+   "note": "Official source, inland only."
+  },
+  {
+   "topic": "production",
+   "claim": "Yields were reduced in many places, mostly by frost. Reports include estates down 20% and about 40%. Italy's Finest Wines says volume was slightly below 2020, and Wine Scholar Guild says reduced yields were common in Bolgheri. No official total was found.",
+   "source": [
+    "search",
+    "isf",
+    "wsg"
+   ],
+   "strength": "Weak",
+   "note": "Estate figures from search summaries. Chianti DOCG percentages found belong to a separate appellation and were left out."
+  },
+  {
+   "topic": "tasting",
+   "claim": "Chianti Classico: Galloni calls it the single greatest young vintage he has tasted in Chianti Classico. Wines have striking aromatics, layered fruit and energy, but many are tightly wound, with Riserva the focus. Decanter reportedly gives 4.5 out of 5.",
+   "source": [
+    "gal21",
+    "isf",
+    "search"
+   ],
+   "strength": "Medium",
+   "quote": "the single greatest young vintage",
+   "note": "Galloni read in full. The Decanter rating is from a search summary only."
+  },
+  {
+   "topic": "tasting",
+   "claim": "Bolgheri: the consortium calls it a great vintage of strength, finesse and elegance. Reds have ripe tannins and good concentration. Whites are fresh and fragrant. Decanter reportedly calls it a milestone vintage.",
+   "source": [
+    "bdoc",
+    "wsg",
+    "search"
+   ],
+   "strength": "Medium",
+   "quote": "through strength, finesse and elegance",
+   "note": "Consortium is promotional. Decanter point is from a search summary."
+  }
+ ],
+ "conflicts": [
+  "Chianti Classico summer heat: the Consorzio says normal temperatures and no heatwaves, while Galloni calls June to August hot and very dry.",
+  "Winter: Italy's Finest Wines says cold and rainy, one search summary cites Mazzei saying cold with little rain.",
+  "Frost scale: severe in Galloni and some estates, not mentioned by the Consorzio. Treat as site-specific."
+ ],
+ "gaps": [
+  "No official hectolitre total or Bolgheri yields for 2021.",
+  "No Bolgheri harvest dates.",
+  "Florence hills and Valdarno not covered separately.",
+  "Decanter Bolgheri and Chianti Classico 2021 pages could not be read."
+ ],
+ "sheet": {
+  "vintage": "2021 had an April frost that cost some growers crop, then a dry, steady summer with cool nights. The wines are fresh, vivid and well structured."
+ }
+}

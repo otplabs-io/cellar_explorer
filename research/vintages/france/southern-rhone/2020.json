@@ -1,0 +1,153 @@
+{
+ "subject": "vintage",
+ "id": "france/southern-rhone/2020",
+ "read": "2026-11-05",
+ "sources": {
+  "cdp-2020": {
+   "name": "Châteauneuf-du-Pape growers' syndicate, 2020 vintage page",
+   "kind": "official",
+   "url": "https://en.chateauneuf.com/appellation-chateauneuf-du-pape/vintages/chateauneuf-du-pape-2020/"
+  },
+  "santa-duc": {
+   "name": "Domaine Santa Duc, 2020 harvest report (Wine Industry Advisor)",
+   "kind": "producer",
+   "url": "https://wineindustryadvisor.com/2020/10/27/domaine-santa-duc-2020-harvest-report/",
+   "note": "A Gigondas estate with Châteauneuf parcels. Written in October 2020."
+  },
+  "vinous-2021": {
+   "name": "Vinous, Châteauneuf-du-Pape Weathers the Challenges and Changes (October 2021)",
+   "kind": "critic",
+   "url": "https://billing.vinous.com/articles/chateauneuf-du-pape-weathers-the-challenges-and-changes-oct-2021",
+   "about": "2020 was a preview, not a full assessment."
+  },
+  "european-cellars": {
+   "name": "European Cellars, Châteauneuf-du-Pape, the vintage game",
+   "kind": "importer",
+   "url": "https://www.europeancellars.com/chateauneuf-du-pape-the-vintage-game/"
+  },
+  "wine-spectator": {
+   "name": "Wine Spectator, Southern Rhône vintage chart",
+   "kind": "critic",
+   "url": "https://www.winespectator.com/vintage-charts/region/rhone-southern",
+   "note": "Region-wide score and a short note. Excerpts only."
+  }
+ },
+ "claims": [
+  {
+   "topic": "vintage",
+   "claim": "Autumn rain of 400 to 500 mm (October to December 2019) refilled the soil. Mild weather brought budbreak about 12 days earlier than 2019. A frost on the morning of 25 March did limited damage in a few parcels.",
+   "source": [
+    "cdp-2020",
+    "vinous-2021"
+   ],
+   "strength": "Strong",
+   "note": "Vinous agrees on a wet late autumn and winter, early growth and scattered late-March frost."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Late spring was wet, then flowering came in mid-May.",
+   "source": [
+    "cdp-2020"
+   ],
+   "strength": "Medium",
+   "note": "One source. Vinous says early flowering."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Rain stopped from mid-June to early August. Heat was strong but not extreme: only 3 days in 5 topped 30°C from June to September, with a peak above 40°C around 1 August.",
+   "source": [
+    "cdp-2020",
+    "vinous-2021"
+   ],
+   "strength": "Strong",
+   "note": "Vinous has rain stopping in early June and heat spikes in late July and early August."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Rain of 40 to 60 mm around 20 September slowed sugar gain and helped Grenache and Mourvèdre reach phenolic ripeness. Santa Duc logged about 10 mm and some small hail on 21 September.",
+   "source": [
+    "cdp-2020",
+    "santa-duc"
+   ],
+   "strength": "Medium",
+   "note": "Rain amounts differ by place. See conflicts."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Harvest was very early. Whites began in the third week of August and Syrah in early September. Picking ran smoothly to mid-October. The grapes were healthy and needed little sorting. Vinous puts it about a week ahead of 2019.",
+   "source": [
+    "cdp-2020",
+    "vinous-2021"
+   ],
+   "strength": "Strong",
+   "note": "Two sources. Santa Duc started whites on 1 September at Roaix and the Châteauneuf parcels on 15 September."
+  },
+  {
+   "topic": "production",
+   "claim": "Yields were healthy. The syndicate gives no 2020 figure. It quotes a long-run average of about 90,000 hl.",
+   "source": [
+    "vinous-2021",
+    "cdp-2020",
+    "santa-duc"
+   ],
+   "strength": "Weak",
+   "note": "Vinous says healthy. Santa Duc says very good. No appellation yield total was found. Search summaries relay one producer at 25 hl/ha, not an average."
+  },
+  {
+   "topic": "tasting",
+   "claim": "Reds have slightly less colour than 2019, lower alcohol, more freshness, pure fruit and fine tannins. Syrah shows blackberry, white pepper and menthol. Grenache shows raspberry and garrigue.",
+   "source": [
+    "cdp-2020",
+    "vinous-2021"
+   ],
+   "strength": "Medium",
+   "note": "Vinous reports low tannin and sound acidity, so the wines should suit drinking young. Both compare 2020 as softer than 2019."
+  },
+  {
+   "topic": "alcohol",
+   "claim": "Final alcohol is lower than in 2019. European Cellars and the syndicate both say so. Santa Duc's wines run 13.5 to 14.5%.",
+   "source": [
+    "european-cellars",
+    "cdp-2020",
+    "santa-duc"
+   ],
+   "strength": "Medium",
+   "note": "Direction is confirmed twice. The range is one estate's. No appellation figure."
+  },
+  {
+   "topic": "tasting",
+   "claim": "White wines are elegant and fresh, with citrus and fresh fruit, good acidity and a lingering finish. Santa Duc found mouth-watering acidity in its Clairette and Bourboulenc.",
+   "source": [
+    "cdp-2020",
+    "santa-duc"
+   ],
+   "strength": "Medium",
+   "note": "Two sources, one from an estate."
+  },
+  {
+   "topic": "standing",
+   "claim": "Wine Spectator scores the Southern Rhône 93 for 2020, drink or hold, and describes a mild winter then a hot, dry summer with slightly cooler nights. European Cellars says Grenache was slow to reach full ripeness, with pronounced red fruit and delicate tannin.",
+   "source": [
+    "wine-spectator",
+    "european-cellars"
+   ],
+   "strength": "Medium",
+   "note": "Region-wide score from one critic. Wine Folly is relayed as rating 2020 Exceptional, not read."
+  }
+ ],
+ "conflicts": [
+  "Drought: Santa Duc calls it an unprecedented drought with about 10 mm in Châteauneuf over the summer. The syndicate says rain was absent mid-June to early August, then showers. Decanter's headline summary, relayed through search and not read, calls it a relatively stress-free year, helped by more than 400 mm of winter reserves.",
+  "September rain: the syndicate gives 40 to 60 mm around 20 September. Santa Duc measured about 10 mm on 21 September at its estate. Rain varied by place.",
+  "Acidity: Santa Duc says Châteauneuf acidity and pH were less good than in Gigondas, after the summer showers. The syndicate and Vinous describe sound acidity and freshness."
+ ],
+ "gaps": [
+  "No appellation yield figure.",
+  "No appellation alcohol range.",
+  "Decanter (paywalled), Wine Advocate and Jeb Dunnuck reports not read. Wine Folly rating relayed only.",
+  "Vinous 2020 was a preview in October 2021, before the wines were fully assessed."
+ ],
+ "sheet": {
+  "vintage": "A mild, wet winter, then an early spring and an early harvest. Summer was dry but not extreme, and a little rain in September helped the Grenache. The reds are fresh and pure, a bit softer and lower in alcohol than 2019.",
+  "vintage_white": "Whites were the first picked, in late August. They are fresh and elegant, with citrus and a lingering finish."
+ }
+}

@@ -1,0 +1,165 @@
+{
+ "subject": "vintage",
+ "id": "italy/brunello-di-montalcino/2015",
+ "read": "2026-11-05",
+ "sources": {
+  "consorzio-stars": {
+   "name": "Consorzio del Vino Brunello di Montalcino, vintage star ratings page",
+   "kind": "official",
+   "url": "https://www.consorziobrunellodimontalcino.it/en/piastrelle/",
+   "note": "Lists stars only, no weather text. Ratings are declared each February at Benvenuto Brunello."
+  },
+  "consorzio-2015": {
+   "name": "Consorzio, Five stars to the 2015 grape harvest",
+   "kind": "official",
+   "url": "https://www.consorziobrunellodimontalcino.it/en/1832/five-stars-to-the-2015-grape-harvest"
+  },
+  "winealign-2015": {
+   "name": "John Szabo, Benvenuto Brunello 2020 report: The Seductive 2015s (WineAlign)",
+   "kind": "critic",
+   "url": "https://www.winealign.com/articles/2021/01/14/john-szabos-benvenuto-brunello-2020-report-the-seductive-2015s/"
+  },
+  "isfw": {
+   "name": "Italy's Finest Wines, best vintages of Brunello di Montalcino",
+   "kind": "reference",
+   "url": "https://italysfinestwines.it/en/migliori-annate-brunello-di-montalcino/",
+   "note": "Secondary summary. Its own star list differs from the Consorzio for 2020, and its 2016 harvest line is garbled so it is not used."
+  },
+  "marcdegrazia": {
+   "name": "Le Chiuse di Sotto oenologist, 2015 harvest note (marcdegrazia.com)",
+   "kind": "producer",
+   "url": "https://marcdegrazia.com/?p=5786",
+   "note": "Known from a search-result summary, not read in full."
+  },
+  "decanter-2015": {
+   "name": "Decanter, 2015 Brunello producer quote",
+   "kind": "critic",
+   "url": "https://www.decanter.com/?p=436339",
+   "note": "Known from a search-result summary only."
+  }
+ },
+ "claims": [
+  {
+   "topic": "vintage",
+   "claim": "Winter rains were heavy and refilled the aquifers.",
+   "source": [
+    "winealign-2015"
+   ],
+   "strength": "Medium",
+   "note": "One source. Italy's Finest Wines instead says winter was sparsely rainy with a cold January and February (see conflicts)."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Spring rainfall was near average, which left good water reserves for summer.",
+   "source": [
+    "isfw",
+    "marcdegrazia"
+   ],
+   "strength": "Medium",
+   "note": "Two secondary sources, one from a search summary."
+  },
+  {
+   "topic": "vintage",
+   "claim": "No frost, hail or flowering problems were reported in any source read. Shrivelled or sunburnt berries were minimal.",
+   "source": [
+    "winealign-2015"
+   ],
+   "strength": "Weak",
+   "quote": "Shrivelled or sunburnt berries were minimal.",
+   "note": "Absence of mention, not a positive finding. Quote is Il Poggione's Bindocci via Szabo."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Summer ran warmer than average with less rain and few heat waves. A few late summer showers kept water stress down.",
+   "source": [
+    "consorzio-2015",
+    "winealign-2015"
+   ],
+   "strength": "Strong",
+   "quote": "a thermal trend higher than average and with less rain, with few heat waves",
+   "note": "Consorzio relays University of Florence agronomist Simone Orlandini. Szabo agrees."
+  },
+  {
+   "topic": "vintage",
+   "claim": "September was cool, with no rain during the harvest period. That preserved acidity and slowed ripening.",
+   "source": [
+    "consorzio-2015",
+    "winealign-2015"
+   ],
+   "strength": "Strong",
+   "note": "Consorzio: temperatures slightly below average and no rain at harvest. Szabo: cool September."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Harvest dates for the zone were not found. One estate (Le Chiuse di Sotto) picked from 23 September to 3 October.",
+   "source": [
+    "marcdegrazia"
+   ],
+   "strength": "Weak",
+   "note": "Single estate, from a search summary."
+  },
+  {
+   "topic": "production",
+   "claim": "Yields were generous and the fruit was healthy. One producer reported about 15% above average after a roughly 50% cut in 2014. No zone-wide volume figure was found.",
+   "source": [
+    "winealign-2015",
+    "consorzio-2015",
+    "decanter-2015"
+   ],
+   "strength": "Medium",
+   "quote": "generous in quantity and quality",
+   "note": "Szabo and the Consorzio agree on healthy, abundant fruit. The 15% figure is one producer, from a search summary."
+  },
+  {
+   "topic": "tasting",
+   "claim": "The Sangiovese is ripe and rich, with supple, sweet tannins and a voluptuous texture. Alcohol is high, many around 15% and some nearly 16%. The wines are drinkable now and the best can age for decades.",
+   "source": [
+    "winealign-2015",
+    "isfw"
+   ],
+   "strength": "Strong",
+   "note": "Two sources agree on depth, colour and ripe tannins."
+  },
+  {
+   "topic": "structure",
+   "claim": "The three oenologists who assess the vintage for the Consorzio called the musts rich in colour, with excellent balance and polyphenols suited to long ageing.",
+   "source": [
+    "consorzio-2015"
+   ],
+   "strength": "Medium",
+   "note": "Consorzio's own panel, so promotional in tone."
+  },
+  {
+   "topic": "standing",
+   "claim": "The Consorzio rated 2015 five stars, 'outstanding', at the ceremony on 20 February 2016.",
+   "source": [
+    "consorzio-2015",
+    "consorzio-stars"
+   ],
+   "strength": "Strong",
+   "quote": "the vintage par excellence that wine producers have been waiting for a long time",
+   "note": "Two Consorzio pages."
+  },
+  {
+   "topic": "standing",
+   "claim": "Szabo says 2016 is said to be even better than 2015 and more classic in style.",
+   "source": [
+    "winealign-2015"
+   ],
+   "strength": "Weak",
+   "note": "Hearsay in one critic's report."
+  }
+ ],
+ "conflicts": [
+  "Winter: Szabo says heavy winter rains refilled aquifers. Italy's Finest Wines says winter was sparsely rainy with low January and February temperatures. Spring rain is described as near average by one source and wet by another.",
+  "Summer: the Consorzio quotes a 'very hot summer with enough rain to ripen', Orlandini says less rain than average, and Szabo says a few late showers. Read as hot, dry-leaning and not stressful."
+ ],
+ "gaps": [
+  "No official yield or hectolitre figure and no zone-wide harvest dates.",
+  "No frost, hail or flowering account found.",
+  "Decanter, Wine Spectator and Jancis Robinson reports were not read in full."
+ ],
+ "sheet": {
+  "vintage": "2015 was a warm summer with a cool, dry September. The Sangiovese is ripe and generous, and the Consorzio gave it five stars."
+ }
+}

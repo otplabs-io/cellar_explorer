@@ -1,0 +1,332 @@
+## United States
+
+- California
+  - Napa Valley
+    - Oakville
+    - Rutherford
+    - Stags Leap District
+    - St. Helena
+    - Calistoga
+    - Yountville
+    - Oak Knoll District
+    - Coombsville
+    - Atlas Peak
+    - Howell Mountain
+    - Mount Veeder
+    - Spring Mountain District
+    - Diamond Mountain District
+    - Los Carneros
+  - Sonoma County
+    - Russian River Valley
+    - Sonoma Coast
+    - Fort Ross-Seaview
+    - Alexander Valley
+    - Dry Creek Valley
+    - Sonoma Valley
+    - Knights Valley
+    - Chalk Hill
+    - Sonoma Mountain
+  - Mendocino County
+    - Anderson Valley
+  - Central Coast
+    - Paso Robles
+    - Sta. Rita Hills
+    - Santa Lucia Highlands
+    - Santa Maria Valley
+    - Santa Cruz Mountains
+    - Edna Valley
+    - Monterey
+  - Lodi
+  - Sierra Foothills
+  - Central Valley
+- Oregon
+  - Willamette Valley
+    - Dundee Hills
+    - Eola-Amity Hills
+    - Ribbon Ridge
+    - Yamhill-Carlton
+    - Chehalem Mountains
+    - McMinnville
+    - Laurelwood District
+    - Van Duzer Corridor
+  - Southern Oregon
+- Washington
+  - Columbia Valley
+  - Walla Walla Valley
+  - Red Mountain
+  - Yakima Valley
+  - Horse Heaven Hills
+  - Wahluke Slope
+- New York
+  - Finger Lakes
+    - Seneca Lake
+    - Cayuga Lake
+    - Keuka Lake
+  - Long Island
+    - North Fork
+    - The Hamptons
+
+## France
+
+- Burgundy
+  - Côte d'Or
+    - Côte de Nuits
+      - Marsannay (Village, Premier Cru)
+      - Fixin (Village, Premier Cru)
+      - Gevrey-Chambertin (Village, Premier Cru, Grand Cru)
+      - Morey-Saint-Denis (Village, Premier Cru, Grand Cru)
+      - Chambolle-Musigny (Village, Premier Cru, Grand Cru)
+      - Vougeot (Village, Premier Cru, Grand Cru)
+      - Vosne-Romanée (Village, Premier Cru, Grand Cru)
+      - Nuits-Saint-Georges (Village, Premier Cru)
+      - Côte de Nuits-Villages
+    - Côte de Beaune
+      - Meursault (Village, Premier Cru)
+      - Puligny-Montrachet (Village, Premier Cru, Grand Cru)
+      - Volnay (Village, Premier Cru)
+      - Aloxe-Corton (Village, Premier Cru, Grand Cru)
+      - Chassagne-Montrachet (Village, Premier Cru, Grand Cru)
+      - Pommard (Village, Premier Cru)
+      - Savigny-lès-Beaune (Village, Premier Cru)
+      - Pernand-Vergelesses (Village, Premier Cru, Grand Cru)
+      - Beaune (Village, Premier Cru)
+      - Santenay (Village, Premier Cru)
+      - Chorey-lès-Beaune
+      - Monthélie (Village, Premier Cru)
+      - Saint-Aubin (Village, Premier Cru)
+      - Auxey-Duresses (Village, Premier Cru)
+      - Côte de Beaune-Villages
+      - Ladoix (Village, Premier Cru, Grand Cru)
+      - Maranges (Village, Premier Cru)
+      - Saint-Romain
+    - Hautes-Côtes de Nuits
+    - Hautes-Côtes de Beaune
+  - Chablis
+    - Petit Chablis
+    - Chablis
+    - Chablis Premier Cru
+    - Chablis Grand Cru
+  - Mâconnais
+    - Mâcon-Villages
+    - Pouilly-Fuissé
+    - Saint-Véran
+    - Viré-Clessé
+  - Côte Chalonnaise
+    - Mercurey
+    - Givry
+    - Rully
+    - Montagny
+    - Bouzeron
+  - Bourgogne
+  - Bourgogne Aligoté
+  - Bourgogne Passe-tout-grains
+  - Crémant de Bourgogne
+  - Coteaux Bourguignons
+- Bordeaux
+  - Left Bank (Médoc & Graves)
+    - Pauillac
+    - Saint-Julien
+    - Margaux
+    - Saint-Estèphe
+    - Pessac-Léognan
+    - Haut-Médoc
+    - Médoc
+    - Listrac-Médoc
+    - Moulis-en-Médoc
+    - Graves
+  - Right Bank
+    - Saint-Émilion Grand Cru
+    - Pomerol
+    - Lalande-de-Pomerol
+    - Fronsac
+    - Castillon Côtes de Bordeaux
+    - Côtes de Bourg
+    - Blaye Côtes de Bordeaux
+  - Sauternes & Barsac
+    - Sauternes
+    - Barsac
+  - Entre-Deux-Mers
+  - Bordeaux & Bordeaux Supérieur
+  - Crémant de Bordeaux
+- Champagne
+  - Montagne de Reims
+    - Ambonnay
+    - Bouzy
+    - Verzenay
+    - Mailly-Champagne
+  - Côte des Blancs
+    - Le Mesnil-sur-Oger
+    - Cramant
+    - Avize
+    - Oger
+  - Vallée de la Marne
+    - Aÿ
+    - Mareuil-sur-Aÿ
+    - Hautvillers
+  - Côte des Bar
+- Rhône Valley
+  - Northern Rhône
+    - Côte-Rôtie
+    - Hermitage
+    - Cornas
+    - Saint-Joseph
+    - Crozes-Hermitage
+    - Condrieu
+  - Southern Rhône
+    - Châteauneuf-du-Pape
+    - Gigondas
+    - Vacqueyras
+    - Rasteau
+    - Côtes du Rhône Villages
+    - Côtes du Rhône
+    - Tavel
+    - Lirac
+- Loire Valley
+  - Sancerre
+  - Pouilly-Fumé
+  - Menetou-Salon
+  - Vouvray
+  - Savennières
+  - Chinon
+  - Bourgueil
+  - Saumur-Champigny
+  - Muscadet Sèvre et Maine
+  - Crémant de Loire
+- Alsace
+  - Alsace AOC
+  - Alsace Grand Cru
+  - Crémant d'Alsace
+- Beaujolais
+  - Beaujolais
+  - Beaujolais-Villages
+  - Morgon
+  - Fleurie
+  - Moulin-à-Vent
+  - Brouilly
+  - Côte de Brouilly
+  - Juliénas
+  - Chiroubles
+  - Chénas
+  - Régnié
+  - Saint-Amour
+- Provence
+  - Côtes de Provence
+  - Bandol
+  - Cassis
+- Languedoc-Roussillon
+  - Pic Saint-Loup
+  - Faugères
+  - Saint-Chinian
+  - Minervois
+  - Corbières
+  - Côtes du Roussillon
+  - Limoux
+  - Pays d'Oc IGP
+
+## Italy
+
+- Piedmont
+  - Barolo
+    - La Morra
+    - Barolo (commune)
+    - Castiglione Falletto
+    - Serralunga d'Alba
+    - Monforte d'Alba
+    - Novello
+    - Verduno
+  - Barbaresco
+    - Barbaresco (commune)
+    - Neive
+    - Treiso
+  - Langhe Nebbiolo
+  - Barbera d'Alba
+  - Barbera d'Asti
+  - Dolcetto d'Alba
+  - Roero
+  - Gavi
+  - Moscato d'Asti
+  - Alta Langa
+  - Gattinara
+- Tuscany
+  - Chianti Classico
+  - Chianti
+  - Chianti Rùfina
+  - Brunello di Montalcino
+  - Rosso di Montalcino
+  - Vino Nobile di Montepulciano
+  - Bolgheri
+  - Toscana IGT (Super Tuscan)
+  - Morellino di Scansano
+  - Vernaccia di San Gimignano
+- Veneto
+  - Amarone della Valpolicella
+  - Valpolicella Ripasso
+  - Valpolicella
+  - Soave Classico
+  - Soave
+  - Prosecco DOC
+  - Conegliano Valdobbiadene Prosecco Superiore
+    - Cartizze
+  - Pinot Grigio delle Venezie
+  - Lugana
+  - Bardolino
+- Alto Adige
+- Friuli Venezia Giulia
+  - Collio
+  - Friuli Colli Orientali
+  - Friuli Grave
+- Trentino
+  - Trento DOC
+- Lombardy
+  - Franciacorta
+  - Valtellina Superiore
+- Sicily
+  - Etna
+  - Sicilia DOC
+  - Cerasuolo di Vittoria
+- Campania
+  - Taurasi
+  - Fiano di Avellino
+  - Greco di Tufo
+- Abruzzo
+  - Montepulciano d'Abruzzo
+  - Trebbiano d'Abruzzo
+- Puglia
+  - Primitivo di Manduria
+  - Salice Salentino
+  - Puglia IGT
+- Marche
+  - Verdicchio dei Castelli di Jesi
+- Umbria
+  - Montefalco Sagrantino
+- Sardinia
+  - Cannonau di Sardegna
+  - Vermentino di Gallura
+
+## Spain
+
+- Rioja
+  - Rioja Alta
+  - Rioja Alavesa
+  - Rioja Oriental
+- Ribera del Duero
+- Toro
+- Rueda
+- Bierzo
+- Ribeira Sacra
+- Rías Baixas
+  - Val do Salnés
+  - O Rosal
+  - Condado do Tea
+- Valdeorras
+- Priorat
+- Montsant
+- Penedès & Cava
+  - Cava
+  - Penedès
+- Jerez (Sherry)
+- Navarra
+- Campo de Borja & Calatayud
+- Jumilla
+- La Mancha & Valdepeñas
+- Somontano

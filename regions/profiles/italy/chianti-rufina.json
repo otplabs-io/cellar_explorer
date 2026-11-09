@@ -1,0 +1,6 @@
+{
+ "$why": "Not an EU PDO or PGI or a US AVA: a country, state, region, group or sub-zone, with no shape of its own in the map data.",
+ "map": {
+  "covers": []
+ }
+}

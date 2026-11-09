@@ -1,0 +1,152 @@
+{
+ "subject": "vintage",
+ "id": "italy/tuscany/2020",
+ "read": "2026-11-05",
+ "sources": {
+  "cc20": {
+   "name": "Consorzio Chianti Classico, 2020 vintage report",
+   "kind": "official",
+   "url": "https://chianticlassico.com/en/?p=19139",
+   "note": "Written just after harvest."
+  },
+  "isf": {
+   "name": "Italy's Finest Wines, Chianti Classico vintage chart",
+   "kind": "reference",
+   "url": "https://www.italysfinestwines.it/en/chianti-vintage-chart/",
+   "note": "Star ratings and short notes, no harvest dates."
+  },
+  "search": {
+   "name": "Web search summaries (Decanter, Jancis Robinson, Vinous, Wine Spectator, producers)",
+   "kind": "general",
+   "note": "Facts marked with this slug were read only in search-result summaries, not on the original pages, which were paywalled, blocked or truncated."
+  },
+  "bdoc": {
+   "name": "Consorzio Tutela Vini Bolgheri DOC, vintages page",
+   "kind": "official",
+   "url": "https://www.bolgheridoc.com/en/wines/vintages/"
+  },
+  "ornellaia": {
+   "name": "Ornellaia harvest report in the words of Axel Heinz (Wine Industry Advisor)",
+   "kind": "producer",
+   "url": "https://wineindustryadvisor.com/?p=46697",
+   "note": "One Bolgheri estate. The page is a 2020 report as listed in search results; the year is not shown in the text read."
+  },
+  "epc": {
+   "name": "En Primeur Club, Tuscany vintage report (archive of Decanter and critic notes)",
+   "kind": "merchant",
+   "url": "https://www.enprimeurclub.com/guide/tuscany-vintage-report-five-decades-peaks-troughs",
+   "note": "Brief excerpts on 2018, 2019, 2020 only."
+  },
+  "wsg": {
+   "name": "Wine Scholar Guild, Tuscany vintage chart (Bolgheri and Brunello only)",
+   "kind": "reference",
+   "url": "https://www.winescholarguild.com/italian-wine-vintage-charts/tuscany-vintage-chart",
+   "note": "Covers Bolgheri, not Chianti Classico. 2022 rating is tentative."
+  }
+ },
+ "claims": [
+  {
+   "topic": "vintage",
+   "claim": "Inland, cold nights in early April hit budding and the spring was fairly cool. Italy's Finest Wines says winter was mild and spring rainy.",
+   "source": [
+    "cc20",
+    "isf"
+   ],
+   "strength": "Medium",
+   "note": "Official report plus a chart."
+  },
+  {
+   "topic": "vintage",
+   "claim": "One Chianti Classico estate (Mazzei) lost about 15% of its crop at budbreak.",
+   "source": [
+    "search"
+   ],
+   "strength": "Weak",
+   "note": "Single producer, from a search summary."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Bolgheri winter was mild and rainy, with near-freezing March nights but no frost damage. Spring was warm with normal rain.",
+   "source": [
+    "bdoc"
+   ],
+   "strength": "Medium",
+   "note": "Consortium only."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Summer was long and hot in both zones, with good day and night swings inland. Rain in June and September prevented water shortage inland. Bolgheri summer was hot and dry until rain and cooler air arrived at the end of August.",
+   "source": [
+    "cc20",
+    "bdoc"
+   ],
+   "strength": "Medium",
+   "note": "Official sources for each zone."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Bolgheri had heat in early September that pulled harvest forward, then a second wave of rain in late September. One estate recorded a wet June, which conflicts with the consortium.",
+   "source": [
+    "ornellaia",
+    "search"
+   ],
+   "strength": "Weak",
+   "note": "One estate plus search summary."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Harvest dates: Chianti Classico at Montevertine began 30 September, a week earlier than 2019 and 2021. Bolgheri whites at Ornellaia ran 13 to 25 August, reds from 3 September, finishing 3 October. Sassicaia's harvest lasted 26 days, 8 to 9 fewer than normal.",
+   "source": [
+    "search",
+    "ornellaia"
+   ],
+   "strength": "Weak",
+   "note": "Estate dates, not zone-wide. Montevertine and Sassicaia from search summaries."
+  },
+  {
+   "topic": "production",
+   "claim": "Chianti Classico yields fell at least 10% from 2019 on a provisional estimate. No hectolitre figure was found. In Bolgheri, Sassicaia reported loose clusters and lower yields from rain and cold wind at flowering.",
+   "source": [
+    "cc20",
+    "isf",
+    "search"
+   ],
+   "strength": "Medium",
+   "note": "Chianti Classico drop is official but provisional. Bolgheri point is one estate."
+  },
+  {
+   "topic": "tasting",
+   "claim": "Chianti Classico: promised excellent quality with great structure and balance, plus clear acidity and fresh aromas. Jancis Robinson reportedly sees it as less aromatically precise than 2019 and more advanced.",
+   "source": [
+    "cc20",
+    "isf",
+    "epc",
+    "search"
+   ],
+   "strength": "Medium",
+   "note": "Critics rate it a little below 2019, though Vinous reportedly expects it to be more consistent than 2019."
+  },
+  {
+   "topic": "tasting",
+   "claim": "Bolgheri: elegant and charming with excellent acidity, less powerful than 2019 or 2021. Cabernet Franc and Merlot are excellent. Cabernet Sauvignon is more variable after late rain.",
+   "source": [
+    "wsg",
+    "search"
+   ],
+   "strength": "Medium",
+   "note": "Cabernet detail from a search summary of Decanter."
+  }
+ ],
+ "conflicts": [
+  "Chianti Classico spring: the Consorzio says fairly cool, Italy's Finest Wines says rainy. Bolgheri June: consortium says normal spring rain, one estate says a very wet June.",
+  "Chianti Classico 2020 versus 2019: Robinson and Morris reportedly rate 2019 higher, Vinous reportedly rates 2020 as more consistent."
+ ],
+ "gaps": [
+  "No Chianti Classico harvest dates from the Consorzio and no official hectolitre figure.",
+  "Florence hills and Valdarno not covered separately.",
+  "Decanter 2020 Bolgheri report not read in full."
+ ],
+ "sheet": {
+  "vintage": "2020 was a hot, long summer after a mild winter. The wines are balanced and fresh, a little softer than 2019, and Bolgheri is elegant."
+ }
+}

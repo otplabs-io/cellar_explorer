@@ -1,0 +1,37 @@
+{
+ "subject": "vintage",
+ "id": "united-states/napa-valley/2019",
+ "read": "2026-11-05",
+ "sources": {
+  "harvest-napa": {"name": "Harvest Napa Valley, 2019 Napa Valley Vintage", "kind": "vintage report", "url": "https://harvestnapa.com/vintages/2019-napa-valley-vintage/"},
+  "wine-independent": {"name": "The Wine Independent, Napa Valley: 2018, 2019, and 2020 Vintages", "kind": "critic", "url": "https://thewineindependent.com/articles/napa-valley-2018-2019-and-2020-vintages/"},
+  "search-summaries": {"name": "Search summaries of Vinous (Antonio Galloni) and Jeb Dunnuck on Napa 2019", "kind": "critic", "note": "Relayed through a search summary. The Vinous and Dunnuck pages were not read."}
+ },
+ "claims": [
+  {"topic": "vintage", "claim": "The year began with heavy rain, and the soil kept its moisture late into the season.", "source": ["harvest-napa", "wine-independent"], "strength": "Strong", "quote": "copious rainfall", "note": "Wine Independent puts January to May rainfall at just over 34 inches, against 0.61 inches in 2018."},
+  {"topic": "vintage", "claim": "After the wet spring, the season was dry and sunny. Summer was long and warm with foggy mornings. Extreme heat was rare.", "source": ["harvest-napa", "wine-independent"], "strength": "Strong"},
+  {"topic": "vintage", "claim": "It was a warmer year than 2018: 3,240 growing degree days against 3,050.", "source": ["wine-independent"], "strength": "Medium", "note": "One source."},
+  {"topic": "vintage", "claim": "Whites came in from late September, after a cooler mid-September with some rain. Reds ripened in sunny days and cool nights in October. Harvest wrapped up by mid-November.", "source": ["harvest-napa"], "strength": "Medium", "note": "One source. Wine Independent says harvest ran from early September to late October."},
+  {"topic": "production", "claim": "Napa County red grape tonnage was 121,100 tons in 2019, down from 137,335 tons in 2018.", "source": ["wine-independent"], "strength": "Medium", "note": "Wine Independent cites the Napa County crop report. The crop report itself was not read."},
+  {"topic": "production", "claim": "Yields were average to slightly below average.", "source": ["harvest-napa"], "strength": "Medium", "note": "Wine Independent calls them slightly above average per vine for growers who cut back, but the county tonnage is lower. See conflicts."},
+  {"topic": "vintage", "claim": "The wines are fruit-forward and generous, with plush tannins, more alcohol and less acidity than 2018. Many reds are 14.5 to 14.9%.", "source": ["wine-independent"], "strength": "Medium", "quote": "The hallmark of 2019 is firmly on the fruit", "note": "One source. Harvest Napa says instead that the fruit kept bright acidity and soft tannins."},
+  {"topic": "vintage", "claim": "Winemakers reported deeper color than expected. The long, mild finish to the season kept freshness and gave soft tannins.", "source": ["harvest-napa"], "strength": "Medium"},
+  {"topic": "vintage", "claim": "Vinous called the Cabernets big, bold wines that show the extroverted side of Napa. It found the vintage less consistent than 2018.", "source": ["search-summaries"], "strength": "Weak", "quote": "big, bold wines that show the extroverted side of Napa Valley", "note": "Relayed second hand."},
+  {"topic": "vintage", "claim": "Jeb Dunnuck called 2019 another terrific year, ranking it below 2016 and 2013.", "source": ["search-summaries"], "strength": "Weak", "note": "Relayed second hand."},
+  {"topic": "vintage", "claim": "Structured 2019 reds may age 25 to 35 years or more.", "source": ["wine-independent"], "strength": "Weak", "note": "One source, and it refers to the best structured wines, not Napa as a whole."}
+ ],
+ "conflicts": [
+  "Yields: Harvest Napa says average to slightly below average. Wine Independent says growers were more conservative than in 2018 and landed at slightly above-average levels. County red tonnage fell about 12% from 2018.",
+  "Acidity: Harvest Napa says bright acidity. Wine Independent says less acidity than 2018. Both can be true (bright for the year, lower than 2018).",
+  "Harvest start: early September (Wine Independent) against late September for whites and October for reds (Harvest Napa)."
+ ],
+ "gaps": [
+  "No Napa Valley Vintners or UC Davis report read directly.",
+  "The Vinous and Dunnuck pages were not read, only summaries.",
+  "No Atlas Peak or mountain-specific note on 2019. The sheet line is valley-wide.",
+  "Fine+Rare and James Suckling vintage pages were found but not read."
+ ],
+ "sheet": {
+  "vintage": "A wet winter and spring, then a long, dry, warm summer. The reds are ripe and fruit-forward, with soft tannins."
+ }
+}

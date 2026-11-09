@@ -1,0 +1,73 @@
+{
+ "subject": "vintage",
+ "id": "italy/amarone-della-valpolicella/1990",
+ "read": "2026-11-05",
+ "sources": {
+  "ifw": {
+   "name": "Italy's Finest Wines, Amarone della Valpolicella Vintages Rating Chart (Jean Marco Palmieri)",
+   "kind": "critic",
+   "url": "https://italysfinestwines.it/en/amarone-vintage-chart/",
+   "note": "Read directly. Third-party chart, not the Consorzio."
+  },
+  "retail90": {
+   "name": "Auction and retailer notes on 1990 Amarones (Quintarelli, Santi, Bertani, Vaio Armaron listings)",
+   "kind": "merchant",
+   "url": "https://www.vintagewineandport.co.uk/products/Amarone-della-Valpolicella-1990-4",
+   "note": "Search-result summaries only. Producer-level tasting notes, not vintage reports."
+  },
+  "reading": {
+   "name": "Searches run for this file",
+   "kind": "general",
+   "note": "No Consorzio vintage rating found for these years."
+  }
+ },
+ "claims": [
+  {
+   "topic": "vintage",
+   "claim": "No growing-season weather, frost, hail, harvest or yield information for 1990 was found in sources read.",
+   "source": [
+    "reading"
+   ],
+   "strength": "Weak",
+   "note": "Gap. The Wine Scholar Guild chart starts at 2010 and has no entry."
+  },
+  {
+   "topic": "standing",
+   "claim": "Italy's Finest Wines gives 1990 five stars, with no description.",
+   "source": [
+    "ifw"
+   ],
+   "strength": "Weak",
+   "note": "Star rating only, third-party."
+  },
+  {
+   "topic": "standing",
+   "claim": "Auction and retail listings call 1990 a great Veneto vintage for Amarone. Vinous reportedly gave a 1990 Allegrini 94 points and Wine Advocate a 1990 Masi Costasera 95.",
+   "source": [
+    "retail90"
+   ],
+   "strength": "Weak",
+   "note": "Search-result summaries. Individual wines, not a vintage report."
+  },
+  {
+   "topic": "tasting",
+   "claim": "Aged 1990 Amarones are described as raisined and earthy, velvety, with dried mushroom and cherry in rum notes at best. Style varies a lot by producer, and the wines are now mature.",
+   "source": [
+    "retail90"
+   ],
+   "strength": "Weak",
+   "note": "Anecdotal tasting notes."
+  }
+ ],
+ "conflicts": [
+  "Sources differ by producer: a 1990 Quintarelli was called fresh and medium-bodied, a Vaio Armaron full-bodied, a Bertani savoury and mature."
+ ],
+ "gaps": [
+  "No weather, harvest date, yield or appassimento data for 1990 found.",
+  "No Consorzio rating found.",
+  "Wine Spectator, Decanter and Jancis Robinson pages not read for 1990."
+ ],
+ "sheet": {
+  "vintage": "1990 is a well-regarded old Amarone year. Good bottles are now mature, with dried fruit, earth and a soft, velvety feel."
+ }
+}

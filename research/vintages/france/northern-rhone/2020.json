@@ -1,0 +1,33 @@
+{
+ "subject": "vintage",
+ "id": "france/northern-rhone/2020",
+ "read": "2026-11-05",
+ "sources": {
+  "vins-rhone": {"name": "Inter Rhône, Rhône Valley Vineyards, 2020 vintage", "kind": "official", "url": "https://www.vins-rhone.com/en/2020-vintage", "note": "The regional interprofession. Covers the whole valley, with short northern notes."},
+  "fine-rare": {"name": "Fine+Rare, Rhône 2020: the stars align", "kind": "merchant", "url": "https://www.frw.co.uk/editorial/rhone-2020-vintage-report", "note": "A merchant's report. Quotes Nicolas Champagneux of Côte-Rôtie. Says nothing on Hermitage or Crozes-Hermitage."},
+  "search-summaries": {"name": "Search summaries of Jancis Robinson, Wine Scholar Guild, Wine With Seth and Yapp on the 2020 northern Rhône", "kind": "general", "note": "Relayed through search summaries. Those pages were not read (403 or paywalled)."}
+ },
+ "claims": [
+  {"topic": "vintage", "claim": "A rainy autumn 2019 refilled water reserves. A mild, dry winter brought an early budbreak, and late spring frosts hit the early vines.", "source": ["vins-rhone"], "strength": "Medium", "note": "A valley-wide report. It does not say where the frost fell. Search summaries disagree. See conflicts."},
+  {"topic": "vintage", "claim": "Summer was hot and dry but not scorching, and less extreme than 2019. Drought and heat worried growers in early summer. Dry, slightly windy weather kept disease low, and nights were cool.", "source": ["vins-rhone", "fine-rare"], "strength": "Medium", "note": "Two sources agree on a sunny, dry, healthy season. Details differ slightly."},
+  {"topic": "vintage", "claim": "No serious rain fell until after harvest. Picking was not rushed.", "source": ["fine-rare"], "strength": "Weak", "note": "One merchant. Valley-wide wording."},
+  {"topic": "vintage", "claim": "Harvest was early. In the northern Rhône it began around the first week of September, in Côte-Rôtie.", "source": ["vins-rhone"], "strength": "Medium", "quote": "around the first week of September", "note": "One official source. A search summary gives Domaine Champet starting on 16 September. Another says picking began in August, which probably refers to the south."},
+  {"topic": "vintage", "claim": "Yields in the north fell short of usual. Côte-Rôtie's David Duclaux is quoted as saying the yields were not there. Valley-wide volumes were about 8% below 2019 and about 10% below the ten-year average.", "source": ["vins-rhone", "search-summaries"], "strength": "Medium", "note": "The percentages cover the whole Rhône and are a forecast. Fine+Rare says yields were healthy, with no northern figures."},
+  {"topic": "vintage", "claim": "Côte-Rôtie wines are elegant and fine, with red and black fruit and good acidity. Champagneux calls it a typical sun-blessed year, like 2018. He cites fruit purity, terroir expression, solid structure and long life, with pleasure in youth.", "source": ["vins-rhone", "fine-rare"], "strength": "Medium", "quote": "fruit purity and terroir expression", "note": "Two sources, one a producer quote."},
+  {"topic": "standing", "claim": "Northern wines are described as fresh and balanced. Jancis Robinson is said to rate Côte-Rôtie as marginally less successful than the stellar 2019.", "source": ["vins-rhone", "search-summaries"], "strength": "Weak", "note": "The Robinson comparison is relayed only."},
+  {"topic": "vintage", "claim": "Hermitage was largely protected from frost by frost candles. Crozes-Hermitage lost some fruit to sunburn in the drought.", "source": ["search-summaries"], "strength": "Weak", "note": "From a Wine Scholar Guild chart relayed in search summaries. Not read. No Hermitage or Crozes-Hermitage character notes were found."}
+ ],
+ "conflicts": [
+  "Frost: the Rhône interprofession says late spring frosts hit early vines generally. A search summary of the Wine Scholar Guild says Côte-Rôtie was worst hit and Hermitage was protected. Fine+Rare does not mention frost in 2020.",
+  "Yields: Inter Rhône and Duclaux say the north was short. Fine+Rare says healthy yields in the Rhône without northern figures.",
+  "Harvest start: first week of September (Inter Rhône) against 16 September (Champet) against August (a Jancis Robinson chart note, probably the south)."
+ ],
+ "gaps": [
+  "Almost nothing specific to Hermitage and Crozes-Hermitage in 2020.",
+  "No northern Rhône yield figures in hl/ha.",
+  "Jancis Robinson, Decanter, Yapp, Lay & Wheeler and Wine Scholar Guild pages could not be read. The web search budget ran out before more sources could be checked."
+ ],
+ "sheet": {
+  "vintage": "2020 was sunny and dry, with an early harvest. Yields were low in the north. Côte-Rôtie is fresh, fine and balanced, with good acidity."
+ }
+}

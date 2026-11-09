@@ -1,0 +1,25 @@
+{
+ "$comment": "Region settings for the zones engine, from Orazio Campoli’s store for the region. Broad: the zones that cover more than a third of the region, left out of the shading so the smaller zones show.",
+ "place": {
+  "subtitle": "From Marche down to one zone"
+ },
+ "map": {
+  "region_slug": "marche",
+  "istat_regions": [
+   11
+  ],
+  "panel1": [
+   "Marche",
+   "Zones, shaded by level"
+  ],
+  "panel1_towns": [],
+  "broad": [
+   "marche-igt",
+   "rosso-piceno-doc"
+  ],
+  "areas": [],
+  "covers": [
+   "italy/marche"
+  ]
+ }
+}

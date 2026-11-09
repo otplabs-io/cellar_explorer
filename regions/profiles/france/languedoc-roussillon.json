@@ -1,0 +1,173 @@
+{
+ "story": {
+  "labels": {
+   "family": "The domaine"
+  }
+ },
+ "place": {
+  "subtitle": "From Languedoc-Roussillon down to one appellation"
+ },
+ "map": {
+  "engine": "appellations",
+  "precision": "appellation",
+  "credit": "Maps: INAO appellation delimitations (Licence Ouverte) via OpenDataWine; commune outlines from france-geojson; estate location from {estate_source}. Levels 1 and 2 shade whole communes by their main appellation. For orientation, not a legal boundary.",
+  "projection": 2154,
+  "departments": [
+   [
+    "66",
+    "66-pyrenees-orientales"
+   ],
+   [
+    "11",
+    "11-aude"
+   ],
+   [
+    "34",
+    "34-herault"
+   ]
+  ],
+  "region_root": "france/languedoc-roussillon",
+  "subregions": {},
+  "towns": {
+   "66136": "Perpignan",
+   "34172": "Montpellier",
+   "11262": "Narbonne",
+   "34032": "Béziers",
+   "66053": "Collioure"
+  },
+  "panel1": [
+   "Languedoc-Roussillon",
+   "Communes, shaded by area"
+  ],
+  "panel1_towns": [
+   "66136",
+   "34172",
+   "11262"
+  ],
+  "generic": [
+   "Languedoc",
+   "Languedoc (Blanc)",
+   "Côtes du Roussillon",
+   "Rivesaltes",
+   "Muscat de Rivesaltes",
+   "Grand Roussillon",
+   "Béa du Roussillon",
+   "Clairette du Languedoc",
+   "Var",
+   "Gard",
+   "Landes",
+   "Maures",
+   "Vaucluse",
+   "Champagne",
+   "Sable de Camargue",
+   "Taureau de Camargue",
+   "Alpilles",
+   "Muscadet Sèvre et Maine Gorges",
+   "Coteaux Bourguignons ou Bourgogne grand ordinaire ou Bourgogne ordinaire",
+   "Crémant de Bourgogne",
+   "Bourgogne",
+   "Bourgogne Passe-tout-grains",
+   "Bourgogne aligoté",
+   "Bourgogne mousseux",
+   "Mediterranée",
+   "Méditerranée",
+   "Pays d'Oc"
+  ],
+  "fallback": null,
+  "subregion_default": null,
+  "aliases": {},
+  "subregions_by_department": {
+   "66": "Roussillon",
+   "11": "Languedoc",
+   "34": "Languedoc",
+   "30": "Languedoc"
+  },
+  "panel2": [
+   "Languedoc-Roussillon",
+   "Communes, shaded by their main appellation"
+  ],
+  "panel2_appellations": [
+   "Collioure",
+   "Banyuls",
+   "Banyuls grand cru",
+   "Maury",
+   "Côtes du Roussillon Villages",
+   "Faugères",
+   "Saint-Chinian",
+   "Pic Saint-Loup",
+   "Minervois",
+   "Corbières",
+   "Fitou",
+   "Terrasses du Larzac"
+  ],
+  "$panel2_auto": "Listed in panel 2, but its own wine gets the automatic layout: the hand-set one was made for the others and clips or crowds this name.",
+  "panel2_auto": [
+   "Côtes du Roussillon Villages"
+  ],
+  "communal": [
+   "Collioure",
+   "Banyuls",
+   "Banyuls grand cru",
+   "Maury",
+   "Côtes du Roussillon Villages",
+   "Faugères",
+   "Saint-Chinian",
+   "Pic Saint-Loup",
+   "Minervois",
+   "Corbières",
+   "Fitou",
+   "Terrasses du Larzac"
+  ],
+  "short_names": {
+   "Banyuls grand cru": "Banyuls Grand Cru"
+  },
+  "covers": [
+   "france/pic-saint-loup",
+   "france/faugeres",
+   "france/saint-chinian",
+   "france/minervois",
+   "france/corbieres",
+   "france/cotes-du-roussillon",
+   "france/limoux",
+   "france/fitou",
+   "france/muscat-de-rivesaltes",
+   "france/cremant-de-limoux",
+   "france/cotes-du-roussillon-villages",
+   "france/terrasses-du-larzac",
+   "france/muscat-de-lunel",
+   "france/malepere",
+   "france/muscat-de-frontignan",
+   "france/picpoul-de-pinet",
+   "france/la-clape",
+   "france/languedoc",
+   "france/banyuls",
+   "france/la-liviniere",
+   "france/boutenac",
+   "france/sable-de-camargue",
+   "france/rivesaltes",
+   "france/cabardes",
+   "france/maury",
+   "france/grand-roussillon",
+   "france/collioure",
+   "france/banyuls-grand-cru",
+   "france/clairette-du-languedoc",
+   "france/muscat-de-mireval",
+   "france/muscat-de-saint-jean-de-minervois"
+  ],
+  "panel1_town_side": {
+   "34172": "end"
+  },
+  "this_wine": [
+   150,
+   228,
+   "start"
+  ]
+ },
+ "styles": [
+  "red",
+  "white",
+  "rosé",
+  "fortified"
+ ],
+ "$why": "Not an EU PDO or PGI or a US AVA: a country, state, region, group or sub-zone, with no shape of its own in the map data. The places under it that draw stay covered."
+}

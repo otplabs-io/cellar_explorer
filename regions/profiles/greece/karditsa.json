@@ -1,0 +1,6 @@
+{
+ "$why": "A PGI with no boundary in the local data: the EU PDO boundaries dataset holds PDOs only.",
+ "map": {
+  "covers": []
+ }
+}

@@ -1,0 +1,134 @@
+{
+ "subject": "vintage",
+ "id": "italy/brunello-di-montalcino/2016",
+ "read": "2026-11-05",
+ "sources": {
+  "consorzio-stars": {
+   "name": "Consorzio del Vino Brunello di Montalcino, vintage star ratings page",
+   "kind": "official",
+   "url": "https://www.consorziobrunellodimontalcino.it/en/piastrelle/",
+   "note": "Lists stars only, no weather text. Ratings are declared each February at Benvenuto Brunello."
+  },
+  "frw-2016": {
+   "name": "Fine+Rare, Brunello 2016: a magical year in Montalcino",
+   "kind": "merchant",
+   "url": "https://www.frw.co.uk/editorial/brunello-2016-a-magical-year-in-montalcino"
+  },
+  "isfw": {
+   "name": "Italy's Finest Wines, best vintages of Brunello di Montalcino",
+   "kind": "reference",
+   "url": "https://italysfinestwines.it/en/migliori-annate-brunello-di-montalcino/",
+   "note": "Secondary summary. Its own star list differs from the Consorzio for 2020, and its 2016 harvest line is garbled so it is not used."
+  },
+  "winealign-2015": {
+   "name": "John Szabo, Benvenuto Brunello 2020 report: The Seductive 2015s (WineAlign)",
+   "kind": "critic",
+   "url": "https://www.winealign.com/articles/2021/01/14/john-szabos-benvenuto-brunello-2020-report-the-seductive-2015s/"
+  },
+  "decanter-2016": {
+   "name": "Decanter, Brunello di Montalcino 2016 vintage report (Michaela Morris)",
+   "kind": "critic",
+   "url": "https://www.decanter.com/premium/brunello-di-montalcino-2016-vintage-report-456606",
+   "note": "Decanter score known only from a search-result summary; page is paywalled and was not read. Rating 5/5."
+  }
+ },
+ "claims": [
+  {
+   "topic": "vintage",
+   "claim": "January was cold, with 12 days below freezing, which cleaned the vineyards of disease. A rainy winter followed and built groundwater.",
+   "source": [
+    "frw-2016"
+   ],
+   "strength": "Medium",
+   "note": "One merchant report."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Rain fell regularly until early spring. Budding, flowering and fruit set went without trouble, and fungal pressure stayed low.",
+   "source": [
+    "frw-2016",
+    "isfw"
+   ],
+   "strength": "Strong",
+   "note": "Two sources agree. No frost or hail was reported in either."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Summer was warm with intermittent showers until August, a peak near 35C and no 40C spikes. Large day-night swings slowed ripening and kept aromas and acidity.",
+   "source": [
+    "frw-2016",
+    "isfw"
+   ],
+   "strength": "Strong",
+   "note": "Italy's Finest Wines puts the rain in mid-July. A search summary of other sources says July was hot and dry with one rain in mid-August. Detail varies, the pattern of warm days and cool nights does not."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Harvest began around 18 to 19 September at Talenti and Biondi-Santi, 27 September at Canalicchio di Sopra (about 10 days) and early October at Sassetti. Low-altitude plots at Poggio di Sotto were picked from 2 September.",
+   "source": [
+    "frw-2016"
+   ],
+   "strength": "Medium",
+   "note": "Estate dates from one source. Rain in mid-September then dry breezes is reported in a search summary only."
+  },
+  {
+   "topic": "production",
+   "claim": "Yields were good and healthy, with no regional over-production. Canalicchio di Sopra cropped below the 8,000 kg/ha cap.",
+   "source": [
+    "frw-2016"
+   ],
+   "strength": "Medium",
+   "note": "One source. No official volume figure found."
+  },
+  {
+   "topic": "tasting",
+   "claim": "Sangiovese is fresh and precise, with floral lift, firm acidity, red fruit and ripe, enveloping tannins. It is more 'vertical' and classic than the broader 2015.",
+   "source": [
+    "frw-2016",
+    "isfw"
+   ],
+   "strength": "Strong",
+   "quote": "ripe and enveloping tannins",
+   "note": "Two sources agree."
+  },
+  {
+   "topic": "window",
+   "claim": "Producers compare it to 2006, 2010 and 2013 and expect long ageing.",
+   "source": [
+    "frw-2016"
+   ],
+   "strength": "Weak",
+   "note": "Producer view."
+  },
+  {
+   "topic": "standing",
+   "claim": "The Consorzio rated 2016 five stars, 'outstanding'. Decanter reportedly gives 5/5.",
+   "source": [
+    "consorzio-stars",
+    "decanter-2016"
+   ],
+   "strength": "Strong",
+   "note": "Consorzio page read directly. Decanter score from a search summary only."
+  },
+  {
+   "topic": "standing",
+   "claim": "Szabo calls 2016 said to be even better than 2015.",
+   "source": [
+    "winealign-2015"
+   ],
+   "strength": "Weak",
+   "note": "Second-hand remark."
+  }
+ ],
+ "conflicts": [
+  "Summer rain timing differs between sources (mid-July showers versus a dry July with one mid-August rain)."
+ ],
+ "gaps": [
+  "No Consorzio weather report or official yield figure found.",
+  "Frost, hail: none reported, but no source addressed them directly.",
+  "Decanter page not read."
+ ],
+ "sheet": {
+  "vintage": "2016 had a cold January, a steady spring and warm days with cool nights. The Sangiovese is fresh, precise and floral, and the Consorzio gave it five stars."
+ }
+}

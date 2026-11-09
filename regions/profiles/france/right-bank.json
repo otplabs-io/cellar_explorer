@@ -1,0 +1,61 @@
+{
+ "map": {
+  "panel2": [
+   "The Right Bank",
+   "Communes, shaded by their main appellation"
+  ],
+  "panel2_appellations": [
+   "Pomerol",
+   "Lalande-de-Pomerol",
+   "Saint-Emilion grand cru",
+   "Montagne-Saint-Emilion",
+   "Lussac-Saint-Emilion",
+   "Puisseguin-Saint-Emilion",
+   "Saint-Georges-Saint-Emilion",
+   "Fronsac",
+   "Canon Fronsac",
+   "Côtes de Bordeaux Castillon"
+  ],
+  "communal": [
+   "Pomerol",
+   "Saint-Emilion grand cru",
+   "Saint-Emilion",
+   "Lalande-de-Pomerol",
+   "Fronsac",
+   "Canon Fronsac"
+  ],
+  "prefer": [
+   "Saint-Emilion grand cru"
+  ],
+  "short_names": {
+   "Saint-Emilion grand cru": "Saint-Émilion Grand Cru",
+   "Saint-Emilion": "Saint-Émilion",
+   "Montagne-Saint-Emilion": "Montagne",
+   "Lussac-Saint-Emilion": "Lussac",
+   "Puisseguin-Saint-Emilion": "Puisseguin",
+   "Saint-Georges-Saint-Emilion": "Saint-Georges",
+   "Côtes de Bordeaux Castillon": "Castillon",
+   "Lalande-de-Pomerol": "Lalande-de-Pomerol"
+  },
+  "covers": [
+   "france/saint-emilion-grand-cru",
+   "france/pomerol",
+   "france/lalande-de-pomerol",
+   "france/fronsac",
+   "france/castillon-cotes-de-bordeaux",
+   "france/cotes-de-bourg",
+   "france/blaye-cotes-de-bordeaux",
+   "france/blaye",
+   "france/canon-fronsac",
+   "france/puisseguin-saint-emilion",
+   "france/lussac-saint-emilion",
+   "france/saint-emilion",
+   "france/montagne-saint-emilion",
+   "france/saint-georges-saint-emilion"
+  ]
+ },
+ "styles": [
+  "red"
+ ],
+ "$why": "Not an EU PDO or PGI or a US AVA: a country, state, region, group or sub-zone, with no shape of its own in the map data. The places under it that draw stay covered."
+}

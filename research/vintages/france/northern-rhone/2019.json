@@ -1,0 +1,35 @@
+{
+ "subject": "vintage",
+ "id": "france/northern-rhone/2019",
+ "read": "2026-11-05",
+ "sources": {
+  "laithwaites": {"name": "Laithwaite's Fine Wine, Rhône 2019 En Primeur Offer, vintage report (4 Dec 2020)", "kind": "merchant", "url": "https://www.laithwaites.co.uk/pdf/uk/law/finewine/rhone2019fulloffer.pdf", "note": "Read in full from the PDF. A merchant's report that quotes critics and producers. Prices ignored."},
+  "jll-drinkrhone": {"name": "2019 Rhône Vintage, relaying John Livingstone-Learmonth (drinkRhone.com)", "kind": "general", "url": "https://wine-wiki.pages.dev/2019-rhone-vintage", "note": "A mirror site relaying JLL's views. Read, but it is a secondary copy."},
+  "search-summaries": {"name": "Search summaries of Decanter, Jancis Robinson and Wine With Seth on the 2019 northern Rhône", "kind": "general", "note": "Relayed through search summaries. Those pages were not read (403, rate limits)."}
+ },
+ "claims": [
+  {"topic": "vintage", "claim": "Summer was hot and very dry. Just as worry set in, enough rain came to refresh the vines and carry them to harvest. There was no disease pressure.", "source": ["laithwaites", "search-summaries"], "strength": "Medium", "note": "One merchant report read in full. Search summaries agree on heat and dry weather."},
+  {"topic": "vintage", "claim": "A cold April brought near-frost conditions to Côte-Rôtie and Crozes-Hermitage and slowed an early budbreak.", "source": ["search-summaries"], "strength": "Weak", "note": "Relayed only. Not confirmed at source."},
+  {"topic": "vintage", "claim": "Hail on 15 June wiped out part of the Crozes-Hermitage crop. Some domaines lost up to 80%.", "source": ["laithwaites", "jll-drinkrhone"], "strength": "Strong", "note": "Two sources agree on the June hail and Crozes. The 80% is from one. Search summaries put hail in July and include Cornas and Saint-Joseph. See conflicts."},
+  {"topic": "vintage", "claim": "August rain kept the vines out of stress but fell unevenly. Hermitage had about 50 mm, Mauves (Saint-Joseph) about 25 mm and Cornas none that day.", "source": ["jll-drinkrhone", "search-summaries"], "strength": "Medium", "note": "JLL's figures, repeated in search summaries. Another summary mentions over 100 mm on Hermitage on 18 September. Unconfirmed."},
+  {"topic": "standing", "claim": "Côte-Rôtie is the star. JLL calls it exceptional and says it beats 2018 across the board. Jancis Robinson's Alistair Cooper says the standout wines were in Côte-Rôtie.", "source": ["laithwaites", "jll-drinkrhone"], "strength": "Strong", "quote": "an exceptional vintage at Côte-Rôtie", "note": "Several critics agree, through one merchant and one mirror."},
+  {"topic": "vintage", "claim": "Côte-Rôtie alcohol rose from an old norm of about 13.5% to about 14.5%. The wines stayed balanced and were called not sunstruck.", "source": ["jll-drinkrhone"], "strength": "Medium", "note": "One critic, relayed."},
+  {"topic": "standing", "claim": "Hermitage is rated very good to exceptional. August rain helped keep the wines balanced.", "source": ["jll-drinkrhone", "search-summaries"], "strength": "Medium", "note": "JLL's rating. Decanter is said to put Hermitage just behind Côte-Rôtie."},
+  {"topic": "vintage", "claim": "Crozes-Hermitage is uneven. Quality depends on how badly each vineyard was hit by the June hail.", "source": ["jll-drinkrhone", "laithwaites"], "strength": "Medium"},
+  {"topic": "vintage", "claim": "Reds have ripe, substantial tannins around dense primary fruit, with fresher acidity than the heat would suggest. Many show strong ageing potential. Volumes were down in the north.", "source": ["laithwaites"], "strength": "Medium", "note": "One merchant's view, supported by quoted producers. Merchants sell the vintage."},
+  {"topic": "vintage", "claim": "The north edged the south for the merchant, but that is debated. The Rhône is seen as in the middle of a run of top years.", "source": ["laithwaites"], "strength": "Weak", "note": "Opinion of one merchant, who says time will decide."}
+ ],
+ "conflicts": [
+  "Hail: Laithwaites and JLL date the Crozes-Hermitage hail to 15 June. Search summaries of Jancis Robinson say July, and include Cornas, Saint-Joseph and the south of Crozes-Hermitage.",
+  "Hermitage rain: JLL gives about 50 mm in August. One search summary gives over 100 mm on 18 September. Not resolved.",
+  "Which end of the valley won: Laithwaites tips the north. Others rate the south as high."
+ ],
+ "gaps": [
+  "Winter and flowering were not found.",
+  "No harvest dates or yield figures for the northern appellations.",
+  "Decanter, Jancis Robinson, Vinous and Wine With Seth pages could not be read."
+ ],
+ "sheet": {
+  "vintage": "2019 was hot and dry, with just enough rain in August. Côte-Rôtie shone. Hermitage was very good too. June hail hit Crozes-Hermitage, so quality there varies."
+ }
+}

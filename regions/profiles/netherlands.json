@@ -1,0 +1,60 @@
+{
+ "place": {
+  "subtitle": "From Netherlands down to one zone"
+ },
+ "map": {
+  "engine": "zones",
+  "precision": "zone",
+  "zone_store": "eu",
+  "credit": "Maps: wine zones from the EU PDO boundaries (Candiago et al. 2022, CC0), drawn by whole commune; commune and region outlines © EuroGeographics for the administrative boundaries; estate location from {estate_source}. For orientation, not a legal boundary.",
+  "region_slug": "netherlands",
+  "projection": 32631,
+  "eu": {
+   "country": "NL",
+   "nuts": "all",
+   "default_tier": "PDO",
+   "locator_bbox": [
+    -1,
+    48,
+    12,
+    56
+   ]
+  },
+  "locator_file": "netherlands/_locator.json",
+  "tier_fill": {
+   "PDO": "goldl"
+  },
+  "tier_key": [
+   [
+    "goldl",
+    "PDO zones"
+   ]
+  ],
+  "panel1": [
+   "Netherlands",
+   "Its PDO zones"
+  ],
+  "panel1_towns": [],
+  "broad": [],
+  "areas": [],
+  "panel2_subtitle": "Its wine zones",
+  "panel3_subtitle": "Its zone, by commune",
+  "covers": [
+   "netherlands/maasvallei-limburg",
+   "netherlands/achterhoek-winterswijk",
+   "netherlands/vijlen",
+   "netherlands/oolde",
+   "netherlands/mergelland"
+  ]
+ },
+ "styles": [
+  "red",
+  "white",
+  "sparkling",
+  "rosé",
+  "dessert",
+  "orange",
+  "fortified"
+ ],
+ "$why": "Not an EU PDO or PGI or a US AVA: a country, state, region, group or sub-zone, with no shape of its own in the map data. The places under it that draw stay covered."
+}

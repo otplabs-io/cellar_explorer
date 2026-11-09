@@ -1,0 +1,167 @@
+{
+ "story": {
+  "labels": {
+   "family": "The domaine"
+  }
+ },
+ "place": {
+  "subtitle": "From the Loire Valley down to one appellation"
+ },
+ "map": {
+  "engine": "appellations",
+  "precision": "appellation",
+  "credit": "Maps: INAO appellation delimitations (Licence Ouverte) via OpenDataWine; commune outlines from france-geojson; estate location from {estate_source}. Levels 1 and 2 shade whole communes by their main appellation. For orientation, not a legal boundary.",
+  "projection": 2154,
+  "departments": [
+   [
+    "44",
+    "44-loire-atlantique"
+   ],
+   [
+    "49",
+    "49-maine-et-loire"
+   ],
+   [
+    "37",
+    "37-indre-et-loire"
+   ],
+   [
+    "41",
+    "41-loir-et-cher"
+   ],
+   [
+    "18",
+    "18-cher"
+   ],
+   [
+    "58",
+    "58-nievre"
+   ]
+  ],
+  "region_root": "france/loire-valley",
+  "subregions": {},
+  "towns": {
+   "49007": "Angers",
+   "37261": "Tours",
+   "37281": "Vouvray"
+  },
+  "panel1": [
+   "The Loire Valley",
+   "Communes, shaded by area"
+  ],
+  "panel1_towns": [
+   "49007",
+   "37261"
+  ],
+  "generic": [
+   "Rosé de Loire",
+   "Crémant de Loire",
+   "Anjou",
+   "Rosé d'Anjou",
+   "Cabernet d'Anjou",
+   "Saumur (mousseux)",
+   "Touraine",
+   "Coteaux du Loir",
+   "Var",
+   "Gard",
+   "Landes",
+   "Maures",
+   "Vaucluse",
+   "Champagne",
+   "Sable de Camargue",
+   "Taureau de Camargue",
+   "Alpilles",
+   "Muscadet Sèvre et Maine Gorges",
+   "Coteaux Bourguignons ou Bourgogne grand ordinaire ou Bourgogne ordinaire",
+   "Crémant de Bourgogne",
+   "Bourgogne",
+   "Bourgogne Passe-tout-grains",
+   "Bourgogne aligoté",
+   "Bourgogne mousseux",
+   "Mediterranée",
+   "Méditerranée",
+   "Pays d'Oc"
+  ],
+  "fallback": null,
+  "subregion_default": null,
+  "aliases": {},
+  "subregions_by_department": {
+   "44": "Pays Nantais",
+   "49": "Anjou-Saumur",
+   "37": "Touraine",
+   "41": "Touraine",
+   "18": "Centre-Loire",
+   "58": "Centre-Loire"
+  },
+  "panel2": [
+   "Anjou and Touraine",
+   "Communes, shaded by their main appellation"
+  ],
+  "panel2_appellations": [
+   "Vouvray",
+   "Montlouis-sur-Loire",
+   "Touraine",
+   "Touraine Amboise",
+   "Chinon",
+   "Bourgueil",
+   "Quarts de Chaume",
+   "Coteaux du Layon premier cru Chaume",
+   "Coteaux du Layon",
+   "Savennières",
+   "Bonnezeaux"
+  ],
+  "communal": [
+   "Vouvray",
+   "Montlouis-sur-Loire",
+   "Touraine",
+   "Touraine Amboise",
+   "Chinon",
+   "Bourgueil",
+   "Quarts de Chaume",
+   "Coteaux du Layon premier cru Chaume",
+   "Coteaux du Layon",
+   "Savennières",
+   "Bonnezeaux"
+  ],
+  "covers": [
+   "france/vouvray",
+   "france/quarts-de-chaume",
+   "france/loire-valley",
+   "france/montlouis-sur-loire",
+   "france/savennieres"
+  ],
+  "panel1_labels": {
+   "Pays Nantais": [
+    24,
+    250,
+    "start"
+   ],
+   "Anjou-Saumur": [
+    60,
+    276,
+    "start"
+   ],
+   "Touraine": [
+    150,
+    130,
+    "end"
+   ],
+   "Centre-Loire": [
+    270,
+    262,
+    "end"
+   ]
+  },
+  "this_wine": [
+   210,
+   120,
+   "start"
+  ]
+ },
+ "styles": [
+  "red",
+  "white",
+  "rosé",
+  "dessert"
+ ]
+}

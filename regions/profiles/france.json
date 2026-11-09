@@ -1,0 +1,57 @@
+{
+ "$comment": "France's default map: the zones engine over the EU PDO boundaries, for regions with no map engine of their own (Alsace, Beaujolais, the South West, Savoie, Corsica...). Burgundy, Champagne, Bordeaux, the Rhône, the Loire, Provence, Languedoc-Roussillon and the Jura keep their own engines and covers.",
+ "map": {
+  "engine": "zones",
+  "precision": "zone",
+  "zone_store": "eu",
+  "credit": "Maps: wine zones from the EU PDO boundaries (Candiago et al. 2022, CC0), drawn by whole commune; commune and region outlines © EuroGeographics for the administrative boundaries; estate location from {estate_source}. For orientation, not a legal boundary.",
+  "region_slug": "france",
+  "projection": 2154,
+  "eu": {
+   "country": "FR",
+   "nuts": "all",
+   "default_tier": "AOC",
+   "locator_bbox": [
+    -6,
+    41,
+    10,
+    52
+   ]
+  },
+  "locator_file": "france/_locator.json",
+  "tier_fill": {
+   "AOC": "goldl"
+  },
+  "tier_key": [
+   [
+    "goldl",
+    "AOC zones"
+   ]
+  ],
+  "panel1": [
+   "France",
+   "Its AOC zones"
+  ],
+  "panel2_subtitle": "Its wine zones",
+  "panel3_subtitle": "Its delimited zone, by commune",
+  "covers": [
+   "france/burgundy",
+   "france/bordeaux",
+   "france/champagne",
+   "france/rhone-valley",
+   "france/loire-valley",
+   "france/alsace",
+   "france/beaujolais",
+   "france/provence",
+   "france/languedoc-roussillon",
+   "france/charentes",
+   "france/south-west-france",
+   "france/savoie",
+   "france/corsica",
+   "france/lorraine",
+   "france/jura",
+   "france/bugey"
+  ]
+ },
+ "$why": "Not an EU PDO or PGI or a US AVA: a country, state, region, group or sub-zone, with no shape of its own in the map data. The places under it that draw stay covered."
+}

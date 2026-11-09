@@ -1,0 +1,35 @@
+{
+ "subject": "vintage",
+ "id": "italy/sicily/2019",
+ "read": "2026-11-05",
+ "sources": {
+  "qds": {"name": "QdS, Vino siciliano, buona vendemmia ma produzione in calo (2019)", "kind": "general", "url": "https://qds.it/vino-siciliano-buona-vendemmia-ma-produzione-in-calo/", "note": "Read directly. Quotes Assovini Sicilia president Alessio Planeta and Coldiretti. Mid-harvest, not final."},
+  "donnafugata": {"name": "Donnafugata, The 2019 Donnafugata grape harvest", "kind": "producer", "url": "https://www.donnafugata.it/en/press/vineyards-and-wineries/the-2019-donnafugata-grape-harvest/", "note": "Read directly. Covers Contessa Entellina, Pantelleria, Vittoria and Etna."},
+  "doc-sicilia": {"name": "DOC Sicilia Consortium early 2019 harvest estimate (via La Sicilia / Pressflex reports)", "kind": "official", "url": "https://www.lasicilia.it/news/archivio-storico/965734/doc-sicilia-avvio-vendemmia-2019-meno-uva-ma-piu-qualita.html", "note": "Page text did not load. Figure of up to 30% less is from a search summary only."}
+ },
+ "claims": [
+  {"topic": "vintage", "claim": "Spring was cold and windy in places. Donnafugata names the cold spring as the main cause of smaller crops at Contessa Entellina, Pantelleria and Vittoria.", "source": ["donnafugata"], "strength": "Medium", "note": "One producer, three zones."},
+  {"topic": "vintage", "claim": "Rain at Contessa Entellina (west) was 546 mm against a 660 mm average, mostly in winter and spring with a dry summer. Vittoria (south-east) was slightly above average, mostly in spring.", "source": ["donnafugata"], "strength": "Medium", "note": "One producer's own gauges."},
+  {"topic": "vintage", "claim": "Contrary to forecasts of intense heat, summer was cool with good day to night swings. Early September rain lowered temperatures and helped late varieties finish ripening.", "source": ["qds", "donnafugata"], "strength": "Medium", "note": "QdS describes the island broadly. Donnafugata says Etna was cool. Planeta's estate separately reported an early August heatwave (search summary only), so heat was brief if present."},
+  {"topic": "vintage", "claim": "Frost, hail and flowering were not described for Sicily as a whole in any source read.", "source": ["reading"], "strength": "Weak", "note": "Gap."},
+  {"topic": "vintage", "claim": "Harvest ran about 15 days late overall, mid-harvest. The island's harvest normally lasts around 100 days.", "source": ["qds"], "strength": "Medium", "note": "One source, Assovini president quoted at mid-harvest."},
+  {"topic": "vintage", "claim": "Sparkling base grapes were picked early. At Contessa Entellina, Donnafugata began on 7 or 8 August with Chardonnay and Pinot Noir for sparkling wine. White picking there ended 26 September, and reds ran late August to September.", "source": ["donnafugata"], "strength": "Medium", "note": "One producer. Pinot Noir for sparkling base is the grape most relevant to a sparkling rosé."},
+  {"topic": "vintage", "claim": "Other Donnafugata dates: Pantelleria Zibibbo 19 August to 12 September. Vittoria Frappato 20 September to 3 October and Nero d'Avola 21 September to 2 October. Etna Carricante 30 September to 10 October, Nerello Mascalese from 5 October for rosé and 14 to 21 October for reds.", "source": ["donnafugata"], "strength": "Medium", "note": "One producer."},
+  {"topic": "production", "claim": "Yields were down. Assovini's president put the average drop at up to 20% mid-harvest. Coldiretti reported Sicilian wine production about 20% lower, around 3.76 million hectolitres. The DOC Sicilia consortium's early estimate was up to 30% less.", "source": ["qds", "doc-sicilia"], "strength": "Medium", "quote": "qualità eccellente", "note": "Two sources agree on a smaller crop, figure varies 20 to 30%. Quote is Planeta on grape quality."},
+  {"topic": "tasting", "claim": "Quality was reported as excellent. Donnafugata calls its Etna whites and rosés particularly fragrant with excellent acid structure, and the Etna reds very elegant with extremely fine tannin.", "source": ["qds", "donnafugata"], "strength": "Medium", "quote": "very elegant and have an extremely fine and well integrated tannin", "note": "Producer language, plus the Assovini president's view."},
+  {"topic": "standing", "claim": "Overall a smaller but high-quality year with fresh acidity. No critic vintage rating for Sicily 2019 was read.", "source": ["qds", "donnafugata"], "strength": "Weak", "note": "Producer and trade press only."}
+ ],
+ "conflicts": [
+  "Yield loss: up to 20% (Assovini president, Coldiretti about 20%) versus up to 30% (DOC Sicilia consortium early estimate, search summary). Early estimates, made before harvest finished.",
+  "Timing: harvest described as 15 days late overall, yet sparkling bases began 7 to 8 August at Donnafugata. These are different grapes; early sparkling picks are normal."
+ ],
+ "gaps": [
+  "No final Assovini Sicilia or Regione Siciliana report with final hectolitres.",
+  "No critic vintage overview read.",
+  "Frost, hail and flowering not described.",
+  "DOC Sicilia consortium page could not be read; the 30% figure is from a search summary."
+ ],
+ "sheet": {
+  "vintage": "2019 was a smaller crop in Sicily, with a cold spring and a cool summer. Harvest ran late, and the grapes were healthy, fresh and well ripened."
+ }
+}

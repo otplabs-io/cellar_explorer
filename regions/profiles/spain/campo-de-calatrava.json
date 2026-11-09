@@ -1,0 +1,6 @@
+{
+ "$why": "Not in the EU PDO boundaries dataset (Candiago et al. 2022), so the local data has no shape for it.",
+ "map": {
+  "covers": []
+ }
+}

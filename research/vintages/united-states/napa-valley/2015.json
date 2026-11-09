@@ -1,0 +1,38 @@
+{
+ "subject": "vintage",
+ "id": "united-states/napa-valley/2015",
+ "read": "2026-11-05",
+ "sources": {
+  "wine-spectator": {"name": "Wine Spectator, Wine Harvest 2015: Napa Valley Reports an Outstanding but Small Grape Crop", "kind": "critic", "url": "https://www.winespectator.com/articles/wine-harvest-2015-napa-valley-reports-an-outstanding-but-small-grape-crop-52371"},
+  "suckling": {"name": "James Suckling, Napa 2015 Retrospective: Defying the Odds", "kind": "critic", "url": "https://www.jamessuckling.com/wine-tasting-reports/napa-2015-retrospective-defying-the-odds"},
+  "kl": {"name": "K&L Wines, Napa vintage guide", "kind": "merchant", "url": "http://onthetrail.klwines.com/vintage-guides/napa"},
+  "nvv-summary": {"name": "Napa Valley Vintners vintage chart, as relayed by a search summary", "kind": "vintage report", "url": "https://napavintners.com/napa_valley/vintage_charts.asp", "note": "The page returned 403. Only a search summary was seen."},
+  "farniente-dolce": {"name": "Farniente, The Late Harvest Magic of Dolce Napa Valley", "kind": "producer", "url": "https://farniente.com/blog/the-late-harvest-magic-of-dolce-napa-valley", "about": "Describes the Dolce site and method. Does not mention 2015."}
+ },
+ "claims": [
+  {"topic": "vintage", "claim": "Spring was early and warm, so vines budded early. Cold weather during bloom then cut fruit set and left small, uneven clusters.", "source": ["suckling", "wine-spectator"], "strength": "Strong"},
+  {"topic": "production", "claim": "The crop was very small. Reports range from 30 to 50% below average (K&L) to 50 to 90% less at some sites (Wine Spectator).", "source": ["kl", "wine-spectator"], "strength": "Medium", "note": "The range is wide. Sources agree on small, not on how small."},
+  {"topic": "vintage", "claim": "It was a drought year. Wine Spectator calls it the fourth dry year in a row.", "source": ["wine-spectator"], "strength": "Medium", "note": "A search summary of the Napa Valley Vintners recap says Napa got about 75% of normal rain and blames cold bloom more than drought. The recap itself was not read. See conflicts."},
+  {"topic": "vintage", "claim": "Harvest was one of the earliest in Napa Valley Vintners' records. It centered on Labor Day, and most of the valley was done by late October.", "source": ["suckling", "wine-spectator"], "strength": "Strong", "note": "Wine Spectator says picking began in early August."},
+  {"topic": "vintage", "claim": "September heat caused some raisining and sunburn and pushed sugars up. Growers had to sort hard.", "source": ["wine-spectator", "suckling"], "strength": "Medium"},
+  {"topic": "vintage", "claim": "The very small berries gave concentrated flavor and tannin.", "source": ["suckling"], "strength": "Medium", "quote": "very small berries", "note": "One producer view, from Dalla Valle."},
+  {"topic": "vintage", "claim": "K&L calls 2015 a high-quality vintage with ripe, concentrated wines. Its one real issue is that there was not much of it.", "source": ["kl"], "strength": "Medium", "quote": "there wasn't much of it"},
+  {"topic": "vintage", "claim": "Suckling says most Cabernets are fruity and drinkable now, with some mature aromas starting. The best (Bryant Family, Dalla Valle, Quintessa, Corison) scored 96 or higher and keep their freshness and fine tannins.", "source": ["suckling"], "strength": "Medium", "note": "One critic. Producers quoted call it very good rather than great."},
+  {"topic": "vintage", "claim": "Wine Spectator expected the wines to be very good to outstanding, but not to match 2013 or 2014. Quality varied by vineyard.", "source": ["wine-spectator"], "strength": "Medium", "note": "Written at harvest, before the wines were made."},
+  {"topic": "vintage", "claim": "No source read covers botrytis or late-harvest Semillon in 2015. Dolce's own page says it holds off picking until autumn fog and botrytis arrive, which can be as late as Thanksgiving. That describes the method in general, not this year.", "source": ["farniente-dolce"], "strength": "Weak", "note": "The page covers the 2014 Dolce. Useful for how late-harvest Napa Semillon works, not for 2015 conditions."}
+ ],
+ "conflicts": [
+  "Cause of the small crop: Wine Spectator stresses drought plus cold bloom. A search summary of the Napa Valley Vintners recap puts cold bloom first and says rainfall was about 75% of normal.",
+  "How small: 30 to 50% below average (K&L), 50 to 90% less at some sites (Wine Spectator), up to 60% for Cabernet (one merchant page, not read)."
+ ],
+ "gaps": [
+  "Napa Valley Vintners vintage page returned 403, so it was not read.",
+  "No source for 2015 botrytis or the late-harvest picks. Fall 2015 fog and humidity were not found.",
+  "No source on the 2015 Dolce harvest date.",
+  "Decanter 2015 California piece was found but its text did not load."
+ ],
+ "sheet": {
+  "vintage": "A small, early crop. Cold weather at bloom and a dry year cut the yield, and tiny berries gave concentrated reds.",
+  "vintage_dessert": "Napa had a small, early harvest in 2015. Late-harvest Semillon waits for autumn fog and botrytis, so it is picked long after the reds."
+ }
+}

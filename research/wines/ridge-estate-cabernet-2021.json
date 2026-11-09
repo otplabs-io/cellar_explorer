@@ -1,0 +1,291 @@
+{
+ "subject": "wine",
+ "id": "ridge-estate-cabernet-2021",
+ "read": "2026-11-05",
+ "sources": {
+  "ridge-tech": {
+   "name": "Ridge 2021 Estate Cabernet Sauvignon tech sheet",
+   "kind": "producer",
+   "url": "https://www.ridgewine.com/wp-content/uploads/2024/02/21CRE.pdf",
+   "note": "Ridge's own PDF for this vintage, read as text."
+  },
+  "ridge-ava": {
+   "name": "Ridge Vineyards, Santa Cruz Mountains AVA",
+   "kind": "producer",
+   "url": "https://www.ridgewine.com/about/news/santa-cruz-mountains-ava/",
+   "about": "Monte Bello and the AVA, not vintage specific"
+  },
+  "cellartracker": {
+   "name": "CellarTracker drinking window",
+   "kind": "cellartracker",
+   "note": "Range from the pipeline brief (2027 to 2038). Page not read."
+  }
+ },
+ "claims": [
+  {
+   "topic": "blend",
+   "claim": "84% Cabernet Sauvignon and 16% Merlot.",
+   "source": [
+    "ridge-tech"
+   ],
+   "strength": "Strong",
+   "quote": "84% CABERNET SAUVIGNON, 16% MERLOT"
+  },
+  {
+   "topic": "alcohol",
+   "claim": "13.3% alcohol.",
+   "source": [
+    "ridge-tech"
+   ],
+   "strength": "Strong",
+   "quote": "13.3% ALCOHOL BY VOLUME",
+   "note": "Some merchants list 14%. The tech sheet is used."
+  },
+  {
+   "topic": "oak",
+   "claim": "100% air-dried American oak barrels, half new and half one year old.",
+   "source": [
+    "ridge-tech"
+   ],
+   "strength": "Strong",
+   "quote": "100% air-dried American oak barrels; (50% new and 50% one-year-old)"
+  },
+  {
+   "topic": "aging",
+   "claim": "Nineteen months in barrel.",
+   "source": [
+    "ridge-tech"
+   ],
+   "strength": "Strong",
+   "quote": "Nineteen months in barrel"
+  },
+  {
+   "topic": "winemaking",
+   "claim": "Destemmed and sorted. Fermented as whole berries on native yeast.",
+   "source": [
+    "ridge-tech"
+   ],
+   "strength": "Strong",
+   "quote": "100% whole berries fermented on the native yeasts"
+  },
+  {
+   "topic": "winemaking",
+   "claim": "Full malolactic fermentation on naturally occurring bacteria. Minimal sulfur.",
+   "source": [
+    "ridge-tech"
+   ],
+   "strength": "Strong",
+   "quote": "full malolactic on the naturally occurring bacteria; minimum effective sulfur"
+  },
+  {
+   "topic": "winemaking",
+   "claim": "pH 3.51 and total acidity 7.0 g/L.",
+   "source": [
+    "ridge-tech"
+   ],
+   "strength": "Strong",
+   "quote": "pH: 3.51 TA: 7.0 g/L"
+  },
+  {
+   "topic": "winemaking",
+   "claim": "Bottled in July 2023.",
+   "source": [
+    "ridge-tech"
+   ],
+   "strength": "Strong",
+   "quote": "bottled 7/23"
+  },
+  {
+   "topic": "vineyard",
+   "claim": "The fruit comes from Ridge's Monte Bello Vineyard, mainly the Klein Ranch lots.",
+   "source": [
+    "ridge-tech"
+   ],
+   "strength": "Strong",
+   "quote": "a selection of lots primarily from Monte Bello's Klein Ranch"
+  },
+  {
+   "topic": "size",
+   "claim": "The Estate Cabernet parcels cover 38.5 acres and gave 70.2 tons, or 2.1 tons per acre.",
+   "source": [
+    "ridge-tech"
+   ],
+   "strength": "Strong",
+   "quote": "70.2 tons from 38.5 acres"
+  },
+  {
+   "topic": "soil",
+   "claim": "Fractured limestone soils under decomposing Franciscan greenstone mixed with clay and loam.",
+   "source": [
+    "ridge-tech"
+   ],
+   "strength": "Strong",
+   "quote": "Fractured limestone soils overlaid with decomposing Franciscan green stone mixed with clay/loam"
+  },
+  {
+   "topic": "vineyard",
+   "claim": "Elevation runs from 1,300 to 2,670 feet.",
+   "source": [
+    "ridge-tech"
+   ],
+   "strength": "Strong",
+   "quote": "Elevation: 1300’ to 2670’"
+  },
+  {
+   "topic": "vine age",
+   "claim": "The oldest vines were planted in 1949. Later plantings run from 1968 to 2013.",
+   "source": [
+    "ridge-tech"
+   ],
+   "strength": "Strong",
+   "quote": "Oldest 1949; further plantings in 1968/9, 1972, 1982"
+  },
+  {
+   "topic": "vineyard",
+   "claim": "Vines are head-trained and cane-pruned on vertical trellis. They are not irrigated once established.",
+   "source": [
+    "ridge-tech"
+   ],
+   "strength": "Strong",
+   "quote": "Non-irrigated. (New vines receive drip irrigation until fully established)"
+  },
+  {
+   "topic": "history",
+   "claim": "Monte Bello's first blocks were planted in 1886 and the first vintage was 1892.",
+   "source": [
+    "ridge-tech"
+   ],
+   "strength": "Strong",
+   "quote": "In 1886 the first blocks of the Monte Bello vineyard were planted"
+  },
+  {
+   "topic": "name",
+   "claim": "Younger Monte Bello blocks made a more approachable wine, first sold as Santa Cruz Mountains in 1978. It became Ridge Estate Cabernet Sauvignon with the 2008 vintage.",
+   "source": [
+    "ridge-tech"
+   ],
+   "strength": "Strong",
+   "quote": "With the 2008 vintage the name of this stylistically distinct wine became the Ridge Estate Cabernet Sauvignon"
+  },
+  {
+   "topic": "vintage",
+   "claim": "A dry winter with 14 inches of rain, 30% of normal, stressed the vines and cut yields.",
+   "source": [
+    "ridge-tech"
+   ],
+   "strength": "Strong",
+   "quote": "Rainfall: 14” (30% of normal)"
+  },
+  {
+   "topic": "vintage",
+   "claim": "Bloom was in early May. A heat wave in early September sped up the harvest, which ran 21 to 24 September at 24.4 Brix on average.",
+   "source": [
+    "ridge-tech"
+   ],
+   "strength": "Strong",
+   "quote": "Harvest Dates: 21-24 September"
+  },
+  {
+   "topic": "vintage",
+   "claim": "For the first time in over 50 years, Ridge finished the Monte Bello harvest before Lytton Springs.",
+   "source": [
+    "ridge-tech"
+   ],
+   "strength": "Strong",
+   "quote": "For the first time in our 50+ year history we finished our Monte Bello harvest before Lytton Springs"
+  },
+  {
+   "topic": "structure",
+   "claim": "The warm summer concentrated flavor and called for care in fermentation so tannin was not over-extracted.",
+   "source": [
+    "ridge-tech"
+   ],
+   "strength": "Strong",
+   "quote": "required extra attention during fermentation not to over extract tannin"
+  },
+  {
+   "topic": "structure",
+   "claim": "Estate Cabernet tends to mature somewhat earlier than Monte Bello. Ridge calls it a pure, mountain Cabernet.",
+   "source": [
+    "ridge-tech"
+   ],
+   "strength": "Strong",
+   "quote": "This pure, mountain cabernet is best cellared for two to three years"
+  },
+  {
+   "topic": "window",
+   "claim": "Ridge says to cellar it two to three years, then it improves over the following ten to fifteen. That points to about 2025 to 2038.",
+   "source": [
+    "ridge-tech"
+   ],
+   "strength": "Strong",
+   "quote": "best cellared for two to three years and will improve over the following ten to fifteen",
+   "note": "Counted from the July 2023 bottling. The end year is our arithmetic on Ridge's words."
+  },
+  {
+   "topic": "window",
+   "claim": "CellarTracker window is 2027 to 2038.",
+   "source": [
+    "cellartracker"
+   ],
+   "strength": "Medium",
+   "note": "From the brief. Matches the end of Ridge's range."
+  },
+  {
+   "topic": "producer",
+   "claim": "Ridge describes its approach as minimal intervention: hand-harvested estate fruit, native yeast, minimal sulfur.",
+   "source": [
+    "ridge-tech"
+   ],
+   "strength": "Strong",
+   "quote": "In keeping with our philosophy of minimal intervention, this is the sum of our actions."
+  },
+  {
+   "topic": "structure",
+   "claim": "Taste dots: dry; medium-full body from 13.3% alcohol; fresh acidity from TA 7.0 g/L and pH 3.51; firm tannin from mountain Cabernet and Ridge's note on careful extraction.",
+   "source": [
+    "reading"
+   ],
+   "strength": "Estimate"
+  },
+  {
+   "topic": "tasting",
+   "claim": "Flavors read from mountain Cabernet's typical profile and 50% new American oak: black currant, black cherry, cedar, graphite, herbs, vanilla. No 2021 tasting note was found.",
+   "source": [
+    "reading"
+   ],
+   "strength": "Estimate"
+  },
+  {
+   "topic": "pairing",
+   "claim": "Pairings are the classic Cabernet Sauvignon pairings: lamb, grilled steak, aged cheddar, mushroom dishes.",
+   "source": [
+    "reading"
+   ],
+   "strength": "Estimate",
+   "note": "Wine Folly's Cabernet Sauvignon guide, the house pairing source for Cabernet."
+  },
+  {
+   "topic": "window",
+   "claim": "Sheet window 2025 to 2038, from Ridge's cellar-two-to-three-years-then-ten-to-fifteen advice.",
+   "source": [
+    "reading"
+   ],
+   "strength": "Medium"
+  }
+ ],
+ "conflicts": [
+  "Alcohol: Ridge says 13.3%, some merchants list 14%. Ridge used.",
+  "Oak: one search summary of a merchant page said about 75% new oak. Ridge's tech sheet says 50% new. Ridge used, merchant page not read."
+ ],
+ "gaps": [
+  "Tasting notes (aromas, flavors, body) for this vintage. The tech sheet has none.",
+  "Critic tasting note or score source for this vintage, not read.",
+  "Pairings, serving temperature and decanting advice.",
+  "Case production.",
+  "Importer page for this vintage."
+ ],
+ "uses": [
+  "places/united-states/santa-cruz-mountains"
+ ]
+}

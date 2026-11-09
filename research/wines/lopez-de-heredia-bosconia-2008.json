@@ -1,0 +1,569 @@
+{
+ "subject": "wine",
+ "id": "lopez-de-heredia-bosconia-2008",
+ "read": "2026-11-05",
+ "sources": {
+  "fiche": {
+   "name": "R. López de Heredia, Viña Bosconia Tinto Reserva 2008 tech sheet (Spanish)",
+   "kind": "producer",
+   "url": "https://www.lopezdeheredia.com/Fichas/BOSR/BOSR08ES.pdf"
+  },
+  "bosconia-page": {
+   "name": "R. López de Heredia, Bosconia vineyard page",
+   "kind": "producer",
+   "url": "https://www.lopezdeheredia.com/english/vinedos/bosconia.html"
+  },
+  "cubillo-page": {
+   "name": "R. López de Heredia, Cubillo vineyard page",
+   "kind": "producer",
+   "url": "https://www.lopezdeheredia.com/english/vinedos/cubillo.html"
+  },
+  "home": {
+   "name": "R. López de Heredia, home page (Spanish)",
+   "kind": "producer",
+   "url": "https://www.lopezdeheredia.com"
+  },
+  "whwc": {
+   "name": "Wine House (WHWC) listing quoting Atkin, Suckling, Wine Advocate",
+   "kind": "merchant",
+   "url": "https://whwc.com/lopez-de-heredia-rioja-vi-a-bosconia-reserva-2008"
+  },
+  "decanter": {
+   "name": "Decanter review, Stacy Slinkard, 93 pts",
+   "kind": "critic",
+   "url": "https://www.decanter.com/wine-reviews/spain/rioja-1/r-lopez-de-heredia-vina-tondonia-bosconia-reserva-2008-47955/"
+  },
+  "haro": {
+   "name": "Haro Turismo, Bodegas López de Heredia",
+   "kind": "official",
+   "url": "https://www.haroturismo.org/en/enoturismo/bodegas/bodegas-lopez-de-heredia"
+  },
+  "winesearcher": {
+   "name": "Search summaries of Decanter and trade pages on the family and Tondonia dates",
+   "kind": "general",
+   "url": "https://www.decanter.com/premium/spanish-icons-lopez-de-heredia-vina-tondonia-550873/",
+   "note": "Seen only through search result snippets; the page is paywalled."
+  },
+  "enbotella": {
+   "name": "Enbotella, Viña Bosconia Reserva listing",
+   "kind": "merchant",
+   "url": "https://www.enbotella.com/en/vina-bosconia-red-wine-reserva"
+  },
+  "cvne": {
+   "name": "CVNE 2008 vintage report",
+   "kind": "vintage report",
+   "url": "https://www.hatchmansfield.com/wp-content/uploads/2019/10/C.V.N.E-2008-Vintage-Report-1.pdf"
+  },
+  "sokolin": {
+   "name": "Sokolin listing",
+   "kind": "merchant",
+   "url": "https://www.sokolin.com/2008-r-lopez-heredia-vina-bosconia-reserva"
+  },
+  "ct": {
+   "name": "CellarTracker window in the brief",
+   "kind": "cellartracker",
+   "url": "https://www.cellartracker.com/m/wines/3565659"
+  }
+ },
+ "claims": [
+  {
+   "topic": "grapes",
+   "claim": "Tempranillo 80%, Garnacha 15%, Mazuelo and Graciano the rest, all from the estate's own vineyards.",
+   "source": [
+    "fiche"
+   ],
+   "strength": "Strong",
+   "quote": "Tempranillo (80%), Garnacho (15%), Mazuelo y Graciano (el resto)"
+  },
+  {
+   "topic": "blend",
+   "claim": "Graciano is about 3% of the blend (Mazuelo is the small remainder).",
+   "source": [
+    "decanter"
+   ],
+   "strength": "Weak",
+   "note": "Single critic figure; the producer gives only 'the rest'."
+  },
+  {
+   "topic": "alcohol",
+   "claim": "13.5% alcohol.",
+   "source": [
+    "fiche",
+    "decanter"
+   ],
+   "strength": "Strong",
+   "quote": "GRADO ALCOHÓLICO: 13,5% Vol."
+  },
+  {
+   "topic": "structure",
+   "claim": "Total acidity 6.5 g/l. Residual sugar: very dry.",
+   "source": [
+    "fiche"
+   ],
+   "strength": "Strong",
+   "quote": "ACIDEZ TOTAL: 6,5 Gr/l. AZÚCAR RESIDUAL: Muy seco."
+  },
+  {
+   "topic": "oak",
+   "claim": "Five years in barrel, racked by hand twice a year.",
+   "source": [
+    "fiche"
+   ],
+   "strength": "Strong",
+   "quote": "Barrica: 5 años, sometido a 2 trasiegas por año, hechas a mano."
+  },
+  {
+   "topic": "oak",
+   "claim": "The barrels are used American oak.",
+   "source": [
+    "whwc",
+    "bosconia-page"
+   ],
+   "strength": "Medium",
+   "quote": "ages five years in American oak",
+   "note": "Merchant says used barrels for this vintage; producer page says American oak for the Reserva in general."
+  },
+  {
+   "topic": "winemaking",
+   "claim": "Fined with fresh egg whites and bottled unfiltered in 75 cl bottles.",
+   "source": [
+    "fiche"
+   ],
+   "strength": "Strong",
+   "quote": "Clarificado con claras de huevos frescos... embotellado sin filtrar"
+  },
+  {
+   "topic": "aging",
+   "claim": "Bottled in November 2017, then rested in bottle in the winery's cellar before release.",
+   "source": [
+    "whwc",
+    "sokolin"
+   ],
+   "strength": "Medium",
+   "note": "Two merchants agree on the bottling month. The producer sheet gives no date."
+  },
+  {
+   "topic": "aging",
+   "claim": "Release date is not stated by any source. Bottling in 2017 and the winery's bottle rest put release in 2018 to 2019 at the earliest, an inference.",
+   "source": [
+    "estimate"
+   ],
+   "strength": "Estimate",
+   "note": "Reasoning from the Nov 2017 bottling; a Natalie MacLean review from Dec 2020 shows the wine was on sale by then."
+  },
+  {
+   "topic": "production",
+   "claim": "80,000 bottles made.",
+   "source": [
+    "fiche"
+   ],
+   "strength": "Strong",
+   "quote": "CANTIDAD ELABORADA: 80.000 botellas."
+  },
+  {
+   "topic": "production",
+   "claim": "A merchant quoting a critic gives 75,000 bottles.",
+   "source": [
+    "whwc"
+   ],
+   "strength": "Weak",
+   "note": "Conflicts with the producer figure; use the producer's."
+  },
+  {
+   "topic": "other",
+   "claim": "The label says Reserva. The estate makes Bosconia Reserva in most years and keeps Gran Reserva for exceptional vintages.",
+   "source": [
+    "bosconia-page"
+   ],
+   "strength": "Strong",
+   "quote": "The Reserva is made in most years"
+  },
+  {
+   "topic": "other",
+   "claim": "Reserva here means at least five years in oak, longer than the minimum Rioja requires for the category.",
+   "source": [
+    "enbotella",
+    "fiche"
+   ],
+   "strength": "Medium",
+   "quote": "a minimum of 5 years of ageing in oak barrels",
+   "note": "The legal Reserva minimum belongs in the shared Rioja place file."
+  },
+  {
+   "topic": "vineyard",
+   "claim": "Viña Bosconia comes from the estate's El Bosque vineyard, 15 ha beside the Ebro and about 1 km from the winery.",
+   "source": [
+    "bosconia-page"
+   ],
+   "strength": "Strong",
+   "quote": "situated next to the river Ebro... one kilometre away from our winery"
+  },
+  {
+   "topic": "size",
+   "claim": "El Bosque is 15 ha: 11 Tempranillo, 2 Garnacha, 1 Mazuelo, 1 Graciano.",
+   "source": [
+    "bosconia-page"
+   ],
+   "strength": "Strong"
+  },
+  {
+   "topic": "soil",
+   "claim": "The soil is a mix of clay and limestone.",
+   "source": [
+    "bosconia-page"
+   ],
+   "strength": "Strong",
+   "quote": "The soil is a mixture of clay and limestone"
+  },
+  {
+   "topic": "aspect",
+   "claim": "The vineyard sits on south-facing foothills of the Sierra Cantabria, at about 465 m (460 to 487 m).",
+   "source": [
+    "bosconia-page"
+   ],
+   "strength": "Strong"
+  },
+  {
+   "topic": "aspect",
+   "claim": "South-facing exposure gives extra sweetness to the fruit even in a cool year such as 2008.",
+   "source": [
+    "whwc"
+   ],
+   "strength": "Weak",
+   "note": "Tim Atkin as relayed by a merchant."
+  },
+  {
+   "topic": "vine age",
+   "claim": "Vines average about 40 years old.",
+   "source": [
+    "bosconia-page"
+   ],
+   "strength": "Medium",
+   "note": "Producer page is undated, so the age is not specific to 2008 fruit."
+  },
+  {
+   "topic": "name",
+   "claim": "The name Bosconia comes from a Burgundy-style wine the founder made with a lot of Pinot Noir, which he called Rioja Cepa Borgoña. He named wines after French wines.",
+   "source": [
+    "bosconia-page"
+   ],
+   "strength": "Strong"
+  },
+  {
+   "topic": "tasting",
+   "claim": "Producer: intense ruby colour with slight tile (brick) edges, persistent nose full of fruit led by Tempranillo, round, full-bodied, soft, fine and long.",
+   "source": [
+    "fiche"
+   ],
+   "strength": "Strong",
+   "quote": "color rubí intenso con ligeros ribetes de teja"
+  },
+  {
+   "topic": "tasting",
+   "claim": "Decanter: tobacco, earth and leather on the palate.",
+   "source": [
+    "decanter"
+   ],
+   "strength": "Medium",
+   "quote": "tobacco, earth and leather notes emerge on the palate"
+  },
+  {
+   "topic": "tasting",
+   "claim": "Tim Atkin: wild strawberry, tobacco and forest floor, savoury.",
+   "source": [
+    "whwc"
+   ],
+   "strength": "Weak"
+  },
+  {
+   "topic": "tasting",
+   "claim": "Suckling: balsamic and high-toned wood, dried cheese and ripe fruit.",
+   "source": [
+    "whwc"
+   ],
+   "strength": "Weak"
+  },
+  {
+   "topic": "structure",
+   "claim": "Medium body with fine, dusty to polished tannins. More reserved and austere than the 2009, with herbal notes.",
+   "source": [
+    "whwc",
+    "decanter"
+   ],
+   "strength": "Medium",
+   "quote": "beautifully integrated fine tannins"
+  },
+  {
+   "topic": "structure",
+   "claim": "Acidity is fresh (6.5 g/l total) and the wine is dry.",
+   "source": [
+    "fiche"
+   ],
+   "strength": "Strong"
+  },
+  {
+   "topic": "pairing",
+   "claim": "Roasted, strongly flavored meats and game.",
+   "source": [
+    "fiche"
+   ],
+   "strength": "Strong",
+   "quote": "carnes tostadas y muy aromatizadas. Caza."
+  },
+  {
+   "topic": "serve",
+   "claim": "Serve at 18 to 20 C.",
+   "source": [
+    "fiche"
+   ],
+   "strength": "Strong",
+   "quote": "De 18º a 20º C"
+  },
+  {
+   "topic": "serve",
+   "claim": "Producer says store it at 14 C and 75 to 80% humidity; it keeps 10 years and more.",
+   "source": [
+    "fiche"
+   ],
+   "strength": "Strong"
+  },
+  {
+   "topic": "window",
+   "claim": "Atkin 2020 to 2028; Wine Advocate 2021 to 2028.",
+   "source": [
+    "whwc"
+   ],
+   "strength": "Medium"
+  },
+  {
+   "topic": "window",
+   "claim": "Decanter (2021): drink 2021 to 2024.",
+   "source": [
+    "decanter"
+   ],
+   "strength": "Medium"
+  },
+  {
+   "topic": "window",
+   "claim": "CellarTracker range: 2020 to 2027.",
+   "source": [
+    "ct"
+   ],
+   "strength": "Medium"
+  },
+  {
+   "topic": "vintage",
+   "claim": "Rioja 2008 was officially rated Very Good. No serious weather events or spring frost, a wet spring and a wet period after harvest, a mild, drier summer, and ideal weather through the end of ripening.",
+   "source": [
+    "fiche"
+   ],
+   "strength": "Strong",
+   "quote": "Año calificado oficialmente como MUY BUENO"
+  },
+  {
+   "topic": "vintage",
+   "claim": "The 2008 crop was not large but slightly bigger than 2007, with very healthy fruit and balanced colour, acidity and alcohol.",
+   "source": [
+    "fiche"
+   ],
+   "strength": "Strong"
+  },
+  {
+   "topic": "vintage",
+   "claim": "At the estate, picking ran 6 to 30 October: Gravonia whites first (6th), Tondonia reds from 9th, Cubillas and Bosconia last, finishing 30 October.",
+   "source": [
+    "fiche"
+   ],
+   "strength": "Strong"
+  },
+  {
+   "topic": "vintage",
+   "claim": "Region-wide, harvest returned to traditional dates after warm early years. CVNE picked 1 October to 6 November. Regional crop was slightly below 2007 because of uneven ripening.",
+   "source": [
+    "cvne"
+   ],
+   "strength": "Medium",
+   "note": "CVNE is one producer; trade-report wording was seen only in a search summary."
+  },
+  {
+   "topic": "place",
+   "claim": "The winery is at Avda. de Vizcaya 3 in Haro, La Rioja Alta.",
+   "source": [
+    "fiche",
+    "haro"
+   ],
+   "strength": "Strong",
+   "quote": "Avda. de Vizcaya, 3. 26200 Haro (La Rioja)"
+  },
+  {
+   "topic": "history",
+   "claim": "Rafael López de Heredia y Landeta started the winery in Haro in 1877. He came from Chile with Spanish parents.",
+   "source": [
+    "haro",
+    "home"
+   ],
+   "strength": "Strong",
+   "quote": "came to Haro to start up his business"
+  },
+  {
+   "topic": "history",
+   "claim": "He was inspired by French wine merchants who came to Rioja after phylloxera hit French vineyards.",
+   "source": [
+    "home"
+   ],
+   "strength": "Medium",
+   "note": "Producer home page, read through a summary tool."
+  },
+  {
+   "topic": "history",
+   "claim": "The winery grew up in Haro's Barrio de la Estación, near the railway.",
+   "source": [
+    "winesearcher"
+   ],
+   "strength": "Weak",
+   "note": "Seen in a search snippet only; the Haro tourism page does not mention the neighbourhood."
+  },
+  {
+   "topic": "producer",
+   "claim": "The family still owns it. María José, Mercedes and Julio César López de Heredia are the fourth generation.",
+   "source": [
+    "winesearcher"
+   ],
+   "strength": "Weak",
+   "note": "Decanter via search snippet; not confirmed on the producer site."
+  },
+  {
+   "topic": "producer",
+   "claim": "The estate has about 170 ha, all in Rioja Alta, all owned by the family: Tondonia, Bosconia (El Bosque), Cubillo (Cubillas) and Zaconia (source of Gravonia).",
+   "source": [
+    "home",
+    "bosconia-page"
+   ],
+   "strength": "Medium"
+  },
+  {
+   "topic": "producer",
+   "claim": "Viña Tondonia was planted in 1913 to 1914 and gave the winery its name. It is the best-known vineyard.",
+   "source": [
+    "home",
+    "haro"
+   ],
+   "strength": "Medium",
+   "note": "Producer says 1913 to 1914; Haro tourism says 1914."
+  },
+  {
+   "topic": "producer",
+   "claim": "Cubillo (Viña Cubillas) is 24 ha, about 4 km from the winery, with clay and limestone soil. The founder bought it.",
+   "source": [
+    "cubillo-page"
+   ],
+   "strength": "Strong"
+  },
+  {
+   "topic": "producer",
+   "claim": "Gravonia is the white from Viña Zaconia, picked first each year.",
+   "source": [
+    "fiche"
+   ],
+   "strength": "Medium",
+   "note": "Zaconia size (24 ha) is only from search snippets and is left out."
+  },
+  {
+   "topic": "producer",
+   "claim": "The winery has its own cooperage with three master coopers who build and repair all its barrels.",
+   "source": [
+    "haro"
+   ],
+   "strength": "Medium",
+   "quote": "one of the few bodegas in the world with its own traditionally crafted cooperage"
+  },
+  {
+   "topic": "producer",
+   "claim": "The underground cellar is cut into sandstone, about 6,906 m2, with roughly 15,000 oak barrels. The producer's own site says about 12,900.",
+   "source": [
+    "haro",
+    "home"
+   ],
+   "strength": "Weak",
+   "note": "Barrel counts conflict."
+  },
+  {
+   "topic": "producer",
+   "claim": "Wines age long in barrel and are racked by hand twice a year, fined with egg whites and bottled unfiltered, then rest in bottle before release.",
+   "source": [
+    "fiche"
+   ],
+   "strength": "Strong"
+  },
+  {
+   "topic": "producer",
+   "claim": "The cellar is open to professionals only, by appointment.",
+   "source": [
+    "home"
+   ],
+   "strength": "Medium"
+  },
+  {
+   "topic": "structure",
+   "claim": "Taste dots: very dry (producer); medium body; fresh acidity (6.5 g/l); fine, dusty tannins.",
+   "source": [
+    "reading"
+   ],
+   "strength": "Estimate"
+  },
+  {
+   "topic": "tasting",
+   "claim": "Flavor icons from the notes: wild strawberry, tobacco, leather, forest floor.",
+   "source": [
+    "reading"
+   ],
+   "strength": "Estimate"
+  },
+  {
+   "topic": "window",
+   "claim": "Window 2020 to 2028: Atkin 2020 to 2028, Wine Advocate 2021 to 2028.",
+   "source": [
+    "estimate"
+   ],
+   "strength": "Estimate"
+  },
+  {
+   "topic": "decant",
+   "claim": "Decant an hour: no source gives advice.",
+   "source": [
+    "estimate"
+   ],
+   "strength": "Estimate"
+  },
+  {
+   "topic": "pairing",
+   "claim": "Roast lamb and aged cheese added to the producer's roast meats and game.",
+   "source": [
+    "estimate"
+   ],
+   "strength": "Estimate"
+  }
+ ],
+ "conflicts": [
+  "Production: producer sheet 80,000 bottles; merchant citing a critic 75,000.",
+  "Graciano: Decanter 3%; producer says only 'the rest' for Mazuelo and Graciano; Enbotella shows percentages that sum to 105%.",
+  "Tondonia planting: 1913 to 1914 (producer) vs 1914 (Haro tourism) vs replanting 1901 to 1907 (Decanter snippet).",
+  "Cellar barrels: about 12,900 (producer home page) vs about 15,000 (Haro tourism).",
+  "Window: Decanter 2021 to 2024, Atkin and Wine Advocate to 2028, CellarTracker 2020 to 2027.",
+  "Bosconia altitude: 465 m headline vs a 460 to 487 m range on the same page."
+ ],
+ "gaps": [
+  "Exact release date: not found. Bottling Nov 2017 only.",
+  "Decanting advice: none found from producer or importer.",
+  "New oak share: not applicable or not stated; barrels described as used.",
+  "Native yeast, stems: not stated for this wine.",
+  "Producer history pages (foundation, cooperage, vineyards) returned 404 on the live site, so founder and family facts rest on the Haro tourism page, the home page and search snippets.",
+  "Barrio de la Estación and fourth-generation family claims: only in search snippets; not confirmed on a fetched page.",
+  "Importer page for the US not found.",
+  "Pinot Noir name origin applies to the Bosconia brand; no date given.",
+  "Decanter vintage guide page returned only a title; the Consejo Regulador rating comes from the producer fiche."
+ ],
+ "uses": [
+  "places/spain/rioja"
+ ]
+}

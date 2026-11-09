@@ -1,0 +1,39 @@
+{
+ "subject": "vintage",
+ "id": "france/loire-valley/2021",
+ "read": "2026-11-05",
+ "sources": {
+  "idealwine": {"name": "iDealwine, Loire Valley 2021 vintage", "kind": "merchant", "url": "https://www.idealwine.com/en/buy-wine/region-loire-valley-vintage-2021", "note": "Appears to relay the InterLoire summary."},
+  "harpers": {"name": "Harpers, Loire vintage 2021: Hard year, but versatile and beautiful wines", "kind": "general", "url": "https://harpers.co.uk/news/fullstory.php/aid/29596/Loire_vintage_2021:__Hard_year,_but_versatile_and_beautiful_wines_.html", "note": "Trade piece quoting InterLoire. No Vouvray or sweet-wine detail."},
+  "wd-2021": {"name": "The Wine Doctor, Loire 2021 vintage report", "kind": "critic", "url": "https://www.thewinedoctor.com/tastingsformal/loire2021_3.shtml", "note": "Only the summer section was visible. The rest is paywalled."},
+  "divine": {"name": "Divine Loire, Vouvray 2021", "kind": "reference", "url": "https://divineloire.fr/en/vintages/vouvray-2021/"},
+  "decanter": {"name": "Decanter, Loire 2021 white wines: vintage report", "kind": "critic", "url": "https://www.decanter.com/premium/loire-2021-vintage-report-top-whites-from-2020-and-2021-481010", "note": "Paywalled. Only search-result summaries were seen: hardest year since 2013, losses of 70% common. Not confirmed on the page."},
+  "vert-de-vin": {"name": "Vert de Vin, Loire Valley 2021 (member page)", "kind": "general", "url": "https://member.vertdevin.com/?p=121302", "note": "Could not be opened. The Vouvray loss figure is from a search-result summary only."}
+ },
+ "claims": [
+  {"topic": "vintage", "claim": "2021 was a hard, small year in the Loire because of spring frost. Severe frosts in early April hit Muscadet, Anjou, Montlouis and the Sancerre area especially. Cold weather after the frost left the vines three to four weeks behind by the end of May.", "source": ["idealwine", "wd-2021"], "strength": "Strong", "note": "Two sources agree. The Wine Doctor is a critic, iDealwine relays the regional summary."},
+  {"topic": "vintage", "claim": "Frost damage was uneven, even between neighbouring plots. Growers with anti-frost protection lost less. Vouvray was hit, but losses varied by plot.", "source": ["divine", "wd-2021"], "strength": "Medium"},
+  {"topic": "production", "claim": "Losses in Vouvray were put at around 40%. The whole region was down about 30%, and some Anjou, Saumur and Touraine growers lost over 70%.", "source": ["vert-de-vin"], "strength": "Weak", "note": "Taken from a search-result summary of a paywalled page that could not be opened. Treat as unconfirmed. Do not print on a sheet."},
+  {"topic": "vintage", "claim": "A very wet winter was followed by heavy rain from May, especially June. Mildew pressure was strong and growers sprayed for weeks. Hail hit a few growers.", "source": ["idealwine", "wd-2021"], "strength": "Strong"},
+  {"topic": "vintage", "claim": "July and August ran about 1.5 degrees cooler than normal. The grapes ripened slowly and kept good acidity. About 40 mm of rain fell a week before harvest in Vouvray, followed by sun.", "source": ["idealwine", "divine"], "strength": "Medium", "note": "The 40 mm figure is from Divine Loire only."},
+  {"topic": "vintage", "claim": "Picking began in the second week of September in Anjou. Reds finished at the end of October. Vouvray dates were not found.", "source": ["idealwine", "harpers"], "strength": "Medium"},
+  {"topic": "vintage", "claim": "The wines are fresh and aromatic, in a classic Loire style with precise fruit and no excess. Divine Loire rates Vouvray 4 out of 5. Chenin and Chardonnay suit sparkling base wine because of high acidity. Lees work should add body to Chenin.", "source": ["idealwine", "harpers", "divine"], "strength": "Medium", "note": "InterLoire and Divine Loire are positive. Decanter reportedly calls it the hardest year since 2013."},
+  {"topic": "vintage", "claim": "2021 suited dry wines in Vouvray. No source says the weather favoured botrytis or passerillage. The one sweet-wine line is region wide: fine aromatic complexity, good acidity, and the ability to age.", "source": ["idealwine", "divine"], "strength": "Weak", "note": "Divine Loire lists Vouvray 2021 as dry white. iDealwine rates sweet wines 16/20 against 16/20 white and 15/20 red."}
+ ],
+ "conflicts": [
+  "Tone: InterLoire and Divine Loire are upbeat ('good crop of fresh and aromatic wines'). Decanter, through search summaries only, calls it the most difficult year since 2013 and says losses of 70% were common. Both match if quality was fine but volume was tiny.",
+  "Crop size: Harpers, quoting InterLoire, says overall yields were close to the five-year average. Other reports say the region was down about 30% and Vouvray about 40%. The scopes probably differ, so no regional volume claim is made."
+ ],
+ "gaps": [
+  "The official InterLoire page and the Vouvray syndicate report were not read.",
+  "The Decanter and Vert de Vin pages were paywalled and not read.",
+  "No Vouvray harvest dates.",
+  "No Anjou sweet-wine (Layon, Bonnezeaux) detail for 2021.",
+  "No botrytis or passerillage statement for 2021."
+ ],
+ "sheet": {
+  "vintage": "A hard year. Spring frost cut the crop, and a wet, cool summer followed.",
+  "vintage_dry": "Fresh, aromatic dry Chenin with good acidity. The crop was small, but quality was fine.",
+  "vintage_sweet": "No clear sweet-wine story. Loire sweet wines are said to have good acidity and fine aroma."
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "subject": "vintage",
+ "id": "united-states/central-coast/2020",
+ "read": "2026-11-05",
+ "sources": {
+  "samsara-2020": {"name": "SAMsARA Wine, The 2020 Vintage Growing Season: A Santa Barbara County Retrospective", "kind": "producer", "url": "https://www.samsarawine.com/news/the-2020-vintage-growing-season-a-santa-barbara-county-retrospective/", "note": "Winery blog. Covers Santa Barbara County, mostly Santa Maria Valley and Sta. Rita Hills fruit."},
+  "wia-2020": {"name": "Wine Industry Advisor, Santa Barbara Vintners Impressed by Quality of 2020 Vintage (Santa Barbara County Vintners Association)", "kind": "vintage report", "url": "https://wineindustryadvisor.com/2020/12/11/santa-barbara-vintners-quality-2020-vintage/"},
+  "vinous-2020": {"name": "Vinous, Santa Barbara: A Rare Bright Spot for California in 2020 (Aug 2022)", "kind": "critic", "url": "https://v1.vinous.com/articles/santa-barbara-a-rare-bright-spot-for-california-in-2020-aug-2022"},
+  "independent-2020": {"name": "Santa Barbara Independent, Rescuing California's Hellish 2020 Wine Vintage (18 Nov 2020)", "kind": "general", "url": "https://www.independent.com/2020/11/18/rescuing-californias-hellish-2020-wine-vintage/"}
+ },
+ "claims": [
+  {"topic": "vintage", "claim": "The season started typically for Santa Barbara County, with moderate weather and normal bud break. Santa Barbara ran much cooler than most of California until heat arrived in mid-August.", "source": ["samsara-2020", "vinous-2020"], "strength": "Medium", "note": "Two sources, but neither gives winter rain, frost or flowering."},
+  {"topic": "vintage", "claim": "Heat spikes from mid-August, including a Labor Day heat wave, sped up ripening. Fruit came in about two weeks ahead of plan, and many growers picked earlier than they intended.", "source": ["samsara-2020", "vinous-2020", "independent-2020"], "strength": "Strong"},
+  {"topic": "vintage", "claim": "Wildfires that hit Northern California spared Santa Barbara County. Smoke darkened skies at high elevations, but growers and critics saw no smoke taint in the grapes or wines.", "source": ["wia-2020", "vinous-2020", "independent-2020"], "strength": "Strong", "note": "Independent notes smoke taint was absent 'with rare exceptions'. Vinous says smoke taint is not fully understood, and some winemakers destemmed Pinot as a precaution."},
+  {"topic": "production", "claim": "Yields were slightly below average, but not by much.", "source": ["samsara-2020", "wia-2020"], "strength": "Medium", "note": "Winery and trade-group statements. No tonnage figures found."},
+  {"topic": "vintage", "claim": "Chardonnay was the standout. Thicker skins coped with the late heat, and the wines are consistent. Sta. Rita Hills Chardonnays are singled out as very fine.", "source": ["vinous-2020"], "strength": "Medium", "quote": "surprisingly consistent", "note": "One critic. Vinous paraphrase from a page read in full."},
+  {"topic": "vintage", "claim": "Pinot Noir is more variable. The best wines are deep and rich. Thin skins made the heat harder on Pinot, and some wines show heat stress.", "source": ["vinous-2020"], "strength": "Medium", "note": "One critic. Samsara calls its Santa Maria Valley Rancho La Vina Pinot one of its finest, so producers are more upbeat."},
+  {"topic": "vintage", "claim": "Santa Barbara County Vintners Association members called quality high across the region. Some winemakers said 2020 could set the standard for cooler-climate wines from the county.", "source": ["wia-2020"], "strength": "Weak", "note": "Trade group and producer opinion, made weeks after harvest."}
+ ],
+ "conflicts": [
+  "Pinot Noir: Vinous finds it variable with heat stress in places. Producers (SAMsARA, SBCVA) are more positive."
+ ],
+ "gaps": [
+  "No winter or spring rainfall, frost or flowering detail found for 2020.",
+  "No harvest dates beyond 'about two weeks early'.",
+  "No tonnage or yield figures. The county crop report was not read.",
+  "Nothing split between Santa Maria Valley and Sta. Rita Hills. Sources speak for the county.",
+  "Vinous page was read through a fetch summary, not line by line.",
+  "Filed under central-coast but the sources cover Santa Barbara County only."
+ ],
+ "sheet": {
+  "vintage": "Santa Barbara stayed cool until mid-August, then heat pulled harvest early. Smoke from the 2020 fires did not reach the vines. Chardonnay was the standout."
+ }
+}

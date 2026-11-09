@@ -1,0 +1,8 @@
+{
+ "$why": "Not an EU PDO or PGI or a US AVA: a country, state, region, group or sub-zone, with no shape of its own in the map data. The places under it that draw stay covered.",
+ "map": {
+  "covers": [
+   "france/pineau-des-charentes"
+  ]
+ }
+}

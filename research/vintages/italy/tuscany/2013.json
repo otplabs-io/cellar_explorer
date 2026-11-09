@@ -1,0 +1,121 @@
+{
+ "subject": "vintage",
+ "id": "italy/tuscany/2013",
+ "read": "2026-11-05",
+ "sources": {
+  "cc13": {
+   "name": "Consorzio Chianti Classico, 2013 vintage report",
+   "kind": "official",
+   "url": "https://www.chianticlassico.com/en/?p=4574"
+  },
+  "bdoc": {
+   "name": "Consorzio Tutela Vini Bolgheri DOC, vintages page",
+   "kind": "official",
+   "url": "https://www.bolgheridoc.com/en/wines/vintages/"
+  },
+  "wsg": {
+   "name": "Wine Scholar Guild, Tuscany vintage chart (Bolgheri and Brunello only)",
+   "kind": "reference",
+   "url": "https://www.winescholarguild.com/italian-wine-vintage-charts/tuscany-vintage-chart",
+   "note": "Covers Bolgheri, not Chianti Classico. 2022 rating is tentative."
+  },
+  "isf": {
+   "name": "Italy's Finest Wines, Chianti Classico vintage chart",
+   "kind": "reference",
+   "url": "https://www.italysfinestwines.it/en/chianti-vintage-chart/",
+   "note": "Star ratings and short notes, no harvest dates."
+  },
+  "search": {
+   "name": "Web search summaries (Decanter, Jancis Robinson, Vinous, Wine Spectator, producers)",
+   "kind": "general",
+   "note": "Facts marked with this slug were read only in search-result summaries, not on the original pages, which were paywalled, blocked or truncated."
+  }
+ },
+ "claims": [
+  {
+   "topic": "vintage",
+   "claim": "Winter and early spring were cold and wet on both the inland hills and the coast. Chianti Classico had high rain and below-average temperatures in the first three months, and flowering ran late. Bolgheri growth was slowed by about ten days.",
+   "source": [
+    "cc13",
+    "bdoc"
+   ],
+   "strength": "Strong",
+   "quote": "temperatures often below the seasonal average",
+   "note": "Two official bodies agree."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Bolgheri had April frosts that cut production. No frost story was found for Chianti Classico.",
+   "source": [
+    "wsg"
+   ],
+   "strength": "Weak",
+   "note": "One source, and it covers the coast only."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Real heat arrived in mid-July and sped up ripening. Chianti Classico then had a 'perfect September'. Bolgheri summer was hot and dry with heavy but infrequent August storms and a mild September.",
+   "source": [
+    "cc13",
+    "bdoc",
+    "isf"
+   ],
+   "strength": "Medium",
+   "quote": "a perfect September",
+   "note": "Consorzio sources and a chart agree on the shape. See conflicts for Bolgheri September."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Harvest was late. Some Bolgheri producers did not start until the second half of September. Chianti Classico picking ran into early October.",
+   "source": [
+    "bdoc",
+    "search"
+   ],
+   "strength": "Weak",
+   "note": "Bolgheri date is from the consortium. The Chianti Classico date is from a search summary only. The Consorzio report gives no harvest dates."
+  },
+  {
+   "topic": "production",
+   "claim": "Bolgheri yields were lower than normal. For Chianti Classico, a figure of about 258,000 hl circulates but could not be checked against the Consorzio.",
+   "source": [
+    "wsg",
+    "search"
+   ],
+   "strength": "Weak",
+   "note": "Production numbers conflict in the sources found."
+  },
+  {
+   "topic": "tasting",
+   "claim": "Chianti Classico: well balanced, with harmonious tannins, extract and acidity, and moderate alcohol. The Consorzio reports excellent polyphenol ripeness. Italy's Finest Wines gives five stars. Vinous reportedly calls it mostly strong but variable by producer.",
+   "source": [
+    "cc13",
+    "isf",
+    "search"
+   ],
+   "strength": "Medium",
+   "quote": "excellent polyphenol maturity levels",
+   "note": "Official report is promotional. The Vinous view is from a search summary only."
+  },
+  {
+   "topic": "tasting",
+   "claim": "Bolgheri: deep colour, firm tannins (especially Cabernet Sauvignon) and very good acidity, with 15 to 20 plus years of ageing potential.",
+   "source": [
+    "wsg"
+   ],
+   "strength": "Medium",
+   "note": "One source."
+  }
+ ],
+ "conflicts": [
+  "Bolgheri September 2013: the Wine Scholar Guild chart says September rain slowed ripening. The Bolgheri consortium says September was mild and ripening was slow and even. Both may be true (rain, but cool and steady).",
+  "Chianti Classico volume: sources give 258,000 hl and 25.8 million hl. The second is almost certainly a unit error."
+ ],
+ "gaps": [
+  "No Chianti Classico or Bolgheri official harvest dates or hectolitre totals for 2013.",
+  "Florence hills and Valdarno were not covered separately by any source.",
+  "Decanter and Vinous 2013 reports not read in full."
+ ],
+ "sheet": {
+  "vintage": "2013 came after a cold, wet winter and a late start. A hot July and a fine September saved it, and the wines are balanced and firm."
+ }
+}

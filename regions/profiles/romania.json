@@ -1,0 +1,88 @@
+{
+ "place": {
+  "subtitle": "From Romania down to one zone"
+ },
+ "map": {
+  "engine": "zones",
+  "precision": "zone",
+  "zone_store": "eu",
+  "credit": "Maps: wine zones from the EU PDO boundaries (Candiago et al. 2022, CC0), drawn by whole commune; commune and region outlines © EuroGeographics for the administrative boundaries; estate location from {estate_source}. For orientation, not a legal boundary.",
+  "region_slug": "romania",
+  "projection": 32635,
+  "eu": {
+   "country": "RO",
+   "nuts": "all",
+   "default_tier": "PDO",
+   "locator_bbox": [
+    16,
+    40,
+    34,
+    50
+   ]
+  },
+  "locator_file": "romania/_locator.json",
+  "tier_fill": {
+   "PDO": "goldl"
+  },
+  "tier_key": [
+   [
+    "goldl",
+    "PDO zones"
+   ]
+  ],
+  "panel1": [
+   "Romania",
+   "Its PDO zones"
+  ],
+  "panel1_towns": [],
+  "broad": [],
+  "areas": [],
+  "panel2_subtitle": "Its wine zones",
+  "panel3_subtitle": "Its zone, by commune",
+  "covers": [
+   "romania/husi",
+   "romania/bohotin",
+   "romania/segarcea",
+   "romania/dragasani",
+   "romania/babadag",
+   "romania/tarnave",
+   "romania/oltina",
+   "romania/murfatlar",
+   "romania/cotnari",
+   "romania/iasi",
+   "romania/crisana",
+   "romania/lechinta",
+   "romania/stefanesti",
+   "romania/dealu-mare",
+   "romania/cotesti",
+   "romania/sebes-apold",
+   "romania/odobesti",
+   "romania/panciu",
+   "romania/minis",
+   "romania/recas",
+   "romania/adamclisi",
+   "romania/aiud",
+   "romania/insuratei",
+   "romania/dealu-bujorului",
+   "romania/banu-maracine",
+   "romania/mehedinti",
+   "romania/banat",
+   "romania/sarica-niculitel",
+   "romania/pietroasa",
+   "romania/nicoresti",
+   "romania/iana",
+   "romania/samburesti",
+   "romania/alba-iulia"
+  ]
+ },
+ "styles": [
+  "red",
+  "white",
+  "sparkling",
+  "rosé",
+  "dessert",
+  "orange",
+  "fortified"
+ ],
+ "$why": "Not an EU PDO or PGI or a US AVA: a country, state, region, group or sub-zone, with no shape of its own in the map data. The places under it that draw stay covered."
+}

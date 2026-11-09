@@ -1,0 +1,6 @@
+{
+ "map": {
+  "covers": []
+ },
+ "$why": "Its draft map failed the label check: overlap: 'Upper Mississippi River Valley' and 'The AVAs inside it' in panel 1. The name is too long for the AVA engine's labels."
+}

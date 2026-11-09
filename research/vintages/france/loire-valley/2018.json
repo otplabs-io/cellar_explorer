@@ -1,0 +1,37 @@
+{
+ "subject": "vintage",
+ "id": "france/loire-valley/2018",
+ "read": "2026-11-05",
+ "sources": {
+  "lvwc": {"name": "Loire Valley Wines Council, 2018 Loire Harvest release (PR Newswire)", "kind": "official", "url": "https://prnewswire.com/news-releases/2018-loire-harvest-an-early-harvest-with-favorable-quality-300714661.html", "note": "Issued in September 2018, before the harvest ended. Forecast figures."},
+  "jims-anjou": {"name": "Jim's Loire, 2018 Loire brief report from Anjou", "kind": "critic", "url": "https://jimsloire.blogspot.com/2018/10/2018-loire-brief-report-from-anjou.html", "note": "Long page. First 100,000 characters read."},
+  "wd-sweet": {"name": "The Wine Doctor, Loire 2018 to 2022 sweet and sparkling tasting", "kind": "critic", "url": "https://www.thewinedoctor.com/tastingsformal/loire2018_2022sweet.shtml", "note": "Introduction only. The rest is paywalled."},
+  "idealwine": {"name": "iDealwine, Loire Valley 2018 vintage", "kind": "merchant", "url": "https://idealwine.com/en/buy-wine/region-loire-valley-vintage-2018", "note": "Ratings only. No weather text."},
+  "divine": {"name": "Divine Loire, Vouvray 2018", "kind": "reference", "url": "https://divineloire.fr/en/vintages/vouvray-2018/"}
+ },
+ "claims": [
+  {"topic": "vintage", "claim": "2018 was a warm, sunny year across the Loire. July and August had 600 to 625 hours of sun, 20 to 30% above normal. Spring was kind and the region avoided the frost and hail of 2017.", "source": ["lvwc", "divine"], "strength": "Strong", "note": "Regional council figure, with Divine Loire agreeing on intense sun."},
+  {"topic": "vintage", "claim": "A rainy June brought mildew. Most growers kept it in check, but some lost crop. In Anjou it was the one real problem of the vintage, and Domaine de Juchepie lost about two-thirds of its crop.", "source": ["lvwc", "jims-anjou"], "strength": "Medium", "note": "The Juchepie loss is one producer."},
+  {"topic": "vintage", "claim": "The harvest started about two weeks early, as in 2011 and 2017. Chenin Blanc picking was set for 23 September in the council's forecast. Some Anjou growers began on 4 to 6 September to hold back sugar and alcohol.", "source": ["lvwc", "jims-anjou"], "strength": "Medium", "note": "Dates are forecasts or a few producers. Chenin starts depend on the estate and site."},
+  {"topic": "production", "claim": "The council forecast a bigger crop than 2017, about 2.5 to 2.6 million hl against 2.1 million hl.", "source": ["lvwc"], "strength": "Medium", "note": "A forecast made in September 2018, not a final figure."},
+  {"topic": "vintage", "claim": "It was a superb year for dry Vouvray. The chenin was well concentrated in sugar, and the wines are round with clear fruit.", "source": ["divine"], "strength": "Weak", "note": "One reference site, 4.3 out of 5. Nothing on sweet Vouvray there."},
+  {"topic": "vintage", "claim": "It was also a strong year for the sweeter Loire styles. Many growers in Anjou and Touraine made the most of favourable conditions.", "source": ["wd-sweet"], "strength": "Medium", "quote": "undoubtedly a strong one for the sweeter styles of the Loire Valley", "note": "From the introduction of a paywalled report. It says nothing on botrytis versus passerillage."},
+  {"topic": "vintage", "claim": "iDealwine rates Loire 2018 at 17/20 for white and 17/20 for sweet wines, and 16/20 for red.", "source": ["idealwine"], "strength": "Weak", "note": "Merchant score. Not Vouvray specific."},
+  {"topic": "vintage", "claim": "The heat pushed sugar and alcohol up. In Anjou, Chenin ripened unevenly, with bunches at different stages on one vine. One grower, Claude Papin, argued that picking early for alcohol gives simple fruit-driven wines. First pressings at one estate showed about 22% potential alcohol.", "source": ["jims-anjou"], "strength": "Weak", "note": "One blog. Papin's view is opinion."},
+  {"topic": "vintage", "claim": "Some Montlouis sec-tendre cuvées came out nearer to dry than the usual demi-sec level, even in a year that suited sweet wines.", "source": ["wd-sweet"], "strength": "Weak", "note": "Example from one producer, François Chidaine."}
+ ],
+ "conflicts": [
+  "Divine Loire calls 2018 a superb year for dry Vouvray and says nothing on sweet. The Wine Doctor calls it strong for sweeter styles. Both can hold, so the sheet should not rank dry above sweet."
+ ],
+ "gaps": [
+  "No Vouvray syndicate or InterLoire final report was read.",
+  "No source says whether the 2018 sweet wines were botrytis or passerillage driven. A search summary mentioned a Foreau Moelleux Réserve at 130 g/l residual sugar, but the page was not read, so it is left out.",
+  "No Vouvray harvest dates or final yield.",
+  "Web search ran out of budget before more 2018 Vouvray reports could be found."
+ ],
+ "sheet": {
+  "vintage": "A warm, sunny year with an early harvest. Rain in June caused mildew for some growers.",
+  "vintage_dry": "Round, ripe and fruity dry Vouvray, from well-concentrated Chenin.",
+  "vintage_sweet": "A strong year for the sweeter Loire styles, helped by plenty of sun."
+ }
+}

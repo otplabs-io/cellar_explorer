@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "pour-sheets/producer.schema.json",
+  "title": "Pour Sheets producer record",
+  "description": "producers/<id>/producer.json. Facts about the producer that every vintage and wine from it shares. Claims go in producers/<id>/sources.md.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "region"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"},
+    "name": {"type": "string", "description": "As the sheet prints it, such as Domaine Gagnard-Delagrange."},
+    "also": {"type": "array", "items": {"type": "string"}, "description": "Other names, such as the one CellarTracker uses."},
+    "region": {"type": "string", "description": "A stable id from regions/tree.json: where the producer is based."},
+    "story": {"type": "string", "description": "The sheet's story text, under 'The family', 'The house' or whatever the region profile calls it. Sourced in sources.md."},
+    "story_title": {"type": "string", "description": "Optional. A heading for the story that differs from the region profile's, such as 'The family' for a grower in a region of houses."},
+    "website": {"type": "string"}
+  }
+}

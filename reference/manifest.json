@@ -1,0 +1,38 @@
+{
+ "pdf": "La-Boudriotte-2019-Print.pdf",
+ "pdf_sha256": "dd7dad23adc44d2509708733fd4970c11109494b1dc91c4a117a26ec48162e2d",
+ "map_svg_sha256": "86c444ec51a90328c376bcfabcebefe74e42c92d7a69c555220e9c711e1c2911",
+ "page_png_sha256": {
+  "page-1-300dpi.png": "bea50c3ef7ac5a0d8d713f41f227b6c7349290007734944c602ee18a49e95541",
+  "page-2-300dpi.png": "371220a75ca9967b4912b10415f91e04645d8e371ff34aa06f0bbcdfc3436e57"
+ },
+ "page_points": [
+  612,
+  792
+ ],
+ "pages": 2,
+ "pdf_fonts": [
+  "NunitoSans12ptExtraLight12pt-Bold",
+  "NunitoSans12ptExtraLight12pt-ExtraBold",
+  "NunitoSans12ptExtraLight12pt-Italic",
+  "NunitoSans12ptExtraLight12pt-Regular",
+  "NunitoSans12ptExtraLight12pt-SemiBold",
+  "Poppins-Bold",
+  "Poppins-ExtraBold",
+  "Poppins-SemiBold"
+ ],
+ "note": "The PDF hash will not match a rebuild because PDFs embed a creation time. Acceptance is pixels, text and fonts.",
+ "built_with": {
+  "os": "Ubuntu 24.04 x86_64",
+  "python": "3.13.18",
+  "playwright": "1.63.0",
+  "chromium": "153.0.8010.12",
+  "pymupdf": "2.0",
+  "shapely": "2.2.0",
+  "geos": "3.14.1",
+  "pyproj": "3.8.0",
+  "proj": "9.8.1",
+  "numpy": "2.5.3",
+  "fontsource": "5.2.5"
+ }
+}

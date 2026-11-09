@@ -1,0 +1,42 @@
+{
+ "subject": "vintage",
+ "id": "france/burgundy/2023",
+ "read": "2026-11-05",
+ "sources": {
+  "inside-burgundy": {"name": "Inside Burgundy, 2023 Vintage Overview", "kind": "vintage report", "url": "https://insideburgundy.com/?p=222489"},
+  "vinfolio": {"name": "Vinfolio, Burgundy 2023: vintage overview", "kind": "merchant", "url": "https://www.vinfolio.com/editorial/burgundy-2023-vintage-overview"},
+  "decanter-stocks": {"name": "Decanter, Burgundy wine stocks rise after 'generous' 2023 vintage (citing the BIVB)", "kind": "general", "url": "https://www.decanter.com/wine-news/burgundy-wine-stocks-rise-after-generous-2023-vintage-526534", "note": "Read through a search summary, not the full page."},
+  "decanter-report": {"name": "Decanter, 2023 Burgundy vintage report", "kind": "critic", "url": "https://www.decanter.com/wine-news/2023-burgundy-vintage-report-on-decanter-premium-548038/", "note": "Paywalled. Only search summaries were read."}
+ },
+ "claims": [
+  {"topic": "vintage", "claim": "Winter was dry and mild. Frost at the end of March and early April did little harm because it came before budbreak, around 10 April.", "source": ["vinfolio"], "strength": "Medium", "note": "One source. Inside Burgundy also says frost damage was minimal, though it describes early April as very cold."},
+  {"topic": "vintage", "claim": "Frost damage was minimal in Chablis and further south.", "source": ["inside-burgundy"], "strength": "Medium", "quote": "Frost damage though was minimal both in Chablis and further south."},
+  {"topic": "vintage", "claim": "Damp spring weather brought strong mildew pressure into mid-May. A hot, dry spell from about 19 May got the season back on track. Mildew stayed a worry all season.", "source": ["inside-burgundy", "vinfolio"], "strength": "Medium", "note": "Vinfolio says May and June were drier than normal and June was the hottest and sunniest since 2003. Inside Burgundy describes a damp first half of May. Both agree on mildew pressure."},
+  {"topic": "vintage", "claim": "Flowering in early June was quick and even in warm, dry weather. Chardonnay had some coulure and made long, loose bunches. Pinot noir set a heavy, compact crop.", "source": ["inside-burgundy", "vinfolio"], "strength": "Strong"},
+  {"topic": "vintage", "claim": "Hail was local. It touched parts of the Côte de Nuits on 19 June. A bigger storm in mid-July (11 July per Inside Burgundy) hit Rully, Mercurey and a path from St-Aubin to Meursault. One merchant reports a negociant losing about 40% of its Meursault Premiers Crus.", "source": ["inside-burgundy", "vinfolio"], "strength": "Medium", "note": "The two agree on mid-July hail around Meursault and Rully. The 40% loss is one producer's figure."},
+  {"topic": "vintage", "claim": "July and August were cooler and wetter than average. Heat arrived late: a heatwave from about 17 to 20 August, then a stronger one from 6 September with highs near 40C that sped up ripening.", "source": ["inside-burgundy", "vinfolio"], "strength": "Medium", "note": "Sources differ by a few days on the August heatwave (17 or 20 August). Only Vinfolio mentions the September heat."},
+  {"topic": "vintage", "claim": "The Côte de Beaune picked first. A few estates started 24 to 28 August, including Puligny and Volnay. Most began 5 to 7 September. Côte de Nuits estates mostly started from 7 to 12 September. Everything was in before the end of September.", "source": ["inside-burgundy", "vinfolio"], "strength": "Strong"},
+  {"topic": "production", "claim": "The crop was very large. BIVB-cited figures put Burgundy's 2023 output near 1.9 million hectolitres, about 253 million bottles, a record.", "source": ["decanter-stocks"], "strength": "Medium", "note": "Secondary source citing the BIVB. A regional government bulletin snippet suggested nearly 2.2 million hl for AOP wine. Scope of the two figures unclear."},
+  {"topic": "production", "claim": "Yields were large, especially pinot noir. Green harvesting was close to universal. Most growers picked at the legal maximum of about 45 hl/ha. Bunches were around twice normal weight. Low-yield estates stayed well below that.", "source": ["inside-burgundy", "vinfolio"], "strength": "Strong", "note": "Inside Burgundy cites one producer at 45-50 hl/ha after discarding about 30% at sorting, which implies much more on the vine."},
+  {"topic": "vintage", "claim": "Whites are more consistent than reds. Alcohol mostly 12.5 to 13.5%. Best wines pair ripe stone fruit and white flowers with citrus, fresh acidity and a salty finish. Mostly easy to drink young and likely less long-lived than 2022. Some lack concentration or balance.", "source": ["inside-burgundy", "vinfolio"], "strength": "Medium", "note": "Ageing comparison to 2022 is from one source."},
+  {"topic": "vintage", "claim": "Reds are mixed. Alcohol mostly 13 to 14%. Pinot noir handled the big crop less well. The best are elegant and juicy with light tannins, many approachable young. Weaker ones are diluted, under-ripe or cooked. The Côte de Nuits had more successes than the Côte de Beaune, per one source.", "source": ["inside-burgundy", "vinfolio"], "strength": "Medium", "note": "The Côte de Nuits versus Côte de Beaune comparison comes from Inside Burgundy only."},
+  {"topic": "vintage", "claim": "In the Côte de Beaune, tasters found clear differences between villages and vineyards. The vintage rarely overrode site. Henri Boillot's 2023s were singled out.", "source": ["vinfolio"], "strength": "Weak", "note": "One source."},
+  {"topic": "vintage", "claim": "Decanter's reviewer reportedly rates Côte d'Or whites and reds well (search summaries gave 4 of 5 for whites and 4 or 4.5 of 5 for reds), with lush, round whites for early drinking and approachable, fruity reds.", "source": ["decanter-report"], "strength": "Weak", "note": "Paywalled. The ratings were relayed by search summaries that disagree on the red score. Not used on the sheet."}
+ ],
+ "conflicts": [
+  "Red score from Decanter varies between summaries (4 vs 4.5 of 5). Not used.",
+  "Total crop: about 1.9 million hl (BIVB via Decanter) versus nearly 2.2 million hl AOP (regional government bulletin snippet).",
+  "August heatwave start given as 17 August or 20 August.",
+  "Côte de Nuits is said to have had more red successes than the Côte de Beaune in one source. A second source stresses wet Côte de Nuits and rot risk. Not enough to rank the two."
+ ],
+ "gaps": [
+  "BIVB's own 2023 report was not reachable. Figures come through secondary sources.",
+  "The Lay Wheeler and Drouhin pages could not be read (403 and PDF).",
+  "No Côte d'Or-only yield or red volume figure found.",
+  "Little separate detail on Côte de Beaune red hail losses beyond Meursault, Rully and St-Aubin."
+ ],
+ "sheet": {
+  "vintage": "A very big crop, so quality depended on how hard growers cut yields. The best reds are juicy and easy to drink young.",
+  "vintage_white": "Ripe, fresh and mostly ready early. Whites were steadier than reds. The best have stone fruit, citrus and a salty finish."
+ }
+}

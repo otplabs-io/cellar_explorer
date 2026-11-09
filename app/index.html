@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cellar Explorer</title>
+<link rel="apple-touch-icon" href="assets/cellar-explorer-180.png">
+<meta name="apple-mobile-web-app-title" content="Cellar">
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body class="app">
+<div class="page">
+  <h1 class="app-title ts-page_title"><a href="./" title="Start over">Cellar Explorer</a></h1>
+  <p class="app-sub ts-caption"><a href="{{ATLAS_URL}}">Appellation Atlas: every wine place, explained</a></p>
+  <header class="top">
+    <div class="search" role="combobox" aria-haspopup="listbox" aria-owns="sugg">
+      <label><span class="sr">Search</span><input id="q" type="search" class="ts-body" placeholder="Search a wine, producer, grape, place or aroma" autocomplete="off" autocapitalize="off" spellcheck="false" aria-autocomplete="list" aria-controls="sugg" aria-expanded="false"></label>
+      <ul id="sugg" class="sugg" role="listbox" hidden></ul>
+    </div>
+  </header>
+  <main id="home">
+    <section class="row origin">
+      <div class="head stack"><h2 class="ts-section_head">Origin</h2><span id="mapNote" class="ts-caption"></span></div>
+      <p id="crumbs" class="crumbs ts-place_subtitle"></p>
+      <div id="map" class="map"></div>
+      <div id="places" class="places"></div>
+    </section>
+    <div id="choices"></div>
+  </main>
+  <main id="results" hidden></main>
+</div>
+<footer id="dock" class="dock">
+  <div class="dock-in">
+    <p class="dock-count"><b id="nMatch" class="ts-fact_value"></b> <span id="nSub" class="ts-caption"></span></p>
+    <button id="clear" type="button" class="link ts-place_subtitle">Clear</button>
+    <a id="show" class="hot ts-place_subtitle" href="#/wines">Show the wines</a>
+  </div>
+</footer>
+<script src="assets/app.js"></script>
+</body>
+</html>

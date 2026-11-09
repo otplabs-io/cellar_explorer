@@ -1,0 +1,108 @@
+{
+ "place": {
+  "subtitle": "From Bulgaria down to one zone"
+ },
+ "map": {
+  "engine": "zones",
+  "precision": "zone",
+  "zone_store": "eu",
+  "credit": "Maps: wine zones from the EU PDO boundaries (Candiago et al. 2022, CC0), drawn by whole commune; commune and region outlines © EuroGeographics for the administrative boundaries; estate location from {estate_source}. For orientation, not a legal boundary.",
+  "region_slug": "bulgaria",
+  "projection": 32635,
+  "eu": {
+   "country": "BG",
+   "nuts": "all",
+   "default_tier": "PDO",
+   "locator_bbox": [
+    18,
+    38,
+    34,
+    48
+   ]
+  },
+  "locator_file": "bulgaria/_locator.json",
+  "tier_fill": {
+   "PDO": "goldl"
+  },
+  "tier_key": [
+   [
+    "goldl",
+    "PDO zones"
+   ]
+  ],
+  "panel1": [
+   "Bulgaria",
+   "Its PDO zones"
+  ],
+  "panel1_towns": [],
+  "broad": [],
+  "areas": [],
+  "panel2_subtitle": "Its wine zones",
+  "panel3_subtitle": "Its zone, by commune",
+  "covers": [
+   "bulgaria/melnik",
+   "bulgaria/nova-zagora",
+   "bulgaria/yambol",
+   "bulgaria/sakar",
+   "bulgaria/dragoevo",
+   "bulgaria/novo-selo",
+   "bulgaria/brestnik",
+   "bulgaria/lozitsa",
+   "bulgaria/stambolovo",
+   "bulgaria/pavlikeni",
+   "bulgaria/sungurlare",
+   "bulgaria/lom",
+   "bulgaria/khan-krum",
+   "bulgaria/harsovo",
+   "bulgaria/shivachevo",
+   "bulgaria/sliven",
+   "bulgaria/varbitsa",
+   "bulgaria/veliki-preslav",
+   "bulgaria/novi-pazar",
+   "bulgaria/sandanski",
+   "bulgaria/dolinata-na-struma",
+   "bulgaria/stara-zagora",
+   "bulgaria/karnobat",
+   "bulgaria/lyubimets",
+   "bulgaria/lyaskovets",
+   "bulgaria/suhindol",
+   "bulgaria/slavyantsi",
+   "bulgaria/chernomorski-rayon",
+   "bulgaria/ruse",
+   "bulgaria/ivaylovgrad",
+   "bulgaria/bolyarovo",
+   "bulgaria/pomorie",
+   "bulgaria/karlovo",
+   "bulgaria/varna",
+   "bulgaria/montana",
+   "bulgaria/pleven",
+   "bulgaria/svishtov",
+   "bulgaria/asenovgrad",
+   "bulgaria/vratsa",
+   "bulgaria/septemvri",
+   "bulgaria/haskovo",
+   "bulgaria/pazardzhik",
+   "bulgaria/perushtitsa",
+   "bulgaria/yuzhno-chernomorie",
+   "bulgaria/targovishte",
+   "bulgaria/lovech",
+   "bulgaria/shumen",
+   "bulgaria/vidin",
+   "bulgaria/oryahovitsa",
+   "bulgaria/plovdiv",
+   "bulgaria/hisarya",
+   "bulgaria/evksinograd"
+  ],
+  "commune_labels": false
+ },
+ "styles": [
+  "red",
+  "white",
+  "sparkling",
+  "rosé",
+  "dessert",
+  "orange",
+  "fortified"
+ ],
+ "$why": "Not an EU PDO or PGI or a US AVA: a country, state, region, group or sub-zone, with no shape of its own in the map data. The places under it that draw stay covered."
+}

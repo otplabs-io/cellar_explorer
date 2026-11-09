@@ -1,0 +1,26 @@
+{
+ "$comment": "An island zone: drawn from its own store, portugal-madeira, since the Portugal store holds the mainland.",
+ "map": {
+  "region_slug": "portugal-madeira",
+  "projection": 32628,
+  "eu": {
+   "nuts": [
+    "PT30"
+   ],
+   "locator_bbox": [
+    -20,
+    28,
+    -12,
+    36
+   ]
+  },
+  "locator_file": "portugal-madeira/_locator.json",
+  "panel1": [
+   "Madeira",
+   "Its DOC zones"
+  ],
+  "panel1_towns": [],
+  "broad": [],
+  "areas": []
+ }
+}

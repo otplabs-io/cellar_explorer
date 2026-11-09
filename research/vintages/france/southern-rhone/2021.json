@@ -1,0 +1,130 @@
+{
+ "subject": "vintage",
+ "id": "france/southern-rhone/2021",
+ "read": "2026-11-05",
+ "sources": {
+  "cdp-2021": {
+   "name": "Châteauneuf-du-Pape growers' syndicate, 2021 vintage page",
+   "kind": "official",
+   "url": "https://en.chateauneuf.com/appellation-chateauneuf-du-pape/vintages/chateauneuf-du-pape-2021/",
+   "note": "Written before the harvest was fully in, so yield and alcohol are early estimates."
+  },
+  "european-cellars": {
+   "name": "European Cellars, Châteauneuf-du-Pape, the vintage game",
+   "kind": "importer",
+   "url": "https://www.europeancellars.com/chateauneuf-du-pape-the-vintage-game/",
+   "note": "Importer for Rhône estates. Quotes growers, including Domaine Roger Sabon."
+  },
+  "wine-spectator": {
+   "name": "Wine Spectator, Southern Rhône vintage chart",
+   "kind": "critic",
+   "url": "https://www.winespectator.com/vintage-charts/region/rhone-southern",
+   "note": "Region-wide score and a short note. Excerpts only."
+  }
+ },
+ "claims": [
+  {
+   "topic": "vintage",
+   "claim": "Winter was unusually mild, about 2.5°C above average in February. Spring was very cool.",
+   "source": [
+    "cdp-2021"
+   ],
+   "strength": "Medium",
+   "note": "One source."
+  },
+  {
+   "topic": "vintage",
+   "claim": "A cold night on 7 to 8 April threatened the early buds (Grenache, Syrah, Bourboulenc). Châteauneuf was largely spared, helped by wind and the Rhône nearby. Edge-of-vineyard lows were about -1.5°C, against -7°C elsewhere in the Vaucluse.",
+   "source": [
+    "cdp-2021"
+   ],
+   "strength": "Medium",
+   "note": "The syndicate has reason to play down damage. Wine Spectator says frosts cut yields in the south."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Summer had a few short, very hot spells (mid-June, end of July, mid-August). Rain of 55 to 77 mm, with early-August showers, kept the vines from serious water stress.",
+   "source": [
+    "cdp-2021"
+   ],
+   "strength": "Medium",
+   "note": "One source. European Cellars calls the season cool and rainy, barely tempered by short heat spikes."
+  },
+  {
+   "topic": "vintage",
+   "claim": "It was a late vintage with a long season. Vines were healthy in early September, with little mildew or oidium. Autumn equinox storms slowed picking, and the last plots came in around early October.",
+   "source": [
+    "cdp-2021"
+   ],
+   "strength": "Medium",
+   "quote": "a perfect sanitary state",
+   "note": "One source."
+  },
+  {
+   "topic": "production",
+   "claim": "The crop was small. The syndicate expected 20 to 25% below average, about 92,000 hl, with a big gap between frosted and unfrosted parcels. European Cellars says cuts of 25 to 45% and the smallest crop in many years.",
+   "source": [
+    "cdp-2021",
+    "european-cellars"
+   ],
+   "strength": "Medium",
+   "note": "Both agree on a small crop. Numbers differ. See conflicts."
+  },
+  {
+   "topic": "alcohol",
+   "claim": "Reds run lower in alcohol than recent years, around 14 to 14.5%. The syndicate says about 14% in the juices. Domaine Roger Sabon says around 14.5%.",
+   "source": [
+    "cdp-2021",
+    "european-cellars"
+   ],
+   "strength": "Medium",
+   "note": "Early figures from the syndicate and one grower."
+  },
+  {
+   "topic": "tasting",
+   "claim": "Reds are fresh and lively, with intense colour and good acidity. The syndicate calls it an old-style vintage with beautiful ageing potential, and says the wines can also be enjoyed young. Grenache rewards decanting or a few years in bottle.",
+   "source": [
+    "cdp-2021",
+    "european-cellars"
+   ],
+   "strength": "Medium",
+   "quote": "An old-style vintage with beautiful aging potential",
+   "note": "Both agree on freshness."
+  },
+  {
+   "topic": "tasting",
+   "claim": "European Cellars calls 2021 an exceptional vintage for whites and Mourvèdre. The syndicate page does not describe the whites.",
+   "source": [
+    "european-cellars"
+   ],
+   "strength": "Weak",
+   "note": "One importer's view. No critic on the whites was read."
+  },
+  {
+   "topic": "standing",
+   "claim": "Wine Spectator scores the Southern Rhône 88 for 2021, the lowest of 2018 to 2022, and notes frosts cut yields. Its drink window is drink or hold.",
+   "source": [
+    "wine-spectator"
+   ],
+   "strength": "Medium",
+   "note": "A region-wide score. The syndicate and European Cellars are warmer, and European Cellars says growers favour such vintages more than critics."
+  }
+ ],
+ "conflicts": [
+  "Yield loss: the syndicate expected 20 to 25% below average. European Cellars says 25 to 45% down. Wine Spectator blames frost. The syndicate says frost mostly spared the appellation.",
+  "Season: the syndicate describes short, very hot spells and some summer rain. European Cellars calls it a cool, rainy growing season with a few short heat spikes. Both agree it was not a hot year overall.",
+  "Quality: Wine Spectator gives 88. European Cellars and the syndicate speak of freshness and ageing potential, and of exceptional whites and Mourvèdre."
+ ],
+ "gaps": [
+  "No flowering dates.",
+  "No exact harvest start date.",
+  "No second independent weather source on the 7 to 8 April cold night.",
+  "No critic's report on the whites.",
+  "Vinous, Decanter and Wine Advocate 2021 reports not read.",
+  "Little on Southern Rhône outside Châteauneuf."
+ ],
+ "sheet": {
+  "vintage": "A cool, late year. A cold night in April and a cool, damp season cut the crop to one of the smallest in years. The reds are fresh and lively, around 14 to 14.5%, with good acidity and a classic, old-style feel.",
+  "vintage_white": "A cool year with a smaller crop, which suits whites. They kept fresh acidity."
+ }
+}

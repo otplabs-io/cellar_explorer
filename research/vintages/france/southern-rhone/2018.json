@@ -1,0 +1,37 @@
+{
+ "subject": "vintage",
+ "id": "france/southern-rhone/2018",
+ "read": "2026-11-05",
+ "sources": {
+  "cdp-2018": {"name": "Châteauneuf-du-Pape growers' syndicate, 2018 vintage page", "kind": "official", "url": "https://en.chateauneuf.com/appellation-chateauneuf-du-pape/vintages/chateauneuf-du-pape-2018/", "note": "Gives no vintage-specific yield. Its 90,000 hl and 93% red, 7% white figures are long-run averages."},
+  "vinous-2021": {"name": "Vinous, Châteauneuf-du-Pape Weathers the Challenges and Changes (October 2021)", "kind": "critic", "url": "https://billing.vinous.com/articles/chateauneuf-du-pape-weathers-the-challenges-and-changes-oct-2021"},
+  "european-cellars": {"name": "European Cellars, Châteauneuf-du-Pape, the vintage game", "kind": "importer", "url": "https://www.europeancellars.com/chateauneuf-du-pape-the-vintage-game/"},
+  "wine-spectator": {"name": "Wine Spectator, Southern Rhône vintage chart", "kind": "critic", "url": "https://www.winespectator.com/vintage-charts/region/rhone-southern", "note": "Region-wide score and a short note. Excerpts only."}
+ },
+ "claims": [
+  {"topic": "vintage", "claim": "Spring was exceptionally wet, the wettest in several decades. Rain through the first ten months totalled 833 mm, against 206 mm in 2017. Growing-season rain was about 520 mm.", "source": ["cdp-2018", "vinous-2021", "wine-spectator"], "strength": "Strong", "note": "All three agree on a very wet spring. The totals are the syndicate's."},
+  {"topic": "vintage", "claim": "Mildew was severe, among the worst in recent years. Growers had to spray ahead of attacks to protect the crop.", "source": ["cdp-2018", "vinous-2021", "wine-spectator"], "strength": "Strong", "note": "Three sources."},
+  {"topic": "production", "claim": "Grenache suffered most. Rain in May and June hurt fruit set, and some growers lost 40 to 60% of their Grenache crop.", "source": ["european-cellars", "vinous-2021"], "strength": "Medium", "note": "Both give 40 to 60% as a grower report. Vinous says up to 60%. No appellation-wide figure was found."},
+  {"topic": "vintage", "claim": "Summer was hot, with 11 days above 35°C in August. Mild September nights helped quality. The usual equinox rain in September was minimal, at 5 mm.", "source": ["cdp-2018"], "strength": "Medium", "note": "One source."},
+  {"topic": "vintage", "claim": "Harvest began in the last week of August and ended about four weeks later, by the end of September. Grapes were healthy and well ripened, with thick skins on early Grenache.", "source": ["vinous-2021", "cdp-2018"], "strength": "Medium", "note": "Vinous gives the dates. The syndicate says optimal ripeness and excellent health. Some marc was still unpressed in mid-November."},
+  {"topic": "tasting", "claim": "Reds are silky and round, with raspberry, blackcurrant, prune and ginger. The syndicate compares the finish to 2007. Alcohol is moderate and acidity is not high.", "source": ["cdp-2018"], "strength": "Medium", "note": "One source, and a producer-side one."},
+  {"topic": "tasting", "claim": "Reds lean on red fruit, with a lighter Grenache feel. Vinous finds them darker and more savoury, with more Mourvèdre and Syrah, and deceptively ageworthy.", "source": ["european-cellars", "vinous-2021"], "strength": "Medium", "note": "Both agree the Grenache is lighter. The two sources use different words: red fruit against dark and savoury."},
+  {"topic": "tasting", "claim": "White wines are rich with a long finish. Aromas run to lime and other citrus, exotic fruit, white fruit and some aniseed.", "source": ["cdp-2018"], "strength": "Weak", "note": "One source. No critic on the whites was read."},
+  {"topic": "standing", "claim": "Wine Spectator scores the Southern Rhône 92 for 2018, drink or hold. European Cellars says growers like it more than critics do.", "source": ["wine-spectator", "european-cellars"], "strength": "Medium", "note": "A region-wide score from one critic."}
+ ],
+ "conflicts": [
+  "Style: the syndicate says silky and round with prune and ginger. European Cellars says lighter, red-fruited Grenache. Vinous says darker and more savoury. Blend shifts and parcel loss may explain it, since Grenache was down and Mourvèdre and Syrah carried more of the blend.",
+  "Crop size: the Grenache loss reports (40 to 60%) do not translate into an appellation total. Wine Spectator and the syndicate do not give one."
+ ],
+ "gaps": [
+  "No flowering dates.",
+  "No appellation-wide yield figure.",
+  "No alcohol range, only the word moderate.",
+  "Decanter, Wine Advocate and Jeb Dunnuck 2018 reports not read.",
+  "Little on Southern Rhône outside Châteauneuf."
+ ],
+ "sheet": {
+  "vintage": "A very wet spring brought heavy mildew pressure and cut the Grenache crop in many vineyards. A hot, dry summer followed and the grapes ripened well. The reds are round and silky, with Mourvèdre and Syrah in a bigger role.",
+  "vintage_white": "The whites are rich, with citrus and exotic fruit and a long finish."
+ }
+}

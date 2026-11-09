@@ -1,0 +1,221 @@
+{
+ "sheet_title": "La Boudriotte 2019 Gift Sheet",
+ "communes": [
+  "Chassagne-Montrachet"
+ ],
+ "identity": {
+  "name": "La Boudriotte",
+  "producer": "gagnard-delagrange",
+  "vintage": 2019,
+  "style": "white",
+  "grapes": [
+   {
+    "name": "Chardonnay",
+    "share": 100
+   }
+  ],
+  "alcohol": 13.8,
+  "cellartracker": [
+   "3941693"
+  ]
+ },
+ "region": {
+  "node": "france/chassagne-montrachet",
+  "tier": "Premier Cru",
+  "vineyard": "La Boudriotte",
+  "placed_by": "label"
+ },
+ "appellation": "Chassagne-Montrachet",
+ "target": "Chassagne-Montrachet premier cru La Boudriotte",
+ "short": "La Boudriotte",
+ "village_lonlat": [
+  4.7292,
+  46.9378
+ ],
+ "village_label": "Chassagne village",
+ "commune_label_lines": [
+  "Chassagne-",
+  "Montrachet"
+ ],
+ "map_labels": [
+  {
+   "text": "Le Montrachet",
+   "denom": "Montrachet",
+   "dx": -31,
+   "dy": -16,
+   "anchor": "end"
+  },
+  {
+   "text": "Bâtard-Montrachet",
+   "denom": "Bâtard-Montrachet",
+   "dx": 41,
+   "dy": -4
+  },
+  {
+   "text": "Criots-Bâtard",
+   "denom": "Criots-Bâtard-Montrachet",
+   "dx": 47,
+   "dy": 8
+  }
+ ],
+ "overrides": {
+  "panel2": {
+   "Cheilly-lès-Maranges": [
+    60,
+    318,
+    "end"
+   ],
+   "Pommard": [
+    280,
+    172,
+    "start"
+   ],
+   "Volnay": [
+    280,
+    190,
+    "start"
+   ]
+  }
+ },
+ "content": {
+  "bottle_label": [
+   "LA BOUDRIOTTE",
+   "Chassagne-Montrachet",
+   "2019"
+  ],
+  "eyebrow": "WHITE BURGUNDY",
+  "title": "La Boudriotte",
+  "subtitle": "Chassagne-Montrachet Premier Cru, 2019",
+  "intro": "A classic white Burgundy from a family domaine in the village. Expect ripe orchard fruit, a round, rich texture and a stony, nutty finish.",
+  "facts": [
+   [
+    "GRAPE",
+    "Chardonnay",
+    "100%"
+   ],
+   [
+    "REGION",
+    "Côte de Beaune",
+    "Burgundy, France"
+   ],
+   [
+    "ALCOHOL",
+    "13.8%",
+    "2019 vintage"
+   ],
+   [
+    "OAK",
+    "20% new",
+    "French barrels, 228 L"
+   ],
+   [
+    "MADE",
+    "9 barrels",
+    "About 3,000 bottles"
+   ]
+  ],
+  "taste": [
+   [
+    1,
+    "Sweetness",
+    "Dry"
+   ],
+   [
+    4,
+    "Body",
+    "Medium to full"
+   ],
+   [
+    3,
+    "Acidity",
+    "Moderate"
+   ],
+   [
+    2,
+    "Oak",
+    "Subtle, creamy"
+   ]
+  ],
+  "taste_note": "The typical style of this site in a warm vintage. A guide, not a measurement of this bottle.",
+  "flavors": [
+   [
+    "apple",
+    "Yellow apple"
+   ],
+   [
+    "pear",
+    "Pear"
+   ],
+   [
+    "peach",
+    "Peach"
+   ],
+   [
+    "lemon",
+    "Lemon peel"
+   ],
+   [
+    "hazelnut",
+    "Hazelnut"
+   ],
+   [
+    "flint",
+    "Flint"
+   ]
+  ],
+  "flavor_note": "Barrel aging adds a little vanilla, toast and cream. One drinker on an older vintage: <em>“Minty, stony, and full of apple and pear fruit.”</em>",
+  "window": [
+   2024,
+   2032,
+   2026
+  ],
+  "window_note": "In its window now and good into the early 2030s. A seeping cork or deep amber color can signal oxidation, a known white Burgundy risk.",
+  "serve": "<strong>50 to 55°F.</strong> Cool, not icy.",
+  "decant": "<strong>20 to 30 minutes</strong> if it seems tight. Longer can dull its freshness.",
+  "pairs": [
+   [
+    "chicken",
+    "Roast chicken"
+   ],
+   [
+    "scallop",
+    "Seared scallops"
+   ],
+   [
+    "lobster",
+    "Lobster with butter"
+   ],
+   [
+    "cheese",
+    "Comté"
+   ],
+   [
+    "risotto",
+    "Creamy mushroom risotto"
+   ]
+  ],
+  "pair_note": "The acidity keeps buttery dishes from feeling heavy. The weight stands up to roast chicken and nutty Comté.",
+  "level": "Premier Cru",
+  "ladder_note": "Second rung of four",
+  "vintage": "2019 was warm and dry. Spring frost and poor flowering cut the crop, and what survived came in ripe and concentrated. Whites turned out rich, with good balance and freshness.",
+  "place": [
+   [
+    "The spot",
+    "About a kilometer south of the village, close to where Chassagne meets Santenay and Remigny. The slope is gentle, faces east to southeast, and sits near 240 meters."
+   ],
+   [
+    "The soil",
+    "Clay-rich with stony limestone. The clay gives whites more weight and a rounder shape than the leaner, flintier sites in the village. Pinot Noir grows here too."
+   ],
+   [
+    "The name",
+    "Six plots can use the La Boudriotte name, and all six sit inside Morgeot. This wine comes from old vines in three sections of the vineyard, which the map does not separate."
+   ]
+  ],
+  "credits": "Text: Bottle Brief; Winebow (US importer); Inside Burgundy; Decanter; Becky Wasserman &amp; Co.; Delectable (drinker quote). Serving temperature is general guidance."
+ },
+ "id": "la-boudriotte-2019",
+ "map_file": "map.svg",
+ "map_locked": true,
+ "bottle": "#3F5B45"
+}

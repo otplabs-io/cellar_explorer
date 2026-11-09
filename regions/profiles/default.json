@@ -1,0 +1,10 @@
+{
+ "$comment": "Region profiles. A wine's profile is this file, then each profile on the way down the region tree to its node, each overriding the one above. Files live at regions/profiles/<stable id>.json. Only state what differs from the parent. A wine's own content can still override any label.",
+ "story": {
+  "signature": null,
+  "labels": {"family": "The producer", "vintage": "The vintage"}
+ },
+ "place": {"title": "Where it grows", "subtitle": null},
+ "serve_cells": [["Serve", "thermo", "serve"], ["Decant", "decant", "decant"]],
+ "map": {"engine": null, "precision": "region", "credit": ""}
+}

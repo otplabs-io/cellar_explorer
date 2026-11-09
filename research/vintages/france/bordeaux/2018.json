@@ -1,0 +1,40 @@
+{
+ "subject": "vintage",
+ "id": "france/bordeaux/2018",
+ "read": "2026-11-05",
+ "sources": {
+  "quinney": {"name": "Gavin Quinney, Bordeaux 2018 weather and harvest report", "kind": "vintage report", "url": "https://gavinquinney.com/?p=14851", "note": "Quinney owns Château Bauduc and writes the Jancis Robinson weather reports. Figures come from his own weather stations."},
+  "vinfolio": {"name": "Vinfolio, Bordeaux 2018: early vintage insight", "kind": "merchant", "url": "https://www.vinfolio.com/editorial/bordeaux-2018-fr-visits-bordeaux-for-an-early-vintage-insight", "note": "Estate visits by a merchant."},
+  "search-summaries": {"name": "Search summaries of Decanter, Jancis Robinson, Wine Spectator, Drinks Business and merchant reports on Bordeaux 2018", "kind": "general", "note": "Relayed through search summaries. Those pages were not read."}
+ },
+ "claims": [
+  {"topic": "vintage", "claim": "Winter was wet. December and January each had about 155 mm of rain. February was cold, which gave the vines a proper rest.", "source": ["quinney"], "strength": "Medium", "note": "One source, from his own weather stations."},
+  {"topic": "vintage", "claim": "Spring rain brought serious mildew from mid-April. Organic and biodynamic estates were hit hard, and conventional estates that missed sprays also lost fruit. Mildew was the story of the year.", "source": ["quinney", "vinfolio", "search-summaries"], "strength": "Strong", "quote": "The story of 2018 was the mildew, the speed and the quantity of it", "note": "Three sources agree. The quote is a Union Régionale Agricole Bordelaise voice, relayed."},
+  {"topic": "vintage", "claim": "Up to a third of Bordeaux vineyards were touched by mildew to some degree.", "source": ["quinney", "search-summaries"], "strength": "Weak", "note": "Quinney calls it an expert estimate, not a measurement."},
+  {"topic": "vintage", "claim": "Late May hail hit parts of Pessac-Léognan, Bourg and Blaye. Flowering in late May and June went well.", "source": ["quinney"], "strength": "Medium", "note": "One source."},
+  {"topic": "vintage", "claim": "From mid-June, the weather improved. July to September were largely dry and sunny, and all of June to September ran warmer than average. Early August had five days above 35 C that stressed some young vines.", "source": ["quinney"], "strength": "Medium", "note": "One source."},
+  {"topic": "vintage", "claim": "Most Merlot and Cabernet was picked from the second half of September into early October. The fruit was clean, with no rot. Troplong Mondot picked Merlot on 10 September. Pichon Lalande picked from 8 September to 10 October.", "source": ["quinney", "vinfolio"], "strength": "Strong", "note": "Two sources."},
+  {"topic": "production", "claim": "Total volume was about average, near the 10-year average, but very uneven. Mildew and hail cut some estates hard. Haut Bailly made about 21 hl/ha and Palmer about 10 hl/ha. Pichon Lalande made about 35 hl/ha against about 45 usually.", "source": ["quinney", "vinfolio", "search-summaries"], "strength": "Medium", "note": "Quinney first guessed slightly above average and later said losses may be higher. Estate figures are from Vinfolio's visits."},
+  {"topic": "production", "claim": "On the Left Bank, Pauillac, Saint-Estèphe and Saint-Julien had the lower yields. Margaux and Pessac-Léognan did moderately well after a short 2017. Merlot yields were generally good. Cabernet Sauvignon's were lower.", "source": ["quinney", "search-summaries"], "strength": "Medium", "note": "Vinfolio reports Saint-Estèphe less hit by drought, which fits the mixed picture."},
+  {"topic": "production", "claim": "The Right Bank bounced back from the 2017 frost. Saint-Émilion made roughly twice its 2017 volume and Pomerol had good yields. Saint-Émilion was the most uneven of the leading appellations.", "source": ["search-summaries"], "strength": "Weak", "note": "Relayed from Jancis Robinson and Quinney pieces that were not read."},
+  {"topic": "tasting", "claim": "Right Bank reds have dense fruit and fine tannins. Cool summer nights kept them fresh. Pomerol blends carried up to 25% Cabernet Franc at one estate.", "source": ["vinfolio"], "strength": "Weak", "note": "One source, based on a few estate visits. Pomerol also had drought and a drying wind late in the season."},
+  {"topic": "tasting", "claim": "Left Bank reds are dense but fresh at the best estates. They are more varied than the Right Bank. Alcohol is typically around 14%. Some reds show drying tannin or slightly burnt fruit.", "source": ["vinfolio", "search-summaries"], "strength": "Weak", "note": "The 14% figure and the criticisms are relayed from merchant and Decanter summaries."},
+  {"topic": "vintage", "claim": "Quinney expected Right Bank wines like 2015 and 2016, and Left Bank wines between 2016 and 2010 with a touch of 2009. Decanter is relayed as saying 2009 meets 2016 on the Left Bank and 1998 meets 2015 on the Right.", "source": ["quinney", "search-summaries"], "strength": "Medium", "note": "Comparisons are opinion. They broadly agree."},
+  {"topic": "structure", "claim": "Tannin levels were very high at many estates. Some recorded their highest-ever polyphenol readings. Top wines may need a decade or more.", "source": ["search-summaries"], "strength": "Weak", "note": "Relayed from a merchant summary. Vinfolio says Pichon Lalande's 2018s should mature sooner than its 2016s."}
+ ],
+ "conflicts": [
+  "Total volume: Quinney first said slightly above the 10-year average, then that losses may be higher. Other summaries say close to average. Wine Spectator is relayed as saying a third of vineyards had mildew.",
+  "Left or Right Bank: several critics say 2018 is not a clear bank vintage. They point to cooler terroirs instead.",
+  "Quality: Decanter's red rating is relayed as 4.5 out of 5, with pockets of brilliance but not fully consistent. Vinfolio calls it exceptional."
+ ],
+ "gaps": [
+  "Decanter, Jancis Robinson and Drinks Business pages were not read, only summaries.",
+  "No CIVB or Agreste official volume figure read.",
+  "No Pomerol-specific or Saint-Émilion-specific yield data read.",
+  "No final bottled alcohol range for the Right Bank found."
+ ],
+ "sheet": {
+  "vintage_left": "A wet winter and spring brought mildew, then a sunny, dry summer. Yields were uneven. The best reds are dense and fresh, with firm tannins.",
+  "vintage_right": "The same mildew spring, then a warm, dry summer. Merlot did well. The best reds have dense fruit and fine tannins."
+ }
+}

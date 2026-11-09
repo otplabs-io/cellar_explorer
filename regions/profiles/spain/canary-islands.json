@@ -1,0 +1,62 @@
+{
+ "place": {
+  "subtitle": "From the Canary Islands down to one zone"
+ },
+ "map": {
+  "region_slug": "spain-canarias",
+  "projection": 32628,
+  "eu": {
+   "nuts": [
+    "ES70"
+   ],
+   "locator_bbox": [
+    -19,
+    26,
+    5,
+    44
+   ],
+   "tiers": {}
+  },
+  "locator_file": "spain-canarias/_locator.json",
+  "panel1": [
+   "The Canary Islands",
+   "Wine zones"
+  ],
+  "panel1_towns": [
+   "Santa Cruz de Tenerife"
+  ],
+  "tier_fill": {
+   "DO": "goldl"
+  },
+  "tier_key": [
+   [
+    "goldl",
+    "DO zones"
+   ]
+  ],
+  "broad": [
+   "islas-canarias"
+  ],
+  "areas": [
+   {
+    "name": "Tenerife",
+    "zones": [
+     "valle-de-guimar",
+     "abona",
+     "tacoronte-acentejo",
+     "valle-de-la-orotava",
+     "ycoden-daute-isora"
+    ],
+    "towns": [
+     "Santa Cruz de Tenerife"
+    ]
+   }
+  ],
+  "covers": [
+   "spain/canary-islands"
+  ],
+  "panel2_town_side": {
+   "Santa Cruz de Tenerife": "end"
+  }
+ }
+}

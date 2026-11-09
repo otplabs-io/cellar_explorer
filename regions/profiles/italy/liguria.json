@@ -1,0 +1,32 @@
+{
+ "$comment": "Region settings for the zones engine, from Orazio Campoli’s store for the region. Broad: the zones that cover more than a third of the region, left out of the shading so the smaller zones show.",
+ "place": {
+  "subtitle": "From Liguria down to one zone"
+ },
+ "map": {
+  "region_slug": "liguria",
+  "istat_regions": [
+   7
+  ],
+  "panel1": [
+   "Liguria",
+   "Zones, shaded by level"
+  ],
+  "panel1_towns": [],
+  "broad": [
+   "riviera-ligure-di-ponente-doc"
+  ],
+  "areas": [],
+  "covers": [
+   "italy/rossese-di-dolceacqua",
+   "italy/cinque-terre",
+   "italy/colline-di-levanto",
+   "italy/val-polcevera",
+   "italy/pornassio",
+   "italy/riviera-ligure-di-ponente",
+   "italy/colli-di-luni",
+   "italy/portofino"
+  ]
+ },
+ "$why": "Not an EU PDO or PGI or a US AVA: a country, state, region, group or sub-zone, with no shape of its own in the map data. The places under it that draw stay covered."
+}

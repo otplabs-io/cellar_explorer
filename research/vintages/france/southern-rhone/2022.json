@@ -1,0 +1,37 @@
+{
+ "subject": "vintage",
+ "id": "france/southern-rhone/2022",
+ "read": "2026-11-05",
+ "sources": {
+  "cdp-2022": {"name": "Châteauneuf-du-Pape growers' syndicate, 2022 vintage page", "kind": "official", "url": "https://en.chateauneuf.com/appellation-chateauneuf-du-pape/vintages/chateauneuf-du-pape-2022/", "note": "No yield figures, no flowering, no wine description."},
+  "european-cellars": {"name": "European Cellars, Châteauneuf-du-Pape, the vintage game", "kind": "importer", "url": "https://www.europeancellars.com/chateauneuf-du-pape-the-vintage-game/"},
+  "wine-spectator": {"name": "Wine Spectator, Southern Rhône vintage chart", "kind": "critic", "url": "https://www.winespectator.com/vintage-charts/region/rhone-southern", "note": "Region-wide score and a short note. Excerpts only."}
+ },
+ "claims": [
+  {"topic": "vintage", "claim": "The winter before was dry and cool. Spring was dry and mild: only 50 mm of rain fell from March to May, against a normal 150 mm.", "source": ["cdp-2022", "european-cellars"], "strength": "Strong", "note": "Both give the same 50 mm and 150 mm figures, which may share a source."},
+  {"topic": "vintage", "claim": "Summer was hot and dry. It rained only twice, in late June and mid-August, for 30 to 70 mm depending on the parcel. Temperatures ran above normal from budbreak to harvest, a year the syndicate compares to 2003.", "source": ["cdp-2022"], "strength": "Medium", "note": "One source. Wine Spectator agrees on a ripe, powerful year."},
+  {"topic": "vintage", "claim": "Storms around 15 August brought relief and hail in a few sectors. The mistral wind afterward kept the grapes healthy.", "source": ["cdp-2022"], "strength": "Medium", "note": "One source. Hail zones were not named."},
+  {"topic": "vintage", "claim": "Harvest ran over more than two months. Some whites came in on 17 August and the first Syrah on 23 August.", "source": ["cdp-2022"], "strength": "Medium", "note": "One source. Very early compared with 2019 and 2020 (Syrah in early September in 2020)."},
+  {"topic": "production", "claim": "Yields were low. The syndicate says low yields. European Cellars says meaningfully down on a normal year. No figure was found.", "source": ["cdp-2022", "european-cellars"], "strength": "Medium", "note": "Both agree. No percentage or hl total read."},
+  {"topic": "winemaking", "claim": "Growers picked parcel by parcel to hold down alcohol and aim for fine tannins. Each parcel expressed itself differently.", "source": ["cdp-2022"], "strength": "Medium", "note": "One source."},
+  {"topic": "tasting", "claim": "The reds lean riper and more red-fruited than jammy, with good acidity. Wine Spectator calls it ripe and powerful, with some gorgeous wines.", "source": ["european-cellars", "wine-spectator"], "strength": "Medium", "quote": "lean riper and more red-fruited than jammy", "note": "Two sources, written early. Style may vary by parcel."},
+  {"topic": "standing", "claim": "Wine Spectator scores the Southern Rhône 95 for 2022, the highest of 2018 to 2022. Its drink window is drink or hold.", "source": ["wine-spectator"], "strength": "Medium", "note": "A region-wide score from one critic. The syndicate calls the year one of resilience and precocity, with high quality."},
+  {"topic": "tasting", "claim": "No source describes the 2022 whites. The only fact is that they were picked early, from 17 August.", "source": ["cdp-2022"], "strength": "Weak", "note": "Do not describe their taste from this file."}
+ ],
+ "conflicts": [
+  "Rain: the syndicate says it rained only twice in summer for 30 to 70 mm. It also says storms near 15 August brought hail. Relief for some, damage for others."
+ ],
+ "gaps": [
+  "No yield figure.",
+  "No alcohol range.",
+  "No frost or flowering information.",
+  "No description of the white wines.",
+  "No critic report beyond Wine Spectator's short note.",
+  "Vinous, Decanter and Wine Advocate 2022 reports not read.",
+  "Little on Southern Rhône outside Châteauneuf."
+ ],
+ "sheet": {
+  "vintage": "A dry winter and spring, then a hot, dry summer. The crop was small and picking started in August. The reds are ripe and powerful, with red fruit and good acidity.",
+  "vintage_white": "Whites were picked early, from 17 August, in a hot, dry year."
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "story": {
+  "signature": {
+   "component": "quality_ladder",
+   "title": "The 1855 growths",
+   "tiers": [
+    "First Growth",
+    "Second Growth",
+    "Third Growth",
+    "Fourth Growth",
+    "Fifth Growth"
+   ],
+   "labels": [
+    "First",
+    "Second",
+    "Third",
+    "Fourth",
+    "Fifth"
+   ]
+  }
+ },
+ "map": {
+  "panel2": [
+   "The Médoc",
+   "Communes, shaded by their main appellation"
+  ],
+  "panel2_appellations": [
+   "Médoc",
+   "Haut-Médoc",
+   "Saint-Estèphe",
+   "Pauillac",
+   "Saint-Julien",
+   "Listrac-Médoc",
+   "Moulis ou Moulis-en-Médoc",
+   "Margaux"
+  ],
+  "communal": [
+   "Saint-Estèphe",
+   "Pauillac",
+   "Saint-Julien",
+   "Listrac-Médoc",
+   "Moulis ou Moulis-en-Médoc",
+   "Margaux"
+  ],
+  "short_names": {
+   "Moulis ou Moulis-en-Médoc": "Moulis"
+  },
+  "covers": [
+   "france/pauillac",
+   "france/saint-julien",
+   "france/margaux",
+   "france/saint-estephe",
+   "france/pessac-leognan",
+   "france/haut-medoc",
+   "france/medoc",
+   "france/listrac-medoc",
+   "france/moulis-en-medoc",
+   "france/graves",
+   "france/graves-superieures",
+   "france/cerons"
+  ]
+ },
+ "styles": [
+  "red"
+ ],
+ "$why": "Not an EU PDO or PGI or a US AVA: a country, state, region, group or sub-zone, with no shape of its own in the map data. The places under it that draw stay covered."
+}

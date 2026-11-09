@@ -1,0 +1,104 @@
+{
+ "story": {
+  "labels": {
+   "family": "The château"
+  }
+ },
+ "place": {
+  "subtitle": "From all of Bordeaux down to one château"
+ },
+ "facts_blend": true,
+ "map": {
+  "engine": "appellations",
+  "precision": "appellation",
+  "credit": "Maps: INAO appellation delimitations (Licence Ouverte) via OpenDataWine; commune outlines from france-geojson; estate location from {estate_source}. Levels 1 and 2 shade whole communes by their main appellation. For orientation, not a legal boundary.",
+  "projection": 2154,
+  "department": [
+   "33",
+   "33-gironde"
+  ],
+  "generic": [
+   "Bordeaux",
+   "Bordeaux supérieur",
+   "Crémant de Bordeaux",
+   "Gard"
+  ],
+  "subregions": {
+   "france/left-bank": "Left Bank",
+   "france/right-bank": "Right Bank",
+   "france/entre-deux-mers": "Entre-Deux-Mers",
+   "france/sauternes-barsac": "Sauternes & Barsac",
+   "france/cotes-de-bordeaux": "Côtes de Bordeaux"
+  },
+  "towns": {
+   "33063": "Bordeaux",
+   "33243": "Libourne",
+   "33314": "Pauillac",
+   "33236": "Lesparre",
+   "33268": "Margaux"
+  },
+  "panel1": [
+   "Bordeaux",
+   "Communes, shaded by area"
+  ],
+  "panel1_towns": [
+   "33063",
+   "33243"
+  ],
+  "aliases": {
+   "Côtes de Bordeaux Blaye": "france/blaye-cotes-de-bordeaux",
+   "Côtes de Bordeaux Castillon": "france/castillon-cotes-de-bordeaux",
+   "Côtes de Bordeaux Francs": "france/cotes-de-bordeaux",
+   "Côtes de Bordeaux Cadillac": "france/cadillac",
+   "Côtes de Bordeaux Sainte-Foy": "france/sainte-foy-bordeaux",
+   "Côtes de Bourg, Bourg et Bourgeais": "france/cotes-de-bourg",
+   "Bordeaux Haut-Benauge": "france/entre-deux-mers",
+   "Entre-deux-Mers Haut-Benauge": "france/entre-deux-mers"
+  },
+  "panel1_labels": {
+   "Right Bank": [
+    205,
+    106,
+    "start"
+   ],
+   "Côtes de Bordeaux": [
+    205,
+    140,
+    "end"
+   ],
+   "Entre-Deux-Mers": [
+    155,
+    207,
+    "end"
+   ],
+   "Left Bank": [
+    95,
+    226,
+    "end"
+   ],
+   "Sauternes & Barsac": [
+    125,
+    246,
+    "end"
+   ]
+  },
+  "panel1_town_side": {
+   "33063": "end"
+  },
+  "this_wine": [
+   70,
+   175,
+   "end"
+  ],
+  "covers": [
+   "france/bordeaux"
+  ],
+  "$covers": "france/bordeaux itself: a wine labelled plain Bordeaux sets map_profile to the place its estate grows, such as france/pauillac."
+ },
+ "bottle_shape": "bordeaux",
+ "styles": [
+  "red",
+  "white",
+  "dessert"
+ ]
+}

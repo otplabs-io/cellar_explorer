@@ -1,0 +1,25 @@
+{
+ "$comment": "Region settings for the zones engine, from Orazio Campoli’s store for the region. Broad: the zones that cover more than a third of the region, left out of the shading so the smaller zones show.",
+ "place": {
+  "subtitle": "From Campania down to one zone"
+ },
+ "map": {
+  "region_slug": "campania",
+  "istat_regions": [
+   15
+  ],
+  "panel1": [
+   "Campania",
+   "Zones, shaded by level"
+  ],
+  "panel1_towns": [],
+  "broad": [
+   "campania-igt",
+   "colli-di-salerno-igt"
+  ],
+  "areas": [],
+  "covers": [
+   "italy/campania"
+  ]
+ }
+}

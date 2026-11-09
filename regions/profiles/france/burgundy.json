@@ -1,0 +1,37 @@
+{
+ "story": {
+  "signature": {
+   "component": "quality_ladder",
+   "title": "Burgundy’s ladder",
+   "tiers": [
+    "Grand Cru",
+    "Premier Cru",
+    "Village",
+    "Regional"
+   ]
+  },
+  "labels": {
+   "family": "The family"
+  }
+ },
+ "place": {
+  "subtitle": "From all of Burgundy down to one vineyard"
+ },
+ "map": {
+  "engine": "parcels",
+  "precision": "parcel",
+  "credit": "Maps: INAO vineyard delimitations (Licence Ouverte) via OpenDataWine; commune outlines from france-geojson, drawn to the vineyard parcels where they exist and simplified elsewhere. For orientation, not a legal boundary.",
+  "covers": [
+   "france/cote-de-beaune",
+   "france/cote-de-nuits",
+   "france/chablis",
+   "france/maconnais",
+   "france/cote-chalonnaise"
+  ]
+ },
+ "styles": [
+  "red",
+  "white",
+  "rosé"
+ ]
+}

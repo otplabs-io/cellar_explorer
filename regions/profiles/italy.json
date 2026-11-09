@@ -1,0 +1,69 @@
+{
+ "story": {
+  "signature": {
+   "component": "quality_ladder",
+   "title": "Italy’s ladder",
+   "tiers": [
+    "DOCG",
+    "DOC",
+    "IGT",
+    "Vino"
+   ]
+  }
+ },
+ "place": {
+  "subtitle": "From the region down to one zone"
+ },
+ "map": {
+  "engine": "zones",
+  "precision": "zone",
+  "credit": "Maps: wine zones from Orazio Campoli’s Italian Wine Map, used with permission; commune outlines from ISTAT via openpolis (CC BY); estate location from {estate_source}. For orientation, not a legal boundary.",
+  "oc_base": "https://oraziocampoli.com/wp-content/uploads/oc-maps/",
+  "oc_ver": "1792527844",
+  "communes_url": "https://raw.githubusercontent.com/openpolis/geojson-italy/ba3347df3a53352891109f8198c597a0273684c0/geojson",
+  "projection": 32632,
+  "panel3_subtitle": "Its delimited zone",
+  "cru_legend": "Its named vineyards",
+  "subzone_legend": "Its sub-zones",
+  "covers": [
+   "italy/piedmont",
+   "italy/tuscany",
+   "italy/veneto",
+   "italy/alto-adige",
+   "italy/friuli-venezia-giulia",
+   "italy/trentino",
+   "italy/lombardy",
+   "italy/sicily",
+   "italy/campania",
+   "italy/abruzzo",
+   "italy/puglia",
+   "italy/marche",
+   "italy/umbria",
+   "italy/sardinia",
+   "italy/igt-indicazione-geografica-tipica",
+   "italy/emilia-romagna",
+   "italy/calabria",
+   "italy/lazio",
+   "italy/liguria",
+   "italy/molise",
+   "italy/basilicata",
+   "italy/valle-d-aosta"
+  ],
+  "$zone_slugs": "Places whose name the Italian Wine Map spells another way, checked against the EU PDO table (Friuli / Friuli Venezia Giulia is one PDO, PDO-IT-02176).",
+  "zone_slugs": {
+   "italy/friuli-venezia-giulia": "friuli-doc",
+   "italy/colline-teramane-montepulciano-dabruzzo": "montepulciano-dabruzzo-colline-teramane-docg",
+   "italy/colli-romagna-centrale": "colli-romagna-centrale-doc",
+   "italy/s-anna-di-isola-capo-rizzuto": "s-anna-di-isola-capo-rizzuto-doc"
+  }
+ },
+ "styles": [
+  "red",
+  "white",
+  "sparkling",
+  "rosé",
+  "dessert",
+  "orange"
+ ],
+ "$why": "Not an EU PDO or PGI or a US AVA: a country, state, region, group or sub-zone, with no shape of its own in the map data. The places under it that draw stay covered."
+}

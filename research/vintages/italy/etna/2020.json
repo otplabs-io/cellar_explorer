@@ -1,0 +1,34 @@
+{
+ "subject": "vintage",
+ "id": "italy/etna/2020",
+ "read": "2026-11-05",
+ "sources": {
+  "firriato": {"name": "Firriato, Cavanera Contrada Marchesa (Etna) 2020 vintage notes", "kind": "producer", "url": "https://firriato.it/etna-wines/red/cavanera-rovo-delle-coturnie/?lang=en", "note": "Read directly. North-eastern Etna estate."},
+  "donnafugata": {"name": "Donnafugata, Dea Vulcano 2020 technical sheet (Etna)", "kind": "producer", "url": "https://www.donnafugata.it/wp-content/uploads/2022/09/Dea-Vulcano-2020.pdf", "note": "Fetch returned 404. Known only from a search-result summary."},
+  "tascante": {"name": "Tenuta Tascante, Contrada Sciaranuova 2020 product page (Vinoscout)", "kind": "merchant", "url": "https://www.vinoscout.de/en/products/contrada-sciaranuova-etna-rosso-tenuta-tascante-doc-sizilien-0-75l", "note": "Fetch returned 429. Known only from a search-result summary."},
+  "pietradolce": {"name": "Pietradolce Etna Rosso 2020 (Gocce di Sicilia)", "kind": "merchant", "url": "https://www.goccedisicilia.com/en/sicilian-red-wines/1646-pietradolce-etna-red-wine-2020.html", "note": "Search-result summary only. Harvest listed as second ten days of October, north slope."}
+ },
+ "claims": [
+  {"topic": "vintage", "claim": "Winter was cold and spring was mild, according to one Etna producer. Another retailer page describes a dry spring instead.", "source": ["donnafugata", "tascante"], "strength": "Weak", "note": "Both known only from search summaries, and they differ on spring. See conflicts."},
+  {"topic": "vintage", "claim": "No frost, hail or flowering problems were found in any source for Etna in 2020. Flowering is not described.", "source": ["reading"], "strength": "Weak", "note": "Gap, listed so no one assumes a story."},
+  {"topic": "vintage", "claim": "Summer ran cooler than average on the north-east of the volcano, apart from the first ten days of August. Rain was abundant and slightly delayed ripening and picking. Big day to night swings, especially in spring, were credited with aromatic intensity.", "source": ["firriato"], "strength": "Medium", "note": "One producer read directly, north-east Etna only."},
+  {"topic": "vintage", "claim": "A second producer describes the summer as having good temperature range. A retailer page for Tenuta Tascante says a cool summer and a late October harvest.", "source": ["donnafugata", "tascante"], "strength": "Weak", "note": "Search summaries only. Broadly consistent with a cool, unhurried year."},
+  {"topic": "vintage", "claim": "Nerello Mascalese was picked late, mostly through October. Reported dates: first week of October (Firriato, north-east), first half of October (Donnafugata), second ten days of October (Pietradolce, north slope), and mid to late October (one retailer page, 14 to 30 October).", "source": ["firriato", "donnafugata", "pietradolce", "tascante"], "strength": "Medium", "note": "Four producer or retailer accounts agree on October. Exact dates vary by site and altitude. No consorzio dates found."},
+  {"topic": "production", "claim": "No 2020 yield or volume figure for Etna DOC was found.", "source": ["reading"], "strength": "Weak", "note": "Gap."},
+  {"topic": "tasting", "claim": "Producers describe healthy, ripe grapes and a lean, fruity, fine-boned style with finesse and minerality, since cool nights allowed clean ripening.", "source": ["donnafugata", "tascante"], "strength": "Weak", "note": "Producer and retailer language from search summaries. No independent critic vintage report was read."},
+  {"topic": "standing", "claim": "No critic rating for the 2020 Etna vintage as a whole was found.", "source": ["reading"], "strength": "Weak", "note": "Gap. Only single-wine reviews turned up."}
+ ],
+ "conflicts": [
+  "Spring and summer: Donnafugata calls 2020 regular, with a cold winter, mild spring and good temperature range. One retailer page says dry spring and cool summer. Another says a dry, warm spring then a cool, rainy summer. Firriato says cooler than average with abundant rain. Common thread: a cool, slow, late-ripening year, but the rain story is not agreed.",
+  "Harvest dates run from the first week of October to late October. Likely a difference of side of the volcano and altitude, not a real conflict."
+ ],
+ "gaps": [
+  "No Consorzio Etna DOC vintage report, volume or harvest-date figure for 2020.",
+  "No critic vintage overview (Decanter, Jancis Robinson, Vinous) read.",
+  "Frost, hail and flowering not described.",
+  "Donnafugata and Tascante pages could not be fetched; content is from search summaries."
+ ],
+ "sheet": {
+  "vintage": "2020 was a cool, slow year on Etna. The Nerello Mascalese was picked late, mostly in October, and the wines are lean, fresh and fine-grained."
+ }
+}

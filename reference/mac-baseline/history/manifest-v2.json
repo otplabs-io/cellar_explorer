@@ -1,0 +1,30 @@
+{
+ "pdf": "La-Boudriotte-2019-Mac.pdf",
+ "version": 2,
+ "pdf_sha256": "e2b5a6697ad36eecdcfd37c774ba453f8db900c67ec708d42c515cb20e47a51d",
+ "purpose": "The pixel baseline for make verify on macOS. The Linux master in reference/ stays the design source of truth.",
+ "made_from": "src/ at the commit that adds this file, rendered on the Mac below.",
+ "change": "Chris approved fixing the icon boundary findings on 2026-11-02. peach and flint: detail lines pulled inside their shapes. thermo, decant: outlines moved inside the safe area. lobster: scaled to 90% so its claws clear the safe area. Only those five icons changed on the sheet. glass also changed but is not on this sheet.",
+ "accepted": "Chris approved the change and asked for the baseline to be updated, 2026-11-02.",
+ "differing_pixels_vs_previous_at_300dpi": [
+  5968,
+  0
+ ],
+ "differing_pixels_vs_master_at_300dpi": [
+  8034,
+  117
+ ],
+ "page_raster_sha256_at_300dpi": {
+  "page-1": "dc5aa22b3e11ed7788ea9f3930afbaa2f3bb999cef49f7362ed2749b1c9cd11c",
+  "page-2": "18893d56d7e077df4b337d130fca53a93215a1099658b6276c8346205e3fd1f2"
+ },
+ "previous": "history/La-Boudriotte-2019-Mac-v1.pdf and history/manifest-v1.json, the bundle as received.",
+ "built_with": {
+  "os": "macOS 27.0 (26A5406e)",
+  "arch": "arm64",
+  "python": "3.13.18",
+  "playwright": "1.63.0",
+  "chromium": "153.0.8010.12",
+  "pymupdf": "2.0"
+ }
+}

@@ -1,0 +1,162 @@
+{
+ "sheet_title": "López de Heredia Viña Bosconia Reserva 2008 Sheet",
+ "identity": {
+  "name": "Rioja Reserva Viña Bosconia",
+  "producer": "lopez-de-heredia",
+  "vintage": 2008,
+  "style": "red",
+  "grapes": [
+   {
+    "name": "Tempranillo",
+    "share": 80
+   },
+   {
+    "name": "Garnacha",
+    "share": 15
+   },
+   {
+    "name": "Mazuelo"
+   },
+   {
+    "name": "Graciano"
+   }
+  ],
+  "alcohol": 13.5,
+  "cellartracker": [
+   "3565659"
+  ]
+ },
+ "region": {
+  "node": "spain/rioja-alta",
+  "placed_by": "label"
+ },
+ "id": "lopez-de-heredia-bosconia-2008",
+ "map_file": "map.svg",
+ "theme": "red",
+ "content": {
+  "bottle_label": [
+   "VIÑA BOSCONIA",
+   "Rioja Reserva",
+   "2008"
+  ],
+  "title": "Viña Bosconia",
+  "subtitle": "Rioja DOCa, 2008",
+  "intro": "Tempranillo-led Reserva from El Bosque, a south-facing slope by the Ebro. Five years in old barrels bring tobacco, earth and wild strawberry.",
+  "facts": [
+   [
+    "GRAPES",
+    "Tempranillo",
+    "80%, with Garnacha"
+   ],
+   [
+    "OAK",
+    "5 years",
+    "Used American barrels"
+   ],
+   [
+    "VINEYARD",
+    "El Bosque",
+    "15 ha, in Haro"
+   ]
+  ],
+  "taste": [
+   [
+    1,
+    "Sweetness",
+    "Very dry"
+   ],
+   [
+    3,
+    "Body",
+    "Medium"
+   ],
+   [
+    4,
+    "Acidity",
+    "Fresh"
+   ],
+   [
+    3,
+    "Tannin",
+    "Fine, dusty"
+   ]
+  ],
+  "taste_note": "A guide, not a measurement of this bottle.",
+  "flavors": [
+   [
+    "strawberry",
+    "Wild strawberry"
+   ],
+   [
+    "tobacco",
+    "Tobacco"
+   ],
+   [
+    "leather",
+    "Leather"
+   ],
+   [
+    "forest-floor",
+    "Forest floor"
+   ]
+  ],
+  "flavor_note": "",
+  "window": [
+   2020,
+   2028,
+   2026
+  ],
+  "window_note": "In its window now. Best by 2028.",
+  "serve": "<strong>64 to 68°F.</strong> A cool room temperature.",
+  "pairs": [
+   [
+    "game",
+    "Roast game"
+   ],
+   [
+    "meat",
+    "Roast meats"
+   ],
+   [
+    "lamb",
+    "Roast lamb"
+   ],
+   [
+    "cheese",
+    "Aged cheese"
+   ]
+  ],
+  "pair_note": "",
+  "vintage": "2008 was a steady, cool year in Rioja, rated Very Good. A wet spring gave way to a mild summer and clear weather at the end. The estate picked from 6 to 30 October.",
+  "place": [
+   [
+    "The vineyard",
+    "El Bosque: 15 ha on south-facing slopes at about 465 m, 1 km from the winery."
+   ],
+   [
+    "The name",
+    "The founder named wines after French ones. Bosconia began as a Burgundy-style red."
+   ],
+   [
+    "The rules",
+    "A red Rioja Reserva needs 3 years of aging, 1 in oak. This one had 5 in barrel."
+   ]
+  ],
+  "credits": "Text: producer, importer and merchant pages, critic notes; regional vintage reports; the zone rules; CellarTracker. Serving advice is general guidance.",
+  "eyebrow": "RED RIOJA",
+  "decant": "<strong>An hour</strong> to let it open.",
+  "level": "Reserva",
+  "ladder_note": "Second rung of three"
+ },
+ "map_estate_note": [
+  "El Bosque lies by the Ebro in Haro,",
+  "1 km from the winery."
+ ],
+ "map_zone": "rioja",
+ "map_communes": [
+  "Haro"
+ ],
+ "map_communes_legend": "Haro, where it grows",
+ "map_area": "The Upper Ebro",
+ "map_subtitle": "Its zone, drawn by commune"
+}

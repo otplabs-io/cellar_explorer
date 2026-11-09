@@ -1,0 +1,57 @@
+{
+ "place": {
+  "subtitle": "From Basilicata down to one zone"
+ },
+ "map": {
+  "credit": "Maps: wine zones from Orazio Campoli’s Italian Wine Map, used with permission, drawn from the EU PDO boundaries (Candiago et al. 2022, CC0); commune outlines from ISTAT via openpolis (CC BY); estate location from {estate_source}. For orientation, not a legal boundary.",
+  "region_slug": "basilicata",
+  "istat_regions": [
+   17
+  ],
+  "projection": 32633,
+  "panel1": [
+   "Basilicata",
+   "Zones, shaded by level"
+  ],
+  "panel1_towns": [
+   "Potenza",
+   "Matera"
+  ],
+  "broad": [
+   "aglianico-del-vulture-doc"
+  ],
+  "areas": [
+   {
+    "name": "Vulture",
+    "title": "Monte Vulture",
+    "zones": [
+     "aglianico-del-vulture-superiore-docg",
+     "terre-dellalta-val-dagri-doc",
+     "grottino-di-roccanova-doc",
+     "matera-doc"
+    ],
+    "towns": [
+     "Potenza",
+     "Melfi"
+    ]
+   }
+  ],
+  "covers": [
+   "italy/basilicata"
+  ],
+  "panel1_labels": {
+   "Vulture": [
+    230,
+    110,
+    "start"
+   ]
+  },
+  "panel2_labels": {
+   "aglianico-del-vulture-superiore-docg": [
+    240,
+    150,
+    "start"
+   ]
+  }
+ }
+}

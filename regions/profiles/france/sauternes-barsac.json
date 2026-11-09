@@ -1,0 +1,49 @@
+{
+ "story": {
+  "signature": {
+   "component": "quality_ladder",
+   "title": "The 1855 Sauternes classification",
+   "tiers": [
+    "Premier Cru Supérieur",
+    "Premier Cru",
+    "Deuxième Cru"
+   ],
+   "labels": [
+    "Supérieur",
+    "First",
+    "Second"
+   ]
+  }
+ },
+ "map": {
+  "panel2": [
+   "Sauternes and Barsac",
+   "Communes, shaded by their main appellation"
+  ],
+  "panel2_appellations": [
+   "Sauternes",
+   "Barsac",
+   "Cérons",
+   "Graves",
+   "Loupiac",
+   "Cadillac",
+   "Sainte-Croix-du-Mont"
+  ],
+  "communal": [
+   "Sauternes",
+   "Barsac",
+   "Cérons",
+   "Loupiac",
+   "Sainte-Croix-du-Mont",
+   "Cadillac"
+  ],
+  "covers": [
+   "france/sauternes",
+   "france/barsac"
+  ]
+ },
+ "styles": [
+  "dessert",
+  "white"
+ ]
+}

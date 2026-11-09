@@ -1,0 +1,34 @@
+{
+ "subject": "vintage",
+ "id": "united-states/napa-valley/2021",
+ "read": "2026-11-05",
+ "sources": {
+  "wine-independent": {"name": "The Wine Independent, 2021 Napa Valley Vintage Report and New Releases", "kind": "critic", "url": "https://thewineindependent.com/articles/2021-napa-valley-vintage-report-new-releases/"},
+  "harvest-napa": {"name": "Harvest Napa Valley, Napa Valley's 2021 Harvest is Pure Joy", "kind": "vintage report", "url": "https://harvestnapa.com/updates/napa-valleys-2021-harvest-is-pure-joy"},
+  "kl": {"name": "K&L Wines, Napa vintage guide", "kind": "merchant", "url": "http://onthetrail.klwines.com/vintage-guides/napa"},
+  "search-summaries": {"name": "Search summaries of Decanter, James Suckling and Forbes on Napa 2021", "kind": "critic", "note": "Relayed through a search summary. The pages were not read."}
+ },
+ "claims": [
+  {"topic": "vintage", "claim": "It was a very dry year. Winter and spring rain was about 10 inches, less than a third of the usual.", "source": ["wine-independent"], "strength": "Medium", "note": "One source for the figure. Harvest Napa agrees the season was dry after January and February rain. Search summaries call it the second year of a severe drought."},
+  {"topic": "vintage", "claim": "Budbreak was in April. Wine Independent says a cool February and March kept Cabernet dormant until mid-April.", "source": ["wine-independent", "harvest-napa"], "strength": "Strong", "note": "Some reports describe an early spring. See conflicts."},
+  {"topic": "production", "claim": "Yields were low. Clusters and berries were small, and drought set a smaller-than-average crop.", "source": ["wine-independent", "harvest-napa", "kl"], "strength": "Strong", "note": "Search summaries put Cabernet 10 to 30% below normal at named estates. Not read directly."},
+  {"topic": "vintage", "claim": "Summer had no big heat spikes. June was mostly mid-80s F with one brief spike over 100, and late August and early September surges were short.", "source": ["wine-independent", "harvest-napa"], "strength": "Strong"},
+  {"topic": "vintage", "claim": "Harvest started very early. Whites came in from July 30 and reds from August 31, one of the earliest starts on record.", "source": ["harvest-napa"], "strength": "Medium", "note": "One source for the dates."},
+  {"topic": "vintage", "claim": "The harvest was cool and free of wildfire smoke. A late October storm came after the last grapes were in.", "source": ["kl", "harvest-napa"], "strength": "Strong"},
+  {"topic": "vintage", "claim": "Reds have intense color and flavor, and Ehlers Estate reported lower alcohol this year.", "source": ["harvest-napa"], "strength": "Medium", "note": "Producer quotes, made at harvest."},
+  {"topic": "vintage", "claim": "Wine Independent calls the Cabernets a blend of 2018 and 2019: the brightness and structure of 2018 with the weight of 2019. The best may age 25 to 40 years or more.", "source": ["wine-independent"], "strength": "Weak", "quote": "a hypothetical blend of 2018 and 2019", "note": "One critic's view, and the ageing figure is for the best wines only."},
+  {"topic": "vintage", "claim": "Search summaries say Decanter rated the vintage 5 out of 5 and Suckling called it very high quality in small quantity.", "source": ["search-summaries"], "strength": "Weak", "note": "Relayed second hand."}
+ ],
+ "conflicts": [
+  "Spring timing: Harvest Napa says early April budbreak. Wine Independent says Cabernet stayed dormant until mid-April. Vinography (summary only) says an early spring.",
+  "Harvest start: Harvest Napa says one of the earliest on record. No source read gives a reds-only range for Cabernet."
+ ],
+ "gaps": [
+  "No Napa Valley Vintners page read. It returned 403.",
+  "Decanter, Suckling, Vinography and Forbes pages were seen only as search summaries.",
+  "No separate note on Cabernet harvest dates or on any one sub-AVA."
+ ],
+ "sheet": {
+  "vintage": "A dry, early year with a small crop. Small berries gave dark, concentrated reds. The harvest was cool and free of smoke."
+ }
+}

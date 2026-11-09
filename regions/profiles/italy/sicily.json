@@ -1,0 +1,111 @@
+{
+ "place": {
+  "subtitle": "From Sicily down to one zone"
+ },
+ "map": {
+  "credit": "Maps: wine zones from Orazio Campoli’s Italian Wine Map, used with permission, drawn from the zone rules and ISTAT boundaries; commune outlines from ISTAT via openpolis (CC BY); estate location from {estate_source}. For orientation, not a legal boundary.",
+  "region_slug": "sicily-sicilia",
+  "istat_regions": [
+   19
+  ],
+  "projection": 32633,
+  "panel1": [
+   "Sicily",
+   "Zones, shaded by level"
+  ],
+  "panel1_towns": [
+   "Palermo",
+   "Catania",
+   "Messina",
+   "Siracusa",
+   "Trapani"
+  ],
+  "broad": [
+   "sicilia-doc"
+  ],
+  "areas": [
+   {
+    "name": "Etna",
+    "title": "Etna and the northeast",
+    "zones": [
+     "etna-doc",
+     "faro-doc",
+     "mamertino-di-milazzo-doc",
+     "malvasia-delle-lipari-doc"
+    ],
+    "towns": [
+     "Catania",
+     "Messina",
+     "Randazzo"
+    ]
+   },
+   {
+    "name": "The southeast",
+    "zones": [
+     "cerasuolo-di-vittoria-docg",
+     "noto-doc",
+     "eloro-doc",
+     "siracusa-doc"
+    ],
+    "towns": [
+     "Ragusa",
+     "Siracusa"
+    ]
+   },
+   {
+    "name": "The west",
+    "zones": [
+     "marsala-doc",
+     "alcamo-doc",
+     "erice-doc",
+     "menfi-doc",
+     "sciacca-doc",
+     "contessa-entellina-doc",
+     "monreale-doc",
+     "delia-nivolelli-doc",
+     "pantelleria-doc"
+    ],
+    "towns": [
+     "Trapani",
+     "Palermo"
+    ]
+   }
+  ],
+  "cru_legend": "Its contrade",
+  "covers": [
+   "italy/etna",
+   "italy/sicilia-doc",
+   "italy/cerasuolo-di-vittoria",
+   "italy/marsala",
+   "italy/pantelleria",
+   "italy/monreale",
+   "italy/menfi",
+   "italy/contea-di-sclafani",
+   "italy/contessa-entellina",
+   "italy/eloro",
+   "italy/noto",
+   "italy/salaparuta",
+   "italy/alcamo",
+   "italy/vittoria",
+   "italy/sambuca-di-sicilia",
+   "italy/malvasia-delle-lipari",
+   "italy/siracusa",
+   "italy/delia-nivolelli",
+   "italy/mamertino",
+   "italy/riesi",
+   "italy/santa-margherita-di-belice",
+   "italy/erice",
+   "italy/sciacca",
+   "italy/faro"
+  ],
+  "panel1_town_side": {
+   "Messina": "end",
+   "Siracusa": "end"
+  },
+  "panel2_town_side": {
+   "Siracusa": "end",
+   "Messina": "end"
+  }
+ },
+ "$why": "Not an EU PDO or PGI or a US AVA: a country, state, region, group or sub-zone, with no shape of its own in the map data. The places under it that draw stay covered."
+}

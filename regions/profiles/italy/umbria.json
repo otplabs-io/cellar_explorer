@@ -1,0 +1,24 @@
+{
+ "$comment": "Region settings for the zones engine, from Orazio Campoli’s store for the region. Broad: the zones that cover more than a third of the region, left out of the shading so the smaller zones show.",
+ "place": {
+  "subtitle": "From Umbria down to one zone"
+ },
+ "map": {
+  "region_slug": "umbria",
+  "istat_regions": [
+   10
+  ],
+  "panel1": [
+   "Umbria",
+   "Zones, shaded by level"
+  ],
+  "panel1_towns": [],
+  "broad": [
+   "umbria-igt"
+  ],
+  "areas": [],
+  "covers": [
+   "italy/umbria"
+  ]
+ }
+}

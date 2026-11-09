@@ -1,0 +1,182 @@
+{
+ "story": {
+  "signature": {
+   "component": "quality_ladder",
+   "title": "The ripeness ladder",
+   "tiers": [
+    "TBA",
+    "BA and Eiswein",
+    "Auslese",
+    "Spätlese",
+    "Kabinett"
+   ]
+  }
+ },
+ "place": {
+  "subtitle": "From Germany down to one region"
+ },
+ "styles": [
+  "red",
+  "white",
+  "sparkling",
+  "rosé",
+  "dessert",
+  "orange",
+  "fortified"
+ ],
+ "map": {
+  "engine": "zones",
+  "precision": "zone",
+  "zone_store": "eu",
+  "credit": "Maps: wine zones from the EU PDO boundaries (Candiago et al. 2022, CC0), drawn by whole commune; commune and region outlines © EuroGeographics for the administrative boundaries; estate location from {estate_source}. For orientation, not a legal boundary.",
+  "region_slug": "germany",
+  "projection": 32632,
+  "eu": {
+   "country": "DE",
+   "nuts": [
+    "DE12",
+    "DE14",
+    "DE13",
+    "DE21",
+    "DEF0",
+    "DE30",
+    "DEA1",
+    "DEG0",
+    "DEA2",
+    "DE25",
+    "DED2",
+    "DE50",
+    "DE60",
+    "DEC0",
+    "DEA4",
+    "DE72",
+    "DEE0",
+    "DED5",
+    "DED4",
+    "DE22",
+    "DEB3",
+    "DE11",
+    "DE40",
+    "DE26",
+    "DE93",
+    "DE94",
+    "DEA5",
+    "DE24",
+    "DEB2",
+    "DE91",
+    "DE80",
+    "DE23",
+    "DEA3",
+    "DE27",
+    "DE71",
+    "DE73",
+    "DE92",
+    "DEB1"
+   ],
+   "tiers": {
+    "Uhlen Blaufüsser Lay": "Lage",
+    "Uhlen Laubach": "Lage",
+    "Uhlen Roth Lay": "Lage",
+    "Monzinger Niederberg": "Lage",
+    "Würzburger Stein-Berg": "Lage",
+    "Bürgstadter Berg": "Lage"
+   },
+   "default_tier": "Region",
+   "locator_bbox": [
+    -6,
+    42,
+    22,
+    58
+   ]
+  },
+  "locator_file": "germany/_locator.json",
+  "tier_fill": {
+   "Region": "goldl"
+  },
+  "tier_key": [
+   [
+    "goldl",
+    "Wine regions"
+   ]
+  ],
+  "panel1": [
+   "Germany",
+   "Its 13 wine regions"
+  ],
+  "panel1_towns": [
+   "Berlin",
+   "Hamburg",
+   "München",
+   "Köln",
+   "Frankfurt am Main"
+  ],
+  "broad": [],
+  "areas": [
+   {
+    "name": "The Mosel",
+    "title": "The Mosel and its neighbors",
+    "zones": [
+     "mosel",
+     "nahe",
+     "mittelrhein",
+     "ahr"
+    ],
+    "towns": [
+     "Trier",
+     "Koblenz"
+    ]
+   },
+   {
+    "name": "The Rhine",
+    "title": "Rheinhessen and the Pfalz",
+    "zones": [
+     "rheinhessen",
+     "pfalz",
+     "rheingau",
+     "nahe",
+     "hessische-bergstrasse"
+    ],
+    "towns": [
+     "Mainz",
+     "Worms"
+    ]
+   }
+  ],
+  "panel2_subtitle": "Its wine regions",
+  "panel3_subtitle": "Its region, by commune",
+  "covers": [
+   "germany/sachsen",
+   "germany/rheinhessen",
+   "germany/wurttemberg",
+   "germany/mosel",
+   "germany/mittelrhein",
+   "germany/nahe",
+   "germany/pfalz",
+   "germany/baden",
+   "germany/franken",
+   "germany/monzinger-niederberg",
+   "germany/saale-unstrut",
+   "germany/uhlen-blaufusser-lay",
+   "germany/uhlen-laubach",
+   "germany/uhlen-roth-lay",
+   "germany/wurzburger-stein-berg",
+   "germany/hessische-bergstrae",
+   "germany/rheingau",
+   "germany/burgstadter-berg",
+   "germany/ahr"
+  ],
+  "panel1_labels": {
+   "The Mosel": [
+    52,
+    166,
+    "middle"
+   ],
+   "The Rhine": [
+    120,
+    282,
+    "start"
+   ]
+  }
+ },
+ "$why": "Not an EU PDO or PGI or a US AVA: a country, state, region, group or sub-zone, with no shape of its own in the map data. The places under it that draw stay covered."
+}

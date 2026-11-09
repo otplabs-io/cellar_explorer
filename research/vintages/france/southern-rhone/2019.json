@@ -1,0 +1,151 @@
+{
+ "subject": "vintage",
+ "id": "france/southern-rhone/2019",
+ "read": "2026-11-05",
+ "sources": {
+  "cdp-2019": {
+   "name": "Châteauneuf-du-Pape growers' syndicate, 2019 vintage page",
+   "kind": "official",
+   "url": "https://en.chateauneuf.com/appellation-chateauneuf-du-pape/vintages/chateauneuf-du-pape-2019/"
+  },
+  "vinous-2021": {
+   "name": "Vinous, Châteauneuf-du-Pape Weathers the Challenges and Changes (October 2021)",
+   "kind": "critic",
+   "url": "https://billing.vinous.com/articles/chateauneuf-du-pape-weathers-the-challenges-and-changes-oct-2021",
+   "note": "Covers 2019 and 2018 in detail. 2020 was a first look."
+  },
+  "search-summaries": {
+   "name": "Search summaries of Domaine André Brunel's 2019 note and other 2019 reports",
+   "kind": "general",
+   "note": "Relayed through search summaries. Those pages were not read."
+  },
+  "european-cellars": {
+   "name": "European Cellars, Châteauneuf-du-Pape, the vintage game",
+   "kind": "importer",
+   "url": "https://www.europeancellars.com/chateauneuf-du-pape-the-vintage-game/"
+  },
+  "wine-spectator": {
+   "name": "Wine Spectator, Southern Rhône vintage chart",
+   "kind": "critic",
+   "url": "https://www.winespectator.com/vintage-charts/region/rhone-southern",
+   "note": "Region-wide score and a short note. Excerpts only."
+  }
+ },
+ "claims": [
+  {
+   "topic": "vintage",
+   "claim": "Autumn and winter rain of about 460 mm refilled the soil water reserves. Spring rain was normal at 96 mm, and April and May were moderately cool. There was no frost.",
+   "source": [
+    "cdp-2019",
+    "vinous-2021"
+   ],
+   "strength": "Strong",
+   "note": "Both agree on a gentle spring with no frost. Rain figures are from the syndicate only."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Fast then slow growth in spring risked coulure (poor fruit set), but it hit only a few isolated plots. Mildew pressure was close to nil, a relief after the 2018 outbreaks.",
+   "source": [
+    "cdp-2019"
+   ],
+   "strength": "Medium",
+   "quote": "next to non-existent",
+   "note": "One source."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Summer was hot and dry. Seven days in ten between 1 June and 15 September topped 30°C. A heatwave peaked at 44.3°C on 28 June. The growing season brought only 158 mm of rain, against 530 mm in 2018.",
+   "source": [
+    "cdp-2019",
+    "search-summaries"
+   ],
+   "strength": "Medium",
+   "note": "Syndicate figures. A late-June heatwave is also relayed from a producer note. Vinous calls summer warm, not hot. See conflicts."
+  },
+  {
+   "topic": "vintage",
+   "claim": "About 15 mm of rain on 18 September helped Grenache reach full phenolic ripeness. Berries stayed small from the water shortage.",
+   "source": [
+    "cdp-2019",
+    "vinous-2021"
+   ],
+   "strength": "Medium",
+   "note": "Vinous mentions well-timed rain just before harvest. The 15 mm figure is the syndicate's."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Harvest started very early, so early varieties would not overripen, and it ran smoothly. The grapes were healthy. The syndicate page gives no exact dates.",
+   "source": [
+    "cdp-2019"
+   ],
+   "strength": "Medium",
+   "note": "One source, no dates."
+  },
+  {
+   "topic": "production",
+   "claim": "Yields were healthy, around average or a little above after two short crops. Growers were relieved.",
+   "source": [
+    "cdp-2019",
+    "vinous-2021"
+   ],
+   "strength": "Medium",
+   "quote": "yields were healthy, much to the relief of stressed-out growers",
+   "note": "Both agree. The syndicate page also says juice yield was low at harvest. No appellation-wide hl/ha figure was read. See conflicts."
+  },
+  {
+   "topic": "tasting",
+   "claim": "Red wines are deep in colour, smooth and generous. Grenache shows ripe fruit and raspberry. Syrah shows mint. Tannins are fine, mineral and concentrated, with fresh acidity for the year.",
+   "source": [
+    "cdp-2019",
+    "vinous-2021"
+   ],
+   "strength": "Medium",
+   "note": "Syndicate describes the style. Vinous says ripeness with freshness, and more tannin and acidity than 2018 or 2017."
+  },
+  {
+   "topic": "tasting",
+   "claim": "White wines show peach, exotic fruit and citrus, with a full mouthfeel and a long finish.",
+   "source": [
+    "cdp-2019"
+   ],
+   "strength": "Medium",
+   "note": "One source. No critic read on 2019 whites."
+  },
+  {
+   "topic": "standing",
+   "claim": "Wine Spectator scores the Southern Rhône 94 for 2019, drink or hold. European Cellars describes strong Grenache with above-normal tannin. Vinous suggests the acidity could let the reds outlast 2018 and 2017. Some wines may seem rich, exotic or confit to traditional palates.",
+   "source": [
+    "wine-spectator",
+    "european-cellars",
+    "vinous-2021"
+   ],
+   "strength": "Medium",
+   "note": "Region-wide score from one critic. Syndicate says only long ageing potential."
+  },
+  {
+   "topic": "alcohol",
+   "claim": "No alcohol figure for the appellation was found for 2019. Do not state one.",
+   "source": [
+    "estimate"
+   ],
+   "strength": "Weak",
+   "note": "Looked for in the syndicate page and Vinous. Neither gives one."
+  }
+ ],
+ "conflicts": [
+  "Summer: the syndicate calls 2019 excessively hot and dry, with 44.3°C on 28 June. Vinous calls it warm but not hot, with well-timed rain before harvest. The two can both hold: a late-June spike, then a milder run.",
+  "Yields: the syndicate page says juice yield was low at harvest and also that yield was slightly up on recent years. Vinous says healthy. A relayed producer note says low juice yield, higher after September rain.",
+  "Season: European Cellars describes three heat waves with rain and milder spells in between, which fits Vinous more than the syndicate's solid heat."
+ ],
+ "gaps": [
+  "No harvest dates for 2019.",
+  "No appellation-wide yield figure in hl/ha or total hl.",
+  "No alcohol range.",
+  "The federation's 2019 PDF could not be read (compressed). Decanter, Wine Spectator, Jeb Dunnuck and Wine Advocate 2019 reports were not read.",
+  "Little on Southern Rhône outside Châteauneuf."
+ ],
+ "sheet": {
+  "vintage": "A hot, dry summer after a mild spring, with a little rain just before harvest. The crop was healthy and the grapes were clean. The reds are deep and generous, with fresh acidity and the tannins to age.",
+  "vintage_white": "Whites picked early to keep freshness. Expect peach, citrus and exotic fruit, with a full, long finish."
+ }
+}

@@ -1,0 +1,144 @@
+{
+ "subject": "vintage",
+ "id": "italy/brunello-di-montalcino/2019",
+ "read": "2026-11-05",
+ "sources": {
+  "consorzio-stars": {
+   "name": "Consorzio del Vino Brunello di Montalcino, vintage star ratings page",
+   "kind": "official",
+   "url": "https://www.consorziobrunellodimontalcino.it/en/piastrelle/",
+   "note": "Lists stars only, no weather text. Ratings are declared each February at Benvenuto Brunello."
+  },
+  "vinexus-2019": {
+   "name": "Vinexus, current vintages: Brunello 19, Barolo 20, Barbaresco 21",
+   "kind": "merchant",
+   "url": "https://www.vinexus.co.uk/blog/the-current-vintages-of-italian-fine-wine-brunello-19-barolo-20-and-barbaresco-21"
+  },
+  "isfw": {
+   "name": "Italy's Finest Wines, best vintages of Brunello di Montalcino",
+   "kind": "reference",
+   "url": "https://italysfinestwines.it/en/migliori-annate-brunello-di-montalcino/",
+   "note": "Secondary summary. Its own star list differs from the Consorzio for 2020, and its 2016 harvest line is garbled so it is not used."
+  },
+  "winealign-2025": {
+   "name": "WineAlign, Montalcino Previews 2024: Brunello 2020, Riserva 2019 and older vintages",
+   "kind": "critic",
+   "url": "https://www.winealign.com/articles/2025/01/20/montalcino-previews-2024-brunello-2020-brunello-riserva-2019-and-older-vintages",
+   "about": "Mainly 2020 and 2019 Riserva."
+  },
+  "decanter-2019": {
+   "name": "Decanter, Brunello di Montalcino 2019 full report",
+   "kind": "critic",
+   "url": "https://www.decanter.com/premium/brunello-di-montalcino-2019-full-report-522099",
+   "note": "Decanter score known only from a search-result summary; page is paywalled and was not read. Rating 5/5. Also the source of the volume figures (13.1m bottles) as relayed in a search summary."
+  },
+  "winenews-2019": {
+   "name": "WineNews, Brunello 2019 view",
+   "kind": "reference",
+   "url": "https://winenews.it/?p=511364",
+   "note": "Search-summary only."
+  }
+ },
+ "claims": [
+  {
+   "topic": "vintage",
+   "claim": "Winter and spring were wet, building water reserves. The first half of the year was cool and humid, and spring rain briefly paused bud growth.",
+   "source": [
+    "vinexus-2019",
+    "isfw"
+   ],
+   "strength": "Strong",
+   "note": "Two sources agree. A search summary says budburst was early, at the end of March, which does not fit a delayed cycle."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Flowering in May was staggered, with cool north winds. No frost or hail was reported in the sources read.",
+   "source": [
+    "decanter-2019"
+   ],
+   "strength": "Weak",
+   "note": "Search summary only."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Summer was warm and steady from June, with no heatwaves and no heavy rain. Day-night swings reached up to 20C at Altesino.",
+   "source": [
+    "vinexus-2019",
+    "isfw"
+   ],
+   "strength": "Strong",
+   "note": "Two sources agree."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Rain of over 45 mm fell on 15 September, and ripening afterward was slow and even.",
+   "source": [
+    "winealign-2025"
+   ],
+   "strength": "Medium",
+   "note": "One source."
+  },
+  {
+   "topic": "vintage",
+   "claim": "Picking began in mid-September in the south and finished in early October in the north.",
+   "source": [
+    "vinexus-2019"
+   ],
+   "strength": "Medium",
+   "note": "One source. A search summary says the harvest began at the end of September."
+  },
+  {
+   "topic": "production",
+   "claim": "The crop was large, a record at Tenuta Buon Tempo. The Consorzio bottle count is reported as 13.1 million, the most in five years.",
+   "source": [
+    "vinexus-2019",
+    "winealign-2025",
+    "decanter-2019"
+   ],
+   "strength": "Medium",
+   "note": "The bottle count is from a search summary."
+  },
+  {
+   "topic": "tasting",
+   "claim": "Sangiovese is powerful and elegant, balanced, with strong colour and aromatics, a pronounced acidity and a complex, long-lived profile. Nearly every Riserva producer made a Riserva.",
+   "source": [
+    "vinexus-2019",
+    "isfw",
+    "winealign-2025"
+   ],
+   "strength": "Strong",
+   "quote": "powerful and elegant",
+   "note": "Three sources."
+  },
+  {
+   "topic": "tasting",
+   "claim": "A more mixed view says only some wines stand out and areas and producers differ.",
+   "source": [
+    "winenews-2019"
+   ],
+   "strength": "Weak",
+   "note": "Search summary only."
+  },
+  {
+   "topic": "standing",
+   "claim": "The Consorzio rated 2019 five stars, 'outstanding'. Decanter reportedly gives 5/5.",
+   "source": [
+    "consorzio-stars",
+    "decanter-2019"
+   ],
+   "strength": "Strong",
+   "note": "Consorzio read directly."
+  }
+ ],
+ "conflicts": [
+  "Cycle: cool, humid and slightly delayed (Italy's Finest Wines) versus early budburst at the end of March (search summary).",
+  "Harvest start: mid-September in the south (Vinexus) versus end of September (search summary)."
+ ],
+ "gaps": [
+  "No Consorzio weather report. No official hectolitre figure read directly.",
+  "Decanter page not read."
+ ],
+ "sheet": {
+  "vintage": "2019 had a wet winter, a steady warm summer and cool nights. The crop was big and the Sangiovese is balanced, powerful and elegant. The Consorzio gave it five stars."
+ }
+}

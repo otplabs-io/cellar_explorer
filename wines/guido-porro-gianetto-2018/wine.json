@@ -1,0 +1,148 @@
+{
+ "sheet_title": "Guido Porro Barolo Gianetto 2018 Sheet",
+ "identity": {
+  "name": "Barolo Gianetto",
+  "producer": "guido-porro",
+  "vintage": 2018,
+  "style": "red",
+  "grapes": [
+   {
+    "name": "Nebbiolo",
+    "share": 100
+   }
+  ],
+  "alcohol": null,
+  "cellartracker": [
+   "4284166"
+  ]
+ },
+ "region": {
+  "node": "italy/barolo",
+  "placed_by": "label"
+ },
+ "id": "guido-porro-gianetto-2018",
+ "map_file": "map.svg",
+ "theme": "red",
+ "content": {
+  "bottle_label": [
+   "GIANETTO",
+   "Barolo",
+   "2018"
+  ],
+  "title": "Barolo Gianetto",
+  "subtitle": "Barolo DOCG, 2018",
+  "intro": "Barolo from Gianetto, a small named vineyard in Serralunga d’Alba. Ripe dark fruit and spice, made the traditional way.",
+  "facts": [
+   [
+    "GRAPE",
+    "Nebbiolo",
+    "100%"
+   ],
+   [
+    "VINEYARD",
+    "Gianetto",
+    "Serralunga d’Alba"
+   ],
+   [
+    "OAK",
+    "Large casks",
+    "Slavonian oak"
+   ]
+  ],
+  "taste": [
+   [
+    1,
+    "Sweetness",
+    "Dry"
+   ],
+   [
+    4,
+    "Body",
+    "Full"
+   ],
+   [
+    3,
+    "Acidity",
+    "Fresh"
+   ],
+   [
+    4,
+    "Tannin",
+    "Firm"
+   ]
+  ],
+  "taste_note": "A guide, not a measurement of this bottle.",
+  "flavors": [
+   [
+    "blackberry",
+    "Blackberry"
+   ],
+   [
+    "cloves",
+    "Clove"
+   ],
+   [
+    "dried-herbs",
+    "Bay leaf"
+   ],
+   [
+    "lavender",
+    "Lavender"
+   ]
+  ],
+  "flavor_note": "",
+  "window": [
+   2026,
+   2036,
+   2026
+  ],
+  "window_note": "In its window now. Best 2026 to 2036.",
+  "serve": "<strong>61 to 64°F.</strong> A little cooler than the room.",
+  "pairs": [
+   [
+    "braise",
+    "Braised beef"
+   ],
+   [
+    "game",
+    "Roast game"
+   ],
+   [
+    "risotto",
+    "Mushroom risotto"
+   ],
+   [
+    "cheese",
+    "Aged cheese"
+   ]
+  ],
+  "pair_note": "",
+  "vintage": "2018 followed a very wet spring with a warm, dry summer. The Nebbiolo is perfumed and silky, lighter than the years around it.",
+  "place": [
+   [
+    "The vineyard",
+    "Gianetto, a named vineyard in Serralunga d’Alba, facing southeast."
+   ],
+   [
+    "The soil",
+    "White clay with layers of limestone sand, typical of Serralunga."
+   ],
+   [
+    "The cellar",
+    "Wild yeasts and large Slavonian casks. Bottled unfiltered."
+   ]
+  ],
+  "credits": "Text: critic notes, importer and merchant pages; Barolo vintage reports; the Barolo production rules; CellarTracker. Serving advice is general guidance.",
+  "eyebrow": "RED PIEMONTE",
+  "decant": "<strong>One to two hours</strong> while it’s young.",
+  "level": "DOCG",
+  "ladder_note": "Top rung of four"
+ },
+ "map_estate_note": [
+  "A named vineyard in",
+  "Serralunga d’Alba."
+ ],
+ "map_zone": "barolo-docg",
+ "map_cru": "Gianetto",
+ "map_cru_legend": "Gianetto, its MGA"
+}

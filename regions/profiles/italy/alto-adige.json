@@ -1,0 +1,25 @@
+{
+ "$comment": "Region settings for the zones engine, from Orazio Campoli’s store for the region. Broad: the zones that cover more than a third of the region, left out of the shading so the smaller zones show.",
+ "place": {
+  "subtitle": "From Trentino-Alto Adige down to one zone"
+ },
+ "map": {
+  "region_slug": "trentino-alto-adige",
+  "istat_regions": [
+   4
+  ],
+  "panel1": [
+   "Trentino-Alto Adige",
+   "Zones, shaded by level"
+  ],
+  "panel1_towns": [],
+  "broad": [
+   "mitterberg-igt",
+   "vigneti-delle-dolomiti-igt"
+  ],
+  "areas": [],
+  "covers": [
+   "italy/alto-adige"
+  ]
+ }
+}

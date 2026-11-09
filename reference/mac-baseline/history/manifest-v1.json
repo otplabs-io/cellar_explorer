@@ -1,0 +1,23 @@
+{
+ "pdf": "La-Boudriotte-2019-Mac.pdf",
+ "pdf_sha256": "e286f3d030c1b256fe38ec5b7159b31b89e2f316fbb3108f7d4b3899628f6c8c",
+ "purpose": "The pixel baseline for make verify on macOS. The Linux master in reference/ stays the design source of truth.",
+ "made_from": "src/ at commit e0f5eeb (the bundle as received), rendered on the Mac below. Same Chromium build as the master.",
+ "accepted": "Chris reviewed the difference images against the master and accepted them as a Mac rendering difference on 2026-11-02.",
+ "differing_pixels_vs_master_at_300dpi": [
+  2066,
+  117
+ ],
+ "page_raster_sha256_at_300dpi": {
+  "page-1": "9795420901cf4fdeb7674c8f1eadcb942fb80acaff2a0d5c71fceb1ad4b19af2",
+  "page-2": "18893d56d7e077df4b337d130fca53a93215a1099658b6276c8346205e3fd1f2"
+ },
+ "built_with": {
+  "os": "macOS 27.0 (26A5406e)",
+  "arch": "arm64",
+  "python": "3.13.18",
+  "playwright": "1.63.0",
+  "chromium": "153.0.8010.12",
+  "pymupdf": "2.0"
+ }
+}

@@ -1,0 +1,140 @@
+{
+ "story": {
+  "signature": {
+   "component": "dosage_scale",
+   "title": "How dry is it?",
+   "unit": "g/L",
+   "terms": [
+    [
+     "Brut Nature",
+     "under 3"
+    ],
+    [
+     "Extra Brut",
+     "0 to 6"
+    ],
+    [
+     "Brut",
+     "under 12"
+    ],
+    [
+     "Extra Dry",
+     "12 to 17"
+    ],
+    [
+     "Sec",
+     "17 to 32"
+    ],
+    [
+     "Demi-Sec",
+     "32 to 50"
+    ],
+    [
+     "Doux",
+     "over 50"
+    ]
+   ],
+   "source": "Commission Delegated Regulation (EU) 2019/33, Annex III, Part A: the label terms for sugar in sparkling wine, in grams per liter. Brut Nature also means no sugar was added after the second fermentation."
+  },
+  "labels": {
+   "family": "The house"
+  }
+ },
+ "place": {
+  "subtitle": "From all of Champagne down to the villages in the bottle"
+ },
+ "serve_cells": [
+  [
+   "Serve",
+   "thermo",
+   "serve"
+  ],
+  [
+   "The glass",
+   "glass",
+   "glass"
+  ]
+ ],
+ "map": {
+  "engine": "villages",
+  "precision": "village",
+  "credit": "Maps: village ranks from the AOC Champagne cahier des charges (2022); appellation area from INAO via OpenDataWine (Licence Ouverte); commune outlines from france-geojson; merged villages split along their cadastral parcels (Etalab, via OpenDataWine). For orientation, not a legal boundary.",
+  "projection": 2154,
+  "departments": {
+   "51": "51-marne",
+   "10": "10-aube",
+   "02": "02-aisne",
+   "52": "52-haute-marne",
+   "77": "77-seine-et-marne"
+  },
+  "area": {
+   "commune": "51030",
+   "file": "00055.geojson"
+  },
+  "ranks": "fr-champagne-crus",
+  "heartland": "51",
+  "towns": {
+   "51454": "Reims",
+   "51230": "Épernay",
+   "51108": "Châlons",
+   "10387": "Troyes",
+   "02168": "Château-Thierry"
+  },
+  "areas": [
+   [
+    "Montagne de Reims",
+    "france/montagne-de-reims"
+   ],
+   [
+    "Côte des Blancs",
+    "france/cote-des-blancs"
+   ],
+   [
+    "Vallée de la Marne",
+    "france/vallee-de-la-marne"
+   ],
+   [
+    "Côte des Bar",
+    "10"
+   ]
+  ],
+  "panel1": [
+   "Champagne",
+   "Its villages, the ranked ones in color"
+  ],
+  "panel2": [
+   "The ranked villages",
+   "All 59 Grand Cru and Premier Cru villages"
+  ],
+  "panel3_subtitle": "Each village is ranked as a whole",
+  "panel1_towns": [
+   "51454",
+   "10387"
+  ],
+  "panel2_margin_m": 9000,
+  "panel1_labels": {
+   "Montagne de Reims": [
+    112,
+    84,
+    "end"
+   ],
+   "Vallée de la Marne": [
+    112,
+    108,
+    "end"
+   ],
+   "Côte des Blancs": [
+    112,
+    132,
+    "end"
+   ]
+  },
+  "covers": [
+   "france/champagne"
+  ]
+ },
+ "styles": [
+  "sparkling",
+  "fortified"
+ ]
+}

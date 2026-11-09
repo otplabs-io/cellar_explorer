@@ -1,0 +1,35 @@
+{
+ "subject": "vintage",
+ "id": "italy/barolo/2022",
+ "read": "2026-11-05",
+ "sources": {
+  "vinous": {"name": "Vinous, 2022 Barolo: Half Full or Half Empty (Jan 2026)", "kind": "critic", "url": "https://billing.vinous.com/articles/2022-barolo-half-full-or-half-empty-jan-2026"},
+  "jeroboams": {"name": "Jeroboams, Piedmont Vintage Report: 2022 Barolo and 2023 Barbaresco", "kind": "merchant", "url": "https://jeroboams.co.uk/2026/03/10/article/piedmont-vintage-report-Barolo-2022-Barbaresco-2023"},
+  "bbr": {"name": "Berry Bros. & Rudd, Barolo vintage report page", "kind": "merchant", "url": "https://www.bbr.com/editorial/2024/barolo-2020-vintage-report", "note": "This URL returned text about the 2022 Barolo offer, not 2020. Cited only for drought making 2022 challenging and the wines being enjoyable early. Light support."},
+  "chiarlo": {"name": "Michele Chiarlo harvest notes (2022 entry)", "kind": "producer", "url": "https://www.michelechiarlo.it/en/harvest-notes/"}
+ },
+ "claims": [
+  {"topic": "vintage", "claim": "Winter was very dry. Nearly four months passed with almost no rain or snow before the season began, and alpine snow was limited. Water reserves were low.", "source": ["vinous", "jeroboams"], "strength": "Strong", "note": "Two sources agree. This was the second dry year in a row for Piedmont."},
+  {"topic": "vintage", "claim": "Budbreak was early. Vines flowered early, in May, and many were under stress soon after. Early May brought record heat of 30 to 32 C.", "source": ["vinous", "chiarlo"], "strength": "Medium", "note": "Vinous gives early May flowering. Chiarlo gives the May heat."},
+  {"topic": "vintage", "claim": "Hail in June hit some spots. Vajra reported losses of 20 to 40% in its Barolo vineyards. Vinous lists frost among the season shocks without detail.", "source": ["vinous"], "strength": "Weak", "note": "One source, one producer figure. Local damage."},
+  {"topic": "vintage", "claim": "Summer was one of drought and heat. April to October rainfall was about 300 mm, against 360 mm in 2021 and 560 to 590 mm in earlier years. Vines showed stress: stunted canopies and small, loose bunches. Young vines and sandy soils suffered most.", "source": ["vinous", "jeroboams"], "strength": "Strong", "quote": "It was the driest year in 60-70 years.", "note": "Quote is from Alberto Cordero di Montezemolo via Vinous. Two sources agree. Storms or rain in late July and September gave some relief. Chiarlo notes about 120 mm from two storms."},
+  {"topic": "vintage", "claim": "Older vines, moisture-holding soils, cooler exposures and higher sites coped better.", "source": ["vinous", "jeroboams"], "strength": "Medium", "note": "Both sources point the same way."},
+  {"topic": "vintage", "claim": "Harvest was early and compressed. Most estates picked from mid or late September to early October. Chiarlo started Langhe Nebbiolo on 21 September and finished Barolo on 27 September. Conterno-Fantino called it their second-earliest harvest, after 1989.", "source": ["vinous", "jeroboams", "chiarlo"], "strength": "Strong", "note": "Three sources agree. Dates are estate-level."},
+  {"topic": "production", "claim": "Yields were lower. Jeroboams says cuts of 30 to 40% were common. Chiarlo reports lower yields. Growers dropped crop to lighten the vines. Vinous gives no overall figure.", "source": ["jeroboams", "chiarlo"], "strength": "Medium", "note": "A search summary of another producer says yields were above average. Treat the 30 to 40% as a typical report, not an official figure."},
+  {"topic": "tasting", "claim": "Nebbiolo is generally light to medium-bodied and quiet in scale, with open aromatics and fine tannins. Skins were thin. Dilution and blurred site character show in weaker wines. Good wines are balanced with few harsh edges.", "source": ["vinous", "jeroboams"], "strength": "Strong", "note": "Two critics and merchants agree on the moderate scale. Some wines exceed 15% alcohol and others are lower."},
+  {"topic": "standing", "claim": "Serralunga d'Alba was the most consistent. Castiglione Falletto was balanced. La Morra and Monforte varied. A search summary of James Suckling says Cannubi and Brunate appear to have suffered more.", "source": ["jeroboams"], "strength": "Weak", "note": "One merchant read. The Suckling point is from a search summary."},
+  {"topic": "window", "claim": "The wines should be enjoyable relatively early. Many are expected to peak over the next decade.", "source": ["bbr", "jeroboams"], "strength": "Medium", "note": "Merchant view, not a formal window."}
+ ],
+ "conflicts": [
+  "Yields: Jeroboams says 30 to 40% cuts were common. A search summary of a Langhe producer says yields were higher than average. The drought and the other sources point to smaller crops.",
+  "Quality: Vinous is cautious, and one summary calls it a vintage that forces a reset. Chiarlo calls it a surprise with good freshness. Expect wide variation."
+ ],
+ "gaps": [
+  "No Consorzio di Tutela report with official harvest dates or volumes.",
+  "Jancis Robinson, Decanter and Justerini & Brooks reports not read.",
+  "Frost in 2022 is not described beyond a mention."
+ ],
+ "sheet": {
+  "vintage": "2022 was very dry and hot, and it was one of the earliest harvests on record. The Nebbiolo is light to medium in weight, with open aromas and soft edges, so it drinks well young."
+ }
+}

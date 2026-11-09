@@ -1,0 +1,50 @@
+{
+ "map": {
+  "panel2": [
+   "The Southern Rhône",
+   "Communes, shaded by their main appellation"
+  ],
+  "panel2_appellations": [
+   "Châteauneuf-du-Pape",
+   "Gigondas",
+   "Vacqueyras",
+   "Beaumes de Venise",
+   "Rasteau Vin Tranquille",
+   "Cairanne",
+   "Vinsobres",
+   "Lirac",
+   "Tavel"
+  ],
+  "communal": [
+   "Châteauneuf-du-Pape",
+   "Gigondas",
+   "Vacqueyras",
+   "Beaumes de Venise",
+   "Rasteau Vin Tranquille",
+   "Cairanne",
+   "Vinsobres",
+   "Lirac",
+   "Tavel"
+  ],
+  "short_names": {
+   "Rasteau Vin Tranquille": "Rasteau",
+   "Beaumes de Venise": "Beaumes-de-Venise"
+  },
+  "covers": [
+   "france/chateauneuf-du-pape",
+   "france/gigondas",
+   "france/vacqueyras",
+   "france/rasteau",
+   "france/cotes-du-rhone-villages",
+   "france/cotes-du-rhone",
+   "france/tavel",
+   "france/lirac"
+  ],
+  "this_wine": [
+   201,
+   258,
+   "start"
+  ]
+ },
+ "$why": "Not an EU PDO or PGI or a US AVA: a country, state, region, group or sub-zone, with no shape of its own in the map data. The places under it that draw stay covered."
+}

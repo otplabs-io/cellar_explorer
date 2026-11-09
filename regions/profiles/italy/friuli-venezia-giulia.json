@@ -1,0 +1,26 @@
+{
+ "$comment": "Region settings for the zones engine, from Orazio Campoli’s store for the region. Broad: the zones that cover more than a third of the region, left out of the shading so the smaller zones show.",
+ "place": {
+  "subtitle": "From Friuli-Venezia Giulia down to one zone"
+ },
+ "map": {
+  "region_slug": "friuli-venezia-giulia",
+  "istat_regions": [
+   6
+  ],
+  "panel1": [
+   "Friuli-Venezia Giulia",
+   "Zones, shaded by level"
+  ],
+  "panel1_towns": [],
+  "broad": [
+   "friuli-doc",
+   "friuli-grave-doc",
+   "venezia-giulia-igt"
+  ],
+  "areas": [],
+  "covers": [
+   "italy/friuli-venezia-giulia"
+  ]
+ }
+}
