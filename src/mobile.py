@@ -76,7 +76,7 @@ def render(wp,assets='../../assets',home='../../'):
     links=f'<p class="m-links"><a href="sheet.pdf" download>Save the PDF</a><a href="sheet.web.html">Printable sheet</a></p>'
     title=H.escape(re.sub(r'<[^>]+>','',c['title']))
     return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{title}</title><link rel="apple-touch-icon" href="{assets}/cellar-explorer-180.png"><link rel="stylesheet" href="{assets}/app.css"></head>
+<title>{title}</title><link rel="icon" href="{assets}/cellar-explorer-32.png" type="image/png" sizes="32x32"><link rel="icon" href="{assets}/cellar-explorer.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="{assets}/cellar-explorer-180.png"><link rel="stylesheet" href="{assets}/app.css"></head>
 <body class="m-body" style="color: {INK}; {B.PB}; font-size: {B.n(B.TY['page_base']['size'])}px">
 <nav class="m-top"><a class="m-back" href="{home}" onclick="if(history.length>1&&document.referrer.indexOf(location.host)>-1){{history.back();return false}}">‹ Cellar</a><span class="m-top-title">{title}</span><a class="m-pdf" href="sheet.pdf" download>PDF</a></nav>
 <main class="m-sheet" data-wine="{wid}">{hero}{facts}{taste}{flav}{serve}{pairs}{story}{place}{notes}{foot}{links}</main>

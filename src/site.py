@@ -63,7 +63,7 @@ def main():
         print('building the map views (a few minutes)...'); geoindex.main(); open(kp,'w').write(key)
     # the app
     shutil.copy2(os.path.join(ROOT,'app','app.js'),os.path.join(SITE,'assets','app.js'))
-    shutil.copy2(os.path.join(ROOT,'app','icons','cellar-explorer-180.png'),os.path.join(SITE,'assets','cellar-explorer-180.png'))   # the Home screen icon
+    for f in ('cellar-explorer-180.png','cellar-explorer-32.png','cellar-explorer.svg'): shutil.copy2(os.path.join(ROOT,'app','icons',f),os.path.join(SITE,'assets',f))   # the Home screen icon and favicons
     url=mobile.ATLAS_URL; page=open(os.path.join(ROOT,'app','index.html'),encoding='utf-8').read()
     open(os.path.join(SITE,'index.html'),'w',encoding='utf-8').write(page.replace('{{ATLAS_URL}}',url) if url else re.sub(r' *<p class="app-sub.*?</p>\n','',page,count=1))   # the link to the Atlas, or none
     open(os.path.join(SITE,'assets','app.css'),'w',encoding='utf-8').write(css_vars()+open(os.path.join(ROOT,'app','app.css'),encoding='utf-8').read())
